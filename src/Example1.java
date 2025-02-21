@@ -8,28 +8,27 @@ public class Example1 {
     // 초기식
     Scanner in = new Scanner(System.in);
     System.out.println("입력한 숫자 두 개를 더하는 프로그램입니다(양수).");
-    // 사용자에게 입력받기
-    System.out.print("숫자 1을 입력해 주세요(양수): ");
-    int num1 = in.nextInt();
-    System.out.print("숫자 2를 입력해 주세요(양수): ");
-    int num2 = in.nextInt();
 
     // while 반복문 시작
     while (true) {
-      // 조건식(분기식)
-      if (num1 < 0 || num2 < 0) {
+      // 사용자에게 입력받기
+      System.out.print("첫 번째 숫자를 입력해 주세요(양수): ");
+      int num1 = in.nextInt();
+      if (num1 < 0) {
         System.out.println("음수 값을 입력하셨습니다. 프로그램을 종료합니다.");
         break;
       }
+      System.out.print("두 번째 숫자를 입력해 주세요(양수): ");
+      int num2 = in.nextInt();
+      if (num2 < 0) {
+        System.out.println("음수 값을 입력하셨습니다. 프로그램을 종료합니다.");
+        break;
+      }
+
       // 메서드 호출
       int result = 0;
       result = add(num1, num2);
       System.out.println("입력하신 두 수의 합은 " + result + "입니다.");
-      // 증감식
-      System.out.print("숫자 1을 입력해 주세요(양수): ");
-      num1 = in.nextInt();
-      System.out.print("숫자 2를 입력해 주세요(양수): ");
-      num2 = in.nextInt();
     } // end while
 
   } // end main method
