@@ -2,39 +2,27 @@ import java.util.Scanner;
 
 public class WhileDemo3 {
   public static void main(String[] args) {
+    // 초기식
     Scanner in = new Scanner(System.in);
-    System.out.println("점수를 입력해 주세요: ");
-    int score = in.nextInt();
-    String grade = "";
+    // 사용자에게 입력받기
+    System.out.print("구구단 몇 단을 출력할까요? (2 ~ 9): ");
+    int dan = in.nextInt();
 
+    // while () 무한 반복
     while (true) {
-      // 입력값(score)이 0보다 작으면 탈출(break)
-      if (score < 0) {
+      // 조건식, 분기식
+      if (dan < 2 || dan > 9) {
+        System.out.println("잘못된 입력입니다. 프로그램을 종료합니다.");
         break;
       }
-
-      if (score >= 90 && score <= 100) {
-        if (score >= 95) {
-          grade = "A+";
-        } else {
-          grade = "A0 or A-";
-        }
-      } else if (score >= 80 && score < 90) {
-        grade = "B";
-      } else if (score >= 70 && score < 80) {
-        grade = "C";
-      } else if (score >= 60 && score < 70) {
-        grade = "D";
-      } else {
-        grade = "F";
+      // 반복 실행문
+      for (int i = 1; i <= 9; i++) {
+        System.out.printf("%d x %d = %d\n", dan, i, dan * i);
       }
-      System.out.println("당신의 학점은 " + grade + "입니다.");
-      if (grade.equals("F")) {
-        System.out.printf("이런.. 당신의 학점은 %s입니다.\n", grade);
-      }
-      System.out.print("점수를 입력해 주세요: ");
-      score = in.nextInt();
-    } // end while
+      // 증감식
+      System.out.print("구구단 몇 단을 출력할까요? (2 ~ 9): ");
+      dan = in.nextInt();
+    }
 
   } // end main method
 } // end class

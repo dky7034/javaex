@@ -4,6 +4,7 @@ public class SwitchDemo {
     whoIsIt("호랑이");
     whoIsIt("참새");
     whoIsIt("고등어");
+    whoIsIt("곰팡이");
 
     // 기존 switch 코드
 //    String kind = "";
