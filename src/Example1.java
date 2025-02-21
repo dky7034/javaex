@@ -32,11 +32,10 @@ public class Example1 {
     } // end while
 
   } // end main method
+
   // 메서드 생성
   private static int add(int x, int y) {
-    int add = 0;
-    add = x + y;
-    return add;
-  }
+    return x + y;
+  } // end method
 
 } // end class
