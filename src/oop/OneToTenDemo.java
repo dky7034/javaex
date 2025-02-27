@@ -13,6 +13,7 @@ public class OneToTenDemo {
     for (int i = 1; i <= 10; i++) {
       sum += i;
     }
+    System.out.println("sum = " + sum);
   }
   // 메서드 (정적 메서드)
   public static void main(String args[]) {
