@@ -16,4 +16,5 @@ class Chess {
 }
 
 class WorldChess extends Chess {
+
 }
