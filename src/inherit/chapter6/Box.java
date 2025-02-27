@@ -4,4 +4,4 @@ public class Box {
 
 }
 
-class 
+class ColoredBox extends Box {}
