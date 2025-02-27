@@ -18,6 +18,6 @@ public class Ball extends Circle {
 
   @Override
   public void findArea() {
-    System.out.println("넓이는 ");
+    System.out.println("넓궁이는 ");
   }
 }
