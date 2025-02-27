@@ -21,7 +21,6 @@ public class PersonDemo {
 
     static void method1(Student s) {
       s.work();
-
     }
   }
 }
