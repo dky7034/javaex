@@ -4,8 +4,6 @@ public class InheritDemo {
 }
 
 class Eagle {
-  String eye;
-  String mouth;
   String wing;
 
   void eat() {
