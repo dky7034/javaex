@@ -15,5 +15,6 @@ public class Circle {
     System.out.println("반지름: " + radius);
   }
   // 넓이를 구하는 메서드
+  
 
 }
