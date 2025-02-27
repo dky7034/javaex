@@ -19,10 +19,19 @@ class Tiger {
   String eye;
   String mouth;
   String leg;
+  void eat() {
+  }
+
+  void sleep() {
+  }
 }
 
 class GoldFish {
   String eye;
   String mouth;
-  String
-}
+  String fin;
+  void eat() {
+  }
+
+  void sleep() {
+  }
