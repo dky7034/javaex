@@ -9,7 +9,7 @@ public class Ball extends Circle {
   }
 
   public String findColor() {
-    return color;
+    return this.color;
   }
 
   public void findVolume() {
