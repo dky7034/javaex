@@ -20,7 +20,8 @@ public class PersonDemo {
     Person[] persons = new Person[3];
 
     static void method1(Student s) {
-
+      s.work();
+      
     }
   }
 }
