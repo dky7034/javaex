@@ -10,7 +10,7 @@ public class Test2 {
   }
 
   // sum 메서드 생성
-  static  sum(Object... objects) {
+  static int sum(Object... objects) {
 
   }
 }
