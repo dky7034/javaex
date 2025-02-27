@@ -7,5 +7,6 @@ public class InheritDemo {
     c.findArea();
 
     Ball b = new Ball();
+    b.radius =
   }
 }
