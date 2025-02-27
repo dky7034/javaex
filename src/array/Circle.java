@@ -2,7 +2,9 @@ package array;
 
 public class Circle {
   // 생성자 (원의 반지름 초기화)
-  public Circle() {}
+  public Circle(double radius) {
+    this.radius = radius
+  }
 
   // 필드 - 반지름
   private double radius;
