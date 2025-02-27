@@ -25,6 +25,9 @@ public class Test1 {
     }
     for (int i = 0; i < s.length(); i++) {
       temp.add(i, s.charAt(i));
+      if (temp.get(i) == c) {
+        count++
+      }
     }
     return count;
   }
