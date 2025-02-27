@@ -11,10 +11,10 @@ public class Ex3 {
       System.out.println(url + "은 \'com\'으로 끝납니다.");
     }
     if (url.contains("java")) {
-
+      System.out.println(url + "은 \'java\'을 포함합니다.");
     }
     if (url.startsWith("www")) {
-      
+
     }
   }
 }
