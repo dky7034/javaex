@@ -7,4 +7,12 @@ public enum Gender {
   Gender(String name) {
     this.name = name;
   }
+
+  // 필드
+  private String name;
+
+  // 메서드
+  public String toString() {
+    return name;
+  }
 }
