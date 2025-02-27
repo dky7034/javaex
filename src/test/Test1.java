@@ -31,4 +31,8 @@ public class Test1 {
     }
     return count;
   }
+
+  static int countChar(String s, char c) {
+    
+  }
 }
