@@ -18,7 +18,7 @@ class Student extends Person {
 }
 
 class Worker extends Person {
-  void wokr() {
-    
+  void work() {
+
   }
 }
