@@ -27,6 +27,9 @@ class Tiger {
 
   void sleep() {
   }
+
+  void run() {
+  }
 }
 
 class GoldFish {
