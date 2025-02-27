@@ -15,7 +15,7 @@ public class CircleDemo {
     c.setRadius(0.0);
   }
 
-  static void zero() {
-    
+  static void zero(double radius) {
+
   }
 }
