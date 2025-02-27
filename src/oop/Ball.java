@@ -9,7 +9,7 @@ public class Ball {
   }
 
   // 필드 (변수)
-  double radius;
+  public double radius;
 
   // 메서드 (동작)
   // 인스턴스 메서드
