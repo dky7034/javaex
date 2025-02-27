@@ -18,7 +18,6 @@ public class Ball extends Circle {
 
   @Override
   public void findArea() {
-    // ㅂㅜ
     super.findArea();
     System.out.println("(자식)구의 넓이는 " + 4 * Math.PI * radius * radius + "입니다.");
   }
