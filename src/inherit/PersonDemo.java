@@ -8,6 +8,6 @@ public class PersonDemo {
     System.out.println(p.name);
     p.whoami();
 
-    Student s1 = (Student) p;
+    Student s1 = (Student) p; // 명시적, 강제 형변환
   }
 }
