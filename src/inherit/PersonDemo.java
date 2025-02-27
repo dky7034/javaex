@@ -19,8 +19,8 @@ public class PersonDemo {
     // Person을 담는 배열을 선언하고, 여기에 student, worker를 담을 수 있다.
     Person[] persons = new Person[3];
 
-    static void method1(Student s) {
-      s.work();
-    }
+  }
+  static void method1(Student s) {
+    s.work();
   }
 }
