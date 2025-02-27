@@ -2,7 +2,7 @@ package inherit;
 
 public class InheritDemo {
   public static void main(String[] args) {
-    
+    Eagle e = new Eagle();
   }
 }
 
