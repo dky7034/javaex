@@ -8,7 +8,7 @@ public class PeopleDemo {
     System.out.println(People.TWO);
 
     if (People.FEMALE == People.ONE) {
-      
+      System.out.println("여성입니다.");
     }
   }
 }
