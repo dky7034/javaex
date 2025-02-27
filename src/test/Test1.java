@@ -1,7 +1,5 @@
 package test;
 
-import java.util.ArrayList;
-
 public class Test1 {
   public static void main(String[] args) {
     int result = countChar("hello", 'l');
@@ -14,7 +12,7 @@ public class Test1 {
     char[] arr = new char[s.length()];
     int count = 0;
     for (int i = 0; i < s.length(); i++) {
-      arr = s.charAt(i);
+      arr[i] = s.charAt(i);
       if (s.trim().charAt(i) == c) {
         count++;
       }
