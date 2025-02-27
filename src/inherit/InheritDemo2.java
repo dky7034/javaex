@@ -10,7 +10,6 @@ class Point {
 }
 
 class Circle extends Polygon {
-  
   Point p;
   int radius;
 }
