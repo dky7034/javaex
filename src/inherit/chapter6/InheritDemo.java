@@ -5,5 +5,7 @@ public class InheritDemo {
     Circle c = new Circle();
     c.radius = 10.0;
     c.findArea();
+
+    Ball b = new Ball();
   }
 }
