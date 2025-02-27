@@ -12,7 +12,6 @@ public class OneToTenDemo {
     int sum = 0;
     for (int i = 1; i <= 10; i++) {
       sum += i;
-
     }
   }
   // 메서드 (정적 메서드)
