@@ -21,6 +21,6 @@ public class Circle {
 
   @Override
   public String toString() {
-    return "원의 반지름은 " + radius + "이고, " + "원의 넓이는 " + findArea() + "입니다."
+    return "원의 반지름은 " + radius + "이고, " + "원의 넓이는 " + findArea() + "입니다.";
   }
 }

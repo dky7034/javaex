@@ -14,7 +14,6 @@ public class ArrayDemo6 {
     // 모든 원의 반지름과 넓이를 출력
     for (Circle circle : circles) {
       System.out.println(circle);
-      
     }
   }
 }
