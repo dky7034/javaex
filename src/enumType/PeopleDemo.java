@@ -5,7 +5,7 @@ public class PeopleDemo {
     Person person = new Person();
     person.name = "홍길동";
     person.age = 20;
-    person.gender = Gender.FEMALE;
+    person.gender = Gender.MALE;
 
   }
 }
