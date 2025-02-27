@@ -6,7 +6,7 @@ public class SingleTonDeml {
     SingleTon s2 = SingleTon.getInstance()
     // 싱글톤 객체 메서드 호출
     s1.method();
-
+    s2.method();
   }
 
 }
