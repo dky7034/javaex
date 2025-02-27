@@ -2,7 +2,6 @@ package oop;
 
 public class OneToTenDemo {
   // 생성자
-  public OneToDemo() {}
   // 멤버
   // 변수 (정적 변수)
   static int sumOneToTen;
