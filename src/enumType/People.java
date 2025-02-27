@@ -1,7 +1,7 @@
 package enumType;
 
 public class People {
-  Gender gender;
+  enum Gender { MALE, FEMALE }
   Num number;
 
   final int kind = 0;
