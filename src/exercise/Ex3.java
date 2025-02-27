@@ -14,7 +14,7 @@ public class Ex3 {
       System.out.println(url + "은 \'java\'를 포함합니다.");
     }
     if (url.startsWith("www")) {
-      System.out.println(url + "은 \'www\'으로 시작합니다.");
+      System.out.println(url + "은 \'www\'로 시작합니다.");
     }
   }
 }
