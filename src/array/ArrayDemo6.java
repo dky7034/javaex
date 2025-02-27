@@ -7,7 +7,7 @@ public class ArrayDemo6 {
     Circle[] circles = new Circle[5];
     // 5개의 원 초기화 (for 문 사용)
     for (int i = 0; i < 5; i++) {
-      circles[i] = new Circle(i+1);
+      circles[i] = new Circle(i + 1.0);
     }
 
     // 원의 반지름은 1 ~ 5 까지입니다.
