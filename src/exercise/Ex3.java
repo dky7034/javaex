@@ -14,7 +14,7 @@ public class Ex3 {
 
     }
     if (url.startsWith("www")) {
-
+      
     }
   }
 }
