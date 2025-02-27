@@ -19,5 +19,4 @@ public class OneToTenDemo {
   public static void main(String args[]) {
     System.out.println("sumOneToTen = " + sumOneToTen);
   }
-
 }
