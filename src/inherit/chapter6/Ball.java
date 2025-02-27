@@ -5,7 +5,7 @@ public class Ball extends Circle {
   public String findColor() {
     return color;
   }
-  public double findVolume() {
+  public void findVolume() {
     return 3 / 4 * Math.PI * radius * radius * radius;
   }
 }
