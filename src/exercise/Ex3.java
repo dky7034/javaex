@@ -11,6 +11,9 @@ public class Ex3 {
       System.out.println(url + "은 \'com\'으로 끝납니다.");
     }
     if (url.contains("java")) {
+
+    }
+    if () {
     }
   }
 }
