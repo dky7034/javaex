@@ -1,6 +1,9 @@
 package inherit;
 
 public class InheritDemo {
+  public static void main(String[] args) {
+    
+  }
 }
 
 class Animal {
