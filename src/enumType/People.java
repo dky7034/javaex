@@ -7,5 +7,7 @@ public class People {
   static final int TWO = 2;
 
   final int kind = 0;
-  final int num;
+  final int num = 1;
+
+  
 }
