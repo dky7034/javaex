@@ -20,12 +20,6 @@ class Tiger {
 class GoldFish {
   String fin;
 
-  void eat() {
-  }
-
-  void sleep() {
-  }
-
   void swim() {
   }
 }
