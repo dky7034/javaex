@@ -9,7 +9,6 @@ public class InheritDemo {
     Ball b = new Ball(5.0, "yellow");
     b.findColor();
     b.findVolume();
-    double radius = b.findRadius();
     System.out.println("radius = " + radius);
 
   }
