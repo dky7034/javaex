@@ -2,7 +2,8 @@ package inherit;
 
 public class FinalMethodDemo {
   public static void main(String[] args) {
-    
+    WorldChess wc = new WorldChess();
+    System.out.println(wc.getFirstPlayer());
   }
 }
 
