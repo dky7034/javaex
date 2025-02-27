@@ -9,4 +9,6 @@ public class People {
 
 class Person {
   Gender gender;
+  String name;
+  int age;
 }
