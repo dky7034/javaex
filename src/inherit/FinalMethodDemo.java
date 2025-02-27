@@ -16,8 +16,4 @@ class Chess {
 }
 
 class WorldChess extends Chess {
-  @Override
-  ChessPlayer getFirstPlayer() {
-    return ChessPlayer.BLACK;
-  }
 }
