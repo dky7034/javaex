@@ -11,4 +11,6 @@ class ColoredBox extends Box {
      this.color = color;
    }
 
+  String color;
+
 }
