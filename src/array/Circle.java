@@ -12,7 +12,8 @@ public class Circle {
   // 메서드
   // 반지름을 구하는 메서드
   public void getRadius() {
-    System.out.println("반지름: " + radius);
+    return;
+    radius;
   }
   // 넓이를 구하는 메서드
   public double findArea() {
