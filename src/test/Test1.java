@@ -10,7 +10,7 @@ public class Test1 {
   static int countChar(String s, char c) {
     int count = 0;
     for (int i = 0; i < s.length(); i++) {
-      if (s.charAt(i) == c) {
+      if (s.trim().charAt(i) == c) {
         count++;
       }
     }
