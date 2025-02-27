@@ -11,6 +11,12 @@ public class Ball {
   // 필드 (변수)
   public double radius;
 
+  // toString 오버라이드
+  @Override
+  public String toString() {
+    return super.toString();
+  }
+
   // 메서드 (동작)
   // 인스턴스 메서드
   public double getVolume() {
