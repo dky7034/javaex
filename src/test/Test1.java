@@ -13,7 +13,7 @@ public class Test1 {
     int count = 0;
     for (int i = 0; i < s.length(); i++) {
       arr[i] = s.charAt(i);
-      if (s.trim().charAt(i) == c) {
+      if (arr[i]) {
         count++;
       }
     }
