@@ -6,6 +6,6 @@ public class People {
   static final int ONE = 1;
   static final int TWO = 2;
 
-  final int kind;
+  final int kind = 0;
   final int num;
 }
