@@ -9,6 +9,8 @@ public class Ex3 {
     String url = in.nextLine();
     if (url.endsWith("com")) {
       System.out.println(url + "은 \'com\'으로 끝납니다.");
-    } 
+    }
+    if (url.contains("java")) {
+    }
   }
 }
