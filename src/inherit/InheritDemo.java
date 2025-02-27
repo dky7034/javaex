@@ -36,8 +36,10 @@ class GoldFish {
   String eye;
   String mouth;
   String fin;
+
   void eat() {
   }
 
   void sleep() {
   }
+}
