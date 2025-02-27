@@ -23,6 +23,9 @@ public class Test1 {
         count++;
       }
     }
+    for (int i = 0; i < s.length(); i++) {
+
+    }
     return count;
   }
 }
