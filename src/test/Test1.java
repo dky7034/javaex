@@ -32,7 +32,7 @@ public class Test1 {
     return count;
   }
 
-  static int countChar(String s, char c) {
+  static int countChar(char c, String s) {
     int count = 0;
     for (int i = 0; i < s.length(); i++) {
       if (s.charAt(i) == c) {
