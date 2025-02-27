@@ -12,6 +12,7 @@ class Better extends Good {
 }
 
 final class Best extends Better {
+  String best;
 }
 
 //class Another extends Best {
