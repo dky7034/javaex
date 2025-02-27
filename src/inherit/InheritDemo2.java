@@ -9,11 +9,12 @@ class Point {
   int y;
 }
 
-class Circle {
+class Circle extends Polygon {
+  
   Point p;
   int radius;
 }
 
 class Polygon {
-  
+
 }
