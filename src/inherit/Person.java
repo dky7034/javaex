@@ -19,6 +19,6 @@ class Student extends Person {
 
 class Worker extends Person {
   void work() {
-
+    System.out.println("나는 공부한다.");
   }
 }
