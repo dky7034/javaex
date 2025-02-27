@@ -13,6 +13,9 @@ class Eagle {
 
   void sleep() {
   }
+
+  void fly() {
+  }
 }
 
 class Tiger {
