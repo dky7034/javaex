@@ -1,4 +1,6 @@
 package inherit.chapter6.other;
 
-public class One2 {
+import inherit.chapter6.One;
+
+public class One2 extends One {
 }
