@@ -2,7 +2,7 @@ package enumType;
 
 public class People {
 // enum Gender { MALE, FEMALE }
-  enum Num { ONE, TWO }
+  enum Num { ONE, TWO, FIVE }
   final int kind = 0;
   final int num = 1;
 }
