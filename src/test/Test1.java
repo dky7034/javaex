@@ -1,5 +1,7 @@
 package test;
 
+import java.util.ArrayList;
+
 public class Test1 {
   public static void main(String[] args) {
     int result = countChar("hello", 'l');
@@ -12,6 +14,8 @@ public class Test1 {
   static int countChar(String s, char c) {
     // 매개변수로 전달받은 문자열을 쪼개어 담기 위한 배열 생성
     char[] arr = new char[s.length()];
+    // 매개변수로 전달받은 문자열을 쪼개어 담기 위한 ArrayList 생성
+    ArrayList<>
     int count = 0;
     for (int i = 0; i < s.length(); i++) {
       arr[i] = s.charAt(i);
