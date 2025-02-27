@@ -3,7 +3,7 @@ package test;
 public class Test1 {
   public static void main(String[] args) {
     int result = countChar("hello", 'l');
-    int result1 = countChar("hello", 'l');
+    int result1 = countChar("hello", 'L');
     System.out.println("result = " + result);
   }
 
