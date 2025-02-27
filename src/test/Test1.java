@@ -6,6 +6,6 @@ public class Test1 {
   }
 
   static int countChar(String s, char c) {
-    
+    return 0;
   }
 }
