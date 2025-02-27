@@ -1,14 +1,9 @@
 package oop;
 
 public class OneToTenDemo {
-  public static void main(String[] args) {
-    static int 
-    static {
-      int sum = 0;
-      for (int i = 1; i <= 10 ; i++) {
-        sum += i;
-      }
-      System.out.println("sum = " + sum);
-    }
-  }
+  // 생성자
+  // 멤버
+    // 변수 (정적 변수)
+    // 메서드 (정적 메서드)
+
 }
