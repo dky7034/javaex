@@ -13,7 +13,8 @@ public class Ex3 {
     if (url.contains("java")) {
 
     }
-    if () {
+    if (url.startsWith()) {
+      
     }
   }
 }
