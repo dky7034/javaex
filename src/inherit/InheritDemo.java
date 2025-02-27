@@ -13,12 +13,6 @@ class Eagle {
 class Tiger {
   String leg;
 
-  void eat() {
-  }
-
-  void sleep() {
-  }
-
   void run() {
   }
 }
