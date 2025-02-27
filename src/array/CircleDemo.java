@@ -3,6 +3,7 @@ package array;
 public class CircleDemo {
   public static void main(String[] args) {
     Circle c1 = new Circle(10.0);
+    zero(c1);
   }
 
   // static 메서드
