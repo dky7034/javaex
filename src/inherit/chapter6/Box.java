@@ -5,6 +5,5 @@ public class Box {
 }
 
 class ColoredBox extends Box {
-  
-}
 
+}
