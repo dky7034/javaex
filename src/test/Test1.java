@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Test1 {
   public static void main(String[] args) {
-    int result = countChar("hello", 'l'); // 2
+    int result = countChar('l', "hello", ); // 2
     int result1 = countChar("hello", 'L'); // 0
     System.out.println("result = " + result);
     System.out.println("result1 = " + result1);
