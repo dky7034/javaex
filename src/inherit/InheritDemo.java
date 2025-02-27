@@ -6,8 +6,13 @@ public class InheritDemo {
     Tiger t = new Tiger();
     GoldFish g = new GoldFish();
     e.sleep();
+    e.eat();
+
     t.sleep();
+    t.eat();
+
     g.sleep();
+    g.eat();
   }
 }
 
