@@ -4,8 +4,8 @@ public class Box {
   public Box(String s) {
   }
 
-  public Box() {
-  }
+//  public Box() {
+//  }
 }
 
 class ColoredBox extends Box {
