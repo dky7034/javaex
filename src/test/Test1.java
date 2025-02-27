@@ -10,6 +10,8 @@ public class Test1 {
     int res1 = countChar('L', "hello");
     System.out.println("result = " + result);
     System.out.println("result1 = " + result1);
+    System.out.println("res = " + res);
+    System.out.println("res1 = " + res1);
   }
 
   // 문자열 s에 포함된 문자 c의 개수를 반환하는 메서드
