@@ -23,7 +23,6 @@ class Animal {
   void eat() {
     System.out.println("먹습니다.");
   }
-
   void sleep() {
     System.out.println("잡니다.");
   }
@@ -31,21 +30,18 @@ class Animal {
 
 class Eagle extends Animal {
   String wing;
-
   void fly() {
   }
 }
 
 class Tiger extends Animal {
   String leg;
-
   void run() {
   }
 }
 
 class GoldFish extends Animal {
   String fin;
-
   void swim() {
   }
 }
