@@ -13,11 +13,6 @@ public class Test1 {
         count++;
       }
     }
-    while (true) {
-      if () {
-      }
-    }
-    s.charAt()
-    return 0;
+    return count;
   }
 }
