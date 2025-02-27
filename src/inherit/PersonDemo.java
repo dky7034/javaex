@@ -7,5 +7,7 @@ public class PersonDemo {
 
     System.out.println(p.name);
     p.whoami();
+
+    (Student) p;
   }
 }
