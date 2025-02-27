@@ -8,5 +8,7 @@ public class SingleTon {
   private SingleTon() {}
 
   // 싱글톤 객체를 리턴해주는 메서드 (오직 이 메서드를 통해서만 싱글톤 객체를 호출할 수 있음)
-  public static SingleTon 
+  public static SingleTon getInstance() {
+    
+  }
 }
