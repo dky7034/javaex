@@ -8,6 +8,4 @@ public class People {
 
   final int kind = 0;
   final int num = 1;
-
-  
 }
