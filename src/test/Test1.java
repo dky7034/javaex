@@ -24,7 +24,7 @@ public class Test1 {
       }
     }
     for (int i = 0; i < s.length(); i++) {
-      temp.get(i)
+      temp.add(i, s.charAt(i));
     }
     return count;
   }
