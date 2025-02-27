@@ -7,7 +7,7 @@ public class Ex4 {
     String[] name = {"가위", "바위", "보"};
     System.out.println(Arrays.toString(name));
     for (int i = 0; i < 10; i++) {
-      Math.random()
+      Math.random();
     }
   }
 }
