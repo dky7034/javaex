@@ -13,12 +13,12 @@ public class Ball extends Circle {
   }
 
   public void findVolume() {
-    System.out.println("구의 부피는 " + 3 / (double)4 * Math.PI * radius * radius * radius + "입니다.");
+    System.out.println("(자식)구의 부피는 " + 3 / (double)4 * Math.PI * radius * radius * radius + "입니다.");
   }
 
   @Override
   public void findArea() {
     super.findArea();
-    System.out.println("구의 넓이는 " + 4 * Math.PI * radius * radius + "입니다.");
+    System.out.println("(자식)구의 넓이는 " + 4 * Math.PI * radius * radius + "입니다.");
   }
 }
