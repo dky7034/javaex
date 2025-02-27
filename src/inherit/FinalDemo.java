@@ -1,6 +1,9 @@
 package inherit;
 
 public class FinalDemo {
+  public static void main(String[] args) {
+    Best best = new Best();
+  }
 }
 
 class Good {
