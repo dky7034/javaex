@@ -8,6 +8,6 @@ public class PersonDemo {
     System.out.println(p.name);
     p.whoami();
 
-    (Student) p;
+    Student s1 = (Student) p;
   }
 }
