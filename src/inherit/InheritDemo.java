@@ -14,21 +14,21 @@ class Animal {
   }
 }
 
-class Eagle extends  {
+class Eagle extends Animal {
   String wing;
 
   void fly() {
   }
 }
 
-class Tiger extends  {
+class Tiger extends Animal {
   String leg;
 
   void run() {
   }
 }
 
-class GoldFish extends  {
+class GoldFish extends Animal {
   String fin;
 
   void swim() {
