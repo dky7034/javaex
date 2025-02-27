@@ -12,6 +12,7 @@ public enum Gender {
   private String name;
 
   // 메서드
+  @Override
   public String toString() {
     return name;
   }
