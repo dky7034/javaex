@@ -5,7 +5,7 @@ public class Circle {
   public Circle() {}
 
   // 필드 - 반지름
-
+  private double radius;
   // 메서드
   // 반지름을 구하는 메서드
 
