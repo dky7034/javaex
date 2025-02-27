@@ -5,6 +5,8 @@ public class InheritDemo {
     Eagle e = new Eagle();
     Tiger t = new Tiger();
     GoldFish g = new GoldFish();
+
+    g.
   }
 }
 
@@ -13,6 +15,7 @@ class Animal {
   String mouth;
 
   void eat() {
+    System.out.println("먹습니다.");
   }
 
   void sleep() {
