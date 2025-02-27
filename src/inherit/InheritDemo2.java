@@ -13,3 +13,7 @@ class Circle {
   Point p;
   int radius;
 }
+
+class Polygon {
+  
+}
