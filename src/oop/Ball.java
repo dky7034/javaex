@@ -14,7 +14,7 @@ public class Ball {
   // toString 오버라이드
   @Override
   public String toString() {
-    return super.toString();
+    return "반지름이 " + radius + "인 원입니다.";
   }
 
   // 메서드 (동작)
