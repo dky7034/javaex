@@ -12,6 +12,7 @@ class Eagle {
 class Tiger {
   String eye;
   String mouth;
+  String leg;
 }
 
 class GoldFish {
