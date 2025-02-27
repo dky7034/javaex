@@ -1,5 +1,5 @@
 package enumType;
 
 public enum Gender {
-  MALE, FEMALE
+  MALE("남성"), FEMALE("여성");
 }
