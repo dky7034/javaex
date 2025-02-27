@@ -7,12 +7,12 @@ class Good {
   String good;
 }
 
-class Beetter extends Good {
-  String better
+class Better extends Good {
+  String better;
 }
 
-final class Best extends Beetter {
+final class Best extends Better {
 }
 
-class Another extends Best {
-}
+//class Another extends Best {
+//}
