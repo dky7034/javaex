@@ -8,5 +8,5 @@ public class People {
 }
 
 class Person {
-  Gender gender = ;
+  Gender gender;
 }
