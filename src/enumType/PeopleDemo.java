@@ -6,5 +6,7 @@ public class PeopleDemo {
     System.out.println(People.MALE);
     System.out.println(People.ONE);
     System.out.println(People.TWO);
+
+    
   }
 }
