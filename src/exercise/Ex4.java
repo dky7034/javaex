@@ -8,6 +8,7 @@ public class Ex4 {
     System.out.println(Arrays.toString(name));
     for (int i = 0; i < 10; i++) {
       Math.random();
+      
     }
   }
 }
