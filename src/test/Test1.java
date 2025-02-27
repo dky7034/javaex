@@ -38,7 +38,7 @@ public class Test1 {
       if (s.charAt(i) == c) {
         count++;
       }
-      
     }
+    return count;
   }
 }
