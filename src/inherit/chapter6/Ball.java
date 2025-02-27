@@ -4,6 +4,7 @@ public class Ball extends Circle {
   private String color;
 
   public Ball(double radius, String color) {
+    this.color = color;
 
   }
 
