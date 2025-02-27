@@ -16,5 +16,6 @@ public class PersonDemo {
 
     Student[] students = new Student[3];
     Worker[] workers = new Worker[3];
+    Person[] persons = new Person[3];
   }
 }
