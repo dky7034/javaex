@@ -8,6 +8,6 @@ public class Ball extends Circle {
   }
 
   public void findVolume() {
-    System.out.println(3 / 4 * Math.PI * radius * radius * radius);
+    System.out.println("부피는 " + 3 / 4 * Math.PI * radius * radius * radius + "입니다.");
   }
 }
