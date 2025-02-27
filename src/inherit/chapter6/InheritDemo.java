@@ -11,7 +11,6 @@ public class InheritDemo {
     b.findVolume();
     double radius = b.findRadius();
     System.out.println("radius = " + radius);
-    b.findArea();
 
   }
 }
