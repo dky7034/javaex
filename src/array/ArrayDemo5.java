@@ -7,10 +7,7 @@ public class ArrayDemo5 {
     Ball[] balls = new Ball[5];
     balls[0] = new Ball(5);
     balls[1] = new Ball(10);
-
-    double volume = balls[0].getVolume();
-    System.out.println("volume = " + volume);
-
+    
     for (Ball ball : balls) {
       if (ball != null) {
         System.out.println(ball.radius);
