@@ -1,4 +1,4 @@
-package inherit;
+package inherit.chapter6;
 
-public class Ball {
+public class Ball extends Circle{
 }
