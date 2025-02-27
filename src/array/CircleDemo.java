@@ -14,4 +14,8 @@ public class CircleDemo {
     // zero() 메서드에서 c.radius 에 0.0을 대입한다.
     c.setRadius(0.0);
   }
+
+  static void zero() {
+    
+  }
 }
