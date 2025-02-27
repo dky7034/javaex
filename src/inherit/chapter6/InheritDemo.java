@@ -12,6 +12,7 @@ public class InheritDemo {
     b.findColor();
     b.findVolume();
     b.findArea();
+    b.findArea();
 
   }
 }
