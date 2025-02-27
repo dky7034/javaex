@@ -17,16 +17,16 @@ public class Test1 {
     // 매개변수로 전달받은 문자열을 쪼개어 담기 위한 ArrayList 생성
     ArrayList<Character> temp = new ArrayList<Character>();
     int count = 0;
-    for (int i = 0; i < s.length(); i++) {
-      arr[i] = s.charAt(i);
-      if (arr[i] == c) {
-        count++;
-      }
-    }
+//    for (int i = 0; i < s.length(); i++) {
+//      arr[i] = s.charAt(i);
+//      if (arr[i] == c) {
+//        count++;
+//      }
+//    }
     for (int i = 0; i < s.length(); i++) {
       temp.add(i, s.charAt(i));
       if (temp.get(i) == c) {
-        count++
+        count++;
       }
     }
     return count;
