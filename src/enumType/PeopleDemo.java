@@ -9,6 +9,8 @@ public class PeopleDemo {
 
     if (person.gender == Gender.FEMALE) {
       System.out.println("여성입니다.");
+    } else {
+      System.out.println("남성입니다.");
     }
 
   }
