@@ -13,7 +13,7 @@ public class Ball {
 
   // 메서드 (동작)
   // 인스턴스 메서드
-  double getVolume() {
+  public double getVolume() {
     return 4 / 3 * 3.14 * radius * radius * radius;
   }
   // static 메서드
