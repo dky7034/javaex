@@ -1,6 +1,6 @@
 package inherit;
 
-public class InheritDemo {
+public class InheritDemo extends Animal {
 }
 
 class Eagle {
