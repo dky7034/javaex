@@ -9,7 +9,7 @@ public class Test1 {
   static int countChar(String s, char c) {
     int count = 0;
     while (true) {
-
+      
     }
     s.charAt()
     return 0;
