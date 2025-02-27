@@ -7,5 +7,7 @@ public class Ex3 {
     Scanner in = new Scanner(System.in);
     System.out.print("URL을 입력하세요: ");
     String url = in.nextLine();
+    if () {
+    }
   }
 }
