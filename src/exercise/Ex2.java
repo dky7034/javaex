@@ -1,6 +1,6 @@
-package test;
+package exercise;
 
-public class Test2 {
+public class Ex2 {
   public static void main(String[] args) {
     System.out.println(sum(1, 2, 3, 4));  // 9
     int arr[] = {2, 3};

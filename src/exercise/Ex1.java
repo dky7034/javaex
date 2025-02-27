@@ -1,8 +1,8 @@
-package test;
+package exercise;
 
 import java.util.ArrayList;
 
-public class Test1 {
+public class Ex1 {
   public static void main(String[] args) {
     int result = countChar("hello", 'l'); // 2
     int result1 = countChar("hello", 'L'); // 0
