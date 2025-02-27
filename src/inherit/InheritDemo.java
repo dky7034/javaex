@@ -10,7 +10,7 @@ class Eagle extends Animal{
   }
 }
 
-class Tiger {
+class Tiger extends Animal{
   String leg;
 
   void run() {
