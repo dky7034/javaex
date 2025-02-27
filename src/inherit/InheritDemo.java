@@ -5,7 +5,7 @@ public class InheritDemo {
     Eagle e = new Eagle();
     Tiger t = new Tiger();
     GoldFish g = new GoldFish();
-    
+
     e.sleep();
     e.eat();
 
