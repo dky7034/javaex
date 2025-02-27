@@ -7,6 +7,8 @@ public class PeopleDemo {
     System.out.println(People.ONE);
     System.out.println(People.TWO);
 
-    
+    if (person.gender == People.ONE) {
+      
+    }
   }
 }
