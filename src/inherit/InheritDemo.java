@@ -19,6 +19,7 @@ class Animal {
   }
 
   void sleep() {
+    System.out.println("잡니다.");
   }
 }
 
