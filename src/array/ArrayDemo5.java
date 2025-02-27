@@ -13,7 +13,6 @@ public class ArrayDemo5 {
 
     for (Ball ball : balls) {
       if (ball != null) {
-        System.out.println("ball = " + ball);
         System.out.println(ball.radius);
       } else {
         System.out.println("null입니다.");
