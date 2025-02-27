@@ -18,8 +18,6 @@ class Tiger {
 }
 
 class GoldFish {
-  String eye;
-  String mouth;
   String fin;
 
   void eat() {
