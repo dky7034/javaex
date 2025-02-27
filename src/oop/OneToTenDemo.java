@@ -17,7 +17,7 @@ public class OneToTenDemo {
   }
   // 메서드 (정적 메서드)
   public static void main(String args[]) {
-    System.out.println(sumOneToTen);
+    System.out.println("sumOneToTen = " + sumOneToTen);
   }
 
 }
