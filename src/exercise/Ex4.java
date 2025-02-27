@@ -9,7 +9,6 @@ public class Ex4 {
     int index = 0;
     for (int i = 0; i < 10; i++) {
       index = (int) Math.floor(Math.random() * 3);
-      System.out.println("res = " + res);
       System.out.println(name[i]);
     }
   }
