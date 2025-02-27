@@ -10,7 +10,6 @@ public class Box {
 
 class ColoredBox extends Box {
   public ColoredBox(String color) {
-    super("부모 생성자");
     this.color = color;
   }
 
