@@ -3,7 +3,7 @@ package inherit;
 public class InheritDemo {
 }
 
-class Eagle {
+class Eagle extends Animal{
   String wing;
 
   void fly() {
