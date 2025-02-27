@@ -5,4 +5,7 @@ public class People {
   static final int FEMALE = 1;
   static final int ONE = 1;
   static final int TWO = 2;
+
+  final int kind;
+  final int num;
 }
