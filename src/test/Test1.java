@@ -15,7 +15,7 @@ public class Test1 {
     // 매개변수로 전달받은 문자열을 쪼개어 담기 위한 배열 생성
     char[] arr = new char[s.length()];
     // 매개변수로 전달받은 문자열을 쪼개어 담기 위한 ArrayList 생성
-    ArrayList<>
+    ArrayList<char>
     int count = 0;
     for (int i = 0; i < s.length(); i++) {
       arr[i] = s.charAt(i);
