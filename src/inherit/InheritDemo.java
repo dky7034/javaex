@@ -6,12 +6,6 @@ public class InheritDemo {
 class Eagle {
   String wing;
 
-  void eat() {
-  }
-
-  void sleep() {
-  }
-
   void fly() {
   }
 }
