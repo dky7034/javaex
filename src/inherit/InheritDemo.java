@@ -42,4 +42,7 @@ class GoldFish {
 
   void sleep() {
   }
+
+  void swim() {
+  }
 }
