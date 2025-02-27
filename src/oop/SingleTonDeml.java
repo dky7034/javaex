@@ -7,6 +7,9 @@ public class SingleTonDeml {
     // 싱글톤 객체 메서드 호출
     s1.method();
     s2.method();
+
+    // true면 싱글톤 객체, false면 일반 객체
+    System.out.println(s1 == s2);
   }
 
 }
