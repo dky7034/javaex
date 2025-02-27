@@ -10,6 +10,9 @@ class Eagle {
 
   void eat() {
   }
+
+  void sleep() {
+  }
 }
 
 class Tiger {
