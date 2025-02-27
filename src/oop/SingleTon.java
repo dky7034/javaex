@@ -11,4 +11,7 @@ public class SingleTon {
   public static SingleTon getInstance() {
     return singleTon;
   }
+
+  // 메서드
+  void method() {}
 }
