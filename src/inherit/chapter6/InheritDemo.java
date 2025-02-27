@@ -7,7 +7,8 @@ public class InheritDemo {
     c.findArea();
 
     Ball b = new Ball(5.0, "yellow");
-    System.out.println("b = " + b);
+    b.findColor();
+    b.findVolume();
     b.findArea();
 
   }
