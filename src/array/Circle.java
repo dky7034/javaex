@@ -11,13 +11,12 @@ public class Circle {
 
   // 메서드
   // 반지름을 구하는 메서드
-  public void getRadius() {
-    return;
-    radius;
+  public double getRadius() {
+    return radius;
   }
   // 넓이를 구하는 메서드
   public double findArea() {
-    Math.PI *
+    return Math.PI * radius * radius;
   }
 
 
