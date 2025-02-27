@@ -10,6 +10,10 @@ public class OneToTenDemo {
   // static 블록
   static {
     int sum = 0;
+    for (int i = 1; i <= 10; i++) {
+      sum += i;
+
+    }
   }
   // 메서드 (정적 메서드)
   public static void main(String args[]) {
