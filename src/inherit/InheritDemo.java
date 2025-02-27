@@ -7,6 +7,9 @@ class Eagle {
   String eye;
   String mouth;
   String wing;
+
+  void eat() {
+  }
 }
 
 class Tiger {
@@ -18,5 +21,5 @@ class Tiger {
 class GoldFish {
   String eye;
   String mouth;
-  String 
+  String
 }
