@@ -12,5 +12,9 @@ public class PersonDemo {
     System.out.println(s1.name);
     s1.whoami();
     System.out.println(s1.number);
+    s1.work();
+
+    Student[] students = new Student[3];
+    Worker[] workers = new Worker[3];
   }
 }
