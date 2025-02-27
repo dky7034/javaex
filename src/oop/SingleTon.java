@@ -14,6 +14,6 @@ public class SingleTon {
 
   // 메서드
   void method() {
-    System.out.println("싱글톤 메서드");
+    System.out.println("싱글톤 메서드입니다.");
   }
 }
