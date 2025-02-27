@@ -12,5 +12,8 @@ public class ArrayDemo6 {
 
     // 원의 반지름은 1 ~ 5 까지입니다.
     // 모든 원의 반지름과 넓이를 출력
+    for (Circle circle : circles) {
+      
+    }
   }
 }
