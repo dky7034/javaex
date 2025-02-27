@@ -7,5 +7,9 @@ public class PeopleDemo {
     person.age = 20;
     person.gender = Gender.MALE;
 
+    if (person.gender == Gender.FEMALE) {
+      System.out.println("여성입니다.");
+    }
+
   }
 }
