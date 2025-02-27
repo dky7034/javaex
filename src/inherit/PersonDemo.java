@@ -9,5 +9,6 @@ public class PersonDemo {
     p.whoami();
 
     Student s1 = (Student) p; // 명시적, 강제 형변환
+    System.out.println(s1.name);
   }
 }
