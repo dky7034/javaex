@@ -6,5 +6,6 @@ public class OneToTenDemo {
     for (int i = 1; i <= 10 ; i++) {
       sum += i;
     }
+    System.out.println("sum = " + sum);
   }
 }
