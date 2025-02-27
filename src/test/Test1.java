@@ -34,7 +34,7 @@ public class Test1 {
 
   static int countChar(String s, char c) {
     int count = 0;
-    for (int i = 0; i < ; i++) {
+    for (int i = 0; i < s.length(); i++) {
       
     }
   }
