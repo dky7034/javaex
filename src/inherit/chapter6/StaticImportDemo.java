@@ -5,7 +5,7 @@ import static java.util.Arrays;
 public class StaticImportDemo {
   public static void main(String[] args) {
     int[] data = {3, 5, 1, 7};
-    Arrays.sort(data);
-    System.out.println(Arrays.toString(data));
+    sort(data);
+//    System.out.println(Arrays.toString(data));
   }
 }
