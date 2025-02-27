@@ -9,7 +9,7 @@ public class InheritDemo {
 
     // 구
     Ball b = new Ball(5.0, "yellow");
-    b.findColor();
+    System.out.println(b.findColor());
     b.findVolume();
     b.findArea();
 
