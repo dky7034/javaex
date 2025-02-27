@@ -7,6 +7,7 @@ public class Test1 {
     int result = countChar("hello", 'l'); // 2
     int result1 = countChar("hello", 'L'); // 0
     int res = countChar('l', "hello");
+    int res1 = countChar('L', "hello");
     System.out.println("result = " + result);
     System.out.println("result1 = " + result1);
   }
