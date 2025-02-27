@@ -1,7 +1,9 @@
 package inherit.chapter6;
 
 public class Box {
-  public box() {}
+  public Box(String s) {
+
+  }
   // public box() {}
 }
 
