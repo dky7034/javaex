@@ -14,8 +14,7 @@ public class Test2 {
     int sum = 0;
     for (int value : values) {
       sum += value;
-
     }
-    return 0;
+    return sum;
   }
 }
