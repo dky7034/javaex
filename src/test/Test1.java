@@ -5,6 +5,7 @@ public class Test1 {
     int result = countChar("hello", 'l');
     int result1 = countChar("hello", 'L');
     System.out.println("result = " + result);
+    System.out.println("result1 = " + result1);
   }
 
   // 문자열 s에 포함된 문자 c의 개수를 반환하는 메서드
