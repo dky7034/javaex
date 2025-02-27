@@ -1,6 +1,6 @@
 package inherit.chapter6;
 
-import static java.util.Arrays;
+import static java.util.Arrays.sort;
 
 public class StaticImportDemo {
   public static void main(String[] args) {
