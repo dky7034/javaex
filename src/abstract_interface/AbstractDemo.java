@@ -16,7 +16,9 @@ abstract class Shape {
 }
 
 class Circle extends Shape {
+  // 필드
   int radius;
+  // 메서드
   @Override
   double findArea() {
     return pi * radius * radius;
@@ -28,8 +30,10 @@ class Circle extends Shape {
 }
 
 class Rectangle extends Shape {
+  // 필드
   int width;
   int height;
+  // 메서드
   @Override
   double findArea() {
     return width * height;
