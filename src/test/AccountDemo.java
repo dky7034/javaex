@@ -10,6 +10,7 @@ public class AccountDemo {
 
     accounts[0].deposit(2000);
     accounts[0].withdraw(13000);
-    
+
+    System.out.println(accounts[0]);
   }
 }
