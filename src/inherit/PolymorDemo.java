@@ -4,7 +4,11 @@ public class PolymorDemo {
   public static void main(String[] args) {
     Vehicle[] vehicles = new Vehicle[3];
     vehicles[0] = new Vehicle();
-    vehicles[1] = new Car();
-    vehicles[2] = new SportsCar();
+    vehicles[1] = new Car(); // 업캐스팅
+    vehicles[2] = new SportsCar(); // 업캐스팅
+
+    for (Vehicle v : vehicles) {
+      
+    }
   }
 }
