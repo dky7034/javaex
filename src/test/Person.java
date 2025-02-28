@@ -30,8 +30,8 @@ public class Person {
   }
 
   // 다른 메서드
-  void shoe() {
-
+  void show() {
+    System.out.printf("사람[이름 : %s, 나이 : %d]\n", name, age);
   }
 }
 
