@@ -8,5 +8,5 @@ class TelePhone {
 }
 
 class SmartPhone {
-  
+
 }
