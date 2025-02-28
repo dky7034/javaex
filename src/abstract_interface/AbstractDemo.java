@@ -75,7 +75,8 @@ class Triangle extends Shape {
 
 // 추상 클래스 test
 abstract class TestAbstract {
-  
+  int num;
+  String string;
 }
 class extendsTestAbstract extends TestAbstract {}
 
