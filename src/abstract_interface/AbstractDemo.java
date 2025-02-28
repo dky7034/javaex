@@ -7,5 +7,10 @@ public class AbstractDemo {
 }
 
 abstract class Shape {
+  // 필드
+
+  // 생성자
+
+  // 메서드
   
 }
