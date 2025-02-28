@@ -4,6 +4,7 @@ public class Account {
   // 필드
   private int balance;
   // 필드 추가 - 계좌번호, 계좌주
+  private String accountNo;
   // 상수 선언
   final static int MIN_BALANCE = 0;
   final static int MAX_BALANCE = 1_000_000;
