@@ -26,6 +26,7 @@ public class AbstractDemo {
     String strSub1 = childObj.strSub;
     System.out.println("numSub1 = " + numSub1);
     System.out.println("strSub1 = " + strSub1);
+    System.out.println(childObj);
   }
 }
 
