@@ -49,6 +49,6 @@ class SmartPhone extends Phone {
 
   // 메서드
   void playGame() {
-
+    System.out.println("owner가 게임중입니다.");
   }
 }
