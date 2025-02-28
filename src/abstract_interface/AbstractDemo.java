@@ -67,3 +67,4 @@ class Triangle extends Shape {
 }
 
 // 추상 클래스 test
+public abstract TestAbstractClass();
