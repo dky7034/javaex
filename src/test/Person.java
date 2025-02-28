@@ -33,3 +33,51 @@ public class Person {
 
   }
 }
+
+class Student {
+  // 필드
+  private int stuNum;
+
+  // 생성자
+  public Student(int stuNum) {
+    this.stuNum = stuNum;
+  }
+
+  // 메서드
+  // getter and setter
+  public int getStuNum() {
+    return stuNum;
+  }
+
+  public void setStuNum(int stuNum) {
+    this.stuNum = stuNum;
+  }
+
+  // 다른 메서드
+  void show() {
+  }
+}
+
+class ForeignStudent {
+  // 필드
+  private String nationality;
+
+  // 생성자
+  public ForeignStudent(String nationality) {
+    this.nationality = nationality;
+  }
+
+  // 메서드
+  // getter and setter
+  public String getNationality() {
+    return nationality;
+  }
+
+  public void setNationality(String nationality) {
+    this.nationality = nationality;
+  }
+
+  // 다른 메서드
+  void show() {
+  }
+}
