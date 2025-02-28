@@ -8,7 +8,7 @@ public class PhoneDemo {
         new SmartPhone("민국이", "갤러그")
     };
 
-    // 조건문으로 타입을 조사할 때 반드시 구체적인 것부터 (맨 아래 자손) 비교해야
+    // 조건문으로 타입을 조사할 때 반드시 !구체적인 것부터 (맨 아래 자손)! 비교해야
     // 올바른 값을 출력할 수 있습니다.
     for (Phone p : phones) {
       if (p instanceof SmartPhone) {
