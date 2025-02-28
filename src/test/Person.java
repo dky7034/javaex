@@ -27,6 +27,6 @@ public class Person {
   }
   // 다른 메서드
   void shoe() {
-    
+
   }
 }
