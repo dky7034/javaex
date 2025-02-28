@@ -8,18 +8,18 @@ public class AbstractDemo {
 //    c.radius = 1;
 //    System.out.println("원의 넓이: " + c.findArea());
 
-    TestAbstract testAbstract = new extendsTestAbstract();
+    TestAbstract testAbstract = new ExtendsTestAbstract();
     int numParent = testAbstract.numParent;
     String stringParent = testAbstract.stringParent;
     System.out.println("numParent = " + numParent);
     System.out.println("stringParent = " + stringParent);
 
-    int numSub = ((extendsTestAbstract) testAbstract).numSub;
-    String strSub = ((extendsTestAbstract) testAbstract).strSub;
+    int numSub = ((ExtendsTestAbstract) testAbstract).numSub;
+    String strSub = ((ExtendsTestAbstract) testAbstract).strSub;
     System.out.println("numSub = " + numSub);
     System.out.println("strSub = " + strSub);
 
-    extendsTestAbstract childObj = testAbstract;
+    ExtendsTestAbstract childObj = testAbstract;
   }
 }
 
