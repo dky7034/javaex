@@ -6,8 +6,11 @@ public class AccountDemo {
     account.setBalance(1000);
     System.out.println("잔액: " + account.getBalance());
     account.setBalance();
+    System.out.println("잔액: " + account.getBalance());
     account.setBalance();
+    System.out.println("잔액: " + account.getBalance());
     account.setBalance();
+    System.out.println("잔액: " + account.getBalance());
 
   }
 }
