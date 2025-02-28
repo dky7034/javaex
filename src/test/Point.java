@@ -4,7 +4,7 @@ public class Point {
   // 필드
   private int x, y;
   // 생성자
-
+  public Point() {}
   // 메서드
   // getter and setter
   public int getX() {
