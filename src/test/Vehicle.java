@@ -12,7 +12,7 @@ public class Vehicle {
   // getter and setter
   // 메서드
   void show() {
-
+    System.out.println();
   }
 }
 
@@ -30,7 +30,7 @@ class Car extends Vehicle {
   // 메서드
   @Override
   void show() {
-    
+
   }
 }
 
