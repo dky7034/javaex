@@ -1,5 +1,5 @@
 package test;
 
 public enum Balance {
-  MIN_BALANCE, MAX_NALANCE
+  MIN_BALANCE, MAX_BALANCE
 }
