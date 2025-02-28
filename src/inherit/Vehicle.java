@@ -18,4 +18,8 @@ class Car extends Vehicle {
   void whoami() {
     System.out.println("나는 자동차입니다.");
   }
+
+  static void move() {
+    System.out.println("달리다.");
+  }
 }
