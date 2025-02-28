@@ -27,7 +27,7 @@ class ColorCircle extends Circle {
   // 메서드 오버라이딩
   @Override
   void show() {
-    System.out.println("반지름이 " + radius + "인 " + color + "원이다.");
+    System.out.println("반지름이 " + radius + "인 " + color + " 원이다.");
   }
 }
 
