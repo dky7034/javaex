@@ -6,6 +6,8 @@ public class AccountDemo {
     accounts[0] = new Account("111-111", "홍길동");
     accounts[0].setBalance(10000);
 
-    System.out.println("accounts = " + accounts[0]);
+    System.out.println(accounts[0]);
+
+    accounts[0]
   }
 }
