@@ -6,6 +6,10 @@ public class Person {
   private int age;
 
   // 생성자
+
+
+  // 메서드
+  // getter and setter
   public String getName() {
     return name;
   }
@@ -21,7 +25,5 @@ public class Person {
   public void setAge(int age) {
     this.age = age;
   }
-
-  // 메서드
 
 }
