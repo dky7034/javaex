@@ -55,8 +55,6 @@ public class Account {
   // toString()
   @Override
   public String toString() {
-    return accountNo + "\t" +
-            accountOwner + "\t" +
-            balance;
+    return accountNo + "\t" + accountOwner + "\t" + balance;
   }
 }
