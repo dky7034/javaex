@@ -17,5 +17,8 @@ public class Circle {
 
 class ColorCircle extends Circle {
 
+  public ColorCircle(int radius) {
+    super(radius);
+  }
 }
 
