@@ -8,7 +8,6 @@ public class ForeignStudent {
 
   // 메서드
   // getter and setter
-
   public String getNationality() {
     return nationality;
   }
