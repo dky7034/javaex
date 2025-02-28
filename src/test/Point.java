@@ -6,6 +6,8 @@ public class Point {
 
   // 생성자
   public Point(int x, int y) {
+    this.x = x;
+    this.y = y;
   }
 
   // 메서드
