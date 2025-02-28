@@ -3,7 +3,7 @@ package test;
 public class Phone {
 }
 
-class TelePhone {
+class TelePhone extends Phone{
 
 }
 
