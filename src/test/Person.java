@@ -41,6 +41,7 @@ class Student extends Person {
 
   // 생성자
   public Student(int stuNum) {
+    super();
     this.stuNum = stuNum;
   }
 
