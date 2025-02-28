@@ -5,6 +5,8 @@ public class PhoneDemo {
     Phone[] phones = {new Phone("황진이"), new TelePhone("길동이", "내일"), new SmartPhone("민국이", "갤러그")};
 
     System.out.println(phones[0] instanceof Phone);
+    System.out.println(phones[0] instanceof Phone);
+
 
     for (Phone p : phones) {
       if (p instanceof Phone) {
