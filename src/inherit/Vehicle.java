@@ -16,6 +16,6 @@ class Car extends Vehicle {
 
   @Override
   void whoami() {
-    
+    System.out.println("나는 자동차입니다.");
   }
 }
