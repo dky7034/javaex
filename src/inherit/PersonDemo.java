@@ -20,18 +20,21 @@ public class PersonDemo {
     Person[] persons = new Person[3];
 
   }
+
   static void method1(Student s) {
     s.work();
   }
 
   static void methodAll(Person p) {
-    p.whoami();
+    if (p instanceof Person) {
+      p.whoami();
+    }
     if (p instanceof Student) {
       Student s = (Student) p;
       s.work();
     } else if (p instanceof Worker) {
-      Worker w = p;
-      
+      Worker w = (Worker) p;
+      w.work();
     }
   }
 }
