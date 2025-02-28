@@ -37,4 +37,14 @@ public class Point {
 class MovablePoint extends Point {
   // 필드
 
+  // 생성자
+  public MovablePoint() {
+  }
+  // getter and setter
+
+
+
+
+  // 메서드
+
 }
