@@ -10,3 +10,5 @@ public class Vehicle {
     System.out.println("이동한다.");
   }
 }
+
+
