@@ -6,7 +6,6 @@ public class Account {
   // 생성자
 
   // getter and setter
-
   public int getBalance() {
     return balance;
   }
