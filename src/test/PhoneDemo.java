@@ -10,8 +10,8 @@ public class PhoneDemo {
       } else if (phones[i] instanceof TelePhone) {
         TelePhone telePhone = (TelePhone) phones[i];
         telePhone.autoAnswering();
-      } else {
-        
+      } else if (phones[i] instanceof SmartPhone) {
+        SmartPhone smartPhone = (SmartPhone) phones[i];
       }
     }
     
