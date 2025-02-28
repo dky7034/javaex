@@ -22,7 +22,7 @@ class ColorCircle extends Circle {
   public ColorCircle(int radius, String color) {
     super(radius);
   }
-  // 메서드
+  // 메서드 오버라이딩
   @Override
   void show() {
     System.out.println("반지름이 " + radius + "인" + color + "원이다.");
