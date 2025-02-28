@@ -11,6 +11,8 @@ public class AbstractDemo {
     TestAbstract testAbstract = new extendsTestAbstract();
     int numParent = testAbstract.numParent;
     String stringParent = testAbstract.stringParent;
+    System.out.println("numParent = " + numParent);
+    System.out.println("stringParent = " + stringParent);
   }
 }
 
