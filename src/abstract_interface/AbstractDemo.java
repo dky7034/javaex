@@ -43,3 +43,7 @@ class Rectangle extends Shape {
     System.out.println("사각형을 그리다.");
   }
 }
+
+class Triangle extends Shape {
+  
+}
