@@ -79,8 +79,8 @@ class Triangle extends Shape {
 
 // 추상 클래스 test
 abstract class TestAbstract {
-  int numParent;
-  String stringParent;
+  int numParent = 0;
+  String stringParent = "strParent";
 }
 class extendsTestAbstract extends TestAbstract {
   int numSub;
