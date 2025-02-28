@@ -36,6 +36,10 @@ class SmartPhone extends Phone {
   // 필드
   private String game;
   // 생성자
+  public SmartPhone(String owner, String game) {
+    super(owner);
+    this.game = game;
+  }
 
   // getter and setter
 
