@@ -19,7 +19,7 @@ public class AbstractDemo {
     System.out.println("numSub = " + numSub);
     System.out.println("strSub = " + strSub);
 
-    
+    extendsTestAbstract childObj = testAbstract;
   }
 }
 
@@ -89,7 +89,7 @@ abstract class TestAbstract {
   int numParent = 0;
   String stringParent = "strParent";
 }
-class extendsTestAbstract extends TestAbstract {
+class ExtendsTestAbstract extends TestAbstract {
   int numSub = 1;
   String strSub = "strSub";
 }
