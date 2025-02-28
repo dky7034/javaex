@@ -6,7 +6,10 @@ public class Person {
   private int age;
 
   // 생성자
-
+  public Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
 
   // 메서드
   // getter and setter
