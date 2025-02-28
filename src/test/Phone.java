@@ -20,6 +20,10 @@ class TelePhone extends Phone {
   // 필드
   private String when;
   // 생성자
+  public TelePhone(String owner, String when) {
+    super(owner);
+    this.when = when;
+  }
 
   // getter and setter
 
