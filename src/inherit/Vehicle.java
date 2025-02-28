@@ -6,4 +6,7 @@ public class Vehicle {
   void whoami() {
     System.out.println("나는 탈 것이다.");
   }
+  static void move() {
+    
+  }
 }
