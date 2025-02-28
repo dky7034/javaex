@@ -13,7 +13,9 @@ public class PhoneDemo {
     System.out.println(phones[2] instanceof SmartPhone);
 
     for (Phone p : phones) {
+      
       System.out.println(p);
+
       if (p instanceof Phone) {
         p.talk();
       } else if (p instanceof TelePhone) {
