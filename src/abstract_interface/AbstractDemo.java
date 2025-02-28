@@ -29,7 +29,7 @@ class Circle extends Shape {
 
 class Rectangle extends Shape {
   int width;
-  int b;
+  int height;
   @Override
   double findArea() {
     return ;
