@@ -15,6 +15,15 @@ public class Phone {
   void talk() {
     System.out.println(owner + "가 통화중");
   }
+
+  // toString
+
+  @Override
+  public String toString() {
+    return "Phone{" +
+        "owner='" + owner + '\'' +
+        '}';
+  }
 }
 
 class TelePhone extends Phone {
