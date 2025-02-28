@@ -83,6 +83,8 @@ class ForeignStudent extends Student {
   }
 
   // 다른 메서드
+  @Override
   void show() {
+    System.out.printf("사람[이름 : %s, 나이 : %d]\n", name, age);
   }
 }
