@@ -17,8 +17,9 @@ public class Circle {
 
 class ColorCircle extends Circle {
   int radius;
-  // 생성자
-  public ColorCircle(int radius) {
+
+  // 생성자 오버로딩
+  public ColorCircle(int radius, String color) {
 
   }
   // 메서드
