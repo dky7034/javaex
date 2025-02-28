@@ -6,7 +6,7 @@ public class Circle {
 
   // 생성자
   public Circle(int radius) {
-    this.radius = radius
+    this.radius = radius;
   }
 
   // 메서드
