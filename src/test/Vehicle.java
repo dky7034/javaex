@@ -21,7 +21,7 @@ class Car extends Vehicle {
   int displacement; // 자동차 배기량
   int gears; // 자동차 기어 단수
   // 생성자
-  public Car(int displacement, int gears) {
+  public Car(String color, int speed, int displacement, int gears) {
     super();
     this.displacement = displacement;
     this.gears = gears;
