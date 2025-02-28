@@ -5,7 +5,7 @@ public class Account {
   private int balance;
   // 상수 선언
   final static int MIN_BALANCE = 0;
-  final static int MAX_BALANCE = 10_000_000;
+  final static int MAX_BALANCE = 1_000_000;
   // 생성자
 
   // getter and setter
