@@ -6,7 +6,7 @@ public class PhoneDemo {
 
     System.out.println(phones[0] instanceof Phone);
     System.out.println(phones[0] instanceof Phone);
-
+    System.out.println(phones[0] instanceof Phone);
 
     for (Phone p : phones) {
       if (p instanceof Phone) {
