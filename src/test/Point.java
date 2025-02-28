@@ -20,7 +20,9 @@ public class Point {
     this.y = y;
   }
   // 다른 메서드
-  void 
+  void method() {
+    
+  }
 
   // toString() override
   @Override
