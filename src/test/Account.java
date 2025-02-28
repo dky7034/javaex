@@ -7,6 +7,7 @@ public class Account {
   enum Balance = {
     MIN_BALANCE, MAX_BALANCE
   }
+  
   // 필드
   private int balance;
   // 생성자
