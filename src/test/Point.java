@@ -40,10 +40,6 @@ class MovablePoint extends Point {
   // 생성자
   public MovablePoint() {
   }
-  // getter and setter
-
-
-
 
   // 메서드
 
