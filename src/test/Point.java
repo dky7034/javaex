@@ -65,8 +65,7 @@ class MovablePoint extends Point {
   public void setySpeed(int ySpeed) {
     this.ySpeed = ySpeed;
   }
-
-
+  
   // 다른 메서드
 
 }
