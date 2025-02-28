@@ -17,6 +17,8 @@ public class AbstractDemo {
     testAbstract = (extendsTestAbstract) testAbstract;
     int numSub = ((extendsTestAbstract) testAbstract).numSub;
     String strSub = ((extendsTestAbstract) testAbstract).strSub;
+    System.out.println("numSub = " + numSub);
+    System.out.println("strSub = " + strSub);
   }
 }
 
