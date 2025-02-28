@@ -7,4 +7,13 @@ public class ForeignStudent {
   // 생성자
 
   // 메서드
+  // getter and setter
+
+  public String getNationality() {
+    return nationality;
+  }
+
+  public void setNationality(String nationality) {
+    this.nationality = nationality;
+  }
 }
