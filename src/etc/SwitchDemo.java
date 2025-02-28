@@ -1,3 +1,5 @@
+package etc;
+
 public class SwitchDemo {
   public static void main(String[] args) {
     // 메서드 호출

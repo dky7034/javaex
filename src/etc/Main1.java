@@ -1,3 +1,5 @@
+package etc;
+
 public class Main1 {
   public static void main(String[] args) {
     MyMath m = new MyMath();

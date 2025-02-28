@@ -1,3 +1,5 @@
+package etc;
+
 public class CastDemo2 {
   public static void main(String[] args) {
     String strInt = "20";

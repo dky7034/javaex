@@ -1,3 +1,5 @@
+package etc;
+
 public class CastDemo3 {
   public static void main(String[] args) {
     // +, -, *, /

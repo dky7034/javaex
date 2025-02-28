@@ -1,3 +1,5 @@
+package etc;
+
 public class CaseDemo {
   public static void main(String[] args) {
     int number = 1;

@@ -1,3 +1,5 @@
+package etc;
+
 public class MemoryStructureDemo {
   public static void main(String[] args) {
     Data data = new Data();

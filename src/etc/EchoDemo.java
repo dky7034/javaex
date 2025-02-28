@@ -1,3 +1,5 @@
+package etc;
+
 public class EchoDemo {
   public static void main(String[] args) {
     // 1. 반환값이 없음

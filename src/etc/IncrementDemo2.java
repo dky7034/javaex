@@ -1,3 +1,5 @@
+package etc;
+
 public class IncrementDemo2 {
   public static void main(String[] args) {
     RefValue ref = new RefValue();

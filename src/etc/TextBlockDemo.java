@@ -1,3 +1,5 @@
+package etc;
+
 public class TextBlockDemo {
   public static void main(String[] args) {
     String hi = """
