@@ -10,17 +10,33 @@ public class Account {
   final static int MIN_BALANCE = 0;
   final static int MAX_BALANCE = 1_000_000;
   // 생성자
-  
+
   // getter and setter
   public int getBalance() {
     return balance;
   }
+
   public void setBalance(int balance) {
     if (!(balance < MIN_BALANCE || balance > MAX_BALANCE)) {
       this.balance = balance;
     }
   }
 
+  public String getAccountNo() {
+    return accountNo;
+  }
+
+  public void setAccountNo(String accountNo) {
+    this.accountNo = accountNo;
+  }
+
+  public String getAccountOwner() {
+    return accountOwner;
+  }
+
+  public void setAccountOwner(String accountOwner) {
+    this.accountOwner = accountOwner;
+  }
   // 메서드
   // 입금 기능 추가
   // 출금 기능 추가
