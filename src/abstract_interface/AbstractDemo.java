@@ -16,7 +16,7 @@ public class AbstractDemo {
 
     testAbstract = (extendsTestAbstract) testAbstract;
     int numSub = ((extendsTestAbstract) testAbstract).numSub;
-    ((extendsTestAbstract) testAbstract).strSub;
+    String strSub = ((extendsTestAbstract) testAbstract).strSub;
   }
 }
 
