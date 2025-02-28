@@ -16,7 +16,7 @@ public class Vehicle {
   }
 }
 
-class Car {
+class Car extends Vehicle {
   // 필드
   int displacement; // 자동차 배기량
   int gears; // 자동차 기어 단수
