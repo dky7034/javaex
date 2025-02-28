@@ -45,5 +45,15 @@ class Rectangle extends Shape {
 }
 
 class Triangle extends Shape {
-  
+  // 필드
+  // 메서드
+  @Override
+  double findArea() {
+    return 0;
+  }
+
+  @Override
+  void draw() {
+
+  }
 }
