@@ -9,5 +9,9 @@ public class VehicleDemo {
     Vehicle v = new Car();
     System.out.println(v.name); // 부모 클래스의 멤버 호출
     v.whoami();
+
+    Vehicle.move();
+    v1.move();
+    v.move();
   }
 }
