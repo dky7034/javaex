@@ -8,8 +8,7 @@ public class AbstractDemo {
     c.radius = 1;
     System.out.println("원의 넓이: " + c.findArea());
 
-    TestAbstract testAbstract = new TestAbstract();
-    
+    TestAbstract testAbstract = new extendsTestAbstract();
   }
 }
 
