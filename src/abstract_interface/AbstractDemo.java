@@ -51,7 +51,7 @@ class Triangle extends Shape {
   // 메서드
   @Override
   double findArea() {
-    return 1/2.0 * width * height;
+    return width * height / 2.0;
   }
 
   @Override
