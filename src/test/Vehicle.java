@@ -12,6 +12,8 @@ public class Vehicle {
   // getter and setter
   // 메서드
   void show() {
+    System.out.println("color = " + color);
+    System.out.println("speed = " + speed);
   }
 }
 
