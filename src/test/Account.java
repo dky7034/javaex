@@ -38,7 +38,7 @@ public class Account {
   // 출금 기능 추가
   void withdraw(int money) {
     if (balance < money) {
-      System.out.println("잔액보다 많이 인출할 수 없습니다.");
+      System.out.println("잔액 부족");
       System.out.println("현재 잔액: " + this.balance);
     } else {
       this.balance -= money;
