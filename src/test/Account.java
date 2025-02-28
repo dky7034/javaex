@@ -16,5 +16,8 @@ public class Account {
   }
 
   // 메서드
+}
 
+enum Balance {
+  MIN_BALANCE, MAX_BALANCE
 }
