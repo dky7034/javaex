@@ -6,6 +6,7 @@ public class Person {
   private int age;
 
   // 생성자
-  
+
   // 메서드
+
 }
