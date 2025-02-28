@@ -28,13 +28,14 @@ public class Person {
   public void setAge(int age) {
     this.age = age;
   }
+
   // 다른 메서드
   void shoe() {
 
   }
 }
 
-class Student extends Person{
+class Student extends Person {
   // 필드
   private int stuNum;
 
@@ -58,7 +59,7 @@ class Student extends Person{
   }
 }
 
-class ForeignStudent extends Person{
+class ForeignStudent extends Person {
   // 필드
   private String nationality;
 
