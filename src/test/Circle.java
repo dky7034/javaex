@@ -22,7 +22,7 @@ class ColorCircle extends Circle {
   // 생성자 오버로딩
   public ColorCircle(int radius, String color) {
     super(radius);
-    
+    this.color = color;
   }
   // 메서드 오버라이딩
   @Override
