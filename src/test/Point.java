@@ -19,6 +19,7 @@ public class Point {
   public void setY(int y) {
     this.y = y;
   }
+  
   // toString() override
 
 }
