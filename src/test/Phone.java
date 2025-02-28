@@ -2,13 +2,13 @@ package test;
 
 public class Phone {
   // 필드
-  
+  protected String owner;
   // 생성자
 
   // getter and setter
 
   // 메서드
-  protected String owner;
+
 }
 
 class TelePhone extends Phone {
