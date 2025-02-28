@@ -9,5 +9,7 @@ public class InstanceOfDemo {
     System.out.println(p instanceof Person);
     System.out.println(s instanceof Person);
     System.out.println(w instanceof Person);
+
+    System.out.println(p instanceof Student);
   }
 }
