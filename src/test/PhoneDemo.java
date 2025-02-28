@@ -19,13 +19,14 @@ public class PhoneDemo {
       if ()
 
       if (p instanceof SmartPhone) {
-        p.talk();
+        SmartPhone smartPhone = (SmartPhone) p;
+        smartPhone.playGame();
+
       } else if (p instanceof TelePhone) {
         TelePhone telePhone = (TelePhone) p;
         telePhone.autoAnswering();
       } else if (p instanceof Phone) {
-        SmartPhone smartPhone = (SmartPhone) p;
-        smartPhone.playGame();
+        p.talk();
       }
     }
 
