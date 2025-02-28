@@ -34,7 +34,7 @@ public class Person {
   }
 }
 
-class Student {
+class Student extends Person{
   // 필드
   private int stuNum;
 
