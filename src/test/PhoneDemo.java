@@ -22,6 +22,8 @@ public class PhoneDemo {
       } else if (p instanceof TelePhone) {
         TelePhone telePhone = (TelePhone) p;
         telePhone.autoAnswering();
+      } else if (p instanceof SmartPhone) {
+        
       }
     }
   }
