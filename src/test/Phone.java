@@ -1,12 +1,13 @@
 package test;
 
 public class Phone {
+  
 }
 
-class TelePhone extends Phone{
+class TelePhone extends Phone {
 
 }
 
-class SmartPhone {
+class SmartPhone extends Phone {
 
 }
