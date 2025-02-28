@@ -10,7 +10,7 @@ public class Account {
   final static int MIN_BALANCE = 0;
   final static int MAX_BALANCE = 1_000_000;
   // 생성자
-
+  
   // getter and setter
   public int getBalance() {
     return balance;
