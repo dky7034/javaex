@@ -13,6 +13,8 @@ public class AbstractDemo {
     String stringParent = testAbstract.stringParent;
     System.out.println("numParent = " + numParent);
     System.out.println("stringParent = " + stringParent);
+
+    
   }
 }
 
