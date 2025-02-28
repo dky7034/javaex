@@ -23,7 +23,8 @@ public class PhoneDemo {
         TelePhone telePhone = (TelePhone) p;
         telePhone.autoAnswering();
       } else if (p instanceof SmartPhone) {
-        
+        SmartPhone smartPhone = (SmartPhone) p;
+        smartPhone.playGame();
       }
     }
   }
