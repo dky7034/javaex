@@ -8,7 +8,9 @@ public class Phone {
   // getter and setter
 
   // 메서드
-
+  void talk() {
+    
+  }
 }
 
 class TelePhone extends Phone {
