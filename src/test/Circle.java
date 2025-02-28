@@ -24,7 +24,7 @@ class ColorCircle extends Circle {
   // 메서드
   @Override
   void show() {
-    super.show();
+    
   }
 }
 
