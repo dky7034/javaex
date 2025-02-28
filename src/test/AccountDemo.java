@@ -9,6 +9,7 @@ public class AccountDemo {
     System.out.println(accounts[0]);
 
     accounts[0].deposit(2000);
+    accounts[0].withdraw(13000);
     
   }
 }
