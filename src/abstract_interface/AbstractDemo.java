@@ -7,7 +7,7 @@ public class AbstractDemo {
       void draw() {
         
       }
-    }
+    };
   }
 }
 
