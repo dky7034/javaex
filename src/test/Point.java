@@ -5,7 +5,7 @@ public class Point {
   private int x, y;
 
   // 생성자
-  public Point(int x, y) {
+  public Point(int x, int y) {
   }
 
   // 메서드
