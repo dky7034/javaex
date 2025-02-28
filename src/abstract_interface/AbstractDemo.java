@@ -79,6 +79,7 @@ abstract class TestAbstract {
   String stringParent;
 }
 class extendsTestAbstract extends TestAbstract {
-  int num
+  int numSub;
+  String strSub;
 }
 
