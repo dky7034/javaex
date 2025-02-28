@@ -26,7 +26,6 @@ class Car extends Vehicle {
     this.displacement = displacement;
     this.gears = gears;
   }
-
   // getter and setter
   // 메서드
 }
