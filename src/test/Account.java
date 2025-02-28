@@ -7,14 +7,14 @@ public class Account {
   final static int MIN_BALANCE = 0;
   final static int MAX_BALANCE = 1_000_000;
   // 생성자
-  
+
   // getter and setter
   public int getBalance() {
     return balance;
   }
   public void setBalance(int balance) {
     if (balance < MIN_BALANCE || balance > MAX_BALANCE) {
-      System.out.println("올바른 금액이 아닙니다.");
+      this.balance = this.balance;
     } else {
       this.balance = balance;
     }
