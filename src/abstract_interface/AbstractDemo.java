@@ -15,6 +15,6 @@ abstract class Shape {
     return 0.0;
   }
   // 추상 메서드
-  abstract void
-  
+  abstract void draw();
+
 }
