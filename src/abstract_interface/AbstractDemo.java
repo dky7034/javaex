@@ -10,7 +10,7 @@ public class AbstractDemo {
 
     TestAbstract testAbstract = new extendsTestAbstract();
     int numParent = testAbstract.numParent;
-    testAbstract.stringParent
+    String stringParent = testAbstract.stringParent;
   }
 }
 
