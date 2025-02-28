@@ -40,8 +40,7 @@ public class Account {
     if (balance < money) {
       System.out.println("잔고보다 많이 인출할 수 없습니다.");
     } else {
-      
+      this.balance -= money;
     }
-    this.balance -= money;
   }
 }
