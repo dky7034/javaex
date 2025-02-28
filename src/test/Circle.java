@@ -15,6 +15,7 @@ public class Circle {
 }
 
 class ColorCircle extends Circle {
+  // 필드
   String color;
 
   // 생성자 오버로딩
