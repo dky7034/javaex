@@ -12,13 +12,16 @@ public class Vehicle {
   // getter and setter
   // 메서드
   void show() {
-    
+
   }
 }
 
 class Car {
   // 필드
+  int displacement;
+  int gears;
   // 생성자
+
   // getter and setter
   // 메서드
 }
