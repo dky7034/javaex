@@ -2,6 +2,6 @@ package test;
 
 public class VehicleDemo {
   public static void main(String[] args) {
-    Vehicle vehicle = new Car("");
+    Car c = new Car("파랑", 200, 1000, 5);
   }
 }
