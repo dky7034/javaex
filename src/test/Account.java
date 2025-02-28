@@ -39,6 +39,7 @@ public class Account {
   void withdraw(int money) {
     if (balance < money) {
       System.out.println("잔고보다 많이 인출할 수 없습니다.");
+      System.out.println("현재 잔액: " + this.balance);
     } else {
       this.balance -= money;
     }
