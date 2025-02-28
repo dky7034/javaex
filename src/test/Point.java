@@ -73,6 +73,9 @@ class MovablePoint extends Point {
 
   @Override
   public String toString() {
-    return ;
+    return "MovablePoint{" +
+        "xSpeed=" + xSpeed +
+        ", ySpeed=" + ySpeed +
+        '}';
   }
 }
