@@ -19,7 +19,7 @@ public class AbstractDemo {
     System.out.println("numSub = " + numSub);
     System.out.println("strSub = " + strSub);
 
-    ExtendsTestAbstract childObj = testAbstract;
+    ExtendsTestAbstract childObj = (ExtendsTestAbstract) testAbstract;
   }
 }
 
