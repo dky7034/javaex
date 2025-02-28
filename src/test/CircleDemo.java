@@ -8,7 +8,7 @@ public class CircleDemo {
 
     for (Circle c : circles) {
       System.out.println(c.radius);
-      System.out.println(c.show());
+      c.show();
     }
   }
 }
