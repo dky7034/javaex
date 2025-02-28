@@ -9,6 +9,7 @@ public class PhoneDemo {
         phones[i].talk();
       } else if (phones[i] instanceof TelePhone) {
         TelePhone telePhone = (TelePhone) phones[i];
+        telePhone.autoAnswering();
       }
     }
     
