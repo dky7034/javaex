@@ -43,7 +43,6 @@ class TelePhone extends Phone {
   }
 
   // toString
-
   @Override
   public String toString() {
     return "TelePhone{" +
