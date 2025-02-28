@@ -12,5 +12,5 @@ public class Vehicle {
 }
 
 class Car extends Vehicle {
-  
+  String name = "자동차";
 }
