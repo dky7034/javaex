@@ -15,4 +15,5 @@ public class ForeignStudent {
   public void setNationality(String nationality) {
     this.nationality = nationality;
   }
+  // 다른 메서드
 }

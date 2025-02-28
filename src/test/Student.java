@@ -17,4 +17,5 @@ public class Student {
   public void setStuNum(int stuNum) {
     this.stuNum = stuNum;
   }
+  // 다른 메서드
 }
