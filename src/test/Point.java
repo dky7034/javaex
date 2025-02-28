@@ -50,6 +50,8 @@ class MovablePoint extends Point {
   // 생성자
   public MovablePoint(int x, int y, int xSpeed, int ySpeed) {
     super(x, y);
+    this.xSpeed = xSpeed;
+    this.ySpeed = ySpeed;
   }
 
   // 메서드
