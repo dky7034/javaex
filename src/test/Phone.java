@@ -31,6 +31,7 @@ class TelePhone extends Phone {
 
   // 메서드
   void autoAnswering() {
+    System.out.println("owner가 부재중이니 " + when + "에 전화 요망");
   }
 }
 
