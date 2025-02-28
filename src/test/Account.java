@@ -36,7 +36,7 @@ public class Account {
   }
 
   // 출금 기능 추가
-  void output(int balance) {
+  void withdraw(int balance) {
 
   }
 }
