@@ -5,9 +5,5 @@ public class CircleDemo {
     Circle circle = new Circle(5);
     ColorCircle colorCircle = new ColorCircle(10, "빨간색");
     
-    for (Circle c : circles) {
-      System.out.println(c.radius);
-      c.show();
-    }
   }
 }
