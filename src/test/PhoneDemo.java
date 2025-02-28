@@ -13,11 +13,6 @@ public class PhoneDemo {
     System.out.println(phones[2] instanceof SmartPhone);
 
     for (Phone p : phones) {
-
-      System.out.println(p);
-
-      if ()
-
       if (p instanceof SmartPhone) {
         SmartPhone smartPhone = (SmartPhone) p;
         smartPhone.playGame();
