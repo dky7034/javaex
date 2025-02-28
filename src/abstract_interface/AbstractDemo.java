@@ -14,4 +14,7 @@ abstract class Shape {
   public double findArea() {
     return 0.0;
   }
+  // 추상 메서드
+  abstract void
+  
 }
