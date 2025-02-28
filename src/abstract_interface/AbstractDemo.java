@@ -8,7 +8,7 @@ public class AbstractDemo {
     c.radius = 1;
     System.out.println("원의 넓이: " + c.findArea());
 
-
+    TestAbstract testAbstract = new TestAbstract();
   }
 }
 
@@ -74,5 +74,5 @@ class Triangle extends Shape {
 }
 
 // 추상 클래스 test
-abstract class TestAbstract {}
+class TestAbstract {}
 
