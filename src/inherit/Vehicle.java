@@ -23,3 +23,10 @@ class Car extends Vehicle {
     System.out.println("달리다.");
   }
 }
+
+class SportsCar extends Car {
+  @Override
+  void whoami() {
+    System.out.println("나는 스포츠 자동차이다.");
+  }
+}
