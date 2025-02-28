@@ -3,6 +3,7 @@ package test;
 public class Phone {
   // 필드
   protected String owner;
+
   // 생성자
   public Phone(String owner) {
     this.owner = owner;
@@ -19,7 +20,7 @@ public class Phone {
 class TelePhone extends Phone {
   // 필드
   private String when;
-  
+
   // 생성자
   public TelePhone(String owner, String when) {
     super(owner);
