@@ -4,7 +4,9 @@ public class Phone {
   // 필드
   protected String owner;
   // 생성자
-  
+  Phone() {
+    
+  }
   // getter and setter
 
   // 메서드
