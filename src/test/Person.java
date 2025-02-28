@@ -58,7 +58,7 @@ class Student extends Person{
   }
 }
 
-class ForeignStudent {
+class ForeignStudent extends Person{
   // 필드
   private String nationality;
 
