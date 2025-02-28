@@ -14,7 +14,7 @@ public class AbstractDemo {
     System.out.println("numParent = " + numParent);
     System.out.println("stringParent = " + stringParent);
 
-    testAbstract = (TestAbstract) extendsTestAbstract;
+    extendsTestAbstract testAbstract1 = (extendsTestAbstract) testAbstract;
   }
 }
 
