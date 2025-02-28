@@ -31,5 +31,6 @@ class Rectangle extends Shape {
   // 추상메서드 오버라이드
   @Override
   void draw() {
+    
   }
 }
