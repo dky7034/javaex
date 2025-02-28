@@ -40,7 +40,7 @@ class Student extends Person {
   private int stuNum;
 
   // 생성자
-  public Student(int stuNum) {
+  public Student(String name, int age, int stuNum) {
     super();
     this.stuNum = stuNum;
   }
