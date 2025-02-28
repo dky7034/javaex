@@ -46,6 +46,8 @@ class Rectangle extends Shape {
 
 class Triangle extends Shape {
   // 필드
+  int width;
+  int height;
   // 메서드
   @Override
   double findArea() {
