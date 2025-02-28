@@ -7,6 +7,8 @@ public class AbstractDemo {
     c.draw();
     c.radius = 1;
     System.out.println("원의 넓이: " + c.findArea());
+
+
   }
 }
 
@@ -15,8 +17,8 @@ abstract class Shape {
   // 필드
   double pi = 3.14;
   // 메서드
-  abstract double findArea();
-  abstract void draw();
+//  abstract double findArea();
+//  abstract void draw();
 }
 
 class Circle extends Shape {
