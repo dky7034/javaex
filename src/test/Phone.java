@@ -24,7 +24,7 @@ class TelePhone extends Phone {
 
 class SmartPhone extends Phone {
   // 필드
-
+  private String game;
   // 생성자
 
   // getter and setter
