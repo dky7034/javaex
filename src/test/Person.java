@@ -1,5 +1,6 @@
 package test;
 
 public class Person {
-  private 
+  private String name;
+  private int age;
 }
