@@ -15,3 +15,5 @@ public class Circle {
   }
 }
 
+class ColorCircle() {}
+
