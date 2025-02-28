@@ -42,5 +42,6 @@ class MovablePoint extends Point {
   }
 
   // 메서드
+  // getter and setter
 
 }
