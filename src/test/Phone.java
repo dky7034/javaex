@@ -19,6 +19,7 @@ public class Phone {
 class TelePhone extends Phone {
   // 필드
   private String when;
+  
   // 생성자
   public TelePhone(String owner, String when) {
     super(owner);
@@ -35,6 +36,7 @@ class TelePhone extends Phone {
 class SmartPhone extends Phone {
   // 필드
   private String game;
+
   // 생성자
   public SmartPhone(String owner, String game) {
     super(owner);
