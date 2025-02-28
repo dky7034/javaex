@@ -27,7 +27,7 @@ public class PersonDemo {
   static void methodAll(Person p) {
     p.whoami();
     if (p instanceof Student) {
-      Student s = p;
+      Student s = (Student) p;
       s.work();
     }
   }
