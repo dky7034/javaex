@@ -16,8 +16,6 @@ abstract class Shape {
   }
   // 추상 메서드
   abstract void draw();
-
-  abstract void findArea();
 }
 
 class Circle extends Shape {
