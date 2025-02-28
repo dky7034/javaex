@@ -22,8 +22,6 @@ public class Point {
 
   // toString() override
   @Override
-
-  @Override
   public String toString() {
     return "Point{" +
         "x=" + x +
