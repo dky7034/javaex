@@ -13,4 +13,9 @@ public class Vehicle {
 
 class Car extends Vehicle {
   String name = "자동차";
+
+  @Override
+  void whoami() {
+    super.whoami();
+  }
 }
