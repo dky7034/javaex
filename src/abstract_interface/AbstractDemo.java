@@ -32,7 +32,7 @@ class Rectangle extends Shape {
   int height;
   @Override
   double findArea() {
-    return ;
+    return width * height;
   }
   @Override
   void draw() {
