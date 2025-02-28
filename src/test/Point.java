@@ -19,9 +19,17 @@ public class Point {
   public void setY(int y) {
     this.y = y;
   }
-  
-  // toString() override
 
+  // toString() override
+  @Override
+
+  @Override
+  public String toString() {
+    return "Point{" +
+        "x=" + x +
+        ", y=" + y +
+        '}';
+  }
 }
 
 class MovablePoint extends Point {
