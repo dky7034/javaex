@@ -78,5 +78,7 @@ abstract class TestAbstract {
   int num;
   String string;
 }
-class extendsTestAbstract extends TestAbstract {}
+class extendsTestAbstract extends TestAbstract {
+  
+}
 
