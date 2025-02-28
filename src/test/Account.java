@@ -1,5 +1,8 @@
 package test;
 
+import static test.Balance.MAX_BALANCE;
+import static test.Balance.MIN_BALANCE;
+
 public class Account {
   enum Balance = {
     MIN_BALANCE, MAX_BALANCE
