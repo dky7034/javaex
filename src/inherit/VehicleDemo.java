@@ -13,5 +13,6 @@ public class VehicleDemo {
     Vehicle.move();
     v1.move();
     v.move();
+    (Car) v.move();
   }
 }
