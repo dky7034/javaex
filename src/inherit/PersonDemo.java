@@ -29,6 +29,9 @@ public class PersonDemo {
     if (p instanceof Student) {
       Student s = (Student) p;
       s.work();
+    } else if (p instanceof Worker) {
+      Worker w = p;
+      
     }
   }
 }
