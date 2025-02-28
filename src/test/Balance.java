@@ -1,5 +1,5 @@
-//package test;
-//
-//public enum Balance {
-//  MIN_BALANCE, MAX_BALANCE
-//}
+package test;
+
+public enum Balance {
+  MIN_BALANCE, MAX_BALANCE
+}
