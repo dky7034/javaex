@@ -68,7 +68,7 @@ class MovablePoint extends Point {
   }
 
   // 다른 메서드
-
+  
   // toString() override
 
 
