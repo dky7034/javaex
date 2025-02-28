@@ -49,6 +49,7 @@ class MovablePoint extends Point {
 
   // 생성자
   public MovablePoint() {
+    super(x, y);
   }
 
   // 메서드
