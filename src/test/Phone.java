@@ -9,7 +9,7 @@ public class Phone {
 
   // 메서드
   void talk() {
-    
+
   }
 }
 
@@ -21,7 +21,8 @@ class TelePhone extends Phone {
   // getter and setter
 
   // 메서드
-
+  void autoAnswering() {
+  }
 }
 
 class SmartPhone extends Phone {
