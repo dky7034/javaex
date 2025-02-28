@@ -1,7 +1,7 @@
 package test;
 
 public class Phone {
-  
+  protected String owner;
 }
 
 class TelePhone extends Phone {
