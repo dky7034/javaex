@@ -5,8 +5,9 @@ public class Student {
   private int stuNum;
 
   // 생성자
-
-
+  public Student(int stuNum) {
+    this.stuNum = stuNum;
+  }
 
   // 메서드
   // getter and setter
