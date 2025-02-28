@@ -20,7 +20,7 @@ class ColorCircle extends Circle {
 
   // 생성자 오버로딩
   public ColorCircle(int radius, String color) {
-
+    
   }
   // 메서드
   @Override
