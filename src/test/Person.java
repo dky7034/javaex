@@ -85,6 +85,6 @@ class ForeignStudent extends Student {
   // 다른 메서드
   @Override
   void show() {
-    System.out.printf("사람[이름 : %s, 나이 : %d, 학번: %d, 국적: %s]\n", name, age);
+    System.out.printf("사람[이름 : %s, 나이 : %d, 학번: %d, 국적: %s]\n", super.getName(), super.getAge(), super.getStuNum(), nationality);
   }
 }
