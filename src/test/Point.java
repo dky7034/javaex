@@ -10,6 +10,10 @@ public class Point {
   public int getY() {
     return y;
   }
+
+  public void setX(int x) {
+    
+  }
   // 메서드
 
   // toString() override
