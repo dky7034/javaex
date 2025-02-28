@@ -12,8 +12,9 @@ public class Account {
   public void setBalance(int balance) {
     if (balance < 0 || balance > 1000000) {
       System.out.println("올바른 금액이 아닙니다.");
+    } else {
+      this.balance = balance;
     }
-    this.balance = balance;
   }
 
   // 메서드
