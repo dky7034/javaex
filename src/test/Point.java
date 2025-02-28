@@ -48,7 +48,7 @@ class MovablePoint extends Point {
   private int xSpeed, ySpeed;
 
   // 생성자
-  public MovablePoint() {
+  public MovablePoint(int x, int y, int xSpeed, int ySpeed) {
     super(x, y);
   }
 
