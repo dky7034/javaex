@@ -20,7 +20,7 @@ abstract class Shape {
 }
 
 class Circle extends Shape {
-
+  // 추상메서드 오버라이드
   @Override
   void draw() {
 
