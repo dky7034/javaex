@@ -26,19 +26,11 @@ public class Account {
     return accountNo;
   }
 
-  public void setAccountNo(String accountNo) {
-    this.accountNo = accountNo;
-  }
-
   public String getAccountOwner() {
     return accountOwner;
   }
-
-  public void setAccountOwner(String accountOwner) {
-    this.accountOwner = accountOwner;
-  }
   // 메서드
   // 입금 기능 추가
+  void
   // 출금 기능 추가
-  //
 }
