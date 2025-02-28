@@ -21,7 +21,7 @@ public class Point {
   }
   // 다른 메서드
   void method() {
-    
+
   }
 
   // toString() override
@@ -35,5 +35,6 @@ public class Point {
 }
 
 class MovablePoint extends Point {
+  // 필드
 
 }
