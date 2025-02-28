@@ -28,5 +28,9 @@ class Car extends Vehicle {
   }
   // getter and setter
   // 메서드
+  @Override
+  void show() {
+    
+  }
 }
 
