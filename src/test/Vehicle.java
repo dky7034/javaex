@@ -9,7 +9,6 @@ public class Vehicle {
     this.color = color;
     this.speed = speed;
   }
-
   // getter and setter
   // 메서드
 }
