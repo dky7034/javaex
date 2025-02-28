@@ -16,19 +16,23 @@ public class AbstractDemo {
 abstract class Shape {
   // 필드
   double pi = 3.14;
+
   // 메서드
   abstract double findArea();
+
   abstract void draw();
 }
 
 class Circle extends Shape {
   // 필드
   int radius;
+
   // 메서드
   @Override
   double findArea() {
     return pi * radius * radius;
   }
+
   @Override
   void draw() {
     System.out.println("원을 그리다.");
@@ -39,11 +43,13 @@ class Rectangle extends Shape {
   // 필드
   int width;
   int height;
+
   // 메서드
   @Override
   double findArea() {
     return width * height;
   }
+
   @Override
   void draw() {
     System.out.println("사각형을 그리다.");
@@ -54,6 +60,7 @@ class Triangle extends Shape {
   // 필드
   int width;
   int height;
+
   // 메서드
   @Override
   double findArea() {
@@ -67,6 +74,4 @@ class Triangle extends Shape {
 }
 
 // 추상 클래스 test
-abstract void abc{
-
-    };
+abstract void abc{}
