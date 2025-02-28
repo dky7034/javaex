@@ -18,3 +18,7 @@ abstract class Shape {
   // 추상 메서드
   abstract void draw();
 }
+
+class Circle extends Shape {
+  
+}
