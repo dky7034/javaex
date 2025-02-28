@@ -5,6 +5,11 @@ public class Student {
   private int stuNum;
 
   // 생성자
+
+
+
+  // 메서드
+  // getter and setter
   public int getStuNum() {
     return stuNum;
   }
@@ -12,7 +17,4 @@ public class Student {
   public void setStuNum(int stuNum) {
     this.stuNum = stuNum;
   }
-
-
-  // 메서드
 }
