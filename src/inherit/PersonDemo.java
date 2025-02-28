@@ -23,4 +23,12 @@ public class PersonDemo {
   static void method1(Student s) {
     s.work();
   }
+
+  static void methodAll(Person p) {
+    p.whoami();
+    if (p instanceof Student) {
+      Student s = p;
+      s.work();
+    }
+  }
 }
