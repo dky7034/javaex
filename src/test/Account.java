@@ -10,6 +10,11 @@ public class Account {
   final static int MIN_BALANCE = 0;
   final static int MAX_BALANCE = 1_000_000;
   // 생성자
+  public Account(int balance, String accountNo, String accountOwner) {
+    this.balance = balance;
+    this.accountNo = accountNo;
+    this.accountOwner = accountOwner;
+  }
 
   // getter and setter
   public int getBalance() {
