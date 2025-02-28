@@ -8,7 +8,7 @@ public class Point {
   // 메서드
 
   // toString() override
-  
+
 }
 
 class MovablePoint extends Point {
