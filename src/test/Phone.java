@@ -31,7 +31,7 @@ class TelePhone extends Phone {
 
   // 메서드
   void autoAnswering() {
-    System.out.println("owner가 부재중이니 " + when + "에 전화 요망");
+    System.out.println(owner + "가 부재중이니 " + when + "에 전화 요망");
   }
 }
 
@@ -49,6 +49,6 @@ class SmartPhone extends Phone {
 
   // 메서드
   void playGame() {
-    System.out.println(owner + "가 " + game + " 중입니다.");
+    System.out.println(owner + "가 " + game + " 중");
   }
 }
