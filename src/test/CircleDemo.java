@@ -7,7 +7,7 @@ public class CircleDemo {
     circles[1] = new ColorCircle(10, "빨간색");
 
     for (Circle c : circles) {
-
+      c.radius;
     }
   }
 }
