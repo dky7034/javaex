@@ -7,7 +7,7 @@ public class AccountDemo {
     System.out.println("잔액: " + account.getBalance());
     account.setBalance(-100);
     System.out.println("잔액: " + account.getBalance());
-    account.setBalance(1_000_000);
+    account.setBalance(12_000_000);
     System.out.println("잔액: " + account.getBalance());
     account.setBalance(0);
     System.out.println("잔액: " + account.getBalance());
