@@ -2,7 +2,6 @@ package test;
 
 public class Account {
   // 상수
-  
   // 필드
   private int balance;
   // 생성자
