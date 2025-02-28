@@ -1,8 +1,9 @@
 package test;
 
+import java.awt.*;
+
 public class CircleDemo {
   public static void main(String[] args) {
-    Circle circle = new ColorCircle("5.0", );
-
+    Color[] colors = new Color[2];
   }
 }
