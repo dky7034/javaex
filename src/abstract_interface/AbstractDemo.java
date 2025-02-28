@@ -27,7 +27,10 @@ class Circle extends Shape {
 }
 
 class Rectangle extends Shape {
-  // 추상메서드 오버라이드
+  @Override
+  double findArea() {
+    return 0;
+  }
   @Override
   void draw() {
 
