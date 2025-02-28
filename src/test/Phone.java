@@ -4,7 +4,10 @@ public class Phone {
   // 필드
   protected String owner;
   // 생성자
-  
+  public Phone(String owner) {
+    this.owner = owner;
+  }
+
   // getter and setter
 
   // 메서드
