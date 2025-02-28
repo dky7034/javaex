@@ -5,7 +5,8 @@ public class Circle {
   int radius;
 
   // 생성자
-  public Circle(int radius) {}
+  public Circle(int radius) {
+  }
 
   // 메서드
   void show() {
