@@ -16,6 +16,7 @@ abstract class Shape {
 }
 
 class Circle extends Shape {
+  int radius;
   @Override
   double findArea() {
     return 0;
