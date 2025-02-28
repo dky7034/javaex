@@ -9,6 +9,7 @@ public class AbstractDemo {
     System.out.println("원의 넓이: " + c.findArea());
 
     TestAbstract testAbstract = new extendsTestAbstract();
+    int numParent = testAbstract.numParent;
   }
 }
 
