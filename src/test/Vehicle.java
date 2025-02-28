@@ -32,7 +32,7 @@ class Car extends Vehicle {
   // 메서드
   @Override
   void show() {
-    System.out.println("자식 클래스");
+    System.out.println("자식 클래스 - 오버라이드됨");
     System.out.println("color = " + color);
     System.out.println("speed = " + speed);
     System.out.println("displacement = " + displacement);
