@@ -9,7 +9,7 @@ public class PolymorDemo {
 
     int count = 0;
     for (Vehicle v : vehicles) {
-      System.out.println("[]");
+      System.out.println();
       v.whoami();
       v.move();
     }
