@@ -19,7 +19,12 @@ class ColorCircle extends Circle {
   int radius;
   // 생성자
   public ColorCircle(int radius) {
-    
+
+  }
+  // 메서드
+  @Override
+  void show() {
+    super.show();
   }
 }
 
