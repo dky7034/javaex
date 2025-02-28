@@ -13,7 +13,7 @@ public class Phone {
 
   // 메서드
   void talk() {
-    System.out.println("owner가 통화중");
+    System.out.println(owner + "가 통화중");
   }
 }
 
