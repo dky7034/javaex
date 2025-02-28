@@ -4,6 +4,9 @@ public class Point {
   // 필드
   private int x, y;
   // 생성자
+
+  // 메서드
+  // getter and setter
   public int getX() {
     return x;
   }
@@ -16,8 +19,6 @@ public class Point {
   public void setY(int y) {
     this.y = y;
   }
-  // 메서드
-
   // toString() override
 
 }
