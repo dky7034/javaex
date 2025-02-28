@@ -42,6 +42,15 @@ class TelePhone extends Phone {
   void autoAnswering() {
     System.out.println(owner + "가 부재중이니 " + when + "에 전화 요망");
   }
+
+  // toString
+
+  @Override
+  public String toString() {
+    return "TelePhone{" +
+        "when='" + when + '\'' +
+        '}';
+  }
 }
 
 class SmartPhone extends Phone {
@@ -59,5 +68,14 @@ class SmartPhone extends Phone {
   // 메서드
   void playGame() {
     System.out.println(owner + "가 " + game + "중");
+  }
+
+  // toString
+
+  @Override
+  public String toString() {
+    return "SmartPhone{" +
+        "game='" + game + '\'' +
+        '}';
   }
 }
