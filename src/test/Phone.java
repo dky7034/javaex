@@ -33,5 +33,7 @@ class SmartPhone extends Phone {
   // getter and setter
 
   // 메서드
-
+  void playGame() {
+    
+  }
 }
