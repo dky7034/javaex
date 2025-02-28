@@ -32,11 +32,11 @@ public class Account {
   // 메서드
   // 입금 기능 추가
   void input(int balance) {
-    
+
   }
 
   // 출금 기능 추가
   void output(int balance) {
-
+    
   }
 }
