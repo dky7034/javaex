@@ -8,7 +8,7 @@ public class PhoneDemo {
       if (phones[i] instanceof Phone) {
         phones[i].talk();
       } else if (phones[i] instanceof TelePhone) {
-        (TelePhone) phones[i].;
+        TelePhone telePhone = (TelePhone) phones[i];
       }
     }
     
