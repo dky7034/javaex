@@ -13,7 +13,7 @@ public class Phone {
 
   // 메서드
   void talk() {
-
+    
   }
 }
 
