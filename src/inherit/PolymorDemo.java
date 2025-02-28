@@ -9,7 +9,7 @@ public class PolymorDemo {
 
     int count = 0;
     for (Vehicle v : vehicles) {
-      System.out.println("");
+      System.out.printf("인덱스 %d번 출력: ", );
       v.whoami();
       v.move();
     }
