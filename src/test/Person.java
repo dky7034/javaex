@@ -58,7 +58,7 @@ class Student extends Person {
   // 다른 메서드
   @Override
   void show() {
-    System.out.printf("사람[이름 : %s, 나이 : %d, 학번: %d]\n", , age, stuNum);
+    System.out.printf("사람[이름 : %s, 나이 : %d, 학번: %d]\n", super.getName(), super.getAge(), stuNum);
   }
 }
 
