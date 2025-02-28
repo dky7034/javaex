@@ -5,6 +5,9 @@ public class ForeignStudent {
   private String nationality;
 
   // 생성자
+  public ForeignStudent(String nationality) {
+    this.nationality = nationality;
+  }
 
   // 메서드
   // getter and setter
