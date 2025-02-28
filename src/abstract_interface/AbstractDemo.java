@@ -6,6 +6,7 @@ public class AbstractDemo {
   }
 }
 
+// 추상 클래스 - 다른 클래스를 만들 때 도움을 줄 목적으로 만드는 클래스
 abstract class Shape {
   // 필드
   double pi = 3.14;
@@ -16,5 +17,4 @@ abstract class Shape {
   }
   // 추상 메서드
   abstract void draw();
-
 }
