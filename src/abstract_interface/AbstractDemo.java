@@ -5,7 +5,7 @@ public class AbstractDemo {
 //    Shape shape = new Shape() {}
     Circle c = new Circle();
     c.draw();
-    c.findArea()
+    c.findArea();
   }
 }
 
