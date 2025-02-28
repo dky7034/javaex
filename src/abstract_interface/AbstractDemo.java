@@ -6,7 +6,7 @@ public class AbstractDemo {
     Circle c = new Circle();
     c.draw();
     c.radius = 1;
-    c.findArea();
+    System.out.println(c.findArea());
   }
 }
 
