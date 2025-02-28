@@ -8,9 +8,11 @@ public class AbstractDemo {
 
 abstract class Shape {
   // 필드
-
+  double pi = 3.14;
   // 생성자
-
+  public double findArea() {
+    
+  }
   // 메서드
   
 }
