@@ -12,6 +12,7 @@ public class PhoneDemo {
         telePhone.autoAnswering();
       } else if (phones[i] instanceof SmartPhone) {
         SmartPhone smartPhone = (SmartPhone) phones[i];
+        smartPhone.playGame();
       }
     }
     
