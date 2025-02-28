@@ -65,3 +65,5 @@ class Triangle extends Shape {
     System.out.println("삼각형을 그리다.");
   }
 }
+
+// 추상 클래스 test
