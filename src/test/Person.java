@@ -56,10 +56,9 @@ class Student extends Person {
   }
 
   // 다른 메서드
-
   @Override
   void show() {
-    
+
   }
 }
 
