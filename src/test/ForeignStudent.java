@@ -1,5 +1,5 @@
 package test;
 
 public class ForeignStudent {
-  private String 
+  private String nationality;
 }
