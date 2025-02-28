@@ -36,7 +36,7 @@ public class Account {
   public String getAccountOwner() {
     return accountOwner;
   }
-  
+
   // 메서드
   // 입금 기능 추가
   void deposit(int money) {
@@ -51,5 +51,12 @@ public class Account {
     } else {
       this.balance -= money;
     }
+  }
+
+  // toString
+
+  @Override
+  public String toString() {
+    return ;
   }
 }
