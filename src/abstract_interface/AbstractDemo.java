@@ -22,6 +22,8 @@ public class AbstractDemo {
     ExtendsTestAbstract childObj = (ExtendsTestAbstract) testAbstract;
     int numSub1 = childObj.numSub;
     String strSub1 = childObj.strSub;
+    System.out.println("numSub1 = " + numSub1);
+    System.out.println("strSub1 = " + strSub1);
   }
 }
 
