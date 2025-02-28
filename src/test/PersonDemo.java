@@ -5,6 +5,6 @@ public class PersonDemo {
     Person[] people = new Person[3];
     people[0] = new Person("길동이", 22);
     people[0] = new Student("황진이", 23, 100);
-    people[0] = new ForeignStudent("Amy");
+    people[0] = new ForeignStudent("Amy", 30);
   }
 }
