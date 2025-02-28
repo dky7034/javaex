@@ -67,11 +67,7 @@ class MovablePoint extends Point {
     this.ySpeed = ySpeed;
   }
 
-  // 다른 메서드
-  
   // toString() override
-
-
   @Override
   public String toString() {
     return "MovablePoint{" +
