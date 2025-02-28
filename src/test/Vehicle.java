@@ -5,6 +5,11 @@ public class Vehicle {
   String color;
   int speed;
   // 생성자
+  public Vehicle(String color, int speed) {
+    this.color = color;
+    this.speed = speed;
+  }
+
   // getter and setter
   // 메서드
 }
