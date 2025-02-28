@@ -26,5 +26,7 @@ public class Person {
     this.age = age;
   }
   // 다른 메서드
-
+  void shoe() {
+    
+  }
 }
