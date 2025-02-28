@@ -16,7 +16,7 @@ public class Circle {
 }
 
 class ColorCircle extends Circle {
-
+  int radius;
   // 생성자
   public ColorCircle(int radius) {
     super(radius);
