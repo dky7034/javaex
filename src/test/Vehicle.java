@@ -5,7 +5,7 @@ public class Vehicle {
   // 생성자
   // getter and setter
   // 메서드
-
+  
 }
 
 class Car {}
