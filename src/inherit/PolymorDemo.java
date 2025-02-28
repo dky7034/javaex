@@ -8,7 +8,8 @@ public class PolymorDemo {
     vehicles[2] = new SportsCar(); // 업캐스팅
 
     for (Vehicle v : vehicles) {
-      
+      v.whoami();
+      v.move();
     }
   }
 }
