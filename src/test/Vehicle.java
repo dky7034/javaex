@@ -1,8 +1,6 @@
 package test;
 
-public clas
-
-class Vehicle {
+public class Vehicle {
 
 }
 
