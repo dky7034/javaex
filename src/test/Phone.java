@@ -13,7 +13,7 @@ public class Phone {
 
 class TelePhone extends Phone {
   // 필드
-
+  private String when;
   // 생성자
 
   // getter and setter
