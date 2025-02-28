@@ -31,7 +31,10 @@ class Car extends Vehicle {
   // 메서드
   @Override
   void show() {
-
+    System.out.println("color = " + color);
+    System.out.println("speed = " + speed);
+    System.out.println("displacement = " + displacement);
+    System.out.println("gears = " + gears);
   }
 }
 
