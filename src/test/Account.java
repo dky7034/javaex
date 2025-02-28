@@ -13,7 +13,7 @@ public class Account {
     return balance;
   }
   public void setBalance(int balance) {
-    if (balance < 0 || balance > 1000000) {
+    if (balance < MIN_BALANCE || balance > MAX_BALANCE) {
       System.out.println("올바른 금액이 아닙니다.");
     } else {
       this.balance = balance;
