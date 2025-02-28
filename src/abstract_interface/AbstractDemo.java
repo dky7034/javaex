@@ -13,6 +13,7 @@ public class AbstractDemo {
     String stringParent = testAbstract.stringParent;
     System.out.println("numParent = " + numParent);
     System.out.println("stringParent = " + stringParent);
+    System.out.println(testAbstract);
 
     int numSub = ((ExtendsTestAbstract) testAbstract).numSub;
     String strSub = ((ExtendsTestAbstract) testAbstract).strSub;
