@@ -16,8 +16,6 @@ public class Circle {
 }
 
 class ColorCircle extends Circle {
-  // 필드
-  int radius;
 
   // 생성자
   public ColorCircle(int radius) {
