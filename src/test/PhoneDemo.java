@@ -7,7 +7,7 @@ public class PhoneDemo {
         new TelePhone("길동이", "내일"),
         new SmartPhone("민국이", "갤러그")
     };
-    
+
     for (Phone p : phones) {
       if (p instanceof SmartPhone) {
         SmartPhone smartPhone = (SmartPhone) p;
