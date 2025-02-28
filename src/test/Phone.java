@@ -70,7 +70,6 @@ class SmartPhone extends Phone {
   }
 
   // toString
-
   @Override
   public String toString() {
     return "SmartPhone{" +
