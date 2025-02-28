@@ -13,6 +13,7 @@ public class PolymorDemo {
       v.whoami();
       v.move();
       count++;
+      System.out.println("==========");
     }
   }
 }
