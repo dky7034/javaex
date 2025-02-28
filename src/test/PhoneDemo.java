@@ -21,7 +21,6 @@ public class PhoneDemo {
       if (p instanceof SmartPhone) {
         SmartPhone smartPhone = (SmartPhone) p;
         smartPhone.playGame();
-
       } else if (p instanceof TelePhone) {
         TelePhone telePhone = (TelePhone) p;
         telePhone.autoAnswering();
