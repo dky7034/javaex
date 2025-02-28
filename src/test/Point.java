@@ -43,13 +43,14 @@ public class Point {
 
 class MovablePoint extends Point {
   // 필드
-
+  private int xSpeed, ySpeed;
   // 생성자
   public MovablePoint() {
   }
 
   // 메서드
   // getter and setter
+
 
   // 다른 메서드
 
