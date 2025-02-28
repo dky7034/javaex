@@ -19,6 +19,8 @@ public class Point {
   public void setY(int y) {
     this.y = y;
   }
+  // 다른 메서드
+  void 
 
   // toString() override
   @Override
