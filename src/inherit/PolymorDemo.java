@@ -12,6 +12,7 @@ public class PolymorDemo {
       System.out.printf("인덱스 %d번 출력: ", count);
       v.whoami();
       v.move();
+      count++;
     }
   }
 }
