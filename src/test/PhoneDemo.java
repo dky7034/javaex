@@ -20,7 +20,8 @@ public class PhoneDemo {
       if (p instanceof Phone) {
         p.talk();
       } else if (p instanceof TelePhone) {
-        autoAnswering();
+        TelePhone telePhone = (TelePhone) p;
+        telePhone.autoAnswering();
       }
     }
   }
