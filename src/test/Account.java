@@ -2,7 +2,7 @@ package test;
 
 public class Account {
   // 상수
-  MIN_
+  
   // 필드
   private int balance;
   // 생성자
