@@ -18,8 +18,8 @@ public class Vehicle {
 
 class Car {
   // 필드
-  int displacement;
-  int gears;
+  int displacement; // 자동차 배기량
+  int gears; // 자동차 기어 단수
   // 생성자
 
   // getter and setter
