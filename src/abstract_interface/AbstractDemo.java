@@ -54,6 +54,6 @@ class Triangle extends Shape {
 
   @Override
   void draw() {
-
+    System.out.println("삼각형을 그리다.");
   }
 }
