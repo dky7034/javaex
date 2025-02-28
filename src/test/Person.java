@@ -65,8 +65,8 @@ class ForeignStudent extends Person {
   private String nationality;
 
   // 생성자
-  public ForeignStudent(String nationality) {
-    super();
+  public ForeignStudent(String name, int age, String nationality) {
+    super(String name, int age);
     this.nationality = nationality;
   }
 
