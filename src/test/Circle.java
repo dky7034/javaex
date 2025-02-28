@@ -6,6 +6,7 @@ public class Circle {
 
   // 생성자
   public Circle(int radius) {
+    
   }
 
   // 메서드
