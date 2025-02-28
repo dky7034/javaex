@@ -12,8 +12,7 @@ public class Account {
   final static int MAX_BALANCE = 1_000_000;
 
   // 생성자
-  public Account(int balance, String accountNo, String accountOwner) {
-    this.balance = balance;
+  public Account(String accountNo, String accountOwner) {
     this.accountNo = accountNo;
     this.accountOwner = accountOwner;
   }
