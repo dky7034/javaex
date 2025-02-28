@@ -10,7 +10,6 @@ public class AbstractDemo {
 abstract class Shape {
   // 필드
   double pi = 3.14;
-
   // 메서드
   public double findArea() {
     return 0.0;
@@ -31,6 +30,6 @@ class Rectangle extends Shape {
   // 추상메서드 오버라이드
   @Override
   void draw() {
-    
+
   }
 }
