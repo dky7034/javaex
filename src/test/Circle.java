@@ -15,5 +15,7 @@ public class Circle {
   }
 }
 
-class ColorCircle() {}
+class ColorCircle() {
+
+}
 
