@@ -84,6 +84,6 @@ abstract class TestAbstract {
 }
 class extendsTestAbstract extends TestAbstract {
   int numSub = 1;
-  String strSub;
+  String strSub = "strSub";
 }
 
