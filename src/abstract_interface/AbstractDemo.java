@@ -79,6 +79,6 @@ abstract class TestAbstract {
   String stringParent;
 }
 class extendsTestAbstract extends TestAbstract {
-  int
+  int num
 }
 
