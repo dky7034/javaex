@@ -37,7 +37,7 @@ public class Account {
 
   // 출금 기능 추가
   void withdraw(int money) {
-    if () {
+    if (balance < money) {
     }
     this.balance -= money;
   }
