@@ -6,7 +6,7 @@ public class AbstractDemo {
     Circle c = new Circle();
     c.draw();
     c.radius = 1;
-    System.out.println(c.findArea());
+    System.out.println("원의 넓이: " + c.findArea());
   }
 }
 
