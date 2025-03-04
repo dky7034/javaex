@@ -1,10 +1,13 @@
 package test;
 
+import enumType.People;
+
 public class PersonDemo {
   public static void main(String[] args) {
     Person[] people = new Person[3];
     people[0] = new Person(10);
-    people[1] = new Person(20)
+    people[1] = new Person(20);
+    People[2] = new Person(17);
   }
 
 
