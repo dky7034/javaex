@@ -27,7 +27,9 @@ class Line implements Comparable {
   public int compareTo(Object o) {
     if (o instanceof Line) {
       if (((Line) o).length == this.length) {
-
+        return 0;
+      } else if (((Line) o).length > this.length) {
+        
       }
     }
 
