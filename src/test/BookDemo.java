@@ -19,6 +19,6 @@ class Book {
     this.price = price;
   }
 
-  // 메서드 (Arrays.sort(books)
+  // 메서드 (Arrays.sort(books))
 
 }
