@@ -9,5 +9,6 @@ public interface Vehicle {
 class Car implements Vehicle {
   @Override
   public void move() {
+    
   }
 }
