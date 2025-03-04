@@ -18,6 +18,11 @@ class MyClass implements abstract_interface.YourInterface {
   }
 
   @Override
+  public void myNameIs() {
+    
+  }
+
+  @Override
   public void sayHello2() {
 
   }
