@@ -23,4 +23,4 @@ public class ParentDemo {
     }
 
   } // end of main method
-}
+} // end of class
