@@ -12,10 +12,9 @@ class Book {
 
   // 생성자
   public Book(int price) {
-    
+    this.price = price;
   }
 
   // 메서드
-  void
 
 }
