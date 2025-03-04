@@ -23,6 +23,7 @@ class Book implements Comparable<Book> {
 
   @Override
   public int compareTo(Book b) {
+    return Integer.compare(this.price, b.price)
     return 0;
   }
 }
