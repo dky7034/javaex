@@ -1,4 +1,4 @@
 package abstract_interface;
 
-public class RemoteControllable {
+public Interface RemoteControllable {
 }
