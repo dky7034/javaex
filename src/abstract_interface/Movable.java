@@ -10,10 +10,10 @@ class Car implements Movable {
   @Override
   public void move(int x) {
     pos += x;
-    System.out.println("자동차는 움직인다.");
+
   }
 
   public void show() {
-
+    System.out.println("자동차는 움직인다.");
   }
 }
