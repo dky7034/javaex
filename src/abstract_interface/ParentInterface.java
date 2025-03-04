@@ -1,6 +1,6 @@
 package abstract_interface;
 
-public class ParentInterface {
+public interface ParentInterface {
   void method1();
   interface OnlyOnce {}
 }
