@@ -24,7 +24,7 @@ class Line implements Comparable {
   }
 
   @Override
-  public int compareTo(Line l) {
+  public int compareTo(Object o) {
     return 0;
   }
 }
