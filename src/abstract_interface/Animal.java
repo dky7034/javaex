@@ -13,5 +13,8 @@ class Dog implements Animal {
 }
 
 class Cuckoo implements Animal {
-  
+  @Override
+  public void sound() {
+    
+  }
 }
