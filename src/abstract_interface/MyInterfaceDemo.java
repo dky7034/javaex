@@ -12,6 +12,7 @@ public class MyInterfaceDemo extends MyClass {
 
     MyClass2 m2 = new MyClass2();
     m2.sayHello();
+    m2.sayHello2();
   }
 
 }
