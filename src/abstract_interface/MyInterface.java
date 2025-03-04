@@ -9,4 +9,4 @@ public interface MyInterface {
 }
 
 // 인터페이스는 인터페이스끼리 상속
-
+interface YourInterface extends MyInterface
