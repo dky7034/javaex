@@ -30,3 +30,7 @@ class MyClass implements YourInterface {
 
   }
 }
+
+class MyClass2 implements MyInterfaceDemo {
+  
+}
