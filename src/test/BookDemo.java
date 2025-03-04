@@ -3,7 +3,9 @@ package test;
 public class BookDemo {
   public static void main(String[] args) {
     Book[] books = new Book[3];
-    books[i]
+    books[0] = new Book(15000);
+    books[1] = new Book(50000);
+    books[2] = new Book(20000);
   }
 }
 
