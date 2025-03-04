@@ -22,5 +22,4 @@ class NewClass implements MyInterface {
     System.out.println("my name is newClass");
   }
   
-
 }
