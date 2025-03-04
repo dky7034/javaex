@@ -15,6 +15,5 @@ public class AnonymousDemo {
   public static void main(String[] args) {
     AnonymousDemo a = new AnonymousDemo();
     a.b.move();
-    a.b.sound();
   }
 }
