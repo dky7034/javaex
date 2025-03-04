@@ -6,6 +6,8 @@ public interface Animal {
 }
 
 class Dog implements Animal {
-  
+  @Override
+  public void sound() {
 
+  }
 }
