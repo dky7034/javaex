@@ -17,6 +17,6 @@ public class NoteBook extends Computer implements Portable {
 
   @Override
   public void repair() {
-    super.repair();
+    System.out.println("노트북을 수리한다.");
   }
 }
