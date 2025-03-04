@@ -8,7 +8,7 @@ public class LocalAnonymousDemo {
         System.out.println("독수리가 난다.");
       }
     };
-    
+
 
   }
 }

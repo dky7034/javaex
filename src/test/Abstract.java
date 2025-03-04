@@ -1,4 +1,6 @@
 package test;
 
-public class Abstract {
+public abstract class Abstract {
+  public int i;
+  public abstract void show();
 }
