@@ -11,7 +11,7 @@ class Person implements Comparable<Person> {
   int weight;
 
   @Override
-  public int compareTo(Person o) {
+  public int compareTo <Person>(Person o) {
     return 0;
   }
 }
