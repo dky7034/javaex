@@ -6,6 +6,7 @@ public class Line {
     B b = new B();
     if (a.compareTo(b) == 0) {
       System.out.println("두 객체가 동일합니다.");
+    } else if (a.compareTo(b) > 0) {
     }
   }
 
