@@ -2,7 +2,7 @@ package test;
 
 public class BookDemo {
   public static void main(String[] args) {
-    
+
   }
 }
 
@@ -14,6 +14,6 @@ class Book {
   public Book() {}
 
   // 메서드
-
+  
 
 }
