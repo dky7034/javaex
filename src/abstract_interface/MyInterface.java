@@ -12,4 +12,5 @@ public interface MyInterface {
 interface YourInterface extends MyInterface {
   int max = 100;
 
+  void sayHello2();
 }
