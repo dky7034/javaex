@@ -8,6 +8,7 @@ public class MyInterfaceDemo extends MyClass {
     m.sayHello();
     m.sayHello2();
     System.out.println(MyInterface.max);
+    System.out.println(YourInterface.min);
   }
 
 }
