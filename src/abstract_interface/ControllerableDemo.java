@@ -16,7 +16,10 @@ public class ControllerableDemo {
     tv.repair();
 
     Controllable[] controllables = {
+        new TV(),
+        new Computer(),
+        new NoteBook()
+    };
 
-    }
   }
 }
