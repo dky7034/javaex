@@ -19,6 +19,6 @@ public class ParentDemo {
       public void method1() {
 
       }
-    };
+    }
   }
 }
