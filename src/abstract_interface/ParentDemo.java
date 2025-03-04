@@ -18,7 +18,7 @@ public class ParentDemo {
       // ParentInterface 를 구현한 클래스 안에 있는 메서드 - 오버라이딩
       @Override
       public void method1() {
-
+        System.out.println("한 번만 호출됩니다.");
       }
     }
 
