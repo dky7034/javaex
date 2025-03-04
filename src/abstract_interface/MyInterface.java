@@ -34,11 +34,11 @@ class MyClass implements YourInterface {
 class MyClass2 implements MyInterfaceDemo {
   @Override
   public void sayHello() {
-    super.sayHello();
+
   }
 
   @Override
   public void sayHello2() {
-    super.sayHello2();
+
   }
 }
