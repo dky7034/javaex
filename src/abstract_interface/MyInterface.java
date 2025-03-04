@@ -13,3 +13,8 @@ interface YourInterface extends MyInterface {
   int min = 0;
   void sayHello2();
 }
+
+// 클래스는 인터페이스를 구현
+class MyClass {
+  
+}
