@@ -20,8 +20,8 @@ public class ControllerableDemo {
         new Computer(),
         new NoteBook()
     };
+    System.out.println("=========================");
     for (Controllable controllable : controllables) {
-      System.out.println("=========================");
       controllable.turnOn();
       controllable.turnOff();
       controllable.repair();
