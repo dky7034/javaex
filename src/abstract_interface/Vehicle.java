@@ -8,6 +8,6 @@ public interface Vehicle {
 class Car implements Vehicle {
   @Override
   public void move() {
-
+    System.out.println("자동차는 움직인다.");
   }
 }
