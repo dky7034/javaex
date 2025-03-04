@@ -10,6 +10,7 @@ public class PersonDemo {
     for (int i = 0; i < people.length - 1; i++) {
       if (people[i].compareTo(people[i + 1]) > 0) {
         Person temp = people[i];
+        people[i] = people[i + 1];
       }
     }
 
