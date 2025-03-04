@@ -1,7 +1,8 @@
 package test;
 
-public class BookDemo {
+public class PersonDemo {
 
 }
 
-class 
+class Person implements Comparable<Person> {
+}
