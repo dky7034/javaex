@@ -1,7 +1,9 @@
 package abstract_interface;
 
 /**
- * 
+ * @implSpec 
+ * @param
+ *
  */
 public interface Controllable {
   // 필수 기능 - abstract (반드시 포함하도록)
