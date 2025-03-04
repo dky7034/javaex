@@ -6,6 +6,6 @@ public interface MyInterface {
   // 추상메서드
   public abstract void sayHello();
 
-  public abstract void sayMyMane() {
+  public abstract void sayMyNane() {
   }
 }
