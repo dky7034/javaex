@@ -17,6 +17,6 @@ class NewClass implements MyInterface {
 
   @Override
   public void myNameIs() {
-
+    System.out.println("my name is newClass");
   }
 }
