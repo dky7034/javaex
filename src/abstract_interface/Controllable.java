@@ -16,7 +16,7 @@ public interface Controllable {
   }
 
   // 인터페이스 내부에서만 사용하고 구현이나 상속의 대상이 아닌 경우 - private
-  private void printInformation(String informatino) {
+  private void printInformation(String information) {
     System.out.println();
   }
 
