@@ -8,5 +8,7 @@ public class LocalClassDemo {
         System.out.println("독수리가 난다.");
       }
     }
+
+    Bird b = new Eagle();
   }
 }
