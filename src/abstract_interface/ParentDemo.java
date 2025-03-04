@@ -9,5 +9,6 @@ public class ParentDemo {
         System.out.println("한 번만 호출됩니다.");
       }
     };
+    p.method1();
   }
 }
