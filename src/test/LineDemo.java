@@ -26,7 +26,9 @@ class Line implements Comparable {
   @Override
   public int compareTo(Object o) {
     if (o instanceof Line) {
-      ((Line) o).length
+      if (((Line) o).length > this.length) {
+        
+      }
     }
 
   }
