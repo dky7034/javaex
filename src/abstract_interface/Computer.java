@@ -1,6 +1,6 @@
 package abstract_interface;
 
-public class ComputeController implements Controllable {
+public class Computer implements Controllable {
   @Override
   public void turnOn() {
     System.out.println("컴퓨터를 켜다.");
