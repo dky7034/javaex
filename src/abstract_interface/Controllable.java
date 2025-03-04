@@ -5,11 +5,11 @@ public interface Controllable {
   void turnOn();
   void turnOff();
 
-  // 기능이 구현되어 있는 경우 - default
+  // 기능이 구현되어 있는 경우 - default (오버라이딩 가능)
   default void repair() {
     System.out.println("전자제품을 수리한다.");
   }
 
-  // 오버라이딩 대상이 아닌 경우 - 
+  // 오버라이딩 대상이 아닌 경우 -
 
 }
