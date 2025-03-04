@@ -5,6 +5,7 @@ public interface Animal {
   void sound();
 }
 
-class Dog {
+class Dog implements Animal {
   
+
 }
