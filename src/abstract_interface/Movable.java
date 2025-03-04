@@ -2,7 +2,7 @@ package abstract_interface;
 
 public interface Movable {
   // 반드시 가져야 하는 기능
-  void move();
+  void move(int x);
 }
 
 class Car implements Movable {
