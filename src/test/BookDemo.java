@@ -20,8 +20,8 @@ class Book {
   }
 
   // 메서드 (Arrays.sort(books))
-  void sortBooks(Book b) {
-    
+  void sortBooks(Book[] b) {
+
   }
 
 }
