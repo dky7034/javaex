@@ -16,21 +16,20 @@ public class PersonDemo {
   }
 }
 
-  class Person implements Comparable<Person> {
-    String name;
-    int age;
-    int height;
-    int weight;
+class Person implements Comparable<Person> {
+  String name;
+  int age;
+  int height;
+  int weight;
 
-    public Person(String name, int age) {
-      this.name = name;
-      this.age = age;
-    }
+  public Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
 
 
-    @Override
-    public int compareTo(Person p) {
-      return (Integer.compare(this.age, p.age));
-    }
+  @Override
+  public int compareTo(Person p) {
+    return (Integer.compare(this.age, p.age));
   }
 }
