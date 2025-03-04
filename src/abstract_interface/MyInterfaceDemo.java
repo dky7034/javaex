@@ -1,4 +1,5 @@
 package abstract_interface;
 
-public class MyInterfaceDemo {
+public class MyInterfaceDemo extends MyClass {
+  
 }
