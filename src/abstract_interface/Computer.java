@@ -1,4 +1,5 @@
 package abstract_interface;
 
-public class Computer implements {
+public class Computer extends ComputeController {
+  
 }
