@@ -14,5 +14,6 @@ class Book {
   public Book() {}
 
   // 메서드
+  
 
 }
