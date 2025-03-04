@@ -6,10 +6,17 @@ public interface MyInterface {
   // 추상메서드
   public abstract void sayHello();
 
-  public abstract void myNameIs() {
-  }
+  public abstract void myNameIs();
 }
 
 class NewClass implements MyInterface {
-  
+  @Override
+  public void sayHello() {
+
+  }
+
+  @Override
+  public void myNameIs() {
+
+  }
 }
