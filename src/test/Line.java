@@ -21,10 +21,3 @@ class A implements Comparable {
     return 0;
   }
 }
-
-class B implements Comparable {
-  @Override
-  public int compareTo(Object o) {
-    return 0;
-  }
-}
