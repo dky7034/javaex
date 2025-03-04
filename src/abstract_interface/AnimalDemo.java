@@ -6,5 +6,9 @@ public class AnimalDemo {
         new Dog(),
         new Cuckoo()
     };
+
+    for (Animal animal : animals) {
+      animal.sound();
+    }
   }
 }
