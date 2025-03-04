@@ -1,8 +1,11 @@
 package abstract_interface;
 
 public class MyInterfaceDemo extends MyClass {
-  MyClass m = new MyClass();
-  
+  public static void main(String[] args) {
+    MyClass m = new MyClass();
+  }
+
+
 
 
 }
