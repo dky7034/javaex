@@ -4,13 +4,11 @@ public class LineDemo {
   public static void main(String[] args) {
     Line l1 = new Line(130);
     Line l2 = new Line(90);
-    if (l1.compareTo(l2) == -999) {
-      System.out.println("비교할 수 없습니다.");
-    } else if (l1.compareTo(l2) == 0) {
+    if (l1.compareTo(l2) == 0) {
       System.out.println("두 라인의 길이가 같습니다.");
     } else if (l1.compareTo(l2) > 0) {
       System.out.println("l1 라인이 l2 라인보다 깁니다.");
-    } else if (l1.compareTo(l2) < 0) {
+    } else {
       System.out.println("l2 라인이 l1 라인보다 깁니다.");
     }
   }
