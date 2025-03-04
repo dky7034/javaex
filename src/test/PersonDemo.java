@@ -8,7 +8,6 @@ public class PersonDemo {
     people[2] = new Person(17);
   }
 
-
 }
 
 class Person implements Comparable<Person> {
