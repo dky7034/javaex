@@ -8,10 +8,11 @@ public class Line implements Comparable {
 }
 
 class A implements Comparable {
-  
+
 
 }
 
-class B {
+class B implements Comparable {
+  
 
 }
