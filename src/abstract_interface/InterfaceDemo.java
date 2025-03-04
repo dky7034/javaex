@@ -12,6 +12,11 @@ public class InterfaceDemo {
     remoteController.remoteOn();
     remoteController.remoteOff();
 
+    Computer computer = new Computer();
+    computer.repair();
+    computer.turnOn();
+    computer.turnOff();
+
 
   }
 }
