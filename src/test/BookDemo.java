@@ -1,5 +1,7 @@
 package test;
 
+import java.util.Arrays;
+
 public class BookDemo {
   public static void main(String[] args) {
     Book[] books = new Book[3];
@@ -7,6 +9,9 @@ public class BookDemo {
     books[1] = new Book(50000);
     books[2] = new Book(20000);
 
+    Arrays.sort(books);
+
+    
   }
 }
 
