@@ -5,6 +5,7 @@ public class Concrete extends Abstract {
   int i;
   public Concrete(int i, int i1) {
     super(i);
+    this.i = i1;
   }
   // 생성자
 
