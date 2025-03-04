@@ -6,7 +6,7 @@ public class ParentDemo {
       // Parent Class 를 상속받은 익명 클래스 → 오버라이딩한 메서드
       @Override
       void method1() {
-        super.method1();
+        System.out.println("한 번만 호출됩니다.");
       }
     };
   }
