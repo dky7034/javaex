@@ -16,7 +16,7 @@ public class LineDemo {
   }
 }
 
-class Line implements Comparable {
+class Line implements Comparable<Line> {
   // 필드
   int length;
 
