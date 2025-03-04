@@ -13,5 +13,12 @@ public class ParentDemo {
 
     Parent parent = new Parent();
     parent.method1(); // 부모입니다.
+
+    ParentInterface pi = new ParentInterface() {
+      @Override
+      public void method1() {
+
+      }
+    };
   }
 }
