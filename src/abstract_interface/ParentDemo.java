@@ -10,5 +10,8 @@ public class ParentDemo {
       }
     };
     p.method1();
+
+    Parent parent = new Parent();
+    parent.method1(); // 부모입니다.
   }
 }
