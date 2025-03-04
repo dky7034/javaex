@@ -1,9 +1,12 @@
 package test;
 
 public class PersonDemo {
-  Person[] people = new Person[3];
+  public static void main(String[] args) {
+    Person[] people = new Person[3];
+    people[0] = new Person(10);
+    
+  }
 
-  if (p1.)
 
 }
 
