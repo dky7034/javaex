@@ -7,6 +7,6 @@ public interface Controllable {
 
   // 기능이 구현되어 있는 경우 - default
   default void repair() {
-    System.out.println("전자제품을 수리한다");
+    System.out.println("전자제품을 수리한다.");
   }
 }
