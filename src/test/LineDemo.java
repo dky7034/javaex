@@ -6,9 +6,7 @@ public class LineDemo {
     Line l2 = new Line(20);
     if (l1.length == -999) {
       System.out.println("비교할 수 없습니다.");
-    } else {
-      
-    }else if (l1.compareTo(l2) == 0) {
+    } else if (l1.compareTo(l2) == 0) {
       System.out.println("두 라인의 길이가 같습니다.");
     } else if (l1.compareTo(l2) > 0) {
       System.out.println("l1 라인이 l2 라인보다 깁니다.");
