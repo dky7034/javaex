@@ -14,4 +14,8 @@ public class AnimalDemo {
     makeSound(); // 강아지가 소리를 낸다.
     makeSoune(); // 뻐꾸기가 소리를 낸다.
   }
+
+  static void makeSound(Animal animal) {
+
+  }
 }
