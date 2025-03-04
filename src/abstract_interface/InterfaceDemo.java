@@ -17,5 +17,7 @@ public class InterfaceDemo {
     computer.turnOff();
     computer.repair();
 
+    Controllable.reset();
+
   }
 }
