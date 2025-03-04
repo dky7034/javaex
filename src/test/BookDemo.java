@@ -10,7 +10,6 @@ public class BookDemo {
     books[2] = new Book(20000);
 
     
-
   }
 }
 
