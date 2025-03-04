@@ -15,6 +15,6 @@ interface YourInterface extends MyInterface {
 }
 
 // 클래스는 인터페이스를 구현
-class MyClass {
-  
+class MyClass implements MyInterface{
+
 }
