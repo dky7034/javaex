@@ -18,7 +18,7 @@ interface YourInterface extends MyInterface {
 // 클래스 - 완성된 설계도 → 추상 메서드를 반드시 구현해야 함
 class MyClass implements YourInterface {
   int myClassInt = 1;
-  int yourClass = 2;
+  int yourClassInt = 2;
 
   @Override
   public void sayHello() {
