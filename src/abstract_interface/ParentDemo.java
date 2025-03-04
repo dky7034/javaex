@@ -22,5 +22,7 @@ public class ParentDemo {
       }
     };
 
+    pi.method1();
+
   } // end of main method
 } // end of class
