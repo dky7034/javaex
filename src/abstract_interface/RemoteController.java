@@ -6,12 +6,12 @@ public class RemoteController implements RemoteControllable {
   }
   @Override
   public void remoteOn() {
-    System.out.println("리모컨를 키다");
+    System.out.println("리모컨으로 켜다");
   }
 
   @Override
   public void remoteOff() {
-    System.out.println("리모컨을 끄다");
+    System.out.println("리모컨으로 끄다");
   }
 
   @Override
