@@ -12,7 +12,6 @@ public class LineDemo {
       System.out.println("l2 라인이 l1 라인보다 깁니다.");
     }
   }
-
 }
 
 class Line implements Comparable {
