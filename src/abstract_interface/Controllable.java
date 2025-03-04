@@ -6,4 +6,6 @@ public interface Controllable {
   void turnOff();
 
   // 기능이 구현되어 있는 경우 - default
+  default void repair() {
+  })
 }
