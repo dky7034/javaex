@@ -6,6 +6,10 @@ public class PersonDemo {
     people[0] = new Person(10);
     people[1] = new Person(20);
     people[2] = new Person(17);
+
+    for (Person person : people) {
+      
+    }
   }
 
 }
