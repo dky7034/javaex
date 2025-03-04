@@ -8,11 +8,11 @@ public class ComputeController extends Controllable {
 
   @Override
   public void turnOff() {
-
+    
   }
 
   @Override
   public void repair() {
-    
+
   }
 }
