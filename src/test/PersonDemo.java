@@ -8,8 +8,8 @@ public class PersonDemo {
     people[2] = new Person("손흥민", 21);
 
     for (int i = 0; i < people.length; i++) {
-      if (people[i].compareTo(people[i+1]) == 0) {
-        
+      if (people[i].compareTo(people[i+1]) > 0) {
+
       }
     }
   }
