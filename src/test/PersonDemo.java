@@ -12,6 +12,7 @@ class Person implements Comparable<Person> {
 
   @Override
   public int compareTo(Person p) {
-    return 0;
+    if () {
+    }
   }
 }
