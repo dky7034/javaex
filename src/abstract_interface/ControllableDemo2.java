@@ -10,7 +10,9 @@ public class ControllableDemo2 {
   public static void test(Controllable c) {
     Controllable[] controllables = new Controllable[]{new TV(), new Computer(), new NoteBook()};
     for (Controllable controllable : controllables) {
-
+      controllable.turnOn();
+      controllable.turnOff();
+      controllable.repair();
     }
 
   }
