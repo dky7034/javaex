@@ -4,9 +4,9 @@ public interface ParentInterface {
   void method1();
 }
 
-interface OnlyOnce implements ParentInterface {
+class OnlyOnce implements ParentInterface {
   @Override
   void method1() {
-    
+
   }
 }
