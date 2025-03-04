@@ -6,4 +6,6 @@ public class BookDemo {
   }
 }
 
-class
+class Book {
+  
+}
