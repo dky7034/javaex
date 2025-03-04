@@ -10,4 +10,9 @@ public class TV implements Controllable {
   public void turnOff() {
     System.out.println("TV를 끄다");
   }
+  
+  @Override
+  public void repair() {
+    Controllable.super.repair();
+  }
 }
