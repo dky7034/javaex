@@ -16,7 +16,6 @@ public class MyInterfaceDemo extends MyClass {
 
     NewClass newClass = new NewClass();
     newClass.myNameIs();
-    
   }
 
 }
