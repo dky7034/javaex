@@ -6,5 +6,6 @@ public class InterfaceDemo {
     tv.turnOn();
     tv.turnOff();
     tv.repair();
+    
   }
 }
