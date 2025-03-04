@@ -15,6 +15,7 @@ public class ParentDemo {
     parent.method1(); // 부모입니다.
 
     ParentInterface pi = new ParentInterface() {
+      // ParentInterface 를 구현한 클래스 안에 있는 메서드 - 오버라이딩
       @Override
       public void method1() {
 
