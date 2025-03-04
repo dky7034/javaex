@@ -14,5 +14,10 @@ public class ControllerableDemo {
     tv.turnOff();
     tv.turnOn();
     tv.repair();
+
+    Controllable[] controllables =
+        {
+
+        }
   }
 }
