@@ -10,8 +10,9 @@ public class ControllerableDemo {
     n.turnOn();
     n.turnOff();
     n.repair();
-    Controllable tv = new Controllable();
+    Controllable tv = new TV();
     tv.turnOff();
     tv.turnOn();
+
   }
 }
