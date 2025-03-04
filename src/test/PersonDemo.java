@@ -9,7 +9,7 @@ public class PersonDemo {
 
     for (int i = 0; i < people.length; i++) {
       if (people[i].compareTo(people[i+1]) == 0) {
-        System.out.println("i = " + i);
+
       }
     }
   }
@@ -22,7 +22,7 @@ class Person implements Comparable<Person> {
   int height;
   int weight;
 
-  public Person(int age) {
+  public Person(String name, int age) {
     this.age = age;
   }
 
