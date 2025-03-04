@@ -11,14 +11,20 @@ public class abc implements C {
 interface A {
   int value = 10;
   default void showMessage() {
-    
+    System.out.println("A 인터페이스의 메시지");
   }
 }
 
 interface B {
   int value = 20;
+  default void showMessage() {
+    System.out.println("B 인터페이스의 메시지");
+  }
 }
 
 interface C extends A, B {
-
+  @Override
+  default void showMessage() {
+    A.super.showMessage();
+  }
 }
