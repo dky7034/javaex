@@ -10,6 +10,7 @@ public class InterfaceDemo {
     RemoteController remoteController = new RemoteController();
     remoteController.remoteOn();
     remoteController.remoteOff();
+    remoteController.remoteOff();
 
     Computer computer = new Computer();
     computer.turnOn();
