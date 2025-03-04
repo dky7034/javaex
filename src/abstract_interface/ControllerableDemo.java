@@ -15,9 +15,8 @@ public class ControllerableDemo {
     tv.turnOn();
     tv.repair();
 
-    Controllable[] controllables =
-        {
+    Controllable[] controllables = {
 
-        }
+    }
   }
 }
