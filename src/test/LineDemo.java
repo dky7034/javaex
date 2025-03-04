@@ -9,7 +9,7 @@ public class LineDemo {
     } else if (l1.compareTo(l2) > 0) {
       System.out.println("l1 라인이 l2 라인보다 깁니다.");
     } else {
-      System.out.println("b 가 a 객체보다 더 큽니다.");
+      System.out.println("l2 라인이 l1 라인보다 깁니다.");
     }
   }
 
