@@ -11,5 +11,9 @@ public class ComputerDemo {
     NoteBook nb = new NoteBook();
     nb.turnOn();
     nb.turnOff();
+    nb.inMyBag();
+    nb.repair();
+    Controllable.reset();
+    
   }
 }
