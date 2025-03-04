@@ -10,10 +10,15 @@ public class abc implements C {
 
 interface A {
   int value = 10;
+  default void showMessage() {
+    
+  }
 }
 
 interface B {
   int value = 20;
 }
 
-interface C extends A, B {}
+interface C extends A, B {
+
+}
