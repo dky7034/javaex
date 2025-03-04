@@ -26,8 +26,8 @@ class Line implements Comparable {
   @Override
   public int compareTo(Object o) {
     if (o instanceof Line) {
-      
+
     }
-    return 0;
+
   }
 }
