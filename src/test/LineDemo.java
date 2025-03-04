@@ -27,6 +27,6 @@ class Line implements Comparable<Line> {
 
   @Override
   public int compareTo(Line other) {
-
+    return Integer.compare(this.length, other.length);
   }
 }
