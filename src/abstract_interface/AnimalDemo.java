@@ -10,5 +10,7 @@ public class AnimalDemo {
     for (Animal animal : animals) {
       animal.sound();
     }
+
+    makeSoung();
   }
 }
