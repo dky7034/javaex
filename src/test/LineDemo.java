@@ -26,16 +26,7 @@ class Line implements Comparable<Line> {
   }
 
   @Override
-  public int compareTo(Object o) {
-    if (o instanceof Line) {
-      if (((Line) o).length == this.length) {
-        return 0;
-      } else if (((Line) o).length > this.length) {
-        return 1;
-      } else {
-        return -1;
-      }
-    } else
-      return -999;
+  public int compareTo(Line other) {
+
   }
 }
