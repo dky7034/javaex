@@ -15,6 +15,8 @@ public class MyInterfaceDemo extends MyClass {
     m2.sayHello2();
 
     NewClass newClass = new NewClass();
+    newClass.myNameIs();
+    
   }
 
 }
