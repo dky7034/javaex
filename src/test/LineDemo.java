@@ -29,7 +29,9 @@ class Line implements Comparable {
       if (((Line) o).length == this.length) {
         return 0;
       } else if (((Line) o).length > this.length) {
-        
+        return 1;
+      } else {
+        return -1;
       }
     }
 
