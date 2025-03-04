@@ -2,6 +2,7 @@ package test;
 
 public class PersonDemo {
   Person p1 = new Person(10);
+  Person p2 = new Person(20);
 
 }
 
