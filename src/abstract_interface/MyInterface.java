@@ -19,7 +19,7 @@ interface YourInterface extends MyInterface {
 class MyClass implements YourInterface {
   @Override
   public void sayHello() {
-
+    
   }
 
   @Override
