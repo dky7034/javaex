@@ -2,13 +2,9 @@ package test;
 
 public class Concrete extends Abstract {
   // 필드
-  int a;
-  int b;
+  int i;
   // 생성자
-  public Concrete(int a, int b) {
-    this.a = a;
-    this.b = b;
-  }
+
   // 메서드
   // 부모 메서드 오버라이드
   @Override
