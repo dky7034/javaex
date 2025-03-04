@@ -16,7 +16,6 @@ public class RemoteController implements RemoteControllable {
 
   @Override
   public void turnOn() {
-    System.out.println("TV를 키다");
   }
 
   @Override
