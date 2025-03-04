@@ -11,7 +11,9 @@ class Person implements Comparable<Person> {
   int height;
   int weight;
 
-  public Person() {}
+  public Person(int age) {
+    this.age = age;
+  }
 
 
   @Override
