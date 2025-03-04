@@ -8,6 +8,6 @@ public class ParentDemo {
       void method1() {
         super.method1();
       }
-    }
+    };
   }
 }
