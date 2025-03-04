@@ -21,7 +21,7 @@ public class ControllerableDemo {
         new NoteBook()
     };
     for (Controllable controllable : controllables) {
-      System.out.println(=========================);
+      System.out.println("=========================");
       controllable.turnOn();
       controllable.turnOff();
       controllable.repair();
