@@ -11,7 +11,9 @@ public class BookDemo {
 
     Arrays.sort(books);
 
-    
+    for (Book book : books) {
+      
+    }
   }
 }
 
