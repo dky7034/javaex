@@ -9,3 +9,7 @@ public interface MyInterface {
   public abstract void myNameIs() {
   }
 }
+
+class NewClass implements MyInterface {
+  
+}
