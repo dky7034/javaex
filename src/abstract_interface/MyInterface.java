@@ -7,7 +7,7 @@ public interface MyInterface {
   public abstract void sayHello();
 
   default void myNameIs() {
-    
+    System.out.println("myNameIs newFunction");
   }
 }
 
