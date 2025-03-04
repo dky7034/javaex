@@ -1,7 +1,7 @@
 package test;
 
 public class PersonDemo {
-  Person p = new Person(10);
+  Person p1 = new Person(10);
 
 }
 
