@@ -13,6 +13,6 @@ public class ControllerableDemo {
     Controllable tv = new TV();
     tv.turnOff();
     tv.turnOn();
-
+    tv.repair();
   }
 }
