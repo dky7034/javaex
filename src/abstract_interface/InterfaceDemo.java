@@ -6,7 +6,6 @@ public class InterfaceDemo {
     tv.turnOn();
     tv.turnOff();
     tv.repair();
-    Controllable.reset();
 
     RemoteController remoteController = new RemoteController();
     remoteController.remoteOn();
@@ -16,7 +15,6 @@ public class InterfaceDemo {
     computer.turnOn();
     computer.turnOff();
     computer.repair();
-    Controllable.reset();
 
   }
 }
