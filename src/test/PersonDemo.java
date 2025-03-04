@@ -35,4 +35,12 @@ class Person implements Comparable<Person> {
   public int compareTo(Person p) {
     return (Integer.compare(this.age, p.age));
   }
+
+  @Override
+  public String toString() {
+    return "Person{" +
+        "name='" + name + '\'' +
+        ", age=" + age +
+        '}';
+  }
 }
