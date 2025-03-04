@@ -20,6 +20,6 @@ public class ControllerableDemo {
         new Computer(),
         new NoteBook()
     };
-
+    for (Controllable controllable : controllables)
   }
 }
