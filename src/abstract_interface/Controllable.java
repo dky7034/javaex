@@ -15,4 +15,9 @@ public interface Controllable {
     System.out.println("전자제품을 초기화한다.");
   }
 
+  // 인터페이스 내부에서만 사용하고 구현이나 상속의 대상이 아닌 경우 - private
+  private void printInformation() {
+    
+  }
+
 }
