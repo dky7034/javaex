@@ -1,5 +1,6 @@
 package abstract_interface;
 
-public class NoteBook {
+public class NoteBook extends Computer {
   
+
 }
