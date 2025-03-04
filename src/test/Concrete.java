@@ -3,7 +3,7 @@ package test;
 public class Concrete extends Abstract {
   // 필드
   int i;
-  public Concrete(int i, int j) {
+  public Concrete(int i, int i1) {
     super(i);
   }
   // 생성자
