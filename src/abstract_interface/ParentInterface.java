@@ -6,7 +6,7 @@ public interface ParentInterface {
 
 class OnlyOnce implements ParentInterface {
   @Override
-  void method1() {
-
+  public void method1() {
+    
   }
 }
