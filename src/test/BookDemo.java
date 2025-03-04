@@ -22,6 +22,6 @@ class Book implements Comparable<Book> {
   // 메서드 (Arrays.sort(books))
   @Override
   public int compareTo(Book b) {
-    return Integer.compare(this.price, b.price); // this.price - b.price 
+    return Integer.compare(this.price, b.price); // this.price - b.price → 음수면 -1, 0이면 0, 양수면 1 반환
   }
 }
