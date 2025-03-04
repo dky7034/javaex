@@ -33,6 +33,7 @@ class Line implements Comparable {
       } else {
         return -1;
       }
-    }
+    } else
+      
   }
 }
