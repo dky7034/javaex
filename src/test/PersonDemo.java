@@ -7,7 +7,7 @@ public class PersonDemo {
     people[1] = new Person(20);
     people[2] = new Person(17);
 
-    for (int i = 0; i < people.equals(); i++) {
+    for (int i = 0; i < people.length; i++) {
 
     }
   }
