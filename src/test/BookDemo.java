@@ -20,5 +20,7 @@ class Book {
   }
 
   // 메서드 (Arrays.sort(books))
+  void sortBooks() {
+  }
 
 }
