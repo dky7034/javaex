@@ -12,7 +12,7 @@ public interface MyInterface {
 class NewClass implements MyInterface {
   @Override
   public void sayHello() {
-
+    System.out.println("hello");
   }
 
   @Override
