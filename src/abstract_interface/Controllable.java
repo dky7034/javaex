@@ -1,8 +1,9 @@
 package abstract_interface;
 
 /**
- * @implSpec 
- * @param
+ * @implSpec turnOn - 전자제품의 전원을 켜는 기능으로 반드시 구현되어야 함
+ * @param - none
+ * @return - void
  *
  */
 public interface Controllable {
