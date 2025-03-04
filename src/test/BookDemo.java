@@ -11,7 +11,7 @@ class Book {
   int price;
 
   // 생성자
-  public Book() {}
+  public Book(int price) {}
 
   // 메서드
   void
