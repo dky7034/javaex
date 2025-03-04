@@ -2,7 +2,6 @@ package abstract_interface;
 
 public class Parent {
 
-
 //class OnlyOnce extends Parent {
 //  @Override
 //  void method1() {
