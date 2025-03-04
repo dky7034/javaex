@@ -1,6 +1,7 @@
 package test;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class BookDemo {
   public static void main(String[] args) {
@@ -9,11 +10,11 @@ public class BookDemo {
     books[1] = new Book(50000);
     books[2] = new Book(20000);
 
-    
+
   }
 }
 
-class Book {
+class Book implements Comparator<Book> {
   // 필드
   int price;
 
