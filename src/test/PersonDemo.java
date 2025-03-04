@@ -14,6 +14,7 @@ public class PersonDemo {
     }
 
   }
+}
 
   class Person implements Comparable<Person> {
     String name;
