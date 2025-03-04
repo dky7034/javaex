@@ -11,12 +11,12 @@ public class AnimalDemo {
       animal.sound();
     }
 
-    makeSound(); // 강아지가 소리를 낸다.
-    makeSoune(); // 뻐꾸기가 소리를 낸다.
+    makeSound(new Dog()); // 강아지가 소리를 낸다.
+    makeSoune(new Cuckoo()); // 뻐꾸기가 소리를 낸다.
   }
 
   static void makeSound(Animal animal) {
-    
+
 
   }
 }
