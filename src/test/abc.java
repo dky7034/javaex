@@ -1,6 +1,7 @@
 package test;
 
 public class abc implements C {
+  
 }
 
 interface A {
