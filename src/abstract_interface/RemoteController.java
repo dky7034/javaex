@@ -1,9 +1,6 @@
 package abstract_interface;
 
 public class RemoteController implements RemoteControllable {
-  public static void main(String[] args) {
-
-  }
   @Override
   public void remoteOn() {
     System.out.println("리모컨으로 켜다");
@@ -16,7 +13,7 @@ public class RemoteController implements RemoteControllable {
 
   @Override
   public void turnOn() {
-    
+
   }
 
   @Override
