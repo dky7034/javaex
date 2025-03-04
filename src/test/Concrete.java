@@ -4,6 +4,7 @@ public class Concrete extends Abstract {
   // 필드
   int i = 10;
   // 생성자
+  public Concrete() {}
   // 메서드
   // 부모 메서드 오버라이드
   @Override
