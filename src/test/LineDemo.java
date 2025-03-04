@@ -15,7 +15,14 @@ public class LineDemo {
 }
 
 class Line implements Comparable {
+  // 필드
   int length;
+
+  // 생성자
+  public Line(int length) {
+    this.length = length;
+  }
+
   @Override
   public int compareTo(Object o) {
     return 0;
