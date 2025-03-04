@@ -11,6 +11,7 @@ public class MyInterfaceDemo extends MyClass {
     System.out.println(YourInterface.min);
 
     MyClass2 m2 = new MyClass2();
+    m2.sayHello();
   }
 
 }
