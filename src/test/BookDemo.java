@@ -20,7 +20,6 @@ class Book implements Comparable<Book> {
   }
 
   // 메서드 (Arrays.sort(books))
-
   @Override
   public int compareTo(Book b) {
     return Integer.compare(this.price, b.price);
