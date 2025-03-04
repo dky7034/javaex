@@ -14,7 +14,7 @@ public class BookDemo {
   }
 }
 
-class Book implements Comparator<Book> {
+class Book implements Comparator {
   // 필드
   int price;
 
