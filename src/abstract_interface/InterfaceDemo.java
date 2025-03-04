@@ -7,6 +7,5 @@ public class InterfaceDemo {
     tv.turnOff();
     tv.repair();
     Controllable.reset();
-    
   }
 }
