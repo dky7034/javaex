@@ -6,10 +6,13 @@ public class MemberDemo {
     void move() {
       System.out.println("독수리가 난다.");
     }
-    Eagle e = new Eagle();
+    void sound() {
+      System.out.println("휘익~~~");
+    }
+
   }
   public static void main(String[] args) {
     MemberDemo m = new MemberDemo();
-    m.e.
+
   }
 }
