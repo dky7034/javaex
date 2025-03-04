@@ -5,5 +5,7 @@ public class Parent {
     
   }
 }
-class OnlyOnce extends Parent {}
+
+class OnlyOnce extends Parent {
+}
 
