@@ -9,6 +9,7 @@ class Car implements Movable {
   private int pos = 0;
   @Override
   public void move(int x) {
+    pos += x;
     System.out.println("자동차는 움직인다.");
   }
 
