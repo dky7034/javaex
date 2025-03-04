@@ -11,8 +11,6 @@ public class InterfaceDemo {
     RemoteController remoteController = new RemoteController();
     remoteController.remoteOn();
     remoteController.remoteOff();
-    remoteController.turnOn();
-    remoteController.turnOff();
-
+    
   }
 }
