@@ -16,6 +16,7 @@ public class RemoteController implements RemoteControllable {
 
   @Override
   public void turnOn() {
+    
   }
 
   @Override
