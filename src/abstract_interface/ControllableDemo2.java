@@ -2,7 +2,7 @@ package abstract_interface;
 
 public class ControllableDemo2 {
   public static void main(String[] args) {
-    test();
+    test(new TV());
   }
 
   // 매개변수를 인터페이스로 주고, (tv, computer, notebook 객체를 이용)
