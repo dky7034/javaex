@@ -8,12 +8,12 @@ public class NoteBook extends Computer implements Portable {
 
   @Override
   public void turnOn() {
-    System.out.println("노트북을 켠다.");
+    System.out.println("노트북을 켜다.");
   }
 
   @Override
   public void turnOff() {
-    System.out.println("노트북을 끈다.");
+    System.out.println("노트북을 끄다.");
   }
 
   @Override
