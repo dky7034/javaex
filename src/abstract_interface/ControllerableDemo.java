@@ -23,7 +23,7 @@ public class ControllerableDemo {
     for (Controllable controllable : controllables) {
       controllable.turnOn();
       controllable.turnOff();
-
+      controllable.repair();s
     }
   }
 }
