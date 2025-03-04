@@ -5,6 +5,7 @@ public class MyInterfaceDemo extends MyClass {
     MyClass m = new MyClass();
     System.out.println(m.myClassInt);
     System.out.println(m.yourClassInt);
+    m.sayHello();
   }
 
 }
