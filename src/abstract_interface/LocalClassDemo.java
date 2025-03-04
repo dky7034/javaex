@@ -10,5 +10,6 @@ public class LocalClassDemo {
     }
 
     Bird b = new Eagle();
+    b.move();
   }
 }
