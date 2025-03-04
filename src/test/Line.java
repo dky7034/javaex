@@ -14,7 +14,7 @@ public class Line {
 
 }
 
-class A implements Comparable {
+class Line implements Comparable {
   @Override
   public int compareTo(Object o) {
     return 0;
