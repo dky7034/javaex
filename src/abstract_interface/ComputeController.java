@@ -1,4 +1,5 @@
 package abstract_interface;
 
-public class ComputeController {
+public class ComputeController extends Controllable {
+  
 }

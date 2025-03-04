@@ -1,4 +1,4 @@
 package abstract_interface;
 
-public class Computer {
+public class Computer implements {
 }
