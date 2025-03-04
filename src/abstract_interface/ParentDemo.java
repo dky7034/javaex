@@ -20,7 +20,6 @@ public class ParentDemo {
       public void method1() {
         System.out.println("한 번만 호출됩니다.");
       }
-
     };
 
   } // end of main method
