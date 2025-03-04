@@ -10,5 +10,6 @@ public class MemberDemo {
   }
   public static void main(String[] args) {
     MemberDemo m = new MemberDemo();
+    m.e.
   }
 }
