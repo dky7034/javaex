@@ -10,28 +10,26 @@ public class PersonDemo {
     for (int i = 0; i < people.length; i++) {
       if (people[i].compareTo(people[i + 1]) > 0) {
         people[i + 1] = people[i];
-      } else if (people[i].compareTo(people[i+1]) < 0) {
-        
       }
     }
+
   }
 
-}
+  class Person implements Comparable<Person> {
+    String name;
+    int age;
+    int height;
+    int weight;
 
-class Person implements Comparable<Person> {
-  String name;
-  int age;
-  int height;
-  int weight;
-
-  public Person(String name, int age) {
-    this.name = name;
-    this.age = age;
-  }
+    public Person(String name, int age) {
+      this.name = name;
+      this.age = age;
+    }
 
 
-  @Override
-  public int compareTo(Person p) {
-    return (Integer.compare(this.age, p.age));
+    @Override
+    public int compareTo(Person p) {
+      return (Integer.compare(this.age, p.age));
+    }
   }
 }
