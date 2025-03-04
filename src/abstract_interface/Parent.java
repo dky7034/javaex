@@ -1,4 +1,5 @@
 package abstract_interface;
 
-public class Parent {
-}
+public class Parent {}
+class OnlyOnce extends Parent {}
+
