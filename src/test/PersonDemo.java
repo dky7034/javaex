@@ -13,7 +13,9 @@ public class PersonDemo {
       }
     }
 
-    System.out.println();
+    for (Person person : people) {
+      System.out.println(person);
+    }
 
   }
 }
