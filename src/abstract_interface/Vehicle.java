@@ -10,8 +10,8 @@ class Car implements Vehicle {
   public void move() {
     System.out.println("자동차는 움직인다.");
   }
-
+  
   public void show() {
-    
+
   }
 }
