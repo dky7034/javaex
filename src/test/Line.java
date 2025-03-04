@@ -1,10 +1,7 @@
 package test;
 
-public class Line implements Comparable {
-  @Override
-  public int compareTo(Object o) {
-    o.
-  }
+public class Line {
+  
 }
 
 class A implements Comparable {
@@ -13,6 +10,6 @@ class A implements Comparable {
 }
 
 class B implements Comparable {
-  
+
 
 }
