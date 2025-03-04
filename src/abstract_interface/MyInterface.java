@@ -16,6 +16,13 @@ interface YourInterface extends MyInterface {
 
 // 클래스는 인터페이스를 구현
 class MyClass implements YourInterface {
-  
+  @Override
+  public void sayHello2() {
 
+  }
+
+  @Override
+  public void sayHello() {
+
+  }
 }
