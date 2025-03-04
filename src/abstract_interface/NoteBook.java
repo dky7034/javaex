@@ -12,7 +12,7 @@ public class NoteBook extends Computer implements Portable {
 
   @Override
   public void turnOff() {
-    super.turnOff();
+    System.out.println("노트북을 끈다.");
   }
 
   @Override
