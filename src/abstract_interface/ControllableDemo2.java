@@ -7,7 +7,7 @@ public class ControllableDemo2 {
 
   // 매개변수를 인터페이스로 주고, (tv, computer, notebook 객체를 이용)
   // 형변환과 다형성을 테스트해 보세요.
-  public static void test(Controllable controllable) {
+  public static void test(Controllable c) {
     Controllable[] controllables = new Controllable[]{new TV(), new Computer(), new NoteBook()};
     for (Controllable controllable : controllables) {
 
