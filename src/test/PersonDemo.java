@@ -9,7 +9,7 @@ class Person implements Comparable<Person> {
   int age;
   int height;
   int weight;
-  
+
   @Override
   public int compareTo(Person o) {
     return 0;
