@@ -8,7 +8,7 @@ public class MoveableDemo {
     System.out.println("----------");
 
     Car c = (Car) m;
-    c.move(5);
+    c.move(10);
     c.show();
   }
 }
