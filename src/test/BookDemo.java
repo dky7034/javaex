@@ -12,7 +12,7 @@ public class BookDemo {
     Arrays.sort(books);
 
     for (Book book : books) {
-      
+
     }
   }
 }
@@ -31,4 +31,13 @@ class Book implements Comparable<Book> {
   public int compareTo(Book b) {
     return Integer.compare(this.price, b.price); // this.price - b.price → 음수면 -1, 0이면 0, 양수면 1 반환
   }
+
+  @Override
+  public String toString() {
+    return "Book{" +
+        "price=" + price +
+        '}';
+  }
 }
+
+
