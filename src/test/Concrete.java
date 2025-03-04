@@ -6,7 +6,8 @@ public class Concrete extends Abstract {
   int b;
   // 생성자
   public Concrete(int a, int b) {
-    this.
+    this.a = a;
+    this.b = b;
   }
 
   // 메서드
