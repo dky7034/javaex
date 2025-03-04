@@ -34,6 +34,6 @@ class Line implements Comparable {
         return -1;
       }
     } else
-      
+      return -999;
   }
 }
