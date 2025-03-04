@@ -25,6 +25,6 @@ interface B {
 interface C extends A, B {
   @Override
   default void showMessage() {
-    A.super.showMessage();
+    System.out.println("C 인터페이스에서 충돌 해결");
   }
 }
