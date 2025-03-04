@@ -14,7 +14,7 @@ public class BookDemo {
   }
 }
 
-class Book implements Comparator {
+class Book implements Comparator<Book> {
   // 필드
   int price;
 
@@ -29,7 +29,7 @@ class Book implements Comparator {
   }
 
   @Override
-  public int compare<Book>(Object o1, Object o2) {
+  public int compare<Book> (Object o1, Object o2) {
     return 0;
   }
 }
