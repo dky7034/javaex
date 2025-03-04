@@ -2,7 +2,8 @@ package test;
 
 public class LineDemo {
   public static void main(String[] args) {
-    A a = new A();
+    Line l1 = new Line(10);
+    Line l2 = new Line(20);
     if (a.compareTo(b) == 0) {
       System.out.println("두 객체가 동일합니다.");
     } else if (a.compareTo(b) > 0) {
