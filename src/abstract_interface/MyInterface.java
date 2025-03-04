@@ -39,6 +39,6 @@ class MyClass2 extends MyInterfaceDemo {
 
   @Override
   public void sayHello2() {
-    System.out.println("helo2");
+    System.out.println("hello2");
   }
 }
