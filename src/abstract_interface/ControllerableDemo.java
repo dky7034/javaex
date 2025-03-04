@@ -21,6 +21,7 @@ public class ControllerableDemo {
         new NoteBook()
     };
     for (Controllable controllable : controllables) {
+      
       controllable.turnOn();
       controllable.turnOff();
       controllable.repair();
