@@ -19,7 +19,7 @@ class Concrete extends Abstract {
     super(i);
     this.i = i1;
   }
-  
+
   // 메서드
   // 부모 메서드 오버라이드
   @Override
