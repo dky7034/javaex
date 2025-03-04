@@ -2,10 +2,11 @@ package test;
 
 public class Concrete extends Abstract {
   // 필드
-  int i = 10;
+  int a;
+  int b;
   // 생성자
   public Concrete(int a, int b) {
-    
+    this.
   }
 
   // 메서드
