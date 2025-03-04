@@ -7,10 +7,11 @@ public class Line implements Comparable {
   }
 }
 
-class A {
+class A implements Comparable {
+  
 
 }
 
 class B {
-  
+
 }
