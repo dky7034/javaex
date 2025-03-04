@@ -1,6 +1,6 @@
 package test;
 
-public class Line {
+public class LineDemo {
   public static void main(String[] args) {
     A a = new A();
     if (a.compareTo(b) == 0) {
