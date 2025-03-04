@@ -15,6 +15,7 @@ interface YourInterface extends MyInterface {
 }
 
 // 클래스는 인터페이스를 구현
+// 클래스 - 완성된 설계도 
 class MyClass implements YourInterface {
   @Override
   public void sayHello() {
