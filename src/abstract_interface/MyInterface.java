@@ -6,5 +6,7 @@ public interface MyInterface {
   // 추상메서드
   void sayHello();
 
-  int min = 10;
 }
+
+// 인터페이스는 인터페이스끼리 상속
+
