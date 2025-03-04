@@ -9,4 +9,7 @@ public interface Controllable {
   default void repair() {
     System.out.println("전자제품을 수리한다.");
   }
+
+  // 오버라이딩 대상이 아닌 경우
+  
 }
