@@ -3,6 +3,7 @@ package abstract_interface;
 // 인터페이스는 인터페이스끼리 상속
 public interface YourInterface extends MyInterface {
   int min = 0;
+
   void sayHello2();
 }
 
@@ -38,5 +39,4 @@ class MyClass2 extends MyInterfaceDemo {
   public void sayHello2() {
     System.out.println("hello2");
   }
-}
 }
