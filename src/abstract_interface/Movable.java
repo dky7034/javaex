@@ -10,7 +10,6 @@ class Car implements Movable {
   @Override
   public void move(int x) {
     pos += x;
-    show();
   }
 
   public void show() {
