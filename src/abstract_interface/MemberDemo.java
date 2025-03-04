@@ -1,5 +1,7 @@
 package abstract_interface;
 
 public class MemberDemo {
-  class 
+  class Eagle extends Bird {
+    
+  }
 }
