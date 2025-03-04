@@ -11,3 +11,7 @@ class Dog implements Animal {
     System.out.println("멍멍");
   }
 }
+
+class Cuckoo implements Animal {
+  
+}
