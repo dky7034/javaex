@@ -8,7 +8,8 @@ public class PersonDemo {
     people[2] = new Person(17);
 
     for (Person person : people) {
-      
+      if ()
+
     }
   }
 
