@@ -8,5 +8,5 @@ public class NestedClass {
 
 class Parent {}
 class OnlyOnce extends Parent {
-
+  
 }
