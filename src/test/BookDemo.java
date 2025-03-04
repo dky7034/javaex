@@ -1,7 +1,5 @@
 package test;
 
-import java.util.Comparator;
-
 public class BookDemo {
   public static void main(String[] args) {
     Book[] books = new Book[3];
@@ -22,8 +20,9 @@ class Book implements Comparable<Book> {
   }
 
   // 메서드 (Arrays.sort(books))
+
   @Override
-  public int compare (Object o1, Object o2) {
+  public int compareTo(Book b) {
     return 0;
   }
 }
