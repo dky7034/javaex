@@ -5,7 +5,7 @@ public class Line {
     A a = new A();
     B b = new B();
     if (a.compareTo(b) == 0) {
-
+      System.out.println("");
     }
   }
 
