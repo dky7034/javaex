@@ -6,10 +6,9 @@ public class MemberDemo {
     void move() {
       System.out.println("독수리가 난다.");
     }
-
-    public static void main(String[] args) {
-      MemberDemo m = new MemberDemo();
-    }
-
+    Eagle e = new Eagle();
+  }
+  public static void main(String[] args) {
+    MemberDemo m = new MemberDemo();
   }
 }
