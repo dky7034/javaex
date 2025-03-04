@@ -15,7 +15,7 @@ interface YourInterface extends MyInterface {
 }
 
 // 클래스는 인터페이스를 구현
-// 클래스 - 완성된 설계도 
+// 클래스 - 완성된 설계도 → 추상 메서드를 반드시 구현해야 함
 class MyClass implements YourInterface {
   @Override
   public void sayHello() {
