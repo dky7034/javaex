@@ -9,10 +9,14 @@ public class MemberDemo {
     void sound() {
       System.out.println("휘익~~~");
     }
-
   }
+
+  Eagle e = new Eagle();
+
   public static void main(String[] args) {
     MemberDemo m = new MemberDemo();
+    m.e.move();
+    m.e.sound();
 
   }
 }
