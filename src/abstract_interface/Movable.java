@@ -14,6 +14,6 @@ class Car implements Movable {
   }
 
   public void show() {
-    System.out.println("자동차는 움직인다.");
+    System.out.println("자동차는 " + pos + "m 만큼 이동했습니다.");
   }
 }
