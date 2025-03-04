@@ -11,6 +11,7 @@ public class PersonDemo {
       if (people[i].compareTo(people[i + 1]) > 0) {
         Person temp = people[i];
         people[i] = people[i + 1];
+        people[i + 1] = temp;
       }
     }
 
