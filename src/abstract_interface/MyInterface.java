@@ -5,5 +5,4 @@ public interface MyInterface {
   public static final int max = 10;
   // 추상메서드
   public abstract void sayHello();
-
 }
