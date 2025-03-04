@@ -15,6 +15,7 @@ public class LineDemo {
 }
 
 class Line implements Comparable {
+  int length;
   @Override
   public int compareTo(Object o) {
     return 0;
