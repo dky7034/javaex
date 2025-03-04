@@ -2,7 +2,7 @@ package test;
 
 public class LineDemo {
   public static void main(String[] args) {
-    Line l1 = new Line(20);
+    Line l1 = new Line(3 0)
     Line l2 = new Line(20);
     if (l1.length == -999) {
       System.out.println("비교할 수 없습니다.");
