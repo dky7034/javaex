@@ -25,7 +25,7 @@ class Concrete extends Abstract {
   @Override
   public void show() {
     System.out.println("Concrete 가 오버라이딩한 메서드입니다.");
-    System.out.printf("부모의 필드 i = %d, Concrete 객체의 필드 i = %d", super.i, this.i);
+    System.out.printf("부모의 필드 i = %d, Concrete 객체의 필드 i = %d\n", super.i, this.i);
   }
 }
 
