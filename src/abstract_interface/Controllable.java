@@ -11,5 +11,8 @@ public interface Controllable {
   }
 
   // 오버라이딩 대상이 아닌 경우 - static (오버라이딩 불가능)
+  static void reset() {
+    
+  }
 
 }
