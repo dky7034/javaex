@@ -23,10 +23,6 @@ class MyClass implements MyInterface {
 
   }
 
-  @Override
-  public void sayHello2() {
-
-  }
 }
 
 class MyClass2 extends MyInterfaceDemo {
