@@ -31,10 +31,10 @@ class MyClass implements YourInterface {
   }
 }
 
-class MyClass2 implements MyInterfaceDemo {
+class MyClass2 extends MyInterfaceDemo {
   @Override
   public void sayHello() {
-
+    System.out.println("hello");
   }
 
   @Override
