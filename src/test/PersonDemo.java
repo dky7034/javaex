@@ -7,7 +7,7 @@ public class PersonDemo {
     people[1] = new Person("유관순", 23);
     people[2] = new Person("손흥민", 21);
 
-    for (int i = 0; i < people.length; i++) {
+    for (int i = 0; i < people.length - 1; i++) {
       if (people[i].compareTo(people[i + 1]) > 0) {
         people[i + 1] = people[i];
       }
