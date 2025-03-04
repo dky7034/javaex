@@ -1,6 +1,6 @@
 package test;
 
-public class abc {
+public class abc implements C {
 }
 
 interface A {
