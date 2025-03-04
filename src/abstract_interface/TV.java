@@ -1,4 +1,5 @@
 package abstract_interface;
 
-public class TV {
+public class TV implements Controllable {
+  
 }
