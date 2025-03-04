@@ -11,6 +11,6 @@ public class AnimalDemo {
       animal.sound();
     }
 
-    makeSound();
+    makeSound(); // 강아지가 소리를 낸다.
   }
 }
