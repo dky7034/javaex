@@ -14,6 +14,6 @@ class Book {
   public Book() {}
 
   // 메서드
-  
+  void
 
 }
