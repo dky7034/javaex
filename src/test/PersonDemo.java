@@ -1,6 +1,7 @@
 package test;
 
 public class PersonDemo {
+  Person p = new Person();
 
 }
 
@@ -9,6 +10,9 @@ class Person implements Comparable<Person> {
   int age;
   int height;
   int weight;
+
+  public Person() {}
+
 
   @Override
   public int compareTo(Person p) {
