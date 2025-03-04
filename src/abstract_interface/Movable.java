@@ -7,7 +7,7 @@ public interface Movable {
 
 class Car implements Movable {
   @Override
-  public void move() {
+  public void move(int x) {
     System.out.println("자동차는 움직인다.");
   }
 
