@@ -22,7 +22,7 @@ public class Circle {
   }
 
   @Override
-  public int hashCode() {
-    return Objects.hashCode(radius);
+  public int hashCode(Object o) {
+    return Objects.hashCode(o);
   }
 }
