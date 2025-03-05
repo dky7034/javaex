@@ -24,13 +24,16 @@ class Worker implements Human {
   }
 }
 
-class Student {
+class Student extends Human {
+  
   // 필드
   int age;
+
   // 생성자
   public Student(int age) {
     this.age = age;
   }
+
   // 메서드
   void print() {
     System.out.printf("%d세의 학생입니다.\n", age);
