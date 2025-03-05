@@ -5,7 +5,9 @@ public class UncheckedDemo2 {
 
   }
 
-  static void method1() {}
+  static void method1() {
+    
+  }
 
   static void method2() {
   }
