@@ -26,16 +26,16 @@ class Person {
   }
 
   // equals() 사용
-//  @Override
-//  public boolean equals(Object obj) {
-//    if (obj instanceof Person && obj != null) {
-//      Person p = (Person) obj;
-//      if (this.name.equals(p.name) && this.num.equals(p.num)) {
-//        return true;
-//      }
-//    }
-//    return false;
-//  }
+  @Override
+  public boolean equals(Object obj) {
+    if (obj instanceof Person && obj != null) {
+      Person p = (Person) obj;
+      if (this.name.equals(p.name) && this.num.equals(p.num)) {
+        return true;
+      }
+    }
+    return false;
+  }
 
   // Hash
   @Override
