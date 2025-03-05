@@ -17,7 +17,7 @@ class Person {
     this.name = name;
   }
 
-//  @Override
-//  public boolean equals(Person person) {
-//  }
+  @Override
+  public boolean equals(Person person) {
+  }
 }
