@@ -19,6 +19,6 @@ class Dice {
   // 메서드
   int roll() {
     Random random = new Random();
-    int random.nextInt(0, 11);
+    int res = random.nextInt(0, 11);
   }
 }
