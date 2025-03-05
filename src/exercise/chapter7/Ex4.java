@@ -7,7 +7,7 @@ public class Ex4 {
   }
 
   private static void speak(Talkable talkable) {
-
+    
   }
 
 }
