@@ -19,7 +19,7 @@ class Dice {
   // 메서드
   int roll() {
     Random random = new Random();
-    int res = random.nextInt(1, 11);
+    int res = random.nextInt(1, 7);
     return res;
   }
 }
