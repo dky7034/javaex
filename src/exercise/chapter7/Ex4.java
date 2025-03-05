@@ -21,5 +21,6 @@ class American {
 }
 
 interface Talkable {
-  
+  void talk() {
+  }
 }
