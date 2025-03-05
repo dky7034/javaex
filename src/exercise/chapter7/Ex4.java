@@ -11,3 +11,11 @@ public class Ex4 {
   }
 
 }
+
+class Koren {
+
+}
+
+class American {
+
+}
