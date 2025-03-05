@@ -21,7 +21,9 @@ class Person {
   public boolean equals(Object obj) {
     if (obj instanceof Person) {
       Person p = (Person) obj;
-      if (this.name.equals(p.name))
+      if (this.name.equals(p.name) && this.num.equals(p.num)) {
+
+      }
     }
 
   }
