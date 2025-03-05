@@ -18,7 +18,10 @@ interface Human {
     System.out.println("야호!");
   }
   void eat();
-  default void print();
+
+  default void print() {
+    System.out.println("인간입니다.");
+  }
 }
 
 class Worker implements Human {
