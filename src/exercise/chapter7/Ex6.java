@@ -35,7 +35,4 @@ class Student {
   void print() {
     System.out.printf("%d세의 학생입니다.\n", age);
   }
-  void eat() {
-    
-  }
 }
