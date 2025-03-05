@@ -6,4 +6,11 @@ class Keyboard {
   public Keyboard(String name) {
     this.name = name;
   }
+
+  @Override
+  public String toString() {
+    return "Keyboard{" +
+        "name='" + name + '\'' +
+        '}';
+  }
 }
