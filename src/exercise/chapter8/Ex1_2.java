@@ -19,7 +19,8 @@ class Person {
 
   @Override
   public boolean equals(Object obj) {
-    if () {
+    if (obj instanceof Person) {
+      
     }
   }
 }
