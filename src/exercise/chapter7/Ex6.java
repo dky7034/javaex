@@ -44,7 +44,7 @@ class Student implements Human {
   // 메서드
   @Override
   public void eat() {
-    
+    System.out.println("도시락을 먹습니다.");
   }
 
   @Override
