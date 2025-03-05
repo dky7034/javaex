@@ -15,7 +15,6 @@ class Student{
     this.name = name;
   }
   // 메서드
-
   @Override
   public String toString() {
     return "학생[" + name + "]";
