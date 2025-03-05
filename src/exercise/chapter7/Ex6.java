@@ -32,5 +32,7 @@ class Student {
     this.age = age;
   }
   // 메서드
-  print();
+  print() {
+    
+  };
 }
