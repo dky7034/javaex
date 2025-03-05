@@ -23,15 +23,15 @@ class Person {
     this.name = name;
   }
 
-  @Override
-  public boolean equals(Object obj) {
-    if (obj instanceof Person) {
-      Person p = (Person) obj;
-      if (this.name.equals(p.name) && this.num.equals(p.num)) {
-        return true;
-      }
-    }
-    return false;
-  }
+//  @Override
+//  public boolean equals(Object obj) {
+//    if (obj instanceof Person) {
+//      Person p = (Person) obj;
+//      if (this.name.equals(p.name) && this.num.equals(p.num)) {
+//        return true;
+//      }
+//    }
+//    return false;
+//  }
 
 }
