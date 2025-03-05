@@ -42,9 +42,5 @@ class Student extends Worker {
     this.age = age;
   }
 
-  // 메서드
-  public void print() {
-    System.out.println();
-  }
 
 }
