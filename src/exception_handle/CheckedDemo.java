@@ -5,7 +5,11 @@ public class CheckedDemo {
 
   }
   static void method1() {
-    method2();
+    try {
+      method2();
+    } catch (ClassNotFoundException e) {
+      throw new RuntimeException(e);
+    }
   }
   static void method2() throws ClassNotFoundException {
     Class clazz = Class.forName("java.lang.String");
