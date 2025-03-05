@@ -33,6 +33,6 @@ class Worker implements Human {
   }
 }
 
-class Student {
-  
+class Student implements Human {
+
 }
