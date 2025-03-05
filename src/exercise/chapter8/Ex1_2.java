@@ -48,7 +48,7 @@ class Person {
 
   @Override
   public int hashCode() {
-    return Objects.hash();
+    return Objects.hash(num, name);
   }
 
 }
