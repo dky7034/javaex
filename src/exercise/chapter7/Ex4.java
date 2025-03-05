@@ -12,7 +12,7 @@ public class Ex4 {
 
 }
 
-class Korean {
+class Korean implements {
 
 }
 
