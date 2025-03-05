@@ -7,7 +7,7 @@ public class Ex1_2 {
     Person p3 = new Person("123456", "손흥민");
 
     if (p1.equals(p2)) {
-      
+      System.out.println("같은 사람이다.");
     }
   }
 }
