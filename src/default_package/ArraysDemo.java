@@ -14,6 +14,6 @@ public class ArraysDemo {
 
     // 오름차순 정렬
     Arrays.sort(sa);
-    
+    System.out.println(Arrays.toString(sa));
   }
 }
