@@ -14,7 +14,7 @@ public class Ex6 {
 }
 
 interface Human {
-  default void echo() {
+  static void echo() {
     System.out.println("야호!");
   }
   void eat();
