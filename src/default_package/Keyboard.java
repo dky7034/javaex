@@ -19,8 +19,10 @@ class Keyboard {
     if (obj instanceof Keyboard) {
       Keyboard k = (Keyboard) obj;
       if (name.equals(k.name)) {
-        return true
+        return true;
       }
+    } else {
+      return false;
     }
   }
 
