@@ -7,5 +7,6 @@ public class StringTokenizerDemo {
     String s = "of the people, by the people, for the people";
 
     StringTokenizer st = new StringTokenizer(s, ",");
+    st.countTokens();
   }
 }
