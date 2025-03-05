@@ -7,6 +7,7 @@ public class IntegerDemo {
     Integer b = 10; // b 참조타입
     Integer c = 10;
     System.out.println(b.equals(10));
+    System.out.println(b.equals(c));
 
   }
 }
