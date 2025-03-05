@@ -10,6 +10,6 @@ public class UncheckedDemo2 {
   }
 
   static void method2() {
-    int i = 1 / 0;
+    int i = 1 / 0; // ArrithmeticException
   }
 }
