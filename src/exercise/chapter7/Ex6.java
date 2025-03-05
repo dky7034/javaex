@@ -37,9 +37,8 @@ class Student implements Human {
   int age;
   // 생성자
   public Student(int age) {
-
+    this.age = age;
   }
-
   // 메서드
   @Override
   public void eat() {
