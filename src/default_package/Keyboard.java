@@ -16,7 +16,9 @@ class Keyboard {
 
   @Override
   public boolean equals(Object obj) {
-    return super.equals(obj);
+    if (obj instanceof Keyboard) {
+      Keyboard k = new Object();
+    }
   }
 
 }
