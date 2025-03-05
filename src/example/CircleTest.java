@@ -6,7 +6,7 @@ public class CircleTest {
     Circle c2 = new Circle(3);
 
     if (c1.equals(c2)) {
-      
+      System.out.println("c1과 c2는 같다");
     }
   }
 }
