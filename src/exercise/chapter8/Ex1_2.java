@@ -43,4 +43,10 @@ class Person {
     Person p = (Person) obj;
     return this.hashCode() == obj.hashCode();
   }
+
+  @Override
+  public int hashCode() {
+    
+  }
+
 }
