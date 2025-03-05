@@ -42,6 +42,8 @@ class Student extends Worker {
   }
 
   // 메서드
-  
+  void print() {
+    
+  }
 
 }
