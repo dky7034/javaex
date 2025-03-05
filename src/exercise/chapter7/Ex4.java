@@ -12,11 +12,12 @@ public class Ex4 {
 
 }
 
-class Korean implements Talkable{
+class Korean implements Talkable {
+
 
 }
 
-class American {
+class American implements Talkable {
 
 }
 
