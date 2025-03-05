@@ -8,7 +8,7 @@ public class Ex6 {
     s.eat(); // 도시락을 먹습니다.
 
     Human p = new Worker();
-    p.print();
+    p.print(); // 인간입니다.
     p.eat();
   }
 }
