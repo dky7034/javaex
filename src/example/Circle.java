@@ -23,6 +23,6 @@ public class Circle {
 
   @Override
   public int hashCode() {
-    return Objects.hashCode(radius);
+    return Objects.hashCode(Circle c);
   }
 }
