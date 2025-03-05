@@ -5,3 +5,7 @@ public class Ex1_2 {
 
   }
 }
+
+class Person {
+
+}
