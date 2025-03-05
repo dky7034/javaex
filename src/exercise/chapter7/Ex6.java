@@ -9,3 +9,10 @@ public class Ex6 {
 interface Human {
   void eat();
 }
+
+class Worker implements Human {
+  @Override
+  public void eat() {
+
+  }
+}
