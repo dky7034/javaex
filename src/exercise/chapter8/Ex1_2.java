@@ -14,5 +14,9 @@ class Person {
     this.name = name;
     this.num = num;
   }
-  
+
+  @Override
+  public boolean equals(Person person) {
+    return super.equals(obj);
+  }
 }
