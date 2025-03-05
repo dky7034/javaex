@@ -28,7 +28,7 @@ class Person {
   // equals() 사용
 //  @Override
 //  public boolean equals(Object obj) {
-//    if (obj instanceof Person) {
+//    if (obj instanceof Person && obj != null) {
 //      Person p = (Person) obj;
 //      if (this.name.equals(p.name) && this.num.equals(p.num)) {
 //        return true;
@@ -37,7 +37,7 @@ class Person {
 //    return false;
 //  }
 
-
+  // Hash
   @Override
   public boolean equals(Object obj) {
     if (obj == null || getClass() != obj.getClass()) {
