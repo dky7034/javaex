@@ -20,6 +20,7 @@ class Person {
   @Override
   public boolean equals(Object obj) {
     if (obj instanceof Person) {
+      Person p = (Person) obj;
       
     }
 
