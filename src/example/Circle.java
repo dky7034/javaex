@@ -12,7 +12,7 @@ public class Circle {
   // 메서드
   @Override
   public boolean equals(Object o) {
-    if () {
+    if (o instanceof Circle) {
     }
   }
 
