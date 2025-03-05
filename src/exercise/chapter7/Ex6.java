@@ -26,7 +26,6 @@ class Worker implements Human {
 
   @Override
   public void print() {
-    System.out.printf("%d세의 학생입니다.\n", age);
   }
 }
 
@@ -38,5 +37,5 @@ class Student extends Worker {
   public Student(int age) {
     this.age = age;
   }
-  
+
 }
