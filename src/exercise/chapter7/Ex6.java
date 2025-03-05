@@ -33,6 +33,6 @@ class Student {
   }
   // 메서드
   void print() {
-    System.out.printf("%d세의 학생입니다.\n", );
+    System.out.printf("%d세의 학생입니다.\n", age);
   }
 }
