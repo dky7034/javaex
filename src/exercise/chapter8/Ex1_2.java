@@ -19,6 +19,7 @@ class Person {
 
   @Override
   public boolean equals(Object obj) {
-    
+    if () {
+    }
   }
 }
