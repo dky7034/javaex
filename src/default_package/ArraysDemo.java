@@ -16,6 +16,7 @@ public class ArraysDemo {
     Arrays.sort(sa);
     System.out.println(Arrays.toString(sa));
 
-    Arrays.binarySearch(sa, "애플");
+    System.out.println(Arrays.binarySearch(sa, "애플"));
+
   }
 }
