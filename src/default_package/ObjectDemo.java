@@ -12,6 +12,7 @@ public class ObjectDemo {
 
     System.out.println(keyboard.equals(keyboard1));
     System.out.println(keyboard.getClass().equals(keyboard1.getClass()));
+    System.out.println(keyboard.getClass());
     System.out.println(keyboard == keyboard1);
   }
 }
