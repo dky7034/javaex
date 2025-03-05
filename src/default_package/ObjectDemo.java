@@ -11,5 +11,6 @@ public class ObjectDemo {
     System.out.println(mouse);
 
     System.out.println(keyboard.equals(keyboard1));
+    System.out.println(keyboard == keyboard1);
   }
 }
