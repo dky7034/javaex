@@ -18,6 +18,8 @@ class Mouse {
 
   @Override
   public boolean equals(Object o) {
+    if () {
+    }
     return false;
   }
 
