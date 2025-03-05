@@ -8,7 +8,7 @@ public class CheckedDemo {
     try {
       method2();
     } catch (ClassNotFoundException e) {
-      throw new RuntimeException(e);
+      System.out.println(e.getMessage());
     }
   }
   static void method2() throws ClassNotFoundException {
