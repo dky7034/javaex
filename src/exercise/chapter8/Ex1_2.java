@@ -41,5 +41,6 @@ class Person {
       return false;
     }
     Person p = (Person) obj;
+    this.hashCode() == obj.hashCode();
   }
 }
