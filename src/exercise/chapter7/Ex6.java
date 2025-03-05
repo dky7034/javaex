@@ -35,14 +35,16 @@ class Worker implements Human {
 class Student implements Human {
   // 필드
   int age;
+
   // 생성자
   public Student(int age) {
     this.age = age;
   }
+
   // 메서드
   @Override
   public void eat() {
-
+    
   }
 
   @Override
