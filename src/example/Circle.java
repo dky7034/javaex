@@ -14,7 +14,7 @@ public class Circle {
   public boolean equals(Object o) {
     if (o instanceof Circle) {
       Circle c = (Circle) o;
-      if (c.radius == ) {
+      if (c.radius == this.radius) {
         return true;
       }
     }
