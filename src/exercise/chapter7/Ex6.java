@@ -15,6 +15,7 @@ public class Ex6 {
 
 interface Human {
   void eat();
+  void print();
 }
 
 class Worker implements Human {
@@ -40,6 +41,6 @@ class Student extends Worker {
 
   @Override
   public void eat() {
-    
+
   }
 }
