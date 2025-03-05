@@ -36,7 +36,7 @@ class Worker implements Human {
   // 메서드가 오버라이딩된 경우에는 실제 객체의 메서드가 실행되도록 동적 바인딩이 적용됨
   @Override
   public void print() {
-    Human.super.print();
+    System.out.println("Woker 입니다.");
   }
 }
 
