@@ -9,8 +9,5 @@ public class ArraysDemo {
 
     System.out.println("a1 = " + a1);
     System.out.println("a2 = " + a2);
-    for (char c : a2) {
-      System.out.println(c);
-    }
   }
 }
