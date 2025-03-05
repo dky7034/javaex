@@ -18,6 +18,9 @@ class Keyboard {
   public boolean equals(Object obj) {
     if (obj instanceof Keyboard) {
       Keyboard k = (Keyboard) obj;
+      if (name.equals(k.name)) {
+        
+      }
     }
   }
 
