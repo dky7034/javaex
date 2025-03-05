@@ -5,7 +5,7 @@ public class CheckedDemo {
     try {
       method1();
     } catch (ClassNotFoundException e) {
-      System.out.println("해당 클래스는 존재하지 않습니다.");
+      System.out.println("method1 실행에서 사용한 클래스를 찾을 수 없습니다.");
     }
   }
   static void method1() throws ClassNotFoundException {
