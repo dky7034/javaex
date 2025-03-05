@@ -21,9 +21,7 @@ public class Circle {
     if (o == null || getClass() != o.getClass()) return false;
     Circle circle = (Circle) o;
     return this.hashCode() == circle.hashCode();
-
   }
-
 
   @Override
   public int hashCode() {
