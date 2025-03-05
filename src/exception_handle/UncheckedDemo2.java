@@ -5,7 +5,7 @@ public class UncheckedDemo2 {
     method1();
   }
 
-  static void method1() {
+  static void method1() throws ArithmeticException {
     method2();
   }
 
