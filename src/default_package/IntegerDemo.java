@@ -9,6 +9,9 @@ public class IntegerDemo {
     System.out.println(b.equals(10));
     System.out.println(b.equals(c));
     System.out.println(b == c);
-    
+
+    int bi = b; // 자동 언박싱
+    System.out.println(bi);
+    System.out.println(bi == c);
   }
 }
