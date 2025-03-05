@@ -10,6 +10,7 @@ public class ObjectDemo {
     System.out.println(keyboard);
     System.out.println(mouse);
 
+    // Keyboard 클래스에서 equals() 메서드 오버라이딩
     System.out.println(keyboard.equals(keyboard1));
   }
 }
