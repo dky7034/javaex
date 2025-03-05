@@ -10,5 +10,6 @@ public class ArraysDemo {
     System.out.println(a2);
 
     String[] sa = {"케이크", "애플", "도넛", "바나나"};
+    System.out.println(Arrays.toString(sa));
   }
 }
