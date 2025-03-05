@@ -8,6 +8,8 @@ public class Ex1_2 {
 
     if (p1.equals(p2)) {
       System.out.println("같은 사람이다.");
+    } else {
+      System.out.println("다른 사람이다.");
     }
   }
 }
