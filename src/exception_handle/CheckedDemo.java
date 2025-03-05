@@ -14,6 +14,6 @@ public class CheckedDemo {
   }
 
   static void method2() throws ClassNotFoundException {
-    Class clazz = Class.forName("java.lang.String");
+    Class clazz = Class.forName("java.wow.String");
   }
 }
