@@ -5,7 +5,7 @@ public class ObjectDemo {
     Keyboard keyboard = new Keyboard("키보드");
 
     Class c  = keyboard.getClass();
-    c.getName();
+    System.out.println(c.getName());
 
     Keyboard keyboard1 = new Keyboard("키보드");
     Mouse mouse = new Mouse("마우스");
