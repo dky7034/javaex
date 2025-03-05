@@ -5,6 +5,10 @@ public class Ex1_2 {
     Person p1 = new Person("111111", "홍길동");
     Person p2 = new Person("111111", "손흥민");
     Person p3 = new Person("123456", "손흥민");
+
+    if (p1.equals(p2)) {
+
+    }
   }
 }
 
