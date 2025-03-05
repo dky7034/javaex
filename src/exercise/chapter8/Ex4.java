@@ -8,6 +8,7 @@ public class Ex4 {
   }
 }
 
+// Dice 클래스
 class Dice {
   // 필드
 
