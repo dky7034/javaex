@@ -17,6 +17,7 @@ interface Human {
   static void echo() {
     System.out.println("야호!");
   }
+
   void eat();
 
   default void print() {
