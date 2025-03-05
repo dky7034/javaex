@@ -15,7 +15,7 @@ class Dice {
   // 생성자
 
   // 메서드
-  void roll() {
+  int roll() {
     
   }
 }
