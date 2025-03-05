@@ -30,6 +30,11 @@ class Worker implements Human {
   public void eat() {
     System.out.println("빵을 먹습니다.");
   }
+
+  @Override
+  public void print() {
+    Human.super.print();
+  }
 }
 
 class Student implements Human {
