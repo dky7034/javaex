@@ -49,5 +49,6 @@ class Student implements Human {
 
   @Override
   public void print() {
+    System.out.println(age + "세의 학생입니다.");
   }
 }
