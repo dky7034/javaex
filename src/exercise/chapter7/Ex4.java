@@ -15,14 +15,14 @@ public class Ex4 {
 class Korean implements Talkable {
   @Override
   public void talk() {
-    System.out.println("안녕하세요. Koream");
+    System.out.println("안녕하세요. Korean");
   }
 }
 
 class American implements Talkable {
   @Override
   public void talk() {
-    System.out.println("안녕하세요.");
+    System.out.println("안녕하세요. American");
   }
 }
 
