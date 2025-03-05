@@ -8,10 +8,5 @@ public class RandomDemo {
     for (int i = 0; i < 5; i++) {
       random.nextInt();
     }
-    random.nextInt();
-    random.nextInt();
-    random.nextInt();
-    random.nextInt();
-    random.nextInt();
   }
 }
