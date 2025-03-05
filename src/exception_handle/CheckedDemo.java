@@ -5,6 +5,9 @@ public class CheckedDemo {
 
   }
   static void method1() {
+
+  }
+  static void method2() {
     
   }
 }
