@@ -7,7 +7,9 @@ class Student{
   // 필드
   String name;
   // 생성자
-  public Student() {}
+  public Student(String name) {
+
+  }
   // 메서드
 
   @Override
