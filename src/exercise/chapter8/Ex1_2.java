@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Ex1_2 {
   public static void main(String[] args) {
-    Person p1 = new Person("111111", "손흥민");
+    Person p1 = new Person("111112", "손흥민");
     Person p2 = new Person("111111", "손흥민");
     Person p3 = new Person("123456", "손흥민");
 
