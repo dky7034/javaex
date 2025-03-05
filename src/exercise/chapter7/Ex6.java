@@ -24,8 +24,7 @@ class Worker implements Human {
   }
 }
 
-class Student extends Human {
-  
+class Student extends Worker {
   // 필드
   int age;
 
