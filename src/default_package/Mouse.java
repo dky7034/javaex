@@ -19,6 +19,7 @@ class Mouse {
     if (o instanceof Mouse) {
       Mouse m = (Mouse) o;
       if (name.equals(m.name)) {
+        return true;
       }
     }
     return false;
