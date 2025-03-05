@@ -18,6 +18,7 @@ interface Human {
     System.out.println("야호!");
   }
   void eat();
+  void print();
 }
 
 class Worker implements Human {
