@@ -33,6 +33,6 @@ class Student {
   }
   // 메서드
   void print() {
-    
+    System.out.println("");
   }
 }
