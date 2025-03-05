@@ -17,7 +17,7 @@ class Keyboard {
   @Override
   public boolean equals(Object obj) {
     if (obj instanceof Keyboard) {
-      Keyboard k = new Object();
+      Keyboard k = (Keyboard) obj;
     }
   }
 
