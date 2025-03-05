@@ -5,7 +5,7 @@ public class UncheckedDemo2 {
     try {
       method1();
     } catch (ArithmeticException e) {
-      throw new RuntimeException(e);
+      System.out.println(e.getMessage());
     }
   }
 
