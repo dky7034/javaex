@@ -9,7 +9,7 @@ public class UncheckedDemo2 {
     }
   }
 
-  static void method1() throws ArithmeticException {
+  static void method1() throws ArithmeticException, IndexOutOfBoundsException, NullPointerException, IllegalArgumentException {
     method2();
   }
 
