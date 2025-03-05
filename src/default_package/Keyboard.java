@@ -21,9 +21,8 @@ class Keyboard {
       if (name.equals(k.name)) {
         return true;
       }
-    } else {
-      return false;
     }
+    return false;
   }
 
 }
