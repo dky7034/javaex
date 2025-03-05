@@ -2,7 +2,7 @@ package exercise.chapter7;
 
 public class Ex6 {
   public static void main(String[] args) {
-    Human.echo(); // 야호!!
+//    Human.echo(); // 야호!!
     Student s = new Student(20);
     s.print(); // 20세의 학생입니다.
     s.eat(); // 도시락을 먹습니다.
