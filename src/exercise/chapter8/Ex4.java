@@ -16,6 +16,6 @@ class Dice {
 
   // 메서드
   void roll() {
-
+    
   }
 }
