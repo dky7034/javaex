@@ -14,6 +14,8 @@ public class Ex6 {
 }
 
 interface Human {
+  void echo() {
+  }
   void eat();
   void print();
 }
