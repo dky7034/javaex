@@ -29,7 +29,7 @@ class Student {
   int age;
   // 생성자
   public Student(int age) {
-
+    this.age = age;
   }
 
   // 메서드
