@@ -20,5 +20,6 @@ class Dice {
   int roll() {
     Random random = new Random();
     int res = random.nextInt(0, 11);
+    return res;
   }
 }
