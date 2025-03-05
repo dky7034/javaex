@@ -14,6 +14,6 @@ class Student{
 
   @Override
   public String toString() {
-    return "학생 [" +
+    return "학생 [" + name + "]"
   }
 }
