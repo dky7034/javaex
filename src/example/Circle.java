@@ -5,6 +5,7 @@ import java.util.Objects;
 public class Circle {
   // 필드
   int radius;
+  String color;
   // 생성자
   public Circle(int radius) {
     this.radius = radius;
@@ -12,9 +13,9 @@ public class Circle {
   // 메서드
   @Override
   public boolean equals(Object o) {
-    if (o == null || getClass() != o.getClass()) return false;{
+    if (o == null || getClass() != o.getClass()) return false;
+    Circle circle = (Circle) o;
 
-    }
 
   }
 
