@@ -6,6 +6,8 @@ public class UncheckedDemo2 {
       method1();
     } catch (ArithmeticException e) {
       System.out.println("0으로 나누면 안됩니다.");
+    } catch (Exception e) {
+      System.out.println("알 수 없는 오류가 발생했습니다.");
     }
   }
 
