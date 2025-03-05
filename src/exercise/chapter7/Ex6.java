@@ -33,9 +33,13 @@ class Worker implements Human {
 }
 
 class Student implements Human {
+  // 필드
+  int age;
+  // 생성자
+  // 메서드
   @Override
   public void eat() {
-    
+
   }
 
   @Override
