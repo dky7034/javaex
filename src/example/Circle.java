@@ -20,7 +20,7 @@ public class Circle {
   public boolean equals(Object o) {
     if (o == null || getClass() != o.getClass()) return false;
     Circle circle = (Circle) o;
-
+    return this.hashCode() == circle.hashCode();
 
   }
 
