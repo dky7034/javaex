@@ -33,7 +33,7 @@ class Worker implements Human {
 
   @Override
   public void print() {
-    Human.super.print();
+    System.out.println("Worker 입니다.");
   }
 }
 
