@@ -6,7 +6,6 @@ public class ABC implements C {
     System.out.println(B.value);
     ABC abc = new ABC();
     abc.showMessage();
-
   }
 }
 
