@@ -6,6 +6,10 @@ public class Ex6 {
     Student s = new Student(20);
     s.print();
     s.eat();
+
+    Human p = new Worker();
+    p.print();
+    p.eat();
   }
 }
 
