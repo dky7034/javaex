@@ -31,7 +31,6 @@ class Student {
   public Student(int age) {
     this.age = age;
   }
-
   // 메서드
   print();
 }
