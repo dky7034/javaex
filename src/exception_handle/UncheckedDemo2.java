@@ -2,7 +2,7 @@ package exception_handle;
 
 public class UncheckedDemo2 {
   public static void main(String[] args) {
-
+    method1();
   }
 
   static void method1() {
