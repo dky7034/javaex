@@ -8,5 +8,7 @@ public class ArraysDemo {
     char[] a2 = Arrays.copyOf(a1, 2);
     System.out.println(a1);
     System.out.println(a2);
+
+    String[] sa = {"케이크", "애플", "도넛", "바나나"};
   }
 }
