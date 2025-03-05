@@ -15,7 +15,7 @@ class Person {
     this.num = num;
   }
 
-  @Override
-  public boolean equals(Person person) {
-  }
+//  @Override
+//  public boolean equals(Person person) {
+//  }
 }
