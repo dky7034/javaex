@@ -31,3 +31,7 @@ class Worker implements Human {
     System.out.println("빵을 먹습니다.");
   }
 }
+
+class Student implements Human {
+  
+}
