@@ -8,6 +8,6 @@ public class CheckedDemo {
 
   }
   static void method2() {
-    Class clazz =  
+    Class clazz = Class.forName();
   }
 }
