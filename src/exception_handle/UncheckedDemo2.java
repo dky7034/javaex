@@ -2,7 +2,11 @@ package exception_handle;
 
 public class UncheckedDemo2 {
   public static void main(String[] args) {
-    method1();
+    try {
+      method1();
+    } catch (ArithmeticException e) {
+      throw new RuntimeException(e);
+    }
   }
 
   static void method1() throws ArithmeticException {
