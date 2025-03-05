@@ -22,7 +22,7 @@ class Korean implements Talkable {
 class American implements Talkable {
   @Override
   public void talk() {
-
+    System.out.println("안녕하세요.");
   }
 }
 
