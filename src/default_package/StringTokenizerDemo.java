@@ -8,5 +8,6 @@ public class StringTokenizerDemo {
 
     StringTokenizer st = new StringTokenizer(s, ",");
     System.out.println(st.countTokens());
+    while (st.hasMoreTokens())
   }
 }
