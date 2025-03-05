@@ -44,11 +44,10 @@ class Student implements Human {
   // 메서드
   @Override
   public void eat() {
-    
+
   }
 
   @Override
   public void print() {
-    Human.super.print();
   }
 }
