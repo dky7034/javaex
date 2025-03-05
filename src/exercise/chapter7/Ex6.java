@@ -34,5 +34,13 @@ class Worker implements Human {
 }
 
 class Student implements Human {
+  @Override
+  public void eat() {
 
+  }
+
+  @Override
+  public void print() {
+
+  }
 }
