@@ -8,5 +8,6 @@ public class CalendarDemo {
     System.out.println(cal.getTime());
     System.out.println(cal.getTimeZone());
     System.out.println(cal.getCalendarType());
+    cal.get(Calendar.DATE);
   }
 }
