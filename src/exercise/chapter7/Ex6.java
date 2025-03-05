@@ -30,6 +30,6 @@ class Worker implements Human {
   @Override
   public void print() {
     System.out.println("인간입니다.");
+    System.out.println(age + "세의 학생입니다.");
   }
 }
-
