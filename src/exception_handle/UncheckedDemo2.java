@@ -16,5 +16,6 @@ public class UncheckedDemo2 {
   static void method2() throws ArithmeticException, IndexOutOfBoundsException, NullPointerException, IllegalArgumentException {
     int i = 1 / 0; // ArithmeticException
     System.out.println(i);
+    throw new NullPointerException();
   }
 }
