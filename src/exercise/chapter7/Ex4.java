@@ -6,7 +6,7 @@ public class Ex4 {
     speak(new American());
   }
 
-  private static void speak() {
+  private static void speak(Talkable talkable) {
 
   }
 
