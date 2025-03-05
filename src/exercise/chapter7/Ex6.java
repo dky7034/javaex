@@ -28,5 +28,7 @@ class Student {
   // 필드
   // 생성자
   // 메서드
-  
+  print() {
+    
+  }
 }
