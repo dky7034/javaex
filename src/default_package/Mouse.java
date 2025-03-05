@@ -18,7 +18,7 @@ class Mouse {
 
   @Override
   public boolean equals(Object o) {
-    if () {
+    if (o instanceof Mouse) {
     }
     return false;
   }
