@@ -37,4 +37,9 @@ class Student extends Worker {
   void print() {
     System.out.printf("%d세의 학생입니다.\n", age);
   }
+
+  @Override
+  public void eat() {
+    
+  }
 }
