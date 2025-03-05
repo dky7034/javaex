@@ -6,7 +6,6 @@ public class IntegerDemo {
 
     Integer b = 10;
     System.out.println(b.equals(10));
-    System.out.println(b.equals(a));
 
   }
 }
