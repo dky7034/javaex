@@ -1,5 +1,7 @@
 package example;
 
+import java.util.Objects;
+
 public class Circle {
   // 필드
   int radius;
@@ -8,4 +10,15 @@ public class Circle {
     this.radius = radius;
   }
   // 메서드
+  @Override
+  public boolean equals(Object o) {
+    if (o == null || getClass() != o.getClass()) return false;
+    Circle circle = (Circle) o;
+    return radius == circle.radius;
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hashCode(radius);
+  }
 }
