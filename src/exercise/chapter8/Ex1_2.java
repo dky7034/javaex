@@ -11,6 +11,12 @@ public class Ex1_2 {
     } else {
       System.out.println("다른 사람이다.");
     }
+
+    if (p2.equals(p3)) {
+      System.out.println("같은 사람이다.");
+    } else {
+      System.out.println("다른 사람이다.");
+    }
   }
 }
 
