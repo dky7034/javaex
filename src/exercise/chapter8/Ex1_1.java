@@ -7,7 +7,7 @@ public class Ex1_1 {
     Circle c1 = new Circle(3, "빨강");
     Circle c2 = new Circle(3, "빨강");
 
-    if(c1.equals(c2)) {
+    if (c1.equals(c2)) {
       System.out.println("c1 과 c2 는 같다.");
     } else {
       System.out.println("c1 과 c2 는 다르다.");
