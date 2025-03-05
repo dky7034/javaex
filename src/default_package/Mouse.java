@@ -1,7 +1,5 @@
 package default_package;
 
-import java.util.Objects;
-
 class Mouse {
   String name;
 
@@ -19,6 +17,7 @@ class Mouse {
   @Override
   public boolean equals(Object o) {
     if (o instanceof Mouse) {
+      
     }
     return false;
   }
