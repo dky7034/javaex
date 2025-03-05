@@ -5,7 +5,7 @@ public class UncheckedDemo2 {
     try {
       method1();
     } catch (ArithmeticException e) {
-      System.out.println(e.getMessage());
+      System.out.println("0으로 나누면 안됩니다.");
     }
   }
 
