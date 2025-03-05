@@ -18,6 +18,6 @@ class Person {
   }
 
   @Override
-  public boolean equals(Person person) {
+  public boolean equals(Object obj) {
   }
 }
