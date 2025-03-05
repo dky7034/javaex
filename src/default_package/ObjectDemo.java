@@ -12,5 +12,7 @@ public class ObjectDemo {
 
     // Keyboard 클래스에서 equals() 메서드 오버라이딩
     System.out.println(keyboard.equals(keyboard1));
+    // Mouse 클래스에서 equals() 메서드 오버라이딩
+    System.out.println(mouse.equals(mouse1));
   }
 }
