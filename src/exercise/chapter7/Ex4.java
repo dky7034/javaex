@@ -19,3 +19,7 @@ class Korean {
 class American {
 
 }
+
+interface Talkable {
+  
+}
