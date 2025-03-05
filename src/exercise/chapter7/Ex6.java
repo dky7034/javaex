@@ -27,8 +27,8 @@ class Worker implements Human {
 class Student {
   // 필드
   // 생성자
-  public Student() {}
-  
+  public Student(int age) {}
+
   // 메서드
   print();
 }
