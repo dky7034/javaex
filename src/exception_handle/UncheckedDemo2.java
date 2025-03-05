@@ -6,9 +6,10 @@ public class UncheckedDemo2 {
   }
 
   static void method1() {
-    
+
   }
 
   static void method2() {
+    int i = 1 / 0;
   }
 }
