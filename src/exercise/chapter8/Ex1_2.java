@@ -25,6 +25,7 @@ class Person {
     this.name = name;
   }
 
+  // equals() 사용
 //  @Override
 //  public boolean equals(Object obj) {
 //    if (obj instanceof Person) {
