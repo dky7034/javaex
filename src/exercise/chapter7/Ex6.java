@@ -2,7 +2,10 @@ package exercise.chapter7;
 
 public class Ex6 {
   public static void main(String[] args) {
-
+    Human.echo();
+    Student s = new Student(20);
+    s.print();
+    s.eat();
   }
 }
 
