@@ -10,6 +10,6 @@ public class CalendarDemo {
     System.out.println(cal.getCalendarType());
     int day = cal.get(Calendar.DATE);
     System.out.println("day = " + day);
-    int
+    int month = cal.get(Calendar.MONTH);
   }
 }
