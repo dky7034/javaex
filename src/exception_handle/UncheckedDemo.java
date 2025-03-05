@@ -4,6 +4,9 @@ public class UncheckedDemo {
   public static void main(String[] args) {
     try {
 
-    } catch (ArithmeticException e)
+    } catch (ArithmeticException e) {
+      System.out.println(e.getMessage());
+    }
   }
+
 }
