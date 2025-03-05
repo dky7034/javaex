@@ -12,7 +12,7 @@ class Person {
   String name;
   String num;
 
-  public Person(String name, String num) {
+  public Person(String num, String name) {
     this.name = name;
     this.num = num;
   }
