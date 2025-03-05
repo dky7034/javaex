@@ -9,7 +9,7 @@ public class Ex6 {
 
     Human p = new Worker();
     p.print(); // 인간입니다.
-    p.eat();
+    p.eat(); // 빵을 먹습니다.
   }
 }
 
