@@ -33,14 +33,6 @@ class Worker implements Human {
   }
 }
 
-class Student extends Worker {
-  // 필드
-  int age;
-
-  // 생성자
-  public Student(int age) {
-    this.age = age;
-  }
-
-
+class Student {
+  
 }
