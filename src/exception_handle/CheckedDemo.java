@@ -8,9 +8,11 @@ public class CheckedDemo {
       System.out.println("method1 실행에서 사용한 클래스를 찾을 수 없습니다.");
     }
   }
+
   static void method1() throws ClassNotFoundException {
     method2();
   }
+
   static void method2() throws ClassNotFoundException {
     Class clazz = Class.forName("java.lang.String");
   }
