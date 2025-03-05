@@ -12,6 +12,7 @@ public class ArraysDemo {
     String[] sa = {"케이크", "애플", "도넛", "바나나"};
     System.out.println(Arrays.toString(sa));
 
+    // 오름차순 정렬
     Arrays.sort(sa);
     
   }
