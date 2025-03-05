@@ -17,7 +17,9 @@ class Mouse {
   @Override
   public boolean equals(Object o) {
     if (o instanceof Mouse) {
-      Mouse m = Mouse(o);
+      Mouse m = (Mouse) o;
+      if (name.equals(m.name)) {
+      }
     }
     return false;
   }
