@@ -1,5 +1,5 @@
 package default_package;
 
-public class Keyboard {
+class Keyboard {
   String name;
 }
