@@ -44,7 +44,7 @@ class Student implements Human {
   // 메서드
   @Override
   public void eat() {
-
+    
   }
 
   @Override
