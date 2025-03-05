@@ -37,7 +37,7 @@ class Person {
 
   @Override
   public boolean equals(Object obj) {
-    if (obj == null) {
+    if (obj == null || getClass() != obj.getClass()) {
     }
   }
 }
