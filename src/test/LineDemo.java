@@ -23,6 +23,7 @@ class Line implements Comparable<Line> {
     this.length = length;
   }
 
+  // 메서드
   @Override
   public int compareTo(Line other) {
     return Integer.compare(this.length, other.length);
