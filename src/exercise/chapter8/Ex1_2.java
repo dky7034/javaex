@@ -34,4 +34,9 @@ class Person {
 //    return false;
 //  }
 
+
+  @Override
+  public boolean equals(Object obj) {
+    
+  }
 }
