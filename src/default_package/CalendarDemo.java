@@ -11,5 +11,6 @@ public class CalendarDemo {
     int day = cal.get(Calendar.DATE);
     System.out.println("day = " + day);
     int month = cal.get(Calendar.MONTH);
+    System.out.println("month = " + month);
   }
 }
