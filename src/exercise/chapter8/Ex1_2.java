@@ -9,12 +9,12 @@ public class Ex1_2 {
 }
 
 class Person {
-  String name;
   String num;
+  String name;
 
   public Person(String num, String name) {
-    this.name = name;
     this.num = num;
+    this.name = name;
   }
 
 //  @Override
