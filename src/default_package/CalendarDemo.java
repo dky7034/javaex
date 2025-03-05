@@ -9,7 +9,7 @@ public class CalendarDemo {
     System.out.println(cal.getTimeZone());
     System.out.println(cal.getCalendarType());
     int day = cal.get(Calendar.DATE);
-    System.out.println("i = " + i);
+    System.out.println("i = " + day);
     int
   }
 }
