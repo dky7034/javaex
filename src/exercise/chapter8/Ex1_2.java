@@ -1,7 +1,5 @@
 package exercise.chapter8;
 
-import java.util.Objects;
-
 public class Ex1_2 {
   public static void main(String[] args) {
     Person p1 = new Person("111112", "손흥민");
@@ -37,19 +35,19 @@ class Person {
     return false;
   }
 
-  // Hash
-  @Override
-  public boolean equals(Object obj) {
-    if (obj == null || getClass() != obj.getClass()) {
-      return false;
-    }
-    Person p = (Person) obj;
-    return this.hashCode() == obj.hashCode();
-  }
-
-  @Override
-  public int hashCode() {
-    return Objects.hash(num, name);
-  }
+  // hashCode() 사용
+//  @Override
+//  public boolean equals(Object obj) {
+//    if (obj == null || getClass() != obj.getClass()) {
+//      return false;
+//    }
+//    Person p = (Person) obj;
+//    return this.hashCode() == obj.hashCode();
+//  }
+//
+//  @Override
+//  public int hashCode() {
+//    return Objects.hash(num, name);
+//  }
 
 }
