@@ -1,5 +1,7 @@
 package exercise.chapter8;
 
+import java.util.Objects;
+
 public class Ex1_2 {
   public static void main(String[] args) {
     Person p1 = new Person("111111", "손흥민");
@@ -46,7 +48,7 @@ class Person {
 
   @Override
   public int hashCode() {
-    
+    return Objects.hash()
   }
 
 }
