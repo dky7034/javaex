@@ -11,6 +11,10 @@ public class Circle {
   public Circle(int radius) {
     this.radius = radius;
   }
+  public Circle(int radius, String color) {
+    this.radius = radius;
+    this.color = color;
+  }
   // 메서드
   @Override
   public boolean equals(Object o) {
