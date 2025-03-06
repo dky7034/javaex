@@ -10,7 +10,7 @@ public class LambdaDemo {
     MyFunction mf = new MyFunction() {
       @Override
       public int max(int a, int b) {
-        return 0;
+        return a > b ? a : b;
       }
     }
   }
