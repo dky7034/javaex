@@ -7,6 +7,7 @@ public class GenericMethodDemo2 {
     tickets[0] = new Ticket(10000);
     tickets[1] = new Ticket(20000);
     tickets[2] = new Ticket(30000);
+    countGT(tickets, tickets[2])
   }
 
   // 제네릭 메서드
