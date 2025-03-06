@@ -5,7 +5,7 @@ public class LambdaDemo2 {
     PrintFunction printFunction = new PrintFunction() {
       @Override
       public void printVar(String name, int i) {
-        
+        System.out.println(name);
       }
     };
   }
