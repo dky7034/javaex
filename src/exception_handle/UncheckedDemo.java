@@ -8,7 +8,6 @@ public class UncheckedDemo {
       result = 1 / number;
       result = 2 / number;
       result = 3 / number;
-      int i = 1 / 0;
     } catch (ArithmeticException e) {
       System.out.println(e.getMessage());
     }
