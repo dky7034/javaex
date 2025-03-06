@@ -21,7 +21,7 @@ public class Ex3 {
     Stack<Integer> sti = new Stack<>();
     sti.add(11);
     System.out.println(sti.get(0));
-
+    
     // 문자열을 담을 수 있는 Stack 선언
     Stack<String> sts = new Stack<>();
 
