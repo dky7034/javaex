@@ -8,5 +8,5 @@ public class LambdaDemo2 {
 
 @FunctionalInterface
 interface PrintFunction {
-  void printVar();
+  void printVar(String name, int i);
 }
