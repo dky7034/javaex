@@ -5,7 +5,9 @@ public class UncheckedDemo3 {
     int[] array = {0, 1, 2};
     try {
       System.out.println(array[5]);
-    } catch ()
+    } catch (IndexOutOfBoundsException e) {
+      System.out.println(e.getMessage());
+    }
 
   }
 }
