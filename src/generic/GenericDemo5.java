@@ -4,6 +4,7 @@ public class GenericDemo5 {
   public static void main(String[] args) {
     Entry<Integer, String> entry1 = new Entry<>(1, "홍길동");
     System.out.println(entry1.getKey());
+    System.out.println(entry1.getValue());
 
   }
 }
