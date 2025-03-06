@@ -8,7 +8,12 @@ public class UncheckedDemo4 {
 
     System.out.print("숫자를 입력하세요: ");
     String input = in.nextLine();
-    System.out.println(square(input));
+    try {
+      System.out.println(square(input));
+    } catch (NumberFormatException e) {
+      System.out.println("숫자(정수)를 입력해 주세요.");
+    } finally {
+    }
   }
 
   private static int square(String input) throws NumberFormatException {
