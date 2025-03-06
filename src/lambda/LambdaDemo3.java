@@ -13,7 +13,7 @@ public class LambdaDemo3 {
   }
 }
 
-// 함수형 인터페이스
+// 함수형 인터페이스 선언
 @FunctionalInterface
 interface SquareFunction {
   int square(int x);
