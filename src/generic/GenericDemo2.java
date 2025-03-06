@@ -13,9 +13,9 @@ public class GenericDemo2 {
 
     Boricha boricha = new Boricha();
     c.setBeverage(boricha);
-    Beer beer1 = (Beer) c.getBeverage();
+    Beer beer1 = (Beer) c.getBeverage(); // 다운캐스팅은 컴파일이 걸러주지 않는 실행 오류
     beer1.drinkBeer();
-    
+
     Beverage beverage = new Beverage();
     c.setBeverage(beverage);
 
