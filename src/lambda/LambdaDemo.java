@@ -13,7 +13,7 @@ public class LambdaDemo {
         return a > b ? a : b;
       }
     };
-    System.out.println(mf.max(3, 5); // 5 출력
+    System.out.println(mf.max(3, 5)); // 5 출력
   }
 }
 
