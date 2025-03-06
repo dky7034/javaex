@@ -18,6 +18,7 @@ public class GenericInheritanceDemo {
 
     ArrayList<Beer> list2 = new ArrayList<>();
     list2.add(new Boricha());
-
+    list2.add(new Beverage());
+    list2.add(new Beer());
   }
 }
