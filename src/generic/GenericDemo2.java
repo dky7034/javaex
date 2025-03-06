@@ -13,6 +13,9 @@ class Cup {
     return beverage;
   }
 
+  public void setBeverage(Object beverage) {
+  }
+
 }
 
 class Beverage {
