@@ -1,6 +1,7 @@
 package generic;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class GenericInheritanceDemo {
   public static void main(String[] args) {
@@ -26,7 +27,7 @@ public class GenericInheritanceDemo {
 
   }
 
-  static void beverageTest(ArrayList<Beer> list) {
+  static void beverageTest(List<Beer> list) {
 
   }
 
