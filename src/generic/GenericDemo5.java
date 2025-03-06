@@ -14,4 +14,8 @@ class Entry<K, V> {
     return key;
   }
 
+  public V getValue() {
+    return value;
+  }
+
 }
