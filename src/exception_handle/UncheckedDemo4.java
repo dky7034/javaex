@@ -12,7 +12,6 @@ public class UncheckedDemo4 {
       System.out.println(square(input));
     } catch (NumberFormatException e) {
       System.out.println("숫자(정수)를 입력해 주세요.");
-    } finally {
     }
   }
 
