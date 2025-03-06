@@ -6,6 +6,8 @@ public class GenericDemo5 {
     System.out.println(entry1.getKey());
     System.out.println(entry1.getValue());
 
+    Entry<String, Integer> entry2 = new Entry<>("Apple", 3);
+    
   }
 }
 
