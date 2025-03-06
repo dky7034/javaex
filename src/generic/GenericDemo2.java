@@ -14,7 +14,11 @@ public class GenericDemo2 {
     Boricha boricha = new Boricha();
     c.setBeverage(boricha);
     Object o = c.getBeverage(); // 다운캐스팅은 컴파일이 걸러주지 않는 실행 오류
-    beer1.drinkBeer();                   // 컴파일할 때 걸러질 수 있는 오류로 만들기 위해 제네릭 클래스를 사용
+    if (o instanceof Beer) {
+      Beer beer1 = (Beer) o;
+    } else if (o instanceof Boricha) {
+      Boricha boricha1 = (Boricha) o;
+    }
 
     Beverage beverage = new Beverage();
     c.setBeverage(beverage);
