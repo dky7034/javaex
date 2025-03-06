@@ -8,6 +8,8 @@ public class LambdaDemo3 {
         return x * x;
       }
     };
+
+    SquareFunction s2 = (x) -> x * x;
   }
 }
 
