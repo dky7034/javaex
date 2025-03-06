@@ -10,6 +10,8 @@ public class UncheckedDemo {
     int number = 0;
     if (number == 0) {
       System.out.println("0으로 나눌 수 없습니다.");
+    } else {
+      
     }
   }
 
