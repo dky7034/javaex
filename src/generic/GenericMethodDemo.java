@@ -13,11 +13,12 @@ public class GenericMethodDemo {
 
   public static void main(String[] args) {
     Integer[] a = {1, 2, 3, 4, 5};
-    Double[] d = {1.0, 2.0, 3.0, 4.0, 5.0};
+    Double[] b = {1.0, 2.0, 3.0, 4.0, 5.0};
     Character[] c = {'a', 'b', 'c', 'd', 'e', 'f'};
 
     Utils.showArray(a);
-    Utils.showArray(d);
+    Utils.showArray(b);
+
 
   }
 }
