@@ -12,7 +12,6 @@ public class T1 {
 
     System.out.println("str = " + str);
     System.out.println("value = " + value);
-
   }
 }
 
