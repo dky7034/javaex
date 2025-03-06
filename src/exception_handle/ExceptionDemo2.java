@@ -17,5 +17,8 @@ public class ExceptionDemo2 {
 
     // try-with-resource, jdk9
     FileInputStream is = new FileInputStream("test.txt");
+    try (is) {
+
+    }
   }
 }
