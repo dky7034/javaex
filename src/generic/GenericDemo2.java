@@ -38,7 +38,6 @@ class Boricha extends Beverage {
 }
 
 class Beer extends Beverage {
-  public static void main(String[] args) {
-    System.out.println("맥주를 마신다.");
+  public void drink() {
   }
 }
