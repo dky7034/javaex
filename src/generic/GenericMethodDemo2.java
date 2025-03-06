@@ -5,4 +5,6 @@ public class GenericMethodDemo2 {
     Ticket[] tickets = new Ticket[3];
     // Ticket: 가격 10_000, 20_000, 15_000
   }
+
+  // 제네릭 메서드
 }
