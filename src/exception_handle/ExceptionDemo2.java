@@ -18,5 +18,6 @@ public class ExceptionDemo2 {
         throw new RuntimeException(e);
       }
     }
+
   }
 }
