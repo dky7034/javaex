@@ -5,6 +5,7 @@ public class UncheckedDemo {
     int number = 0;
     int result = 0;
     try {
+      result = 1 / number;
       int i = 1 / 0;
     } catch (ArithmeticException e) {
       System.out.println(e.getMessage());
