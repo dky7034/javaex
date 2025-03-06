@@ -37,6 +37,7 @@ public class Ex3 {
     // 숫자를 키로, 문자열을 값으로 가지는 HashMap을 선언하고 사용해보기
     HashMap<Integer, String> hm1 = new HashMap<>();
     hm1.put(1, "아무거나");
+    System.out.println(hm1.get());
 
     // 문자열을 키로, 숫자를 값으로 가지는 HashMap을 선언하고 사용해보기
 
