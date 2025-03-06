@@ -7,5 +7,6 @@ public class UncheckedDemo4 {
     Scanner in = new Scanner(System.in);
     System.out.print("숫자를 입력하세요: ");
     String input = in.nextLine();
+    System.out.println(square(input));
   }
 }
