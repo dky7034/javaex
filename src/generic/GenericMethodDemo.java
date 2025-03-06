@@ -3,7 +3,7 @@ package generic;
 public class GenericMethodDemo {
   static class Utils {
     // 제너릭 메서드 - <T> 반환타입 메서드명() {}
-    public static <T> void method(T[] a) {
+    public static <T> void showArray(T[] a) {
       for (T t : a) {
 
       }
@@ -16,6 +16,7 @@ public class GenericMethodDemo {
     Double[] d = {1.0, 2.0, 3.0, 4.0, 5.0};
     Character[] c = {'a', 'b', 'c', 'd', 'e', 'f'};
 
-    Utils.method(a);
+    Utils.showArray(a);
+    Utils.showArray(b);
   }
 }
