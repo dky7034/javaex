@@ -23,7 +23,7 @@ public class GenericMethodDemo2 {
 
 } // end of class
 
-class Ticket implements Comparable {
+class Ticket implements Comparable<Ticket> {
   int price;
 
   public Ticket(int price) {
