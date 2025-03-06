@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class ExceptionDemo2 {
-  public static void main(String[] args) throws IOException {
+  public static void main(String[] args) throws IOException, NullPointerException {
     FileInputStream is = null;
     try {
       is = new FileInputStream("test.txt");
