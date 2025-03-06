@@ -9,7 +9,8 @@ public class GenericDemo2 {
     c.getBeverage().drink();
 
     Beer b = (Beer) c.getBeverage();
-
+    b.drink();
+    
     Boricha boricha = new Boricha();
     c.setBeverage(boricha);
 
