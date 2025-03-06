@@ -11,6 +11,7 @@ public class Ex2 {
     System.out.println(p1.getV());
 
     System.out.println(p2.getK());
+    System.out.println(p2.getV());
   }
 }
 
