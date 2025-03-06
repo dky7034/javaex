@@ -20,7 +20,6 @@ public class GenericMethodDemo {
     Utils.showArray(a);
     Utils.showArray(b);
     Utils.showArray(c);
-
-
+    Utils.showArray(d);
   }
 }
