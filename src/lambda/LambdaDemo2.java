@@ -8,6 +8,7 @@ public class LambdaDemo2 {
         System.out.println(name + "=" + i);
       }
     };
+    printFunction.printVar();
   }
 }
 
