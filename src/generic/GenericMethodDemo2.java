@@ -28,4 +28,8 @@ class Ticket {
   public Ticket(int price) {
     this.price = price;
   }
+
+  public int CompareTo(Ticket t) {
+    return 0;
+  }
 }
