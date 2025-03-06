@@ -38,4 +38,5 @@ class Ticket implements Comparable {
       else return -1;
     }
   }
-}
+
+} // end of class Ticket
