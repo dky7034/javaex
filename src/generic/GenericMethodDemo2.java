@@ -14,7 +14,7 @@ public class GenericMethodDemo2 {
         count++;
       }
     }
-
+    return count;
   }
 
 } // end of class
