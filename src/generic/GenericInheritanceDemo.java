@@ -10,7 +10,7 @@ public class GenericInheritanceDemo {
     list1.add(new Boricha()); // 인덱스 2
 
     Beverage b1 = list1.get(0);
-    
+    Beverage b2 = list1.get(2);
 
   }
 }
