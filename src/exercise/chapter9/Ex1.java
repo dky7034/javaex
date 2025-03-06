@@ -6,6 +6,6 @@ public class Ex1 {
   }
 }
 
-class Box<> {
+class Box<T> {
   
 }
