@@ -13,6 +13,7 @@ public class LambdaDemo {
         return a > b ? a : b;
       }
     };
+    mf.max(3, 5)
   }
 }
 
