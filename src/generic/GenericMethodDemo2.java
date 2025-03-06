@@ -6,8 +6,8 @@ public class GenericMethodDemo2 {
     // Ticket: 가격 10_000, 20_000, 15_000
     tickets[0] = new Ticket(10000);
     tickets[1] = new Ticket(20000);
-    tickets[2] = new Ticket(30000);
-    countGT(tickets, tickets[2])
+    tickets[2] = new Ticket(15000);
+    countGT(tickets, tickets[2]);
   }
 
   // 제네릭 메서드
