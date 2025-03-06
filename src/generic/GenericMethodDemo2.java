@@ -23,8 +23,9 @@ public class GenericMethodDemo2 {
 
 } // end of class
 
-class Ticket {
+class Ticket implements Comparable {
   int price;
+
   public Ticket(int price) {
     this.price = price;
   }
