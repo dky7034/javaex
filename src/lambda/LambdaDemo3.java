@@ -2,8 +2,6 @@ package lambda;
 
 public class LambdaDemo3 {
   public static void main(String[] args) {
-    SquareFunction s2 = (x) -> x * x;
-
     SquareFunction s = new SquareFunction() {
       @Override
       public int square(int x) {
