@@ -17,10 +17,10 @@ class Person<K, V> {
   }
 
   public void setK(K k) {
-
+    this.k = k;
   }
 
-  public V getV() {
+  public V getV(V v) {
     return v;
   }
 
