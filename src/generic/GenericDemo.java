@@ -8,6 +8,5 @@ public class GenericDemo {
     il.add(10);
     il.add(20);
     il.add(30);
-    il.add('a');
   }
 }
