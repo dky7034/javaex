@@ -9,7 +9,7 @@ public class LambdaDemo3 {
       }
     };
     // 람다식
-    SquareFunction s2 = 3 -> x * x;
+    SquareFunction s2 = x -> x * x;
   }
 }
 
