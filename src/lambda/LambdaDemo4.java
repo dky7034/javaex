@@ -8,5 +8,5 @@ public class LambdaDemo4 {
 
 @FunctionalInterface
 interface DiceFunction {
-  
+  int roll();
 }
