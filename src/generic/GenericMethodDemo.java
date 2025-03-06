@@ -15,11 +15,12 @@ public class GenericMethodDemo {
     Integer[] a = {1, 2, 3, 4, 5};
     Double[] b = {1.0, 2.0, 3.0, 4.0, 5.0};
     Character[] c = {'a', 'b', 'c', 'd', 'e', 'f'};
-    Boolean[] b = {true, false};
+    Boolean[] d = {true, false};
 
     Utils.showArray(a);
     Utils.showArray(b);
     Utils.showArray(c);
+
 
   }
 }
