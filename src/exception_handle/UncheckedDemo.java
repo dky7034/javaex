@@ -9,6 +9,8 @@ public class UncheckedDemo {
       result = 2 / number;
       result = 3 / number;
     } catch (ArithmeticException e) {
+      e.printStackTrace();
+      System.out.println("-------------");
       System.out.println(e.getMessage());
     }
 //    int number = 0;
