@@ -33,7 +33,9 @@ class Ticket implements Comparable {
   @Override
   public int compareTo(Object o) {
     if (o instanceof Ticket) {
-      
+      if (this.price > t.price) {
+
+      }
     }
   }
 }
