@@ -11,7 +11,7 @@ public class GenericMethodDemo2 {
   }
 
   // 제네릭 메서드
-  static <T extends Comparable> int countGT(T[] array, T element) {
+  static <T extends Comparable<T>> int countGT(T[] array, T element) {
     int count = 0;
     for (T t : array) {
       if (t.compareTo(element) > 0) {
@@ -37,7 +37,7 @@ class Ticket implements Comparable {
       else if (this.price == t.price) return 0;
       else return -1;
     } else {
-      return 
+      return
     }
   }
 
