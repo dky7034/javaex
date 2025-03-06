@@ -16,4 +16,8 @@ class Person<K, V> {
     return k;
   }
 
+  public V getV() {
+    return v;
+  }
+
 }
