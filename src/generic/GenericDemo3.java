@@ -6,5 +6,8 @@ public class GenericDemo3 {
     Boricha b = new Boricha();
 
     c.setBeverage(b);
+
+    Beer beer = new Beer();
+    c.setBeverage(beer);
   }
 }
