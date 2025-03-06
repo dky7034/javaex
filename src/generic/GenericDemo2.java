@@ -14,6 +14,7 @@ class Cup {
   }
 
   public void setBeverage(Object beverage) {
+    this.beverage = beverage;
   }
 
 }
