@@ -14,7 +14,7 @@ public class UncheckedDemo4 {
     System.out.println(square(input));
   }
 
-  private static int square(String input) {
+  private static int square(String input) throws NumberFormatException {
     int i = Integer.parseInt(input);
     return i * i;
   }
