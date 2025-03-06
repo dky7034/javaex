@@ -20,6 +20,5 @@ public class GenericMethodDemo {
     Utils.showArray(b);
     Utils.showArray(c);
 
-
   }
 }
