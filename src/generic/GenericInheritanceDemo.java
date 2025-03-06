@@ -19,6 +19,5 @@ public class GenericInheritanceDemo {
     ArrayList<Beer> list2 = new ArrayList<>();
     
 
-
   }
 }
