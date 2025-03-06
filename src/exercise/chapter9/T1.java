@@ -9,9 +9,7 @@ public class T1 {
 class Container<T> {
   public T t;
 
-  public Container(T t) {
-    
-  }
+  public Container() {}
 
   public T getT() {
     return t;
