@@ -12,8 +12,8 @@ public class Ex3 {
     ArrayList<String> als = new ArrayList<>();
 
     // 숫자(정수)를 담을 수 있는 Stack 선언
-    Stack<Integer> si = new Stack<>();
+    Stack<Integer> sti = new Stack<>();
 
-    
+
   }
 }
