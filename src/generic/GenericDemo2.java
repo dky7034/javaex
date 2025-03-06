@@ -27,7 +27,7 @@ public class GenericDemo2 {
   }
 }
 
-class Cup {
+class Cup<T>{
   private Object beverage;
 
   public Object getBeverage() {
