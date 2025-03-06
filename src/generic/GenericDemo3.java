@@ -7,6 +7,7 @@ public class GenericDemo3 {
 
     c.setBeverage(b);
     Boricha boricha = c.getBeverage();
+    System.out.println(boricha);
 
     Beer beer = new Beer();
 //    c.setBeverage(beer);
