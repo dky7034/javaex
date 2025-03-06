@@ -24,7 +24,6 @@ public class LambdaDemo {
 // 함수형 인터페이스 - 단 하나의 추상 메서드만 가지는 인터페이스
 interface MyFunction {
   public abstract int max(int a, int b);
-
   public abstract int min(int a, int b);
 }
 
