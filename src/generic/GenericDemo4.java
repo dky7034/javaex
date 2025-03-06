@@ -8,6 +8,7 @@ public class GenericDemo4 {
     arrayList.add(10);
     arrayList.add("str");
     arrayList.add('c');
-    
+
+    arrayList.get(2);
   }
 }
