@@ -34,8 +34,8 @@ class Ticket implements Comparable {
   public int compareTo(Object o) {
     if (o instanceof Ticket t) {
       if (this.price > t.price) return 1;
+      else if (this.price == t.price) return 0;
 
-      }
     }
   }
 }
