@@ -11,7 +11,7 @@ public class UncheckedDemo {
     if (number == 0) {
       System.out.println("0으로 나눌 수 없습니다.");
     } else {
-      int result = 1 / number;
+      int result = 2 / number;
     }
   }
 
