@@ -20,8 +20,12 @@ class Person<K, V> {
     this.k = k;
   }
 
-  public V getV(V v) {
+  public V getV() {
     return v;
+  }
+
+  public void setV(V v) {
+    this.v = v;
   }
 
 }
