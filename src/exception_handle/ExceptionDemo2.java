@@ -21,7 +21,6 @@ public class ExceptionDemo2 {
     try (is) {
 
     } catch (FileNotFoundException, IOException e1) {
-      System.out.println(e.getMessage());
       System.out.println(e1.getMessage());
     }
   }
