@@ -7,7 +7,8 @@ public class GenericDemo2 {
     Beer beer = new Beer();
     c.setBeverage(beer);
     c.getBeverage().drink();
-    Object beverage1 = c.getBeverage();
+
+    Beer b = (Beer) c.getBeverage();
 
     Boricha boricha = new Boricha();
     c.setBeverage(boricha);
