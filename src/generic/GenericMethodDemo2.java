@@ -16,4 +16,5 @@ public class GenericMethodDemo2 {
     }
 
   }
-}
+
+} // end of class
