@@ -8,6 +8,8 @@ public class UncheckedDemo3 {
     } catch (ArrayIndexOutOfBoundsException e) {
       System.out.println(e.getMessage());
       System.out.println("해당 값이 존재하지 않습니다.");
+    } finally {
+      System.out.println("프로그램을 종료합니다.");
     }
 
   }
