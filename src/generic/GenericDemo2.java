@@ -8,6 +8,10 @@ public class GenericDemo2 {
 
 class Cup {
   private Object beverage;
+
+  public Object getBeverage() {
+    return beverage;
+  }
 }
 
 class Beverage {
