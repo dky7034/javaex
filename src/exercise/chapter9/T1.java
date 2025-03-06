@@ -9,6 +9,10 @@ public class T1 {
     Container<Integer> container2 = new Container<>();
     container2.setT(6);
     int value = container2.getT();
+
+    System.out.println("str = " + str);
+    System.out.println("value = " + value);
+
   }
 }
 
