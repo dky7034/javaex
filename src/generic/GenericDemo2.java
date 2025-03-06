@@ -34,9 +34,7 @@ class Cup {
   }
 }
 
-class Beverage {
-
-}
+class Beverage {}
 
 class Boricha extends Beverage {
   public void drinkBoricha() {
