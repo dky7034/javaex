@@ -27,7 +27,7 @@ public class GenericInheritanceDemo {
 
   }
 
-  static void beverageTest(ArrayList<Beer> list) {
+  static void beverageTest(ArrayList<Beverage> list) {
 
   }
 
