@@ -5,7 +5,7 @@ public class Ex2 {
     // Person (이름과 나이)
     Person<String, Integer> p1 = new Person<>("홍길동", 20);
     // Person (주민번호, 이름)
-    Person<String, String> p2 = new Person<>();
+    Person<String, String> p2 = new Person<>("111111", "손흥민");
 
     System.out.println(p1.getK());
     System.out.println(p1.getV());
