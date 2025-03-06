@@ -5,6 +5,8 @@ public class Ex1 {
     Box<Integer> i = new Box<>();
     i.setItem(Integer.valueOf(100));
     System.out.println(i.getItem());
+
+    Box<String> s = new Box<>();
   }
 }
 
