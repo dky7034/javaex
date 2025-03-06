@@ -10,6 +10,10 @@ class Entry<K, V> {
   private K key;
   private V value;
 
+  public Entry(K key, V value) {
+    
+  }
+
   public K getKey() {
     return key;
   }
