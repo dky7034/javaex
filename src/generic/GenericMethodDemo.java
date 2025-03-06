@@ -10,7 +10,7 @@ public class GenericMethodDemo {
       }
     }
   }
-  
+
   public static void main(String[] args) {
     Integer[] a = {1, 2, 3, 4, 5};
     Double[] b = {1.0, 2.0, 3.0, 4.0, 5.0};
