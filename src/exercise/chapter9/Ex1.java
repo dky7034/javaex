@@ -22,6 +22,5 @@ class Box<T> {
   public void setItem(T item) {
     this.item = item;
   }
-
-
+  
 }
