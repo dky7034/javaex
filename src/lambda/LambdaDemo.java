@@ -7,7 +7,6 @@ public class LambdaDemo {
         return a > b ? a : b;
       }
     };
-    obj.max();
   }
 }
 
