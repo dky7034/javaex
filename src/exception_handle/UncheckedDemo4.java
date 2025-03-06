@@ -9,4 +9,8 @@ public class UncheckedDemo4 {
     String input = in.nextLine();
     System.out.println(square(input));
   }
+
+  private static int square(String input) {
+    int i = Integer.parseInt(input);
+  }
 }
