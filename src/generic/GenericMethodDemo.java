@@ -3,6 +3,7 @@ package generic;
 public class GenericMethodDemo {
   static class Utils {
     // 제너릭 메서드 - <T> 반환타입 메서드명() {}
+    // 제네릭 타입 범위 제한 - <T extends 클래스명>
     public static <T extends Number> void showArray(T[] a) {
       for (T t : a) {
         System.out.println("t = " + t);
