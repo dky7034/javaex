@@ -12,6 +12,7 @@ class Cup {
   public Object getBeverage() {
     return beverage;
   }
+  public
 }
 
 class Beverage {
