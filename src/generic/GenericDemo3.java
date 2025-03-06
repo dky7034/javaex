@@ -12,5 +12,6 @@ public class GenericDemo3 {
     Beer beer = new Beer();
 
     beerCup.setBeverage(beer);
+    beerCup.getBeverage().drinkBeer();
   }
 }
