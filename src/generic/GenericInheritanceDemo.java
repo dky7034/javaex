@@ -17,8 +17,8 @@ public class GenericInheritanceDemo {
     Boricha b5 = (Boricha) list1.get(2);
 
     ArrayList<Beer> list2 = new ArrayList<>();
-    list2.add(new Boricha());   // 강한 타입 체크 (컴파일 에러 / 타입 안정성)
-    list2.add(new Beverage());  // 강한 타입 체크 (컴파일 에러 / 타입 안정성)
+//    list2.add(new Boricha());   // 강한 타입 체크 (컴파일 에러 / 타입 안정성)
+//    list2.add(new Beverage());  // 강한 타입 체크 (컴파일 에러 / 타입 안정성)
     list2.add(new Beer());
   }
 }
