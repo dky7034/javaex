@@ -35,6 +35,7 @@ class Cup<T> {
   }
 
   public void setBeverage(T beverage) {
+    this.beverage = beverage;
   }
 }
 
