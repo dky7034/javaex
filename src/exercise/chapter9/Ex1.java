@@ -10,6 +10,6 @@ class Box<T> {
   private T item;
 
   public T getItem() {
-    
+    return item;
   }
 }
