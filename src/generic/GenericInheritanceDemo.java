@@ -9,6 +9,8 @@ public class GenericInheritanceDemo {
     list1.add(new Beer());    // 인덱스 1
     list1.add(new Boricha()); // 인덱스 2
 
+    beverageTest(list1);
+
     Beverage b1 = list1.get(0);
     Beverage b2 = list1.get(1);
     Beverage b3 = list1.get(2);
@@ -24,7 +26,7 @@ public class GenericInheritanceDemo {
   }
 
   static void beverageTest(ArrayList<Beverage> list) {
-    
+
   }
 
 }
