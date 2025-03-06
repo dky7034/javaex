@@ -20,7 +20,7 @@ public class ExceptionDemo2 {
     FileInputStream is = new FileInputStream("test.txt");
     try (is) {
 
-    } catch (FileNotFoundException e) {
+    } catch (FileNotFoundException e | IOException e1) {
       System.out.println(e.getMessage());
     }
   }
