@@ -3,9 +3,9 @@ package generic;
 public class GenericDemo3 {
   public static void main(String[] args) {
     Cup<Boricha> borichaCup = new Cup<>();
-    Boricha b = new Boricha();
+    Boricha boricha = new Boricha();
 
-    borichaCup.setBeverage(b);
+    borichaCup.setBeverage(boricha);
     Boricha boricha = borichaCup.getBeverage();
 
     Beer beer = new Beer();
