@@ -16,16 +16,20 @@ public class T1 {
 }
 
 class Container<T> {
+  // 필드
   public T t;
 
+  // 생성자
   public Container() {}
 
+  // 메서드
+  // getter and setter
   public T getT() {
     return t;
   }
   public void setT(T t) {
     this.t = t;
   }
-  
+
 }
 
