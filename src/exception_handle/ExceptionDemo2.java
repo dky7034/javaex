@@ -9,6 +9,8 @@ public class ExceptionDemo2 {
       FileInputStream is = new FileInputStream("test.txt");
     } catch (FileNotFoundException e) {
       throw new RuntimeException(e);
+    } finally {
+      
     }
   }
 }
