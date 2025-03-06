@@ -7,9 +7,17 @@ public class GenericDemo2 {
 }
 
 class Cup {
-
+  private Object beverage;
 }
 
 class Beverage {
-  
+
+}
+
+class Boricha extends Beverage {
+
+}
+
+class Beer extends Beverage {
+
 }
