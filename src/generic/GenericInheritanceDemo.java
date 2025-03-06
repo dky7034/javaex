@@ -11,6 +11,6 @@ public class GenericInheritanceDemo {
 
     Beverage b1 = list1.get(0);
     Beverage b2 = list1.get(1);
-    
+
   }
 }
