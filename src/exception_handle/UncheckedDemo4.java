@@ -12,5 +12,7 @@ public class UncheckedDemo4 {
 
   private static int square(String input) {
     int i = Integer.parseInt(input);
+    return i * i;
   }
+
 }
