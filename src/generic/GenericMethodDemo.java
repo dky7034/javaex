@@ -19,7 +19,7 @@ public class GenericMethodDemo {
 
     Utils.showArray(a);
     Utils.showArray(b);
-    Utils.showArray(c);
-    Utils.showArray(d);
+//    Utils.showArray(c); // 제네릭 타입의 범위 제한
+//    Utils.showArray(d);
   }
 }
