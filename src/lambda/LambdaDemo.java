@@ -3,7 +3,9 @@ package lambda;
 public class LambdaDemo {
   public static void main(String[] args) {
     new AnyObject() {
-      
+      int max(int a, int b) {
+        return a > b ? a : b;
+      }
     }
   }
 }
