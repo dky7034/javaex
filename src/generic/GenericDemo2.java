@@ -33,6 +33,9 @@ class Cup<T> {
   public T getBeverage() {
     return beverage;
   }
+
+  public void setBeverage(T beverage) {
+  }
 }
 
 
