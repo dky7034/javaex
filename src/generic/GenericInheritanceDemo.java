@@ -1,7 +1,6 @@
 package generic;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class GenericInheritanceDemo {
   public static void main(String[] args) {
@@ -23,7 +22,7 @@ public class GenericInheritanceDemo {
 //    list2.add(new Boricha());   // 강한 타입 체크 (컴파일 에러 / 타입 안정성)
 //    list2.add(new Beverage());  // 강한 타입 체크 (컴파일 에러 / 타입 안정성)
     list2.add(new Beer());
-    beverageTest(list2); // 강한 타입 체크 (제네릭은 타입 안정성을 보장하기 위해 상속 관계라도 제네릭이 적용되면 서로 다른 타입으로 취급합니다)
+//    beverageTest(list2); // 강한 타입 체크 (제네릭은 타입 안정성을 보장하기 위해 상속 관계라도 제네릭이 적용되면 서로 다른 타입으로 취급합니다)
 
   }
 
