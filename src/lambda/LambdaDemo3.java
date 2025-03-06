@@ -8,7 +8,7 @@ public class LambdaDemo3 {
         return x * x;
       }
     };
-
+    // 람다식
     SquareFunction s2 = (x) -> x * x;
   }
 }
