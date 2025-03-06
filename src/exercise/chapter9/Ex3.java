@@ -35,6 +35,6 @@ public class Ex3 {
     // 문자열을 담을 수 있는 Stack 선언
     Queue<String> qs = new LinkedList<>();
     qs.add("str");
-    System.out.println(qs.poll());
+    System.out.println(qs.poll().toUpperCase());
   }
 }
