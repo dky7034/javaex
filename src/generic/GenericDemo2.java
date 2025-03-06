@@ -27,7 +27,10 @@ public class GenericDemo2 {
   }
 }
 
-class Cup<T>{
+class Cup<T> {}
+
+
+class Cup {
   private Object beverage;
 
   public Object getBeverage() {
@@ -39,7 +42,8 @@ class Cup<T>{
   }
 }
 
-class Beverage {}
+class Beverage {
+}
 
 class Boricha extends Beverage {
   public void drinkBoricha() {
