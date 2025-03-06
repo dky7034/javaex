@@ -16,6 +16,10 @@ class Person<K, V> {
     return k;
   }
 
+  public void setK(K k) {
+
+  }
+
   public V getV() {
     return v;
   }
