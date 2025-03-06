@@ -9,6 +9,6 @@ public class GenericDemo4 {
 //    arrayList.add("str"); // 타입 안전성 보장
 //    arrayList.add('c');
 
-    int i = (Integer) arrayList.get(1);
+    int i = (Integer) arrayList.get(0);
   }
 }
