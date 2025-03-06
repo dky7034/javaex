@@ -35,7 +35,7 @@ class Ticket implements Comparable {
     if (o instanceof Ticket t) {
       if (this.price > t.price) return 1;
       else if (this.price == t.price) return 0;
-
+      else return -1;
     }
   }
 }
