@@ -11,7 +11,6 @@ public class Ex3 {
     ArrayList<Integer> ali = new ArrayList<>();
     ali.add(10);
     int result = ali.get(0);
-    System.out.println(result);
 
     // 문자열을 담을 수 있는 ArrayList 선언
     ArrayList<String> als = new ArrayList<>();
