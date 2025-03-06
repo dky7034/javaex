@@ -9,6 +9,7 @@ public class GenericInheritanceDemo {
     list1.add(new Beer());    // 인덱스 1
     list1.add(new Boricha()); // 인덱스 2
 
-    Beverage beverage = list1.get(0);
+    Beverage b1 = list1.get(0);
+
   }
 }
