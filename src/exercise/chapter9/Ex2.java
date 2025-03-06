@@ -9,6 +9,7 @@ public class Ex2 {
 }
 
 class Person<K, V> {
-
+  private K k;
+  private V v;
 
 }
