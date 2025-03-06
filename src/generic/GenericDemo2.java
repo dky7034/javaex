@@ -9,7 +9,7 @@ public class GenericDemo2 {
 //    c.getBeverage().drink();
 
     Beer b = (Beer) c.getBeverage();
-    b.drink();
+    b.drinkBeer();
 
     Boricha boricha = new Boricha();
     c.setBeverage(boricha);
@@ -39,7 +39,7 @@ class Beverage {
 
 class Boricha extends Beverage {
   public void drinkBoricha() {
-
+    System.out.println("Boricha 를 마신다");
   }
 }
 
