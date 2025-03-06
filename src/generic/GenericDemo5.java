@@ -7,5 +7,6 @@ public class GenericDemo5 {
 }
 
 class Entry<K, V> {
-  
+  private K
+
 }
