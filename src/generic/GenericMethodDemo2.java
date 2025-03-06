@@ -25,5 +25,7 @@ public class GenericMethodDemo2 {
 
 class Ticket {
   int price;
-  
+  public Ticket(int price) {
+    this.price = price;
+  }
 }
