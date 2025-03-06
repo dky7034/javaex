@@ -22,6 +22,7 @@ public class GenericInheritanceDemo {
 //    list2.add(new Boricha());   // 강한 타입 체크 (컴파일 에러 / 타입 안정성)
 //    list2.add(new Beverage());  // 강한 타입 체크 (컴파일 에러 / 타입 안정성)
     list2.add(new Beer());
+    beverageTest(list2);
 
   }
 
