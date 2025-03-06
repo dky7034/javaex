@@ -22,8 +22,9 @@ public class GenericInheritanceDemo {
     list2.add(new Beer());
 
   }
+  
   static void beverageTest() {
-    
+
   }
 
 }
