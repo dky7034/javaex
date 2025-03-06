@@ -30,7 +30,8 @@ class Ticket implements Comparable {
     this.price = price;
   }
 
-  public int CompareTo(Ticket t) {
+  @Override
+  public int compareTo(Object o) {
     return 0;
   }
 }
