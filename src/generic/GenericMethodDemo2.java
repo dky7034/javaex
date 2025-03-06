@@ -11,6 +11,7 @@ public class GenericMethodDemo2 {
     int count = 0;
     for (T t : array) {
       if (t.compareTo(element) > 0) {
+        count++;
       }
     }
 
