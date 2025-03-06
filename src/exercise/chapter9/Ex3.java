@@ -14,8 +14,8 @@ public class Ex3 {
     // 숫자(정수)를 담을 수 있는 Stack 선언
     Stack<Integer> sti = new Stack<>();
 
-    //
-    Stack<String> sts = new Stack<>()
+    // 문자열을 담을 수 있는 Stack 선언
+    Stack<String> sts = new Stack<>();
 
   }
 }
