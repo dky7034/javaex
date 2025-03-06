@@ -12,7 +12,6 @@ public class ExceptionDemo2 {
       System.out.println(e.getMessage());
     } finally {
       is.close();
-
     }
   }
 }
