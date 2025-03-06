@@ -16,7 +16,6 @@ public class LambdaDemo {
     System.out.println(mf.max(3, 5)); // 5 출력
 
     MyFunction mf2 = (a, b) -> a > b ? a : b;
-
     System.out.println(mf2.max(6, 23));
   }
 }
