@@ -9,6 +9,6 @@ public class GenericDemo4 {
     arrayList.add("str");
     arrayList.add('c');
 
-    int i = (Integer) arrayList.get(0);
+    int i = (Integer) arrayList.get(1);
   }
 }
