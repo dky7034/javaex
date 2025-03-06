@@ -9,6 +9,10 @@ public class GenericDemo2 {
 
     Boricha boricha = new Boricha();
     c.setBeverage(boricha);
+
+    Beverage beverage = new Beverage();
+    c.setBeverage(beverage);
+    
   }
 }
 
