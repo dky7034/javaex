@@ -10,7 +10,8 @@ public class GenericMethodDemo2 {
   static <T> int countGT(T[] array, T element) {
     int count = 0;
     for (T t : array) {
-
+      if (t.compareTo(element) > 0) {
+      }
     }
 
   }
