@@ -2,7 +2,7 @@ package generic;
 
 public class GenericDemo5 {
   public static void main(String[] args) {
-    Entry<Integer, String> entry1 = new Entry<>();
+    Entry<Integer, String> entry1 = new Entry<>(1, "홍길동");
 
   }
 }
