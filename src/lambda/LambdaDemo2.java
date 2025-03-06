@@ -11,7 +11,7 @@ public class LambdaDemo2 {
     p.printVar("홍길동", 3);
 
     PrintFunction p2 = (name, i) -> System.out.println(name + "=" + i);
-    p2.printVar();
+    p2.printVar("홍길동", 3);
   }
 }
 
