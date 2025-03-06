@@ -13,7 +13,8 @@ public class GenericInheritanceDemo {
     Beverage b2 = list1.get(1);
     Beverage b3 = list1.get(2);
 
-    Beer b2 = (Beer) list1.get(1);
+    Beer b4 = (Beer) list1.get(1);
+
 
   }
 }
