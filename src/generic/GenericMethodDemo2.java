@@ -11,7 +11,7 @@ public class GenericMethodDemo2 {
   }
 
   // 제네릭 메서드
-  static <T> int countGT(T[] array, T element) {
+  static <T extends Comparable> int countGT(T[] array, T element) {
     int count = 0;
     for (T t : array) {
       if (t.compareTo(element) > 0) {
