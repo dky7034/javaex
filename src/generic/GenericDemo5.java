@@ -11,7 +11,7 @@ class Entry<K, V> {
   private V value;
 
   public K getKey() {
-
+    return key;
   }
 
 }
