@@ -11,7 +11,7 @@ public class UncheckedDemo {
     } catch (ArithmeticException e) {
       e.printStackTrace();
       System.out.println("-------------");
-      System.out.println(e.getMessage());
+      System.out.println(e.getMessage()); // 사용자가 보기 편한 메시지로 변환하는 것을 권장
     }
 //    int number = 0;
 //    if (number == 0) {
