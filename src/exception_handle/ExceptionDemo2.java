@@ -1,7 +1,6 @@
 package exception_handle;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class ExceptionDemo2 {
@@ -20,8 +19,9 @@ public class ExceptionDemo2 {
     FileInputStream is = new FileInputStream("test.txt");
     try (is) {
 
-    } catch (FileNotFoundException, IOException e1) {
+    } catch (IOException e1) {
       System.out.println(e1.getMessage());
     }
+
   }
 }
