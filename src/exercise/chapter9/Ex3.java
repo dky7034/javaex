@@ -1,9 +1,6 @@
 package exercise.chapter9;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class Ex3 {
   public static void main(String[] args) {
@@ -37,7 +34,11 @@ public class Ex3 {
     qs.add("str");
     System.out.println(qs.poll().toUpperCase());
 
+    // 숫자를 키로, 문자열을 값으로 가지는 HashMap을 선언하고 사용해보기
+    HashMap<Integer, String> hm1 = new HashMap<>();
+    hm1.put(1, "아무거나");
+
     // 문자열을 키로, 숫자를 값으로 가지는 HashMap을 선언하고 사용해보기
-    
+
   }
 }
