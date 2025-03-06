@@ -8,6 +8,6 @@ public class GenericMethodDemo2 {
 
   // 제네릭 메서드
   static <T> int countGT(T[] array, int price) {
-
+    
   }
 }
