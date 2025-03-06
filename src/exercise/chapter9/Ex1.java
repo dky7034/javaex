@@ -7,5 +7,9 @@ public class Ex1 {
 }
 
 class Box<T> {
-  
+  private T item;
+
+  public T getItem() {
+    
+  }
 }
