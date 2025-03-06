@@ -18,6 +18,7 @@ public class GenericDemo2 {
       Beer beer1 = (Beer) o;
     } else if (o instanceof Boricha) {
       Boricha boricha1 = (Boricha) o;
+      boricha1.drinkBoricha();
     }
 
     Beverage beverage = new Beverage();
