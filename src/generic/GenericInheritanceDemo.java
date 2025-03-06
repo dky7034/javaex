@@ -14,6 +14,7 @@ public class GenericInheritanceDemo {
     Beverage b3 = list1.get(2);
 
     Beer b4 = (Beer) list1.get(1);
+    Boricha b5 = (Boricha) list1.get(2);
 
 
   }
