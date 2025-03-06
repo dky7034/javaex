@@ -7,6 +7,7 @@ public class Ex1 {
     System.out.println(i.getItem());
 
     Box<String> s = new Box<>();
+    s.setItem("만능이네!");
   }
 }
 
