@@ -13,6 +13,9 @@ public class LambdaDemo {
         return a > b ? a : b;
       }
     };
+
+    MyFunction mf2 = (a, b) -> a > b ? a ; b;
+
     System.out.println(mf.max(3, 5)); // 5 출력
   }
 }
