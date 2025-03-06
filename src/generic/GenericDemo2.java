@@ -9,7 +9,6 @@ public class GenericDemo2 {
 
     Boricha boricha = new Boricha();
     c.setBeverage(boricha);
-    System.out.println(c.getBeverage());
 
     Beverage beverage = new Beverage();
     c.setBeverage(beverage);
@@ -39,5 +38,7 @@ class Boricha extends Beverage {
 }
 
 class Beer extends Beverage {
-
+  public static void main(String[] args) {
+    System.out.println("맥주를 마신다.");
+  }
 }
