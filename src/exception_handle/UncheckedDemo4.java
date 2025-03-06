@@ -9,4 +9,8 @@ public class UncheckedDemo4 {
     String input = in.nextLine();
     System.out.println(square(input));
   }
+
+  private static Object square(String input) {
+    return square(input);
+  }
 }
