@@ -8,7 +8,7 @@ public class Ex2 {
   }
 }
 
-class Person {
-  
+class Person<K, V> {
+
 
 }
