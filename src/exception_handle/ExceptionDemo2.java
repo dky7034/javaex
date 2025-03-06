@@ -5,12 +5,13 @@ import java.io.FileNotFoundException;
 
 public class ExceptionDemo2 {
   public static void main(String[] args) {
+    FileInputStream is = null;
     try {
       FileInputStream is = new FileInputStream("test.txt");
     } catch (FileNotFoundException e) {
       throw new RuntimeException(e);
     } finally {
-      
+
     }
   }
 }
