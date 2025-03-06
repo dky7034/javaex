@@ -12,6 +12,9 @@ class Person<K, V> {
   private K k;
   private V v;
 
+  public Person<K, V> () {}
+
+
   public K getK() {
     return k;
   }
