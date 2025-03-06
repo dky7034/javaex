@@ -1,5 +1,6 @@
 package exception_handle;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 
 public class ExceptionDemo2 {
@@ -14,6 +15,7 @@ public class ExceptionDemo2 {
 //      is.close();
 //    }
 
-    
+    // try-with-resource, jdk9
+    FileInputStream is = new FileInputStream("test.txt");
   }
 }
