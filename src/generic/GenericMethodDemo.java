@@ -17,6 +17,7 @@ public class GenericMethodDemo {
     Character[] c = {'a', 'b', 'c', 'd', 'e', 'f'};
 
     Utils.showArray(a);
-    Utils.showArray(b);
+    Utils.showArray(d);
+
   }
 }
