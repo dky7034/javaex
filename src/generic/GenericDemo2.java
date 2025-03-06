@@ -28,7 +28,11 @@ public class GenericDemo2 {
 }
 
 class Cup<T> {
-  
+  private T beverage;
+
+  public T getBeverage() {
+    return beverage;
+  }
 }
 
 
