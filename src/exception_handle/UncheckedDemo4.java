@@ -7,7 +7,7 @@ public class UncheckedDemo4 {
     Scanner in = new Scanner(System.in);
     try {
       System.out.print("숫자를 입력하세요: ");
-    } catch (Exception e) {
+    } catch (NumberFormatException e) {
       System.out.println(e.getMessage());
     } finally {
     }
