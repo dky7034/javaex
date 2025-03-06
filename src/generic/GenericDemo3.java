@@ -9,6 +9,6 @@ public class GenericDemo3 {
     Boricha boricha = c.getBeverage();
 
     Beer beer = new Beer();
-//    c.setBeverage(beer);
+//    c.setBeverage(beer); // Boricha 가 아닌 객체는 담을 수 없습니다.
   }
 }
