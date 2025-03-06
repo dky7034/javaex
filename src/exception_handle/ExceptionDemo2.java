@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class ExceptionDemo2 {
   public static void main(String[] args) throws IOException, NullPointerException {
-    // 특정 리소스를 사용 후 close를 해야 하는 경우 try-catch-finally
+    // 특정 리소스를 사용 후 close를 해야 하는 경우: try-catch-finally
 //    FileInputStream is = null;
 //    try {
 //      is = new FileInputStream("test.txt");
