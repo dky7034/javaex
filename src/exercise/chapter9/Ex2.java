@@ -12,4 +12,8 @@ class Person<K, V> {
   private K k;
   private V v;
 
+  public K getK() {
+    
+  }
+
 }
