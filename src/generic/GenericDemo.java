@@ -14,6 +14,6 @@ public class GenericDemo {
     sl.add("a");
     sl.add("b");
     sl.add("c");
-    sl.add(1);
+//    sl.add(1);
   }
 }
