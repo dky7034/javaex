@@ -1,6 +1,8 @@
 package exercise.chapter9;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class Ex3 {
@@ -17,5 +19,6 @@ public class Ex3 {
     // 문자열을 담을 수 있는 Stack 선언
     Stack<String> sts = new Stack<>();
 
+    Queue<Integer> qi = new LinkedList<>();
   }
 }
