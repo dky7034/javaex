@@ -9,5 +9,11 @@ public class GenericDemo {
     il.add(20);
     il.add(30);
 //    il.add('a');
+
+    ArrayList<String> sl = new ArrayList<>();
+    sl.add("a");
+    sl.add("b");
+    sl.add("c");
+    sl.add(1);
   }
 }
