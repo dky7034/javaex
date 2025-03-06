@@ -13,7 +13,7 @@ class Person<K, V> {
   private V v;
 
   public K getK() {
-    
+    return k;
   }
 
 }
