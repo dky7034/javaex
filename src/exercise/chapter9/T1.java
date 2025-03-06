@@ -26,7 +26,6 @@ class Container<T> {
   public void setT(T t) {
     this.t = t;
   }
-
-
+  
 }
 
