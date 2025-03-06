@@ -17,7 +17,7 @@ public class GenericInheritanceDemo {
     Boricha b5 = (Boricha) list1.get(2);
 
     ArrayList<Beer> list2 = new ArrayList<>();
-    
+    list2.add(new Boricha());
 
   }
 }
