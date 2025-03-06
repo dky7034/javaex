@@ -5,6 +5,7 @@ public class Ex2 {
     // Person (이름과 나이)
     Person<String, Integer> p1 = new Person<>();
     // Person (주민번호, 이름)
+    Person<String, String> p2 = new Person<>();
 
   }
 }
