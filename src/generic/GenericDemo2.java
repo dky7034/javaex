@@ -14,6 +14,8 @@ public class GenericDemo2 {
     Boricha boricha = new Boricha();
     c.setBeverage(boricha);
 
+    c.getBeverage();
+
     Beverage beverage = new Beverage();
     c.setBeverage(beverage);
 
