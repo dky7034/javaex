@@ -36,5 +36,8 @@ public class Ex3 {
     Queue<String> qs = new LinkedList<>();
     qs.add("str");
     System.out.println(qs.poll().toUpperCase());
+
+    // 문자열을 키로, 숫자를 값으로 가지는 HashMap을 선언하고 사용해보기
+    
   }
 }
