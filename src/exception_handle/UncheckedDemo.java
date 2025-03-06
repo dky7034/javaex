@@ -2,6 +2,8 @@ package exception_handle;
 
 public class UncheckedDemo {
   public static void main(String[] args) {
+    int number = 0;
+    int result = 0;
     try {
       int i = 1 / 0;
     } catch (ArithmeticException e) {
