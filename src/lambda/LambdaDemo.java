@@ -7,7 +7,12 @@ public class LambdaDemo {
 //        return a > b ? a : b;
 //      }
 //    };
-
+    MyFunction mf = new MyFunction() {
+      @Override
+      public int max(int a, int b) {
+        return 0;
+      }
+    }
   }
 }
 
