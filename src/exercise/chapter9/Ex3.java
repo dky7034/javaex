@@ -42,6 +42,12 @@ public class Ex3 {
     System.out.println(hm1.get(2));
 
     // 문자열을 키로, 숫자를 값으로 가지는 HashMap을 선언하고 사용해보기
-
+    HashMap<String, Integer> hm2 = new HashMap<>();
+    hm2.put("바나나", 3);
+    hm2.put("사과", 2);
+    hm2.put("포도", 1);
+    System.out.println(hm2.get("바나나"));
+    System.out.println(hm2.get("사과"));
+    System.out.println(hm2.get("포도"));
   }
 }
