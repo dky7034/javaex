@@ -17,7 +17,7 @@ public class PredicateDemo {
 
     // 함수형 인터페이스 - 람다식 활용
     Predicate<String> isEmpty2 = s -> s.length() == 0;
-    
+    if (isEmpty2 )
 
   }
 }
