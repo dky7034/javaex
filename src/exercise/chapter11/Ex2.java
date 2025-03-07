@@ -40,7 +40,6 @@ class Person {
     return "Person[" + name + ":" + age + "]";
   }
   // equals 오버라이딩
-
   @Override
   public boolean equals(Object obj) {
     // obj 가 현재 객체와 같은 타입인지 판별하는 조건문
