@@ -10,11 +10,11 @@ public class StackDemo {
 //    stack.push("20");
 //    stack.push("30");
 
-    if (!stack.isEmpty()) {
-      System.out.println(stack.peek());
-    } else {
-      System.out.println("스택에 자료가 없습니다.");
-    }
+//    if (!stack.isEmpty()) {
+//      System.out.println(stack.peek());
+//    } else {
+//      System.out.println("스택에 자료가 없습니다.");
+//    }
 
     try {
       System.out.println(stack.peek());
