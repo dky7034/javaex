@@ -19,7 +19,7 @@ public class StackDemo {
     try {
       System.out.println(stack.peek());
     } catch (EmptyStackException e) {
-      e.getMessage()
+      System.out.println(e.getMessage());
     }
 
 
