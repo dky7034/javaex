@@ -28,7 +28,7 @@ public class Ex3_4 {
     Arrays.sort(persons);
 
     // 내림차순으로 정렬 - 함수형 인터페이스와 람다식 활용!
-    
+    Arrays.sort(persons);
 
 
     for (Person person : persons) {
