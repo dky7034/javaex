@@ -9,7 +9,7 @@ public class SetDemo {
     set.add(10);
     System.out.println(set);
 
-    set.add(10);
+    set.add(10); // 중복 요소 추가 안 됨
     set.add(5);
     System.out.println(set);
   }
