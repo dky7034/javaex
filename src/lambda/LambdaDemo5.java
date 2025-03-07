@@ -10,7 +10,7 @@ public class LambdaDemo5 {
         "펜은 칼보다 강하다"
     };
 
-    // 사전 기준 정렬
+    // 사전 기준 정렬 (오름차순)
     System.out.println("사전 기준 정렬");
     Arrays.sort(sArr);
     System.out.println(Arrays.toString(sArr));
