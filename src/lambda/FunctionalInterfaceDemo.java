@@ -24,6 +24,6 @@ public class FunctionalInterfaceDemo {
     map.put(2, "딸기");
     map.forEach((k, v) -> System.out.println(k + ", " + v));
 
-    Function<String, Integer> f = (s -> Integer.parseInt());
+    Function<String, Integer> f = (s -> Integer.parseInt(s));
   }
 }
