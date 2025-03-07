@@ -9,7 +9,7 @@ public class PerformanceDemo {
     LinkedList<Integer> ll = new LinkedList<>();
 
     // 시간 체크 ()
-    long startTime = System.currentTimeMillis();
+    long startTime = System.nanoTime();
     for (int i = 0; i < 100_000; i++) {
       al.add(i);
     }
@@ -17,7 +17,7 @@ public class PerformanceDemo {
     System.out.println("배열의 마지막에 원소를 추가하는 데 걸리는 시간: " + (endTime - startTime));
 
     // 시간 체크
-    startTime = System.currentTimeMillis();
+    startTime = System.nanoTime();
     for (int i = 0; i < 100_000; i++) {
       ll.addLast(i);
     }
