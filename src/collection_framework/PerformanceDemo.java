@@ -10,7 +10,9 @@ public class PerformanceDemo {
 
     // 시간 체크
     long startTime = System.currentTimeMillis();
-
+    for (int i = 0; i < 100_000; i++) {
+      al.add(i);
+    }
     long l1 = System.nanoTime();
   }
 }
