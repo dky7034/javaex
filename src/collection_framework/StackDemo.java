@@ -16,5 +16,4 @@ public class StackDemo {
     System.out.println(stack.pop()); // 10 삭제
     System.out.println(stack.pop()); // EmptyStackException (Unchecked Exception)
   }
-  }
 }
