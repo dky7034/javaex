@@ -12,8 +12,8 @@ public class PredicateDemo {
     };
 
     String s = "";
-    if (s != null || isEmpty.test(s)) {
-      
+    if (s != null && isEmpty.test(s)) {
+
     }
     Predicate<String> isEmpty2 = s -> s.length()==0;
 
