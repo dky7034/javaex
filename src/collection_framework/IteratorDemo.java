@@ -12,7 +12,7 @@ public class IteratorDemo {
     while (iterator.hasNext()) {
       System.out.println(iterator.next());
     }
-    
+
     iterator = list.iterator();
     while (iterator.hasNext()) {
       System.out.println(iterator.next());
