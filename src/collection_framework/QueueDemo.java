@@ -21,6 +21,7 @@ public class QueueDemo {
 
     while (!q.isEmpty()) {
       System.out.println(q.poll());
+//      System.out.println(q.remove()); // 앞에서부터 지움
     }
 
     System.out.println("q = " + q);
