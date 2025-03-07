@@ -44,6 +44,7 @@ public class Ex3_3 {
         return o2.compareTo(o1);
       }
     });
+    System.out.println("내림차순 정렬");
     System.out.println(Arrays.toString(books));
   }
 }
