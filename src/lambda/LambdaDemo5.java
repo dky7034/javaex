@@ -14,6 +14,6 @@ public class LambdaDemo5 {
     Arrays.sort(sArr);
     System.out.println(Arrays.toString(sArr));
 
-    Comparator<String> c = str ->
+    Comparator<String> c = str -> 
   }
 }
