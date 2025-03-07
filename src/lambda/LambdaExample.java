@@ -6,4 +6,7 @@ public class LambdaExample {
   }
 }
 
-interface
+@FunctionalInterface
+interface Comparator<> {
+  
+}
