@@ -22,6 +22,7 @@ public class LambdaExample {
     System.out.println(list);
     Collections.sort(list, (o1, o2) -> o1.compareTo(o1));
     System.out.println("정렬을 반대로 (내림차순)");
+    System.out.println(list);
 
   }
 }
