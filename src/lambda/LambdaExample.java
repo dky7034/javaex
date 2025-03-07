@@ -11,7 +11,7 @@ public class LambdaExample {
     Comparator<String> c = new Comparator<String>() {
       @Override
       public int compare(String o1, String o2) {
-        return o1.compareTo(o2); // o1 > o2: 양수, o1 < o2: 음수, o1 == o2: 0
+//        return o1.compareTo(o2); // o1 > o2: 양수, o1 < o2: 음수, o1 == o2: 0
         return o2.compareTo(o1); // o1 > o2: 음수, o1 < o2: 양수, o1 == o2: 0
       }
     };
