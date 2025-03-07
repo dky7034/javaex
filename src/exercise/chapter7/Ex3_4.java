@@ -24,9 +24,10 @@ public class Ex3_4 {
         new Person("손흥민", 20, 180, 70),
         new Person("홍길동", 32, 170, 75)
     };
-
     // 오름차순으로 정렬
     Arrays.sort(persons);
+
+
 
     for (Person person : persons) {
       System.out.println(person);
