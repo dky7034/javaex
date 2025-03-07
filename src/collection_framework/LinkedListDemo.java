@@ -20,6 +20,7 @@ public class LinkedListDemo {
     list.addLast(20);
     list.addLast(30);
 
+    System.out.println("addLast 실행:");
     for (Integer i : list) {
       System.out.println(i);
     }
