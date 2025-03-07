@@ -45,10 +45,11 @@ class Person {
     // null 체크 필수
     if (obj == null || getClass() != obj.getClass()) {
       return false;
-    }
+    } else {
     Person p = (Person) obj;
-    if (this.name.equals(((Person) obj).name))
-
+    if (this.name.equals(p.name)) {
+      return true;
+    }
   }
 
   // hashCode 오버라이딩
