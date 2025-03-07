@@ -10,7 +10,7 @@ public class StackDemo {
 //    stack.push("30");
 
     if (!stack.isEmpty()) {
-      System.out.println(stack.peek()); // 30
+      System.out.println(stack.peek());
     }
     System.out.println(stack.pop()); // 30 삭제
     System.out.println(stack.peek()); // 20
