@@ -8,6 +8,12 @@ public class LambdaExample {
   public static void main(String[] args) {
     List<String> list = Arrays.asList("abc", "aaa", "bbb", "ddd", "aaa");
     Collections.sort(list);
+    Comparator c = new Comparator() {
+      @Override
+      public int compare(Object o1, Object o2) {
+        return 0;
+      }
+    }
   }
 }
 
