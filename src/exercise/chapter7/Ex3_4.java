@@ -35,7 +35,9 @@ public class Ex3_4 {
         return o1.compareTo(o2);
       }
     });
-
+    System.out.println("오름차순 정렬 출력");
+    System.out.println(persons);
+    System.out.println("내림차순 정렬 출력");
     System.out.println(persons);
 
 
