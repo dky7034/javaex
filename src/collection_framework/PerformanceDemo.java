@@ -13,5 +13,6 @@ public class PerformanceDemo {
     for (int i = 0; i < 100_000; i++) {
       al.add(i);
     }
+    long endTime = System.currentTimeMillis();
   }
 }
