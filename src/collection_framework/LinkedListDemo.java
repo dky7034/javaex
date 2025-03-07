@@ -18,5 +18,9 @@ public class LinkedListDemo {
     list.addLast(10);
     list.addLast(20);
     list.addLast(30);
+
+    for (Integer i : list) {
+      System.out.println(i);
+    }
   }
 }
