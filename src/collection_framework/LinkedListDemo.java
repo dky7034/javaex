@@ -29,6 +29,6 @@ public class LinkedListDemo {
     System.out.println(list.remove());
 
     list.add(7);
-
+    System.out.println(list);
   } // end of main method
 } // end of class
