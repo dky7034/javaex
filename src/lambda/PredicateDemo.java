@@ -7,7 +7,7 @@ public class PredicateDemo {
     Predicate<String> isEmpty = new Predicate<String>() {
       @Override
       public boolean test(String s) {
-        return false;
+        return s.length() == 0;
       }
     };
   }
