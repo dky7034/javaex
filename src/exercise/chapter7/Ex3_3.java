@@ -1,6 +1,7 @@
 package exercise.chapter7;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Ex3_3 {
   public static void main(String[] args) {
@@ -37,7 +38,12 @@ public class Ex3_3 {
     }
 
     // 내림차순으로 정렬하는 방법 - 함수형 인터페이스와 람다식 활용!
-    
+    Arrays.sort(books, new Comparator<Book>() {
+      @Override
+      public int compare(Book o1, Book o2) {
+        return 0;
+      }
+    });
   }
 }
 
