@@ -34,6 +34,6 @@ public class QueueDemo {
     q.offer("30");
     System.out.println(q);
 
-    q.peek();
+    System.out.println(q.peek());
   }
 }
