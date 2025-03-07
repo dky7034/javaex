@@ -13,6 +13,7 @@ public class PredicateDemo {
 
     String s = "";
     if (isEmpty.test(s)) {
+      
     }
     Predicate<String> isEmpty2 = s -> s.length()==0;
 
