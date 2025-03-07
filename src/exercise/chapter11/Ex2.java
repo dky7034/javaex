@@ -13,7 +13,9 @@ class Person {
   int age; // 나이
 
   // 생성자
-  
+  public Person() {
+    
+  }
 
   // 메서드
 
