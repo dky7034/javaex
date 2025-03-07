@@ -15,7 +15,11 @@ public class StackDemo {
       System.out.println("스택에 자료가 없습니다.");
     }
 
-    System.out.println(stack.peek());
+    try {
+      System.out.println(stack.peek());
+    } catch (Exception e) {
+      throw new RuntimeException(e);
+    }
 
 
   } // end of main method
