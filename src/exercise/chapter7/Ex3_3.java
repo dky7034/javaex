@@ -41,7 +41,7 @@ public class Ex3_3 {
     Arrays.sort(books, new Comparator<Book>() {
       @Override
       public int compare(Book o1, Book o2) {
-        return 0;
+        return o2.compareTo(o1);
       }
     });
   }
