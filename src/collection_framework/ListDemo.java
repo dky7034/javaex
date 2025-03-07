@@ -11,5 +11,6 @@ public class ListDemo {
 
     List<Integer> list3 = new ArrayList<>();
 
+    ArrayList<Integer> list4 = new ArrayList<>();
   }
 }
