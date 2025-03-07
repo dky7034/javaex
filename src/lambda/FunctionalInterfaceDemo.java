@@ -25,5 +25,6 @@ public class FunctionalInterfaceDemo {
     map.forEach((k, v) -> System.out.println(k + ", " + v));
 
     Function<String, Integer> f = (s -> Integer.parseInt(s));
+    f = Integer::parseInt
   }
 }
