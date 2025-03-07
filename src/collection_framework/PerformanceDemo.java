@@ -9,8 +9,8 @@ public class PerformanceDemo {
     LinkedList<Integer> ll = new LinkedList<>();
 
     // 시간 체크
-    System.currentTimeMillis();
-    
-    System.nanoTime();
+    long startTime = System.currentTimeMillis();
+
+    long l1 = System.nanoTime();
   }
 }
