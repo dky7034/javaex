@@ -6,6 +6,9 @@ import java.util.Set;
 public class Ex2 {
   public static void main(String[] args) {
     Set<Person> set = new HashSet<>();
+
+    set.add(new Person("김열공", 20));
+    set.add(new Person("최고봉", 56));
   }
 }
 
