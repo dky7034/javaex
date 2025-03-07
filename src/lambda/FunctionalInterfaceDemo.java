@@ -8,4 +8,7 @@ public class FunctionalInterfaceDemo {
     List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
     list.forEach(i -> System.out.print(i + " : "));
   }
+
+  static void method1() {
+  }
 }
