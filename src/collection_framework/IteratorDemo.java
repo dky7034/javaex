@@ -10,6 +10,7 @@ public class IteratorDemo {
     Iterator<String> iterator = list.iterator();
 
     if (iterator.hasNext()) {
+      System.out.println(iterator.next());
     }
     System.out.println(iterator.next());
     System.out.println(iterator.next());
