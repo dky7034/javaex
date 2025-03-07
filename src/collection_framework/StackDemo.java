@@ -15,5 +15,8 @@ public class StackDemo {
       System.out.println("스택에 자료가 없습니다.");
     }
 
+    System.out.println(stack.peek());
+
+
   } // end of main method
 } // end of class
