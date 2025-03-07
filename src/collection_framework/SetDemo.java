@@ -15,6 +15,8 @@ public class SetDemo {
 
     Set<String> set2 = Set.of("a", "b", "c");
     HashSet<String> setHashSet = new HashSet<>(set2);
+    set2.add("e");
+    set2.add("a");
 
   }
 }
