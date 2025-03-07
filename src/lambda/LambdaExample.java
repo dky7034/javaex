@@ -8,6 +8,7 @@ public class LambdaExample {
   public static void main(String[] args) {
     List<String> list = Arrays.asList("abc", "aaa", "bbb", "ddd", "aaa");
     Collections.sort(list);
+    Collections.
   }
 }
 
