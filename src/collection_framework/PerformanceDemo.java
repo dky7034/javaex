@@ -19,7 +19,7 @@ public class PerformanceDemo {
     // 시간 체크
     startTime = System.nanoTime();
     for (int i = 0; i < 100_000; i++) {
-      ll.addLast(i);
+      ll.addFirst(i);
     }
     endTime = System.currentTimeMillis();
     System.out.println("연결 리스트의 마지막에 원소를 추가하는 데 걸리는 시간: " + (endTime - startTime));
