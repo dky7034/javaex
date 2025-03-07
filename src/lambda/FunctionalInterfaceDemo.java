@@ -46,6 +46,9 @@ public class FunctionalInterfaceDemo {
 class MyClass {
   int i;
   public MyClass() {
-    
+
+  }
+  public MyClass(int i) {
+    this.i = i;
   }
 }
