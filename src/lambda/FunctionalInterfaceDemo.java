@@ -1,6 +1,7 @@
 package lambda;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class FunctionalInterfaceDemo {
@@ -12,5 +13,7 @@ public class FunctionalInterfaceDemo {
 //    list.forEach(integer -> System.out.println(integer + " : "));
     list.replaceAll(i -> i * 10);
     list.forEach(i -> System.out.print(i + " : "));
+
+    HashMap<Integer, String >
   }
 }
