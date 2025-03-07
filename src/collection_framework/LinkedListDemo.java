@@ -24,5 +24,7 @@ public class LinkedListDemo {
     for (Integer i : list) {
       System.out.println(i);
     }
-  }
+
+
+  } // end of main method
 }
