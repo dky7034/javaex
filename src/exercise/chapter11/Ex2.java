@@ -10,6 +10,8 @@ public class Ex2 {
     set.add(new Person("김열공", 20));
     set.add(new Person("최고봉", 56));
     set.add(new Person("우등생", 16));
+    set.add(new Person("나자바", 35));
+    
   }
 }
 
