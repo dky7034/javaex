@@ -24,11 +24,11 @@ public class QueueDemo {
 //      System.out.println(q.remove()); // 앞에서부터 지움
     }
 
-    System.out.println("q.clear() 실행");
+    System.out.println("q.clear() 실행:");
     q.clear();
     System.out.println(q);
 
-    System.out.println("q.offer() 실행");
+    System.out.println("q.offer() 실행:");
     q.offer("10");
     q.offer("20");
     q.offer("30");
