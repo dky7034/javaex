@@ -34,6 +34,6 @@ public class QueueDemo {
     q.offer("30");
     System.out.println(q);
 
-    System.out.println(q.peek());
+    System.out.println(q.peek()); // 첫 번째 요소를 가져옴
   }
 }
