@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.Function;
+import java.util.function.Supplier;
 
 public class FunctionalInterfaceDemo {
   public static void main(String[] args) {
@@ -38,6 +39,7 @@ public class FunctionalInterfaceDemo {
     f2 = myClass::equals;
 
     // new 연산자(생성자) 참조
+    Supplier<MyClass>
   }
 }
 
