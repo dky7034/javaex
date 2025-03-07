@@ -46,8 +46,6 @@ class Person {
     if (obj == null || getClass() != obj.getClass()) {
       return false;
     }
-    // obj 가 null 도 아니고 Person 과 같은 타입이라면,
-    // 다운캐스팅
     Person p = (Person) obj;
 //    return (this.name.equals(p.name)); // 이름이 같으면 true 리턴, 다르면 false 리턴
     return ((this.name == p.name) && (this.age == p.age));
