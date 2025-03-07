@@ -47,10 +47,7 @@ class Person {
       return false;
     }
     Person p = (Person) obj;
-    if (this.name.equals(p.name)) {
-      return true;
-    }
-    
+    return (this.name.equals(p.name));
   }
 
   // hashCode 오버라이딩
