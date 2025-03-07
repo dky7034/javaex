@@ -8,7 +8,10 @@ public class QueueDemo {
   public static void main(String[] args) {
     Queue<String> q = new LinkedList<>();
 
-    if () {
+    if (!q.isEmpty()) {
+      q.remove();
+    } else {
+      System.out.println("큐가 비어있습니다.");
     }
 
     // 예외처리 (try-catch-finally)
