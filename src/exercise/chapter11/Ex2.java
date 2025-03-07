@@ -9,8 +9,8 @@ public class Ex2 {
 // Person 클래스
 class Person {
   // 필드
-  String name;
-  int age;
+  String name; // 이름
+  int age; // 나이
   // 생성자
 
   // 메서드
