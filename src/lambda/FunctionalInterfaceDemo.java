@@ -33,10 +33,11 @@ public class FunctionalInterfaceDemo {
     f1 = String::equals;
 
     // 특정 객체의 인스턴스 메서드 참조
-
+    MyClass myClass = new MyClass();
+    
   }
 }
 
 class MyClass {
-  
+
 }
