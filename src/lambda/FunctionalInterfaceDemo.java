@@ -46,6 +46,8 @@ public class FunctionalInterfaceDemo {
         return null;
       }
     };
+    Function<Integer, MyClass> f3 = MyClass::new;
+
   }
 }
 
