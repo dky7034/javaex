@@ -40,7 +40,7 @@ public class FunctionalInterfaceDemo {
 
     // new 연산자(생성자) 참조
     Supplier<MyClass> s = MyClass::new;
-    Supplier<MyClass> s1 = new Supplier<MyClass>() {
+    Supplier<MyClass> s1 = new Supplier<>() {
       @Override
       public MyClass get() {
         return new MyClass();
