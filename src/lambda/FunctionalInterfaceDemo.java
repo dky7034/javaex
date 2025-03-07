@@ -7,7 +7,7 @@ import java.util.List;
 public class FunctionalInterfaceDemo {
   public static void main(String[] args) {
     List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
-    list.forEach(i -> System.out.print());
+    list.forEach(i -> System.out.print(i));
 
     System.out.println();
     list.replaceAll(i -> i * 10);
