@@ -14,6 +14,6 @@ public class ArrayListDemo {
     System.out.println("list2 = " + list2);
     list2.forEach(s -> System.out.println(s));
     list2.forEach(System.out::println);
-    list2.replaceAll(s -> "뉴");
+    list2.replaceAll(s -> "뉴 " + s);
   }
 }
