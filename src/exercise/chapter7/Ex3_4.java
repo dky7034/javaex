@@ -26,9 +26,6 @@ public class Ex3_4 {
         new Person("홍길동", 32, 170, 75)
     };
     // 오름차순으로 정렬 - 함수형 인터페이스와 람다식 활용!
-    Arrays.sort(persons);
-
-    // 내림차순으로 정렬 - 함수형 인터페이스와 람다식 활용!
     Arrays.sort(persons, new Comparator<Person>() {
       @Override
       public int compare(Person o1, Person o2) {
@@ -37,6 +34,8 @@ public class Ex3_4 {
     });
     System.out.println("오름차순 정렬 출력");
     System.out.println(Arrays.toString(persons));
+
+    // 내림차순으로 정렬 - 함수형 인터페이스와 람다식 활용!
     Arrays.sort(persons, (o1, o2) -> o2.compareTo(o1));
     System.out.println("내림차순 정렬 출력");
     System.out.println(Arrays.toString(persons));
