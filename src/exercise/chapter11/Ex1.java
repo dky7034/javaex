@@ -5,7 +5,8 @@ import java.util.List;
 
 public class Ex1 {
   public static void main(String[] args) {
-    List<String> al = new ArrayList<>();
+    List<String> al =
+//        new ArrayList<>();
     al.add("갈매기");
     al.add("나비");
     al.add("다람쥐");
