@@ -9,5 +9,6 @@ public class StackDemo {
     stack.push("20");
     stack.push("30");
     stack.peek();
+    
   }
 }
