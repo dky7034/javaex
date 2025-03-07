@@ -39,7 +39,7 @@ public class FunctionalInterfaceDemo {
     f2 = myClass::equals;
 
     // new 연산자(생성자) 참조
-    Supplier<MyClass>
+    Supplier<MyClass> s = MyClass();
   }
 }
 
