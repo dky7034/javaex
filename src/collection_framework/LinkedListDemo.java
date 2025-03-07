@@ -10,6 +10,7 @@ public class LinkedListDemo {
     list.addFirst(30);
 
     for (LinkedList<Integer> l = list) {
+      System.out.println(l);
     }
 
   }
