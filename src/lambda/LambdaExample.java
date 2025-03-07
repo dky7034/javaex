@@ -18,8 +18,9 @@ public class LambdaExample {
       }
     };
     Collections.sort(list, (o1, o2) -> o1.compareTo(o2));
-    System.out.println("정렬 후");
+    System.out.println("정렬 후 (오름차순)");
     System.out.println(list);
+    System.out.println("정렬을 반대로 (내림차순)");
   }
 }
 
