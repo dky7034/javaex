@@ -55,6 +55,6 @@ class Person {
   // hashCode 오버라이딩
   @Override
   public int hashCode() {
-    return Objects.hash(name, age);
+    return Objects.hash(name);
   }
 }
