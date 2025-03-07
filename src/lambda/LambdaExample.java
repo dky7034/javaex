@@ -13,7 +13,7 @@ public class LambdaExample {
       public int compare(String o1, String o2) {
         return 0;
       }
-    }
+    };
     Collections.sort(list);
   }
 }
