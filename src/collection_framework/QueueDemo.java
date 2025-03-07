@@ -8,6 +8,9 @@ public class QueueDemo {
   public static void main(String[] args) {
     Queue<String> q = new LinkedList<>();
 
+    if () {
+    }
+
     // 예외처리 (try-catch-finally)
     try {
       q.remove();
