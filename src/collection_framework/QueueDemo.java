@@ -12,6 +12,8 @@ public class QueueDemo {
       q.remove();
     } catch (NoSuchElementException e) {
       System.out.println(e.getMessage());
+    } finally {
+      System.out.println("프로그램 종료");
     }
   }
 }
