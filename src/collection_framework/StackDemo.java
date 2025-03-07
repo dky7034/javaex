@@ -16,4 +16,4 @@ public class StackDemo {
     }
 
   } // end of main method
-}
+} // end of class
