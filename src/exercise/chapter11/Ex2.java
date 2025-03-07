@@ -42,6 +42,7 @@ class Person {
   // equals 오버라이딩
   @Override
   public boolean equals(Object obj) {
+    if (this == obj) return true;
     // obj 가 현재 객체와 같은 타입인지 판별하는 조건문 + null 체크
     if (obj == null || getClass() != obj.getClass()) {
       return false;
