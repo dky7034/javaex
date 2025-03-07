@@ -11,6 +11,6 @@ public class LambdaDemo5 {
     };
 
     Arrays.sort(sArr);
-    System.out.println(Arrays.toString());
+    System.out.println(Arrays.toString(sArr));
   }
 }
