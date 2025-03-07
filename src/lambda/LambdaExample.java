@@ -10,7 +10,7 @@ public class LambdaExample {
 
     Comparator c = new Comparator() {
       @Override
-      public int compare(Object o1, Object o2) {
+      public int compare(String o1, Object o2) {
         return 0;
       }
     };
