@@ -10,5 +10,6 @@ public class ArrayListDemo {
     List<String> list2 = new ArrayList<>(list);
     list2.add("k3");
     list2.set(0, "뉴 그랜저");
+    list2.removeIf(s -> s.startsWith("소"));
   }
 }
