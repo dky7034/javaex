@@ -28,7 +28,7 @@ public class FunctionalInterfaceDemo {
     Function<String, Integer> f = (s -> Integer.parseInt(s));
     f = Integer::parseInt; // static method 참조
 
-//    String s1 = "hello", s2 = "world";
+    // 인스턴스 메서드 참조
     BiFunction<String, String, Boolean> f1 = (str1, str2) -> str1.equals(str2);
     f1 = String::equals;
   }
