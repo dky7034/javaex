@@ -12,6 +12,10 @@ public class Ex1 {
     al.add("다람쥐");
     al.add("라마");
 
+    LinkedList<String> ll = new LinkedList<>();
+    ll.addFirst("갈매기");
+    ll.addFirst("나비");
+
 //    for (String s : al) {
 //      if (s.length() == 2) {
 //        System.out.println(s);
