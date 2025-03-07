@@ -19,5 +19,7 @@ public class QueueDemo {
     q.add("2");
     q.add("3");
     System.out.println("q = " + q);
+
+    q.remove();
   }
 }
