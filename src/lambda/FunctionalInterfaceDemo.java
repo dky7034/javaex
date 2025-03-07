@@ -34,7 +34,7 @@ public class FunctionalInterfaceDemo {
 
     // 특정 객체의 인스턴스 메서드 참조
     MyClass myClass = new MyClass();
-    
+    Function<String, Boolean> f2 = x -> myClass.equals(x);
   }
 }
 
