@@ -25,8 +25,8 @@ public class QueueDemo {
     }
 
     q.clear();
-    System.out.println(q);
     System.out.println("q.clear() 실행");
+    System.out.println(q);
 
     q.offer("10");
     q.offer("20");
