@@ -14,6 +14,8 @@ public class QueueDemo {
       System.out.println("큐가 비어있습니다.");
     }
 
+    System.out.println(q.poll());
+
     // 예외처리 (try-catch-finally)
     try {
       q.remove();
