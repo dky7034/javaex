@@ -10,7 +10,7 @@ public class Ex2 {
 class Person {
   // 필드
   String name;
-  Integer age;
+  int age;
   // 생성자
 
   // 메서드
