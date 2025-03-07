@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.function.BiFunction;
 import java.util.function.Function;
 
 public class FunctionalInterfaceDemo {
@@ -27,6 +28,7 @@ public class FunctionalInterfaceDemo {
     Function<String, Integer> f = (s -> Integer.parseInt(s));
     f = Integer::parseInt; // static method 참조
 
-    String s1 = "hello";
+    String s1 = "hello", s2 = "world";
+    BiFunction<String, String, Boolean> f = ()
   }
 }
