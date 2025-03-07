@@ -32,7 +32,7 @@ public class Ex3_4 {
     Arrays.sort(persons, new Comparator<Person>() {
       @Override
       public int compare(Person o1, Person o2) {
-        o1.compareTo(o2);
+        return o1.compareTo(o2);
       }
     });
 
