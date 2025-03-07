@@ -15,7 +15,9 @@ public class LinkedListDemo {
 
     list.clear();
 
-    list.addLast();
+    list.addLast(10);
+    list.addLast(20);
+    list.addLast(30);
 
   }
 }
