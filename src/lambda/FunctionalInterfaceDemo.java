@@ -11,6 +11,6 @@ public class FunctionalInterfaceDemo {
 
 //    list.forEach(integer -> System.out.println(integer + " : "));
     list.replaceAll(i -> i * 10);
-    list.forEach(i -> System.out.println(i + " : "));
+    list.forEach(i -> System.out.print(i + " : "));
   }
 }
