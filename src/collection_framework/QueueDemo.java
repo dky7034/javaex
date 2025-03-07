@@ -8,6 +8,7 @@ public class QueueDemo {
   public static void main(String[] args) {
     Queue<String> q = new LinkedList<>();
 
+    // 예외처리 (try-catch-finally)
     try {
       q.remove();
     } catch (NoSuchElementException e) {
