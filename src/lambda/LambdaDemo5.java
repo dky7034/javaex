@@ -8,5 +8,7 @@ public class LambdaDemo5 {
         "펜은 칼보다 강하다"
     };
 
+
+
   }
 }
