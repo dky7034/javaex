@@ -10,7 +10,7 @@ public class PerformanceDemo {
 
     // 시간 체크
     System.currentTimeMillis();
-
+    
     System.nanoTime();
   }
 }
