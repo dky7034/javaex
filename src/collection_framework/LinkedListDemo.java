@@ -8,6 +8,8 @@ public class LinkedListDemo {
     list.addFirst(10);
     list.addFirst(20);
     list.addFirst(30);
-    
+
+    System.out.println(list);
+
   }
 }
