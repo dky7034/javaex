@@ -38,11 +38,14 @@ public class Ex3_3 {
     }
 
     // 내림차순으로 정렬하는 방법 - 함수형 인터페이스와 람다식 활용!
-    Arrays.sort(
-      (o1, o2) ->
-        o2.compareTo(o1);
-      )}
+    Arrays.sort(books, new Comparator<Book>() {
+      @Override
+      public int compare(Book o1, Book o2) {
+        return o2.compareTo(o1);
+      }
     });
+
+    Arrays.sort(books, (o1, o2) -> o2.compareTo(o1));
 
     System.out.println("내림차순 정렬");
     System.out.println(Arrays.toString(books));
