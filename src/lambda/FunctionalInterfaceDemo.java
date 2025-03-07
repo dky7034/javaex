@@ -36,6 +36,8 @@ public class FunctionalInterfaceDemo {
     MyClass myClass = new MyClass();
     Function<String, Boolean> f2 = x -> myClass.equals(x);
     f2 = myClass::equals;
+
+    // new 연산자(생성자) 참조
   }
 }
 
