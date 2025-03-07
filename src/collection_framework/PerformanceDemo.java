@@ -40,6 +40,5 @@ public class PerformanceDemo {
     endTime = System.currentTimeMillis();
     System.out.println("연결 리스트의 맨 앞에 원소를 추가하는 데 걸리는 시간: " + (endTime - startTime));
 
-
   }
 }
