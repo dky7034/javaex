@@ -9,7 +9,7 @@ public class PredicateDemo {
       public boolean test(String s) {
         return false;
       }
-    }
+    };
   }
 }
 
