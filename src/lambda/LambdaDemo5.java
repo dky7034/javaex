@@ -11,7 +11,7 @@ public class LambdaDemo5 {
     };
 
     // 사전 기준 정렬 (오름차순)
-    System.out.println("사전 기준 정렬");
+    System.out.println("사전 기준 정렬: 오름차순");
     Arrays.sort(sArr);
     System.out.println(Arrays.toString(sArr));
 
