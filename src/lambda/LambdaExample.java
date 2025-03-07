@@ -7,5 +7,5 @@ public class LambdaExample {
 }
 
 interface Comparator<T> {
-  int compar(T o1, T o2);
+  int compare(T o1, T o2);
 }
