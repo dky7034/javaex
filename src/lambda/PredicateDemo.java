@@ -10,12 +10,13 @@ public class PredicateDemo {
         return s.length() == 0;
       }
     };
+    Predicate<String> isEmpty2 = s -> s.length()==0;
 
     String s = "";
     if (s != null && isEmpty.test(s)) {
       System.out.println("빈 문자열입니다.");
     }
-    Predicate<String> isEmpty2 = s -> s.length()==0;
+
 
   }
 }
