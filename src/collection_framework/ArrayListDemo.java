@@ -13,5 +13,6 @@ public class ArrayListDemo {
     list2.removeIf(s -> s.startsWith("소"));
     System.out.println("list2 = " + list2);
     list2.forEach(s -> System.out.println(s));
+    System.out::println;
   }
 }
