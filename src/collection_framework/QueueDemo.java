@@ -20,7 +20,7 @@ public class QueueDemo {
     q.add("3");
     System.out.println("q = " + q);
 
-    q.remove();
+    q.remove(); // remove: 첫 번째 요소를 삭제
     System.out.println("q = " + q);
   }
 }
