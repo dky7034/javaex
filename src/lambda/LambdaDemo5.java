@@ -10,9 +10,13 @@ public class LambdaDemo5 {
         "펜은 칼보다 강하다"
     };
 
+    // 사전 기준 정렬
+    System.out.println("사전 기준 정렬");
     Arrays.sort(sArr);
     System.out.println(Arrays.toString(sArr));
 
+    // 문자열의 길이 기준 정렬
+    System.out.println("문자열의 길이 기준 정렬");
     Arrays.sort(sArr, (str1, str2) -> str1.length() - str2.length());
     System.out.println(Arrays.toString(sArr));
 
