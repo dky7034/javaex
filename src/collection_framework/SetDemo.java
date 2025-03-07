@@ -10,5 +10,7 @@ public class SetDemo {
     System.out.println(set);
 
     set.add(10);
+    set.add(5);
+    System.out.println(set);
   }
 }
