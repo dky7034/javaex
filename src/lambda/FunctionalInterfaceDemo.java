@@ -45,7 +45,7 @@ public class FunctionalInterfaceDemo {
       public MyClass get() {
         return null;
       }
-    }
+    };
   }
 }
 
