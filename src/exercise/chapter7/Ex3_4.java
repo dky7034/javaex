@@ -38,7 +38,7 @@ public class Ex3_4 {
     System.out.println("오름차순 정렬 출력");
     System.out.println(Arrays.toString(persons));
     System.out.println("내림차순 정렬 출력");
-    System.out.println(persons);
+    System.out.println(Arrays.toString(persons));
 
 
     for (Person person : persons) {
