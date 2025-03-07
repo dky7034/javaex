@@ -1,6 +1,7 @@
 package exercise.chapter11;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public class Ex2 {
@@ -51,9 +52,9 @@ class Person {
     return (this.name.equals(p.name)); // 이름이 같으면 true 리턴, 다르면 false 리턴
   }
 
-//  // hashCode 오버라이딩
-//  @Override
-//  public int hashCode() {
-//    return Objects.hashCode(name);
-//  }
+  // hashCode 오버라이딩
+  @Override
+  public int hashCode() {
+    return Objects.hashCode(name);
+  }
 }
