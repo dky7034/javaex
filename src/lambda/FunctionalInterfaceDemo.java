@@ -44,5 +44,8 @@ public class FunctionalInterfaceDemo {
 }
 
 class MyClass {
-
+  int i;
+  public MyClass() {
+    
+  }
 }
