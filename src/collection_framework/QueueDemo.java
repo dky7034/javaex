@@ -16,13 +16,5 @@ public class QueueDemo {
 
     System.out.println(q.poll());
 
-    // 예외처리 (try-catch-finally)
-    try {
-      q.remove();
-    } catch (NoSuchElementException e) {
-      System.out.println(e.getMessage());
-    } finally {
-      System.out.println("프로그램 종료");
-    }
   }
 }
