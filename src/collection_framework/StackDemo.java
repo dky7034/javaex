@@ -27,6 +27,5 @@ public class StackDemo {
       System.out.println(s);
     }
 
-
   } // end of main method
 } // end of class
