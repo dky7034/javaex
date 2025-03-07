@@ -9,6 +9,7 @@ public class ListDemo {
     String[] animals = {"a", "b", "c", "d"};
     List<String> list = Arrays.asList(animals);
 
-    List<Integer> list1 = new ArrayList<>();
+    List<Integer> list3 = new ArrayList<>();
+
   }
 }
