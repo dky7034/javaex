@@ -7,5 +7,8 @@ public class PerformanceDemo {
   public static void main(String[] args) {
     ArrayList<Integer> al = new ArrayList<>();
     LinkedList<Integer> ll = new LinkedList<>();
+
+    // 시간 체크
+    System.currentTimeMillis();
   }
 }
