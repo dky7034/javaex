@@ -17,7 +17,7 @@ public class LambdaDemo5 {
 
     // 문자열의 길이 기준 정렬 (오름차순)
     System.out.println("문자열의 길이 기준 정렬 - 오름차순");
-    Arrays.sort(sArr, (str1, str2) -> str2.length() - str1.length());
+    Arrays.sort(sArr, (str1, str2) -> str1.length() - str2.length());
     System.out.println(Arrays.toString(sArr));
 
     // 문자열의 길이 기준 정렬 (내림차순)
