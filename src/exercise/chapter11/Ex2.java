@@ -44,7 +44,7 @@ class Person {
   public boolean equals(Object obj) {
     // 객체 주소 비교(메모리 주소 비교) 하여 같은 객체면 true 반환
     if (this == obj) return true;
-    // obj 가 현재 객체와 같은 타입인지 판별하는 조건문 + null 체크
+    // ull 체크  + obj 가 현재 객체와 같은 타입인지 판별하는 조건문
     if (obj == null || getClass() != obj.getClass()) {
       return false;
     }
