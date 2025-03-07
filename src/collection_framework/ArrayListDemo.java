@@ -18,7 +18,7 @@ public class ArrayListDemo {
     list2.forEach(System.out::println);
     list2.clear();
     if (list2.isEmpty()) {
-
+      System.out.println("리스트가 비었습니다.");
     }
   }
 }
