@@ -11,6 +11,8 @@ public class StackDemo {
 
     if (!stack.isEmpty()) {
       System.out.println(stack.peek());
+    } else {
+      System.out.println("스택에 자료가 없습니다.");
     }
     System.out.println(stack.pop()); // 30 삭제
     System.out.println(stack.peek()); // 20
