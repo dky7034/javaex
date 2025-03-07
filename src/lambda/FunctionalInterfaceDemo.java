@@ -43,7 +43,7 @@ public class FunctionalInterfaceDemo {
     Supplier<MyClass> s1 = new Supplier<MyClass>() {
       @Override
       public MyClass get() {
-        return null;
+        return new MyClass();
       }
     };
     Function<Integer, MyClass> f3 = MyClass::new;
