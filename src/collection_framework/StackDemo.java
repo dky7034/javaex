@@ -8,13 +8,13 @@ public class StackDemo {
     stack.push("10");
     stack.push("20");
     stack.push("30");
-    System.out.println(stack.peek());
-    System.out.println(stack.pop());
-    System.out.println(stack.peek());
-    System.out.println(stack.pop());
-    System.out.println(stack.peek());
-    System.out.println(stack.pop());
-    System.out.println(stack.pop());
-    System.out.println(stack);
+    System.out.println(stack.peek()); // 30
+    System.out.println(stack.pop()); // 30 삭제
+    System.out.println(stack.peek()); // 20
+    System.out.println(stack.pop()); // 20 삭제
+    System.out.println(stack.peek()); // 10
+    System.out.println(stack.pop()); // 10 삭제
+    System.out.println(stack.pop()); // EmptyStackException (Unchecked Exception)
+  }
   }
 }
