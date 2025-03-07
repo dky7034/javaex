@@ -14,5 +14,7 @@ public class SetDemo {
     System.out.println(set);
 
     Set<String> set2 = Set.of("a", "b", "c");
+    HashSet<String> setHashSet = new HashSet<>(set2);
+
   }
 }
