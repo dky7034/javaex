@@ -12,5 +12,6 @@ public class IteratorDemo {
     System.out.println(iterator.next());
     System.out.println(iterator.next());
     System.out.println(iterator.next());
+
   }
 }
