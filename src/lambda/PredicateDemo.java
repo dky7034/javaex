@@ -11,6 +11,7 @@ public class PredicateDemo {
       }
     };
     Predicate<String> isEmpty2 = s -> s.length()==0;
+    
   }
 }
 
