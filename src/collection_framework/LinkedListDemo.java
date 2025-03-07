@@ -9,7 +9,7 @@ public class LinkedListDemo {
     list.addFirst(20);
     list.addFirst(30);
 
-    for (Integer i = list) {
+    for (Integer i : list) {
       System.out.println(i);
     }
 
