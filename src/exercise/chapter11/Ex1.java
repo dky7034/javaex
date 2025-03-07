@@ -10,7 +10,8 @@ public class Ex1 {
     al.add("라마");
 
     for (String s : al) {
-      if () {
+      if (s.length() == 2) {
+        System.out.println(s);
       }
     }
   }
