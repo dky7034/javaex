@@ -1,6 +1,7 @@
 package exercise.chapter11;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public class Ex2 {
@@ -53,6 +54,6 @@ class Person {
   // hashCode 오버라이딩
   @Override
   public int hashCode() {
-    return super.hashCode();
+    return Objects.hashCode(name);
   }
 }
