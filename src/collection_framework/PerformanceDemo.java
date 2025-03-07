@@ -8,7 +8,7 @@ public class PerformanceDemo {
     ArrayList<Integer> al = new ArrayList<>();
     LinkedList<Integer> ll = new LinkedList<>();
 
-    // 시간 체크 ()
+    // 시간 체크 (nanoTime)
     long startTime = System.nanoTime();
     for (int i = 0; i < 100_000; i++) {
       al.add(i);
