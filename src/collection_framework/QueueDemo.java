@@ -21,5 +21,6 @@ public class QueueDemo {
     System.out.println("q = " + q);
 
     q.remove();
+    System.out.println("q = " + q);
   }
 }
