@@ -13,6 +13,6 @@ public class ListDemo {
     listl.add(10);
     listl.add(0, 20);
     System.out.println(listl);
-    System.out.println(listl.remove(1));
+    System.out.println(listl.remove(1) + "이 삭제되었습니다.");
   }
 }
