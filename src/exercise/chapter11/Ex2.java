@@ -9,9 +9,9 @@ public class Ex2 {
 // Person 클래스
 class Person {
   // 필드
-
+  
   // 생성자
 
   // 메서드
-  
+
 }
