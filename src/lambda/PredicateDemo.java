@@ -17,6 +17,10 @@ public class PredicateDemo {
       System.out.println("빈 문자열입니다.");
     }
 
+    if (s != null && isEmpty2.test(s)) {
+      
+    }
+
 
   }
 }
