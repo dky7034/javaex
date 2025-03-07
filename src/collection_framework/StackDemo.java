@@ -8,8 +8,7 @@ public class StackDemo {
     stack.push("10");
     stack.push("20");
     stack.push("30");
-    stack.peek();
-    System.out::println;
+    System.out.println(stack.peek());
 
   }
 }
