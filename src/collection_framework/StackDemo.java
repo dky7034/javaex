@@ -1,6 +1,5 @@
 package collection_framework;
 
-import java.util.EmptyStackException;
 import java.util.Stack;
 
 public class StackDemo {
@@ -23,6 +22,10 @@ public class StackDemo {
 //    } finally {
 //      System.out.println("프로그램 종료");
 //    }
+
+    for (String s : stack) {
+      System.out.println(s);
+    }
 
 
   } // end of main method
