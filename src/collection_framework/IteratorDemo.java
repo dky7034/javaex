@@ -5,6 +5,8 @@ import java.util.Collection;
 
 public class IteratorDemo {
   public static void main(String[] args) {
-    Collection<String> collection = Arrays.asList("다람쥐", "개구리", "나비");
+    Collection<String> list = Arrays.asList("다람쥐", "개구리", "나비");
+
+
   }
 }
