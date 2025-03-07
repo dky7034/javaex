@@ -16,13 +16,13 @@ public class StackDemo {
 //      System.out.println("스택에 자료가 없습니다.");
 //    }
 
-    try {
-      System.out.println(stack.peek());
-    } catch (EmptyStackException e) {
-      System.out.println(e.getMessage());
-    } finally {
-      System.out.println("프로그램 종료");
-    }
+//    try {
+//      System.out.println(stack.peek());
+//    } catch (EmptyStackException e) {
+//      System.out.println(e.getMessage());
+//    } finally {
+//      System.out.println("프로그램 종료");
+//    }
 
 
   } // end of main method
