@@ -1,11 +1,11 @@
 package exercise.chapter11;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Ex1 {
   public static void main(String[] args) {
-    List<String> al =
+    List<String> al = new LinkedList<>();
 //        new ArrayList<>();
     al.add("갈매기");
     al.add("나비");
