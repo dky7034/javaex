@@ -17,6 +17,7 @@ public class LambdaExample {
       }
     };
     Collections.sort(list, (o1, o2) -> o1.compareTo(o2));
+    System.out.println(list);
   }
 }
 
