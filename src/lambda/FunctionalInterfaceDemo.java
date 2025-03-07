@@ -14,6 +14,8 @@ public class FunctionalInterfaceDemo {
     list.replaceAll(i -> i * 10);
     list.forEach(i -> System.out.print(i + " : "));
 
-    HashMap<Integer, String >
+    HashMap<Integer, String> map = new HashMap<>();
+    map.put(1, "사과");
+    map.put(2, "딸기");
   }
 }
