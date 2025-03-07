@@ -35,6 +35,9 @@ public class Ex3_3 {
     for (Book book : books) {
       System.out.println(book);
     }
+
+    // 내림차순으로 정렬하는 방법 - 함수형 인터페이스와 람다식 활용!
+    
   }
 }
 
