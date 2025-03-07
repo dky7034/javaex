@@ -11,5 +11,6 @@ public class ArrayListDemo {
     list2.add("k3");
     list2.set(0, "뉴 그랜저");
     list2.removeIf(s -> s.startsWith("소"));
+    System.out.println("list2 = " + list2);
   }
 }
