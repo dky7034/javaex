@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.function.Function;
 
 public class FunctionalInterfaceDemo {
   public static void main(String[] args) {
@@ -22,5 +23,7 @@ public class FunctionalInterfaceDemo {
     map.put(1, "사과");
     map.put(2, "딸기");
     map.forEach((k, v) -> System.out.println(k + ", " + v));
+
+    Function<String, Integer> f = (s -> Integer.parseInt());
   }
 }
