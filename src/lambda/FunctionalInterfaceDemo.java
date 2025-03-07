@@ -12,7 +12,7 @@ public class FunctionalInterfaceDemo {
     list.removeIf(new Predicate<Integer>() {
       @Override
       public boolean test(Integer integer) {
-        return false;
+        ;
       }
     });
 
