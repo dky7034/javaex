@@ -53,6 +53,6 @@ class Person {
   // hashCode 오버라이딩
   @Override
   public int hashCode() {
-    return Object.hash(name);
+    return super.hashCode();
   }
 }
