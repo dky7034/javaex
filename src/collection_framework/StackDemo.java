@@ -1,5 +1,6 @@
 package collection_framework;
 
+import java.util.EmptyStackException;
 import java.util.Stack;
 
 public class StackDemo {
@@ -17,8 +18,8 @@ public class StackDemo {
 
     try {
       System.out.println(stack.peek());
-    } catch (Exception e) {
-      throw new RuntimeException(e);
+    } catch (EmptyStackException e) {
+      System.out.println();
     }
 
 
