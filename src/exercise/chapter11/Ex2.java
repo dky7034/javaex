@@ -52,9 +52,9 @@ class Person {
     return Objects.equals(name, p.name);
   }
 
-//  // hashCode 오버라이딩
-//  @Override
-//  public int hashCode() {
-//    return Objects.hash(name);
-//  }
+  // hashCode 오버라이딩
+  @Override
+  public int hashCode() {
+    return Objects.hash(name);
+  }
 }
