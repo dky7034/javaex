@@ -17,6 +17,6 @@ public class FunctionalInterfaceDemo {
     HashMap<Integer, String> map = new HashMap<>();
     map.put(1, "사과");
     map.put(2, "딸기");
-    map.forEach((k, v) -> System.out.println(k + v));
+    map.forEach((k, v) -> System.out.println(k + ", " + v));
   }
 }
