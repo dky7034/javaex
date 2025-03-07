@@ -37,7 +37,7 @@ public class Ex3_4 {
     });
     System.out.println("오름차순 정렬 출력");
     System.out.println(Arrays.toString(persons));
-    Arrays.sort(persons, new Comparator<Person>() {
+    Arrays.sort(persons, (o1, o2) -> o2.compareTo(o1)) {
       @Override
       public int compare(Person o1, Person o2) {
         return o1.compareTo(o2);
