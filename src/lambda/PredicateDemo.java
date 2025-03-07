@@ -10,6 +10,7 @@ public class PredicateDemo {
         return s.length() == 0;
       }
     };
+    Predicate<String> isEmpty2 = s -> s.length()==0;
   }
 }
 
