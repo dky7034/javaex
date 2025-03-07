@@ -8,5 +8,6 @@ public class ListDemo {
     String[] animals = {"a", "b", "c", "d"};
     List<String> list = Arrays.asList(animals);
     list.add("e");
+    System.out.println(list);
   }
 }
