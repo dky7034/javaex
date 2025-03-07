@@ -17,6 +17,7 @@ public class SetDemo {
     HashSet<String> setHashSet = new HashSet<>(set2);
     set2.add("e");
     set2.add("a");
+    System.out.println("set2 = " + set2);
     System.out.println("setHashSet = " + setHashSet);
 
   }
