@@ -11,7 +11,9 @@ class Person {
   // 필드
   String name; // 이름
   int age; // 나이
+
   // 생성자
+  
 
   // 메서드
 
