@@ -14,5 +14,6 @@ public class PerformanceDemo {
       al.add(i);
     }
     long endTime = System.currentTimeMillis();
+    System.out.println("배열의 마지막에 원소를 추가하는 데 걸리는 시간: " + endTime - startTime);
   }
 }
