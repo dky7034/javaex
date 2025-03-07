@@ -13,5 +13,9 @@ public class LinkedListDemo {
       System.out.println(i);
     }
 
+    list.clear();
+
+    list.addLast();
+
   }
 }
