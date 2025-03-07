@@ -1,7 +1,6 @@
 package collection_framework;
 
 import java.util.LinkedList;
-import java.util.NoSuchElementException;
 import java.util.Queue;
 
 public class QueueDemo {
@@ -15,6 +14,8 @@ public class QueueDemo {
     }
 
     System.out.println(q.poll());
+
+    q.add("1");
 
   }
 }
