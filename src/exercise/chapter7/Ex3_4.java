@@ -36,6 +36,8 @@ public class Ex3_4 {
       }
     });
 
+    
+
 
     for (Person person : persons) {
       System.out.println(person);
