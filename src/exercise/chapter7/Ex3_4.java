@@ -1,6 +1,7 @@
 package exercise.chapter7;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Ex3_4 {
   public static void main(String[] args) {
@@ -28,7 +29,12 @@ public class Ex3_4 {
     Arrays.sort(persons);
 
     // 내림차순으로 정렬 - 함수형 인터페이스와 람다식 활용!
-    Arrays.sort(persons);
+    Arrays.sort(persons, new Comparator<Person>() {
+      @Override
+      public int compare(Person o1, Person o2) {
+        return 0;
+      }
+    });
 
 
     for (Person person : persons) {
