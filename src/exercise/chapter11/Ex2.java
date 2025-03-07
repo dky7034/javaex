@@ -46,7 +46,6 @@ class Person {
     if (this == obj) return true;
     // ull 체크 + obj 가 현재 객체와 같은 타입인지 판별하여 하나라도 맞으면 false 반환
     if (obj == null || getClass() != obj.getClass()) return false;
-    
     Person p = (Person) obj;
     return (this.name.equals(p.name)); // 이름이 같으면 true 리턴, 다르면 false 리턴
   }
