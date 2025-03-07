@@ -27,7 +27,7 @@ public class QueueDemo {
     q.clear();
 
     q.offer("10");
-    q.offer("10");
+    q.offer("20");
     q.offer("10");
   }
 }
