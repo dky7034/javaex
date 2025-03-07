@@ -35,5 +35,6 @@ public class QueueDemo {
     System.out.println(q);
 
     System.out.println(q.peek()); // 첫 번째 요소를 가져옴
+    System.out.println(q.contains("10"));
   }
 }
