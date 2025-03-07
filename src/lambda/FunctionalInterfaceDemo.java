@@ -11,4 +11,8 @@ public class FunctionalInterfaceDemo {
 
   static void method1() {
   }
+
+  static int method2() {
+    
+  }
 }
