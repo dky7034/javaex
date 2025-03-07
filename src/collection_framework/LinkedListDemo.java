@@ -25,6 +25,7 @@ public class LinkedListDemo {
       System.out.println(i);
     }
 
+    System.out.println("remove() 후:");
     System.out.println(list.remove());
 
   } // end of main method
