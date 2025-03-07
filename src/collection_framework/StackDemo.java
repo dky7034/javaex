@@ -14,11 +14,5 @@ public class StackDemo {
     } else {
       System.out.println("스택에 자료가 없습니다.");
     }
-    System.out.println(stack.pop()); // 30 삭제
-    System.out.println(stack.peek()); // 20
-    System.out.println(stack.pop()); // 20 삭제
-    System.out.println(stack.peek()); // 10
-    System.out.println(stack.pop()); // 10 삭제
-    System.out.println(stack.pop()); // EmptyStackException (Unchecked Exception)
   }
 }
