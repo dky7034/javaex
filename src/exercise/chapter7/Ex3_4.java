@@ -42,9 +42,9 @@ public class Ex3_4 {
     System.out.println(Arrays.toString(persons));
 
 
-    for (Person person : persons) {
-      System.out.println(person);
-    }
+//    for (Person person : persons) {
+//      System.out.println(person);
+//    }
 
   }
 }
