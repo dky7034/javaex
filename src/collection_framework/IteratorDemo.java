@@ -9,10 +9,12 @@ public class IteratorDemo {
     Collection<String> list = Arrays.asList("다람쥐", "개구리", "나비");
     Iterator<String> iterator = list.iterator();
 
+    if (iterator.hasNext() == true) {
+    }
     System.out.println(iterator.next());
     System.out.println(iterator.next());
     System.out.println(iterator.next());
 
-    
+
   }
 }
