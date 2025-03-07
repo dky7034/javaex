@@ -39,6 +39,7 @@ class Person {
   public String toString() {
     return "Person[" + name + ":" + age + "]";
   }
+
   // equals 오버라이딩
   @Override
   public boolean equals(Object obj) {
