@@ -19,5 +19,5 @@ class Person {
   }
 
   // 메서드
-
+  
 }
