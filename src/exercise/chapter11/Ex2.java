@@ -50,7 +50,7 @@ class Person {
     // 다운캐스팅
     Person p = (Person) obj;
 //    return (this.name.equals(p.name)); // 이름이 같으면 true 리턴, 다르면 false 리턴
-
+    return 
 
   }
 
