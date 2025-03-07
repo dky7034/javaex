@@ -7,7 +7,7 @@ public class LambdaDemo5 {
         "시간은 금이다",
         "펜은 칼보다 강하다"
     };
-
+    
 
 
   }
