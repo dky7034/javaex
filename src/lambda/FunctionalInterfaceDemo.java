@@ -30,5 +30,6 @@ public class FunctionalInterfaceDemo {
 
 //    String s1 = "hello", s2 = "world";
     BiFunction<String, String, Boolean> f1 = (str1, str2) -> str1.equals(str2);
+    f1 = String::equals;
   }
 }
