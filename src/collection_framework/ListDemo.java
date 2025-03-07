@@ -17,6 +17,5 @@ public class ListDemo {
     System.out.println(listl);
 
     ArrayList<Integer> lista = new ArrayList<>();
-    lista.add
   }
 }
