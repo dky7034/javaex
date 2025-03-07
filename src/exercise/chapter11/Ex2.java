@@ -32,6 +32,6 @@ class Person {
 
   @Override
   public String toString() {
-    return 
+    return "Person[" + name + ":" + age];
   }
 }
