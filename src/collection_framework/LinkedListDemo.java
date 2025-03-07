@@ -28,7 +28,7 @@ public class LinkedListDemo {
     System.out.println("remove()가 지운 것:");
     System.out.println(list.remove());
 
-    // 그냥 add()는 마지막에 요소가 추가됨
+    // 그냥 add()는 마지막에 요소가 추가됨 (LinkedList 에서는 비효율적)
     list.add(7);
     System.out.println(list);
 
