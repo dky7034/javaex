@@ -45,9 +45,6 @@ public class Ex3_3 {
       }
     });
 
-    Arrays.sort(o1, o2) ->o2.compareTo(o1);
-
-
     System.out.println("내림차순 정렬");
     System.out.println(Arrays.toString(books));
   }
