@@ -10,6 +10,8 @@ public class ListDemo {
     List<String> list = Arrays.asList(animals);
 
     List<Integer> listl = new ArrayList<>();
-
+    listl.add(10);
+    listl.add(0, 20);
+    System.out.println(listl);
   }
 }
