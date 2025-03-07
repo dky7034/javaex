@@ -24,6 +24,10 @@ public class QueueDemo {
 //      System.out.println(q.remove()); // 앞에서부터 지움
     }
 
-    System.out.println("q = " + q);
+    q.clear();
+
+    q.offer("10");
+    q.offer("10");
+    q.offer("10");
   }
 }
