@@ -13,11 +13,11 @@ public class Ex1 {
     al.add("다람쥐");
     al.add("라마");
 
-//    for (String s : al) {
-//      if (s.length() == 2) {
-//        System.out.println(s);
-//      }
-//    }
+    for (String s : al) {
+      if (s.length() == 2) {
+        System.out.println(s);
+      }
+    }
 
 
 
