@@ -14,5 +14,7 @@ public class LambdaDemo5 {
     System.out.println(Arrays.toString(sArr));
 
     Arrays.sort(sArr, (str1, str2) -> str1.length() - str2.length());
+    System.out.println(Arrays.toString(sArr));
+
   }
 }
