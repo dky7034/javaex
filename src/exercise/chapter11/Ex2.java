@@ -43,7 +43,7 @@ class Person {
   public boolean equals(Object obj) {
     // obj 가 현재 객체와 같은 타입인지 판별하는 조건문
     // null 체크 필수
-    if ((obj = null) || (getClass() != obj.getClass())) {
+    if (obj = null && getClass() != obj.getClass()) {
     }
     this.name.equals()
     if () {
