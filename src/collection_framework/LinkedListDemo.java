@@ -28,5 +28,7 @@ public class LinkedListDemo {
     System.out.println("remove()가 지운 것:");
     System.out.println(list.remove());
 
+    list.add(7);
+
   } // end of main method
 } // end of class
