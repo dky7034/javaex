@@ -31,5 +31,8 @@ public class FunctionalInterfaceDemo {
     // 인스턴스 메서드 참조
     BiFunction<String, String, Boolean> f1 = (str1, str2) -> str1.equals(str2);
     f1 = String::equals;
+
+    // 특정 객체의 인스턴스 메서드 참조
+    
   }
 }
