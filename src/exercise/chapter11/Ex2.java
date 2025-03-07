@@ -11,7 +11,7 @@ public class Ex2 {
     set.add(new Person("최고봉", 56));
     set.add(new Person("우등생", 16));
     set.add(new Person("나자바", 35));
-    
+
     for (Person person : set) {
       System.out.print(person);
     }
@@ -33,9 +33,17 @@ class Person {
 
   // 메서드
   // toString 오버라이딩
-
   @Override
   public String toString() {
     return "Person[" + name + ":" + age + "]";
   }
+  // equals 오버라이딩
+
+  @Override
+  public boolean equals(Object obj) {
+    if () {
+    }
+  }
+
+  // hashCode 오버라이딩
 }
