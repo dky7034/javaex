@@ -9,6 +9,9 @@ public class Ex1 {
     al.add("다람쥐");
     al.add("라마");
 
-    
+    for (String s : al) {
+      if () {
+      }
+    }
   }
 }
