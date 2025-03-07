@@ -15,7 +15,6 @@ public class LambdaExample {
 //        return o2.compareTo(o1); // o1 > o2: 음수, o1 < o2: 양수, o1 == o2: 0
       }
     };
-
     Collections.sort(list, (o1, o2) -> o1.compareTo(o2));
   }
 }
