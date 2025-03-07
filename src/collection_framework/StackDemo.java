@@ -4,6 +4,6 @@ import java.util.Stack;
 
 public class StackDemo {
   public static void main(String[] args) {
-    Stack<String>
+    Stack<String> =new Stack<>();
   }
 }
