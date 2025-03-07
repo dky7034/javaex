@@ -1,7 +1,6 @@
 package lambda;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class LambdaDemo5 {
   public static void main(String[] args) {
@@ -14,6 +13,6 @@ public class LambdaDemo5 {
     Arrays.sort(sArr);
     System.out.println(Arrays.toString(sArr));
 
-    Comparator<String> c = str -> 
+    Arrays.sort(sArr, (str1, str2) -> str1.length() - str2.length());
   }
 }
