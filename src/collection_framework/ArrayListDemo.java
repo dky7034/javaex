@@ -17,7 +17,8 @@ public class ArrayListDemo {
     list2.replaceAll(s -> "뉴 " + s);
     list2.forEach(System.out::println);
     list2.clear();
-    if (list2.isEmpty() == true) {
+    if (list2.isEmpty()) {
+
     }
   }
 }
