@@ -6,7 +6,8 @@ import java.util.stream.IntStream;
 public class LazyDemo {
   public static void main(String[] args) {
     IntStream intStream = IntStream.rangeClosed(1, 5);
-    intStream.filter(i -> i % 2 == 0);
+    IntStream filterIntStream1 = intStream;
+    filterIntStream1.filter(i -> i % 2 == 0);
 
     UnaryOperator unaryOperator = new UnaryOperator() {
       @Override
