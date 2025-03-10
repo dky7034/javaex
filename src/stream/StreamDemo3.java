@@ -11,6 +11,6 @@ public class StreamDemo3 {
     IntStream.generate(() -> new Random()
         .nextInt(10))
         .forEach(System.out::println);
-    
+
   } // end of main method
 } // end of class
