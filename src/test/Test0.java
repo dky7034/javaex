@@ -16,8 +16,8 @@ public class Test0 {
         System.out.println("abstractMethod2");
       }
     };
-    abstractClass.abstractMethod1();
-    abstractClass.abstractMethod2();
+    abstractClass.abstractMethod1(); // abstractMethod1
+    abstractClass.abstractMethod2(); // abstractMethod2
 
     Test0Class test0Class = new Test0Class() {
       @Override
