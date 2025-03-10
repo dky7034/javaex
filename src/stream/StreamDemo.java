@@ -11,6 +11,7 @@ public class StreamDemo {
 
     for (int i = 0; i < 10; i++) {
       System.out.println();
+      list.add();
     }
   }
 }
