@@ -8,7 +8,7 @@ public class N9 {
     Map<String, Integer> map = new HashMap<>();
     map.put("blue", 96);
     map.put("hong", 96);
-    map.put("blue", 96);
+    map.put("whitle", 96);
 
   }
 }
