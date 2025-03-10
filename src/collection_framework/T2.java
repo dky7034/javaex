@@ -13,7 +13,7 @@ public class T2 {
         public Object apply(Object o1, Object o2) {
           return null;
         }
-      }
+      };
       System.out.println(value);
     }
 
