@@ -31,8 +31,6 @@ public class N9 {
       totalScore += i;
       if (maxScore < i) {
         maxScore = i;
-        System.out.println(strings);
-
       }
     }
 
