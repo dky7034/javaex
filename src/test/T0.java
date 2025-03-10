@@ -9,7 +9,7 @@ public class T0 extends T0class {
     T0 t0 = new T0();
     boolean b1 = t0.isLongEnough("Integer");
     System.out.println("b1 = " + b1);
-    
+
   }
 }
 
@@ -23,5 +23,4 @@ class T0class implements T0interface {
   public boolean isLongEnough(String str) {
     return str.length() >= 5;
   }
-
 }
