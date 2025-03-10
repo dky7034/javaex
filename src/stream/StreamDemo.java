@@ -1,6 +1,7 @@
 package stream;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -14,7 +15,7 @@ public class StreamDemo {
       System.out.println(number);
       list.add(number);
     }
-    System.out.println(list);
+    System.out.println(Collections.sort(list););
 
     List<Integer> gt10 = new ArrayList<>();
     for (Integer i : list) {
