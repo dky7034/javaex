@@ -6,7 +6,7 @@ public class FunctionalInterfaceDemo2 {
     Calculable c = new Calculable() {
       @Override
       public void calculate(int x, int y) {
-
+        
       }
     };
   }
