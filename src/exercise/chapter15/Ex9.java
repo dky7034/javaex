@@ -14,6 +14,8 @@ public class Ex9 {
     int maxScore = 0; // 최고 점수를 저장하는 변수
     int totalScore = 0; // 점수 합계를 저장하는 변수
 
+    map.entrySet();
+
     // 여기에 코드를 작성하세요.
     // entrySet() 사용
     for (Map.Entry<String, Integer> entry : map.entrySet()) {
