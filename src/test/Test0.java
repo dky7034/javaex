@@ -27,7 +27,7 @@ public class Test0 {
       }
     };
     normalClass.test0Method1(); // test0Method1Override
-    test0Class.test0Method2(); // ""
+    normalClass.test0Method2(); // ""
   }
 }
 
