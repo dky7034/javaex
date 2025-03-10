@@ -8,6 +8,7 @@ public class HashMapDemo {
     Map<Fruit, Integer> fruits = new HashMap<>();
 
     fruits.put(new Fruit("사과"), 5);
+    fruits.put(new Fruit("사과"), 50);
     fruits.put(new Fruit("바나나"), 3);
     fruits.put(new Fruit("바나나"), 30);
 
