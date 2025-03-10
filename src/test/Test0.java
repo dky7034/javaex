@@ -42,6 +42,7 @@ abstract class AbstractClass {
 }
 
 class Test0Class {
+  static void staticTest0Method() {}
   void test0Method1() {}
   void test0Method2() {}
 }
