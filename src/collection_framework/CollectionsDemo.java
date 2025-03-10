@@ -10,5 +10,6 @@ public class CollectionsDemo {
     Map<Fruit, Integer> fruitsMap = new HashMap<>();
 //    Collections.sort(fruitsMap); // Map 구현체도 사용 불가능
     Collections.shuffle(fruitsList);
+    System.out.println(fruitsList);
   }
 }
