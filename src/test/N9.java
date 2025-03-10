@@ -18,12 +18,15 @@ public class N9 {
     // 여기에 코드를 작성하세요.
     // map의 모든 키를 담은 set 생성
     Set<String> strings = map.keySet();
+    for (String string : strings) {
+      name = string;
+    }
     for (Integer i : map.values()) {
       totalScore += i;
       if (maxScore < i) {
         maxScore = i;
         System.out.println(strings);
-        name = ?;
+
       }
     }
 
