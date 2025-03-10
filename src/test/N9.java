@@ -1,9 +1,7 @@
 package test;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 public class N9 {
   public static void main(String[] args) {
@@ -18,9 +16,7 @@ public class N9 {
 
     // 여기에 코드를 작성하세요.
     // map의 모든 키를 담은 set 생성
-    Set<String> strings = map.keySet();
-    Collection<Integer> values = map.values();
-    for (String string : strings) {
+    for (String string : map.keySet()) {
       for (Integer value : map.values()) {
         if (maxScore < value) {
           maxScore = value;
