@@ -14,8 +14,9 @@ public class T {
     map.put("나자바", 80);
 
     Scanner in = new Scanner(System.in);
+    String name = in.nextLine();
     System.out.print("이름을 입력하세요 : ");
-    
+
     for (String s : map.keySet()) {
       if (s.equals(in)) {
         System.out.println(map.get(in.nextLine()));
