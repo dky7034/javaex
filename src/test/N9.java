@@ -21,9 +21,12 @@ public class N9 {
       if (maxScore < i) {
         maxScore = i;
         Set<String> strings = map.keySet();
+        System.out.println("strings = " + strings);
       }
     }
     System.out.println("maxScore = " + maxScore);
     System.out.println("totalScore = " + totalScore);
+    System.out.println("totalScore = " + totalScore);
+    System.out.println(strings);
   }
 }
