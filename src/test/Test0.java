@@ -12,7 +12,8 @@ public class Test0 {
         return str.length() >= 5;
       }
     };
-    test b1 = test0interface.isLongEnough("two");
+    boolean b1 = test0interface.isLongEnough("two");
+    System.out.println("b1 = " + b1);
 
     AbstractClass abstractClass = new AbstractClass() {
       @Override
