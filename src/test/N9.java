@@ -19,8 +19,7 @@ public class N9 {
       if (maxScore < i) {
         maxScore = i;
       }
-      maxScore = i;
-      if (i < map.val)
     }
+    
   }
 }
