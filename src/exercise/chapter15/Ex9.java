@@ -2,7 +2,6 @@ package exercise.chapter15;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 public class Ex9 {
   public static void main(String[] args) {
@@ -16,7 +15,8 @@ public class Ex9 {
     int totalScore = 0; // 점수 합계를 저장하는 변수
 
     Map.Entry<String, Integer> entries = (Map.Entry<String, Integer>)map.entrySet();
-    entries.
+    entries.getValue();
+    entries.getKey();
 
     // 여기에 코드를 작성하세요.
     // entrySet() 사용
