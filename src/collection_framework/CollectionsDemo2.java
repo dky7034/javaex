@@ -11,8 +11,9 @@ public class CollectionsDemo2 {
     System.out.println(list1);
     Set<String> set = new HashSet<>(list1);
     System.out.println(set);
-    list1.set(0, "키위"); // 
+    list1.set(0, "키위"); //
     List<String> list2 = new ArrayList<>(set);
     list2.set(0, "키위");
+    System.out.println(list2);
   }
 }
