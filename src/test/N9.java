@@ -23,7 +23,7 @@ public class N9 {
       totalScore += entry.getValue();
       if (maxScore < entry.getValue()) {
         maxScore = entry.getValue();
-
+        
       }
     }
 
