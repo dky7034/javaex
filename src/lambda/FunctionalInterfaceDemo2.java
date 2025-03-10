@@ -21,6 +21,6 @@ interface Calculable {
 class add implements Calculable {
   @Override
   void calculate(int x, int y) {
-    
+    System.out.println(x + y);
   }
 }
