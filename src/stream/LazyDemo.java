@@ -7,7 +7,7 @@ public class LazyDemo {
   public static void main(String[] args) {
     IntStream intStream = IntStream.rangeClosed(1, 5);
     IntStream filterStream = intStream.filter(i -> i % 2 == 0);
-    IntStream mapStream
+    IntStream mapStream = filterStream.map(x -> x * x);
 
     UnaryOperator unaryOperator = new UnaryOperator() {
       @Override
