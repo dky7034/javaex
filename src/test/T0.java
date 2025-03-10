@@ -17,7 +17,9 @@ public class T0 {
         System.out.println("abstractMethod2");
       }
     };
-    
+
+    abstractClass.abstractMethod1();
+    abstractClass.abstractMethod2();
   }
 }
 
