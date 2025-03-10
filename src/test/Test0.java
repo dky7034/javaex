@@ -36,7 +36,7 @@ interface Test0interface {
   boolean isLongEnough(String str);
 }
 
-class Test0class implements Test0interface {
+class Test0Class implements Test0interface {
   @Override
   public boolean isLongEnough(String str) {
     return str.length() >= 5;
