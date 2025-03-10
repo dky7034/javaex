@@ -2,7 +2,7 @@ package test;
 
 public class Test0 {
   public static void main(String[] args) {
-    Test0Class test0class = new Test0Class();
+    test0Class test0class = new test0Class();
     boolean b = test0class.isLongEnough("String");
     System.out.println("b = " + b); // b = true
 
@@ -28,7 +28,7 @@ interface Test0interface {
   boolean isLongEnough(String str);
 }
 
-class Test0Class implements Test0interface {
+class test0Class implements Test0interface {
   @Override
   public boolean isLongEnough(String str) {
     return str.length() >= 5;
