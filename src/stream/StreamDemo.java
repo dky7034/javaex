@@ -26,5 +26,7 @@ public class StreamDemo {
     Collections.sort(gt10);
     System.out.println(gt10);
 
+    // 위 코드를 스트림으로 변경
+    // 스트림: 연속된 데이터 + 함수형 처리연산
   }
 }
