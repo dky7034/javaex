@@ -20,6 +20,14 @@ public class Test0 {
     abstractClass.abstractMethod2(); // abstractMethod2
     abstractClass.method1(); // ""
 
+    Test0Class test0Class = new Test0Class() {
+      @Override
+      void test0Method1() {
+        System.out.println("test0Method1Override");
+      }
+    };
+    test0Class.test0Method1(); // test0Method1Override
+    test0Class.test0Method2(); // ""
   }
 }
 
