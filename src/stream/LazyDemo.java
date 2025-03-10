@@ -8,7 +8,7 @@ public class LazyDemo {
     IntStream filterStream = intStream.filter(i -> i % 2 == 0);
     IntStream mapStream = filterStream.map(x -> x * x);
 
-    IntStream.rangeClosed(1, 5).filter(i -> i % 2 == 0).map(x -> x * x);
+    IntStream.rangeClosed(1, 5).filter(i -> i % 2 == 0).map(x -> x * x).forEach(System.out::println);
 
   }
 }
