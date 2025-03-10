@@ -11,7 +11,7 @@ public class StreamDemo2 {
     IntStream stream = Arrays.stream(arr); // 스트림이라는 시간적 집합체
 
     List<Integer> list = Arrays.asList(1, 2, 3, 4, 5); // 리스트, 공간적 집합체
-    Stream<Integer> stream1 = list.stream();
+    Stream<Integer> stream1 = list.stream(); // 스트림이라는 시간적 집합체
 
     String[] sarr = {"a", "b", "c", "d"};
     Stream<String> stream2 = Arrays.stream(sarr);
