@@ -1,6 +1,7 @@
 package stream;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -22,6 +23,7 @@ public class StreamDemo {
         gt10.add(i);
       }
     }
+    Collections.sort(gt10);
     System.out.println(gt10);
 
   }
