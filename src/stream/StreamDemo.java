@@ -10,5 +10,6 @@ public class StreamDemo {
     Random r = new Random();
 
     r.nextInt(30); // 0 - 29
+    System.out.println(r);
   }
 }
