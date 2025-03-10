@@ -40,3 +40,9 @@ abstract class AbstractClass {
   abstract void abstractMethod2();
   void method1() {}
 }
+
+class Test0Class {
+  void test0Method1() {
+    
+  }
+}
