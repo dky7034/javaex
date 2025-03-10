@@ -7,6 +7,8 @@ public class T2 {
     Map<String, String> map = Map.of("호랑이", "tiger", "표범", "leopard", "사자", "lion");
 
     map.replaceAll((key, value) -> value.toUpperCase());
+
+    System.out.println(map);
   }
 
 }
