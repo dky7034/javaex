@@ -10,7 +10,7 @@ public class T2 {
       map.replaceAll((s1, s2) -> s2.toUpperCase());
       BiFunction b = new BiFunction() {
         @Override
-        public Object apply(Object o, Object o2) {
+        public Object apply(Object o1, Object o2) {
           return null;
         }
       }
