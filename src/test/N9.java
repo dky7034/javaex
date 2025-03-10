@@ -1,5 +1,6 @@
 package test;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -18,8 +19,9 @@ public class N9 {
     // 여기에 코드를 작성하세요.
     // map의 모든 키를 담은 set 생성
     Set<String> strings = map.keySet();
+    Collection<Integer> values = map.values();
     for (String string : strings) {
-      if (map.get(string) < ) {
+      if (map.get(string) < map.) {
       }
       name = string;
     }
