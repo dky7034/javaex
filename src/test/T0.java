@@ -5,9 +5,7 @@ public class T0 extends AbstractClass {
   void abstractMethod1() {}
 
   @Override
-  void abstractMethod2() {
-
-  }
+  void abstractMethod2() {}
 
   public static void main(String[] args) {
     T0class t0class = new T0class();
