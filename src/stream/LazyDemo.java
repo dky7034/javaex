@@ -19,7 +19,7 @@ public class LazyDemo {
     IntStream.generate(() -> new Random().nextInt(0, 11))
         .filter(i -> i % 2 == 1) // IntPredicate(i) -> 조건식 (리턴 타입이 boolean)
         .limit(3)
-        .map(x -> x * 2)
+        .map(x -> x * 2) // IntUnaryOperator (i) -> i * 2
         .forEach(System.out::println);
   }
 }
