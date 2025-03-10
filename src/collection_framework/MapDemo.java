@@ -14,8 +14,8 @@ public class MapDemo {
     }
     System.out.println(fruits.size() + "종류의 과일이 있습니다.");
 
-    for (:) {
-      
+    for ( : ) {
+
     }
   }
 }
