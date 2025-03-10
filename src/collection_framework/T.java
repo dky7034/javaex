@@ -14,6 +14,6 @@ public class T {
     map.put("나자바", 80);
 
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("이름을 입력하세요 : ");
   }
 }
