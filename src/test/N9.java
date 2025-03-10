@@ -18,6 +18,7 @@ public class N9 {
     // map의 모든 키를 담은 set 생성
     for (String string : map.keySet()) {
       for (Integer value : map.values()) {
+        totalScore += value;
         if (maxScore < value) {
           maxScore = value;
           name = string;
