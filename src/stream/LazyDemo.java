@@ -20,6 +20,7 @@ public class LazyDemo {
         .filter(i -> i % 2 == 1)
         .limit(3)
         .map(x -> x * 2)
+        .map
         .forEach(System.out::println);
   }
 }
