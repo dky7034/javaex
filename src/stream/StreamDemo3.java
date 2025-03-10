@@ -14,8 +14,8 @@ public class StreamDemo3 {
 //        .nextInt(10))
 //        .forEach(System.out::println); // 무한루프
 
-    IntStream range = IntStream.range(1, 10); // 1 ~ 9 까지 한 번씩 생성 (1, 2, 3, 4, 5, 6, 7, 8, 9)
-    range.forEach(System.out::println);
+//    IntStream range = IntStream.range(1, 10); // 1 ~ 9 까지 한 번씩 생성 (1, 2, 3, 4, 5, 6, 7, 8, 9)
+//    range.forEach(System.out::println);
 
     LongStream range2 = LongStream.rangeClosed(1, 10);
     range2.forEach(System.out::println);
