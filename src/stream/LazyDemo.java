@@ -7,6 +7,6 @@ public class LazyDemo {
     IntStream intStream = IntStream.rangeClosed(1, 5);
     IntStream filterStream = intStream.filter(i -> i % 2 == 0);
     IntStream mapStream = filterStream.map(x -> x * x);
-    
+
   }
 }
