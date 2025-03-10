@@ -9,6 +9,6 @@ public class StreamDemo {
     List<Integer> list = new ArrayList<>();
     Random r = new Random();
 
-    r.nextInt(30);
+    r.nextInt(30); // 0 - 29
   }
 }
