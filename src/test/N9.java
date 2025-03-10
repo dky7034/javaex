@@ -19,7 +19,7 @@ public class N9 {
     System.out.println(entries);
 
     // 여기에 코드를 작성하세요.
-    for (Integer i : map.values()) {
+    for (Map<String, Integer> map : entries) {
       totalScore += i;
       if (maxScore < i) {
         maxScore = i;
