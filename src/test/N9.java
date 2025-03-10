@@ -24,7 +24,9 @@ public class N9 {
         }
       }
     }
-
+    System.out.println("maxScore = " + maxScore);
+    System.out.println("totalScore = " + totalScore);
+    System.out.println("name = " + name);
 
 
     for (Integer i : map.values()) {
@@ -33,6 +35,6 @@ public class N9 {
         maxScore = i;
       }
     }
-    
+
   }
 }
