@@ -1,6 +1,5 @@
 package stream;
 
-import java.util.function.UnaryOperator;
 import java.util.stream.IntStream;
 
 public class LazyDemo {
@@ -8,13 +7,6 @@ public class LazyDemo {
     IntStream intStream = IntStream.rangeClosed(1, 5);
     IntStream filterStream = intStream.filter(i -> i % 2 == 0);
     IntStream mapStream = filterStream.map(x -> x * x);
-
-    UnaryOperator unaryOperator = new UnaryOperator() {
-      @Override
-      public Object apply(Object o) {
-        return null;
-      }
-    };
-
+    
   }
 }
