@@ -15,11 +15,12 @@ public class T {
 
     Scanner in = new Scanner(System.in);
     System.out.print("이름을 입력하세요 : ");
-
+    
     for (String s : map.keySet()) {
       if (s.equals(in)) {
         System.out.println(map.get(in.nextLine()));
       }
     }
+
   }
 }
