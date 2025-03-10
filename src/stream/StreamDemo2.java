@@ -14,6 +14,7 @@ public class StreamDemo2 {
     Stream<Integer> stream1 = list.stream();
 
     String[] sarr = {"a", "b", "c", "d"};
+    Stream<String> stream2 = Arrays.stream(sarr);
 
   }
 }
