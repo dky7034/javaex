@@ -1,10 +1,12 @@
 package stream;
 
 import java.util.Random;
+import java.util.stream.IntStream;
 
 public class StreamDemo3 {
   public static void main(String[] args) {
     Random r = new Random();
-    r.ints();
+    IntStream intStream = r.ints();
+
   }
 }
