@@ -3,6 +3,7 @@ package stream;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class StreamDemo2 {
   public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class StreamDemo2 {
     IntStream intStream = Arrays.stream(arr); // 스트림이라는 시간적 집합체
 
     List<Integer> list = Arrays.asList(1, 2, 3, 4, 5); // 리스트, 공간적 집합체
-    list.stream();
+    Stream<Integer> stream = list.stream();
 
   }
 }
