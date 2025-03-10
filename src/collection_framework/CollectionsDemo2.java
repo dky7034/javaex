@@ -1,5 +1,6 @@
 package collection_framework;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -11,6 +12,6 @@ public class CollectionsDemo2 {
     Set<String> set = new HashSet<>(list1);
     System.out.println(set);
     list1.set(0, "키위");
-
+    List<String> list2 = new ArrayList<>(set);
   }
 }
