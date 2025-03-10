@@ -1,8 +1,8 @@
 package test;
 
-public class T0 extends T0class {
+public class T0 {
   public static void main(String[] args) {
-    
+
     System.out.println();
 
   }
@@ -18,4 +18,5 @@ class T0class implements T0interface {
   public boolean isLongEnough(String str) {
     return str.length() >= 5;
   }
+
 }
