@@ -17,7 +17,7 @@ public class LazyDemo {
     System.out.println("----------");
 
     IntStream.generate(() -> new Random().nextInt(0, 11))
-        .filter(i -> i % 2 == 1)
+        .filter(i -> i % 2 == 1) // IntPredicate(i) -> 조건식 (리턴 타입이 boolean)
         .limit(3)
         .map(x -> x * 2)
         .forEach(System.out::println);
