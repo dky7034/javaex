@@ -15,9 +15,9 @@ public class T {
     map.put("우등생", 80);
     map.put("나자바", 80);
 
-    String name = in.nextLine();
     System.out.print("이름을 입력하세요 : ");
-
+    String name = in.nextLine();
+    
     Integer score = map.get(name);
     System.out.println(score);
 
