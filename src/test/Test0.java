@@ -12,7 +12,7 @@ public class Test0 {
         return str.length() >= 5;
       }
     };
-    test0interface.isLongEnough("two");
+    test b1 = test0interface.isLongEnough("two");
 
     AbstractClass abstractClass = new AbstractClass() {
       @Override
