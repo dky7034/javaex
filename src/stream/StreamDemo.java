@@ -10,6 +10,7 @@ public class StreamDemo {
     Random r = new Random();
 
     for (int i = 0; i < 10; i++) {
+      int number = r.nextInt(30);
       System.out.println();
       list.add();
     }
