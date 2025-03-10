@@ -43,6 +43,6 @@ abstract class AbstractClass {
 
 class Test0Class {
   void test0Method1() {
-    System.out.println(test0Method1());
+    System.out.println("test0Method1");
   }
 }
