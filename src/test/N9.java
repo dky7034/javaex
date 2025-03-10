@@ -19,6 +19,7 @@ public class N9 {
       totalScore += i;
       if (maxScore < i) {
         maxScore = i;
+        map.keySet();
       }
     }
 
