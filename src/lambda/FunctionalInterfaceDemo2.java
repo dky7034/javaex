@@ -14,6 +14,8 @@ public class FunctionalInterfaceDemo2 {
       System.out.println(x + y);
     };
 
+    cal2.calculate(1, 2);
+
   }
 
   @FunctionalInterface
