@@ -14,7 +14,7 @@ public class StreamDemo2 {
     double[] darr = {1.0, 2.0, 3.0, 4.0};
     DoubleStream stream3 = Arrays.stream(darr);
 
-    long[] larr
+    long[] larr = {1L, 2L, 3L, 4L};
 
     List<Integer> list = Arrays.asList(1, 2, 3, 4, 5); // 리스트, 공간적 집합체
     Stream<Integer> stream1 = list.stream(); // 스트림이라는 시간적 집합체
