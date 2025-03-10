@@ -26,7 +26,7 @@ public class Test0 {
         System.out.println("test0Method1Override");
       }
     };
-    test0Class.test0Method1(); // test0Method1Override
+    normalClass.test0Method1(); // test0Method1Override
     test0Class.test0Method2(); // ""
   }
 }
