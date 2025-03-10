@@ -9,6 +9,7 @@ public class HashMapDemo {
 
     fruits.put(new Fruit("사과"), 5);
     fruits.put(new Fruit("바나나"), 3);
+    fruits.put(new Fruit("바나나"), 30);
 
     System.out.println(fruits);
   }
@@ -22,6 +23,6 @@ class Fruit {
 
   @Override
   public String toString() {
-    
+    return
   }
 }
