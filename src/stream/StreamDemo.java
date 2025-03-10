@@ -11,7 +11,7 @@ public class StreamDemo {
 
     for (int i = 0; i < 10; i++) {
       int number = r.nextInt(30);
-      System.out.println();
+      System.out.println(number);
       list.add();
     }
   }
