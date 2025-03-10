@@ -7,7 +7,7 @@ public class StreamDemo3 {
   public static void main(String[] args) {
     Random r = new Random();
     IntStream intStream = r.ints();
-    intStream.forEach(System.out::println);
+    intStream.forEach(System.out::println); // 무한루프
 
   }
 }
