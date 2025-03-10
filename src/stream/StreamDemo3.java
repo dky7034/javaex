@@ -8,6 +8,8 @@ public class StreamDemo3 {
     Random r = new Random();
     IntStream intStream = r.ints();
 //    intStream.forEach(System.out::println); // 무한루프
-    IntStream.generate(() -> new Random().nextInt(10)).forEach(System.out::println);
+    IntStream.generate(() -> new Random()
+        .nextInt(10))
+        .forEach(System.out::println);
   }
 }
