@@ -21,7 +21,6 @@ public class T {
     Integer score = map.get(name);
     if (score == null) {
       System.out.println(name + "의 점수를 찾을 수 없습니다.");
-
     }
     System.out.println(score);
 
