@@ -13,7 +13,7 @@ public class Test0 {
       }
     };
     boolean b1 = test0interface.isLongEnough("two");
-    System.out.println("b1 = " + b1);
+    System.out.println("b1 = " + b1); // b1 = false
 
     AbstractClass abstractClass = new AbstractClass() {
       @Override
