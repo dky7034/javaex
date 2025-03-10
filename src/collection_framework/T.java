@@ -14,5 +14,6 @@ public class T {
     map.put("나자바", 80);
 
     Scanner in = new Scanner(System.in);
+    
   }
 }
