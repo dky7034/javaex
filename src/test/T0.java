@@ -9,5 +9,5 @@ public class T0 {
 
 @FunctionalInterface
 interface T0interface {
-  boolean isLongEnough();
+  boolean isLongEnough(STring str);
 }
