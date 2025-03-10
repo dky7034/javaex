@@ -16,7 +16,7 @@ public class T0 {
       void abstractMethod2() {
 
       }
-    }
+    };
   }
 }
 
