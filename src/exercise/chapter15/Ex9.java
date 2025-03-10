@@ -16,9 +16,10 @@ public class Ex9 {
 
     System.out.println("--- 출력 Test ---");
     Map.Entry<String, Integer> entries = (Map.Entry<String, Integer>)map.entrySet();
-    Integer value = entries.getValue();
     String key = entries.getKey();
-
+    Integer value = entries.getValue();
+    System.out.println("key = " + key);
+    System.out.println("value = " + value);
 
     // 여기에 코드를 작성하세요.
     // entrySet() 사용
