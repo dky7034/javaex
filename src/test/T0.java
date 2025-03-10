@@ -17,7 +17,7 @@ public class T0 {
         System.out.println("abstractMethod2");
       }
     };
-
+    
   }
 }
 
