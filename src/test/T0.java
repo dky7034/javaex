@@ -1,6 +1,6 @@
 package test;
 
-public class T0 {
+public class T0 extends T0class {
   public static void main(String[] args) {
     T0class t0class = new T0class();
     boolean b = t0class.isLongEnough("String");
