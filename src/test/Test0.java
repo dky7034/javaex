@@ -2,7 +2,7 @@ package test;
 
 public class Test0 {
   public static void main(String[] args) {
-    NormalClass normalClass = new NormalClass();
+    Test0Class test0Class = new NormalClass();
     boolean b = normalClass.isLongEnough("String");
     System.out.println("b = " + b); // b = true
 
