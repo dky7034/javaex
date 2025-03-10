@@ -11,12 +11,13 @@ public class Test0 {
       void abstractMethod1() {
         System.out.println("abstractMethod1");
       }
-
       @Override
       void abstractMethod2() {
         System.out.println("abstractMethod2");
       }
     };
+    abstractClass.abstractMethod1();
+    abstractClass.abstractMethod2();
 
     Test0Class test0Class = new Test0Class() {
       @Override
