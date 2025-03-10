@@ -18,7 +18,7 @@ public class Test0 {
     boolean b1 = test0interface.isLongEnough("two");
     System.out.println("b1 = " + b1); // b1 = false
 
-    // 람다식 사용
+    // 람다식 사용 (람다식은 익명 클래스와 달리 함수형 인터페이스에서만 사용 가능)
     Test0interface test0interface1 = (s) -> s.length() >= 5;
 
 
