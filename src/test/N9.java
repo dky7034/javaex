@@ -19,8 +19,10 @@ public class N9 {
       totalScore += i;
       if (maxScore < i) {
         maxScore = i;
+        System.out.println(map.get(i));
       }
     }
+
     System.out.println("maxScore = " + maxScore);
     System.out.println("totalScore = " + totalScore);
     System.out.println("totalScore = " + totalScore);
