@@ -8,7 +8,7 @@ public class CollectionsDemo2 {
   public static void main(String[] args) {
     List<String> list1 = List.of("포도", "키위", "수박", "사과", "망고", "포도", "키위", "수박", "사과", "망고");
     System.out.println(list1);
-    Set<String> set = new HashSet<>();
+    Set<String> set = new HashSet<>(list1);
     System.out.println(set);
   }
 }
