@@ -26,5 +26,5 @@ class T0class implements T0interface {
 }
 
 class AbstractClass {
-  
+  abstract abstractMethod1();
 }
