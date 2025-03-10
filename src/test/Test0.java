@@ -18,6 +18,8 @@ public class Test0 {
       }
     };
 
+    Test0Class test0Class = new Test0Class();
+
     abstractClass.abstractMethod1();
     abstractClass.abstractMethod2();
   }
