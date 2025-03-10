@@ -9,12 +9,12 @@ public class T0 {
     AbstractClass abstractClass = new AbstractClass() {
       @Override
       void abstractMethod1() {
-        
+        System.out.println("abstractMethod1");
       }
 
       @Override
       void abstractMethod2() {
-
+        System.out.println("abstractMethod2");
       }
     };
   }
