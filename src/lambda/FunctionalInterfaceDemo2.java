@@ -1,6 +1,9 @@
 package lambda;
 
 public class FunctionalInterfaceDemo2 {
+  public static void main(String[] args) {
+    // 두 개의 정수를 입력받아서 두 수를 더한 후 
+  }
 }
 
 @FunctionalInterface
