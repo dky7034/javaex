@@ -29,6 +29,8 @@ public class StreamDemo {
     // 위 코드를 스트림으로 변경
     // 스트림: 연속된 데이터 + 함수형 처리연산
     list.stream()
-        .filter(i -> i > 10);
+        .filter(i -> i > 10) // Predicate 함수형 인터페이스의 익명 구현체
+        .sorted()
+        .forEach(i -> ); // Consumer 함수형 인터페이스의 익명 구현체
   }
 }
