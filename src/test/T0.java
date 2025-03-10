@@ -6,7 +6,7 @@ public class T0 extends T0class {
     boolean b = t0class.isLongEnough("String");
 
     T0 t0 = new T0();
-    t0.isLongEnough("Integer");
+    boolean b1 = t0.isLongEnough("Integer");
     System.out.println(b);
 
   }
