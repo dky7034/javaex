@@ -9,7 +9,7 @@ public class Test0 {
     Test0interface test0interface = new Test0interface() {
       @Override
       public boolean isLongEnough(String str) {
-        return str.length() > 5;
+        return str.length() >= 5;
       }
     };
 
