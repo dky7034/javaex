@@ -5,8 +5,6 @@ public class T0 extends AbstractClass {
     T0class t0class = new T0class();
     boolean b = t0class.isLongEnough("String");
     System.out.println("b = " + b);
-
-
   }
 }
 
