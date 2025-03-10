@@ -24,3 +24,7 @@ class T0class implements T0interface {
     return str.length() >= 5;
   }
 }
+
+class AbstractClass {
+  
+}
