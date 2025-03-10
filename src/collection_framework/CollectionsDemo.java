@@ -9,6 +9,7 @@ public class CollectionsDemo {
 //    Collections.sort(fruitsList); // Collections 클래스의 sort 메서드는 배열, Set 사용 불가능
     Map<Fruit, Integer> fruitsMap = new HashMap<>();
 //    Collections.sort(fruitsMap); // Map 구현체도 사용 불가능
+    Collections.reverseOrder((o1, o2) -> o1.equals(o2));
 
   }
 }
