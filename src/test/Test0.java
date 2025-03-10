@@ -54,5 +54,7 @@ abstract class AbstractClass {
 class NormalClass {
   static void staticTest0Method() {}
   void test0Method1() {}
-  void test0Method2() {}
+  void test0Method2() {
+    System.out.println("");
+  }
 }
