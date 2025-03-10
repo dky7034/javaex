@@ -8,3 +8,10 @@ public class HashMapDemo {
     Map<Fruit, Integer> fruits = new HashMap<>();
   }
 }
+
+class Fruit {
+  String name;
+  public Fruit(String name) {
+
+  }
+}
