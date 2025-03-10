@@ -31,7 +31,7 @@ public class StreamDemo {
     list.stream()
         .filter(i -> i > 10) // Predicate 함수형 인터페이스의 익명 구현체
         .sorted()
-        .forEach(System.out::println); // Consumer 함수형 인터페이스의 익명 구현체
+        .forEach(System.out::print); // Consumer 함수형 인터페이스의 익명 구현체
 
   }
 }
