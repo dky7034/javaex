@@ -18,7 +18,9 @@ public class T {
     in.nextLine();
 
     for (String s : map.keySet()) {
-      
+      if (s.equals(in)) {
+        System.out.println(map.values());
+      }
     }
   }
 }
