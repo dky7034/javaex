@@ -7,7 +7,7 @@ import java.util.stream.LongStream;
 
 public class StreamDemo3 {
   public static void main(String[] args) {
-    IntStream iterate = IntStream.iterate(0, x -> x + 1); // 무한생성
+    IntStream iterate = IntStream.iterate(0, x -> x + 1); // 무한 생성
 
     UnaryOperator unaryOperator = new UnaryOperator() {
       @Override
