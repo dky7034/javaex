@@ -18,6 +18,7 @@ public class Test0 {
     };
     abstractClass.abstractMethod1(); // abstractMethod1
     abstractClass.abstractMethod2(); // abstractMethod2
+    abstractClass.method1();
 
     Test0Class test0Class = new Test0Class() {
       @Override
