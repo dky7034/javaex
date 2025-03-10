@@ -14,5 +14,6 @@ public class StreamDemo {
       System.out.println(number);
       list.add(number);
     }
+    System.out.println(list);
   }
 }
