@@ -19,7 +19,7 @@ public class N9 {
       totalScore += i;
       if (maxScore < i) {
         maxScore = i;
-        name = map.keySet().toString();
+        name = map.keySet();
       }
     }
 
