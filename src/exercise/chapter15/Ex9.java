@@ -14,9 +14,11 @@ public class Ex9 {
     int maxScore = 0; // 최고 점수를 저장하는 변수
     int totalScore = 0; // 점수 합계를 저장하는 변수
 
+    System.out.println("출력 Test");
     Map.Entry<String, Integer> entries = (Map.Entry<String, Integer>)map.entrySet();
-    entries.getValue();
-    entries.getKey();
+    Integer value = entries.getValue();
+    String key = entries.getKey();
+
 
     // 여기에 코드를 작성하세요.
     // entrySet() 사용
