@@ -10,7 +10,7 @@ public class MapDemo {
     } catch (IllegalArgumentException e) {
       System.out.println(e.getLocalizedMessage());
     } catch (NullPointerException e) {
-      
+      System.out.println("자료 생성 과정에서 오류가 발생했습니다.");
     }
     System.out.println(fruits.size() + "종류의 과일이 있습니다.");
   }
