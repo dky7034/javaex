@@ -1,6 +1,7 @@
 package collection_framework;
 
 import java.util.Map;
+import java.util.function.BiFunction;
 
 public class T2 {
   public static void main(String[] args) {
@@ -10,6 +11,13 @@ public class T2 {
 
       System.out.println(value);
     }
+
+    BiFunction b = new BiFunction() {
+      @Override
+      public Object apply(Object o1, Object o2) {
+        return null;
+      }
+    };
 
   }
 }
