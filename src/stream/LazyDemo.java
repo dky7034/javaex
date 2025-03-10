@@ -1,5 +1,6 @@
 package stream;
 
+import java.util.Random;
 import java.util.stream.IntStream;
 
 public class LazyDemo {
@@ -12,5 +13,7 @@ public class LazyDemo {
         .filter(i -> i % 2 == 0)
         .map(x -> x * x)
         .forEach(System.out::println);
+
+    IntStream.generate(new Random(5));
   }
 }
