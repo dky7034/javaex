@@ -10,7 +10,7 @@ public class FunctionalInterfaceDemo2 {
       }
     };
 
-    Calculable cal2 = (x, y) -> x + y;
+    Calculable cal2 = (x, y) -> {x + y};
 
   }
 
