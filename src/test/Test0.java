@@ -20,7 +20,7 @@ public class Test0 {
     abstractClass.abstractMethod2(); // abstractMethod2
     abstractClass.method1(); // ""
 
-    NormalClass test0Class = new NormalClass() {
+    NormalClass normalClass = new NormalClass() {
       @Override
       void test0Method1() {
         System.out.println("test0Method1Override");
