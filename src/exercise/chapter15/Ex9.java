@@ -1,9 +1,9 @@
-package test;
+package exercise.chapter15;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class N9 {
+public class Ex9 {
   public static void main(String[] args) {
     Map<String, Integer> map = new HashMap<>();
     map.put("blue", 96);
