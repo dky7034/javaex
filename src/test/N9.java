@@ -19,6 +19,8 @@ public class N9 {
     // map의 모든 키를 담은 set 생성
     Set<String> strings = map.keySet();
     for (String string : strings) {
+      if () {
+      }
       name = string;
     }
     for (Integer i : map.values()) {
