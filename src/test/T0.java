@@ -2,7 +2,8 @@ package test;
 
 public class T0 {
   public static void main(String[] args) {
-
+    T0class t0class = new T0class();
+    t0class.
     System.out.println();
 
   }
