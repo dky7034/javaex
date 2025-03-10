@@ -4,7 +4,7 @@ public class Test0 {
   public static void main(String[] args) {
     Test0class Test0class = new Test0class();
     boolean b = Test0class.isLongEnough("String");
-    System.out.println("b = " + b);
+    System.out.println("b = " + b); // b = true
 
     AbstractClass abstractClass = new AbstractClass() {
       @Override
