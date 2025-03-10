@@ -9,6 +9,8 @@ public class StreamDemo2 {
     int[] arr = new int[]{1, 2, 3, 4, 5}; // 배열, 공간적 집합체
     IntStream intStream = Arrays.stream(arr);
 
-    List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+    List<Integer> list = Arrays.asList(1, 2, 3, 4, 5); // 리스트, 공간적 집합체
+    list.stream().
+
   }
 }
