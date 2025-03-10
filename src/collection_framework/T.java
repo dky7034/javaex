@@ -19,7 +19,7 @@ public class T {
 
     for (String s : map.keySet()) {
       if (s.equals(in)) {
-        System.out.println(map.get(s));
+        System.out.println(map.get(in));
       }
     }
   }
