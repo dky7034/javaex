@@ -2,6 +2,7 @@ package collection_framework;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class HashMapDemo {
   public static void main(String[] args) {
@@ -27,5 +28,17 @@ class Fruit {
     return "Fruit{" +
         "name='" + name + '\'' +
         '}';
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (o == null || getClass() != o.getClass()) return false;
+    Fruit fruit = (Fruit) o;
+    return Objects.equals(name, fruit.name);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hashCode(name);
   }
 }
