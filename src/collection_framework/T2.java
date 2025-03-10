@@ -1,7 +1,6 @@
 package collection_framework;
 
-import java.util.Collections;
-import java.util.Map;
+import java.util.*;
 
 public class T2 {
   public static void main(String[] args) {
