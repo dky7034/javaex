@@ -2,6 +2,7 @@ package collection_framework;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class T {
   public static void main(String[] args) {
@@ -12,5 +13,6 @@ public class T {
     map.put("우등생", 80);
     map.put("나자바", 80);
 
+    Scanner in = new Scanner(System.in);
   }
 }
