@@ -19,8 +19,8 @@ public class StreamDemo {
     List<Integer> gt10 = new ArrayList<>();
     for (Integer i : list) {
       if () {
+        gt10.add(i);
       }
-      gt10.add(i);
     }
     System.out.println(gt10);
 
