@@ -9,6 +9,9 @@ public class N9 {
     map.put("blue", 96);
     map.put("hong", 86);
     map.put("white", 92);
-    
+
+    String name = null;
+    int maxScore = 0;
+    int totalScore = 0;
   }
 }
