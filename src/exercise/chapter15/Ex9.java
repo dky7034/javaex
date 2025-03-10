@@ -14,6 +14,8 @@ public class Ex9 {
     int maxScore = 0; // 최고 점수를 저장하는 변수
     int totalScore = 0; // 점수 합계를 저장하는 변수
 
+    // 에러 발생
+    // entrySet() 은 Set 타입 컬렉션을 반환하는데, 이를 
     System.out.println("--- 출력 Test ---");
     Map.Entry<String, Integer> entries = (Map.Entry<String, Integer>)map.entrySet();
     String key = entries.getKey();
@@ -23,7 +25,7 @@ public class Ex9 {
 
     // 여기에 코드를 작성하세요.
     // entrySet() 사용
-    // 
+    //
     for (Map.Entry<String, Integer> entry : map.entrySet()) {
       totalScore += entry.getValue();
       if (maxScore < entry.getValue()) {
