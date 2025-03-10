@@ -47,7 +47,7 @@ abstract class AbstractClass {
   abstract void abstractMethod1();
   abstract void abstractMethod2();
   void method1() {
-    System.out.println();
+    System.out.println("");
   }
 }
 
