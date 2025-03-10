@@ -13,5 +13,7 @@ public class StreamDemo2 {
     List<Integer> list = Arrays.asList(1, 2, 3, 4, 5); // 리스트, 공간적 집합체
     Stream<Integer> stream1 = list.stream();
 
+    String[] sarr = {"a", "b", "c", "d"};
+
   }
 }
