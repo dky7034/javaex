@@ -13,5 +13,8 @@ public class StreamDemo3 {
 //        .nextInt(10))
 //        .forEach(System.out::println); // 무한루프
 
+    IntStream range = IntStream.range(1, 10);
+    range.forEach(System.out::println);
+    
   } // end of main method
 } // end of class
