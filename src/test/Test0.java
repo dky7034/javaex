@@ -2,8 +2,8 @@ package test;
 
 public class Test0 {
   public static void main(String[] args) {
-    NormalClass test0class = new NormalClass();
-    boolean b = test0class.isLongEnough("String");
+    NormalClass normalClass = new NormalClass();
+    boolean b = normalClass.isLongEnough("String");
     System.out.println("b = " + b); // b = true
 
     AbstractClass abstractClass = new AbstractClass() {
