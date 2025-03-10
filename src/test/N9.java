@@ -20,6 +20,6 @@ public class N9 {
         maxScore = i;
       }
     }
-    
+
   }
 }
