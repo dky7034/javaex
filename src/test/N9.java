@@ -21,6 +21,7 @@ public class N9 {
         maxScore = i;
       }
     }
-
+    System.out.println("maxScore = " + maxScore);
+    System.out.println("totalScore = " + totalScore);
   }
 }
