@@ -17,3 +17,10 @@ interface Calculable {
   // 추상메서드
   void calculate(int x, int y);
 }
+
+class add implements Calculable {
+  @Override
+  void calculate(int x, int y) {
+    
+  }
+}
