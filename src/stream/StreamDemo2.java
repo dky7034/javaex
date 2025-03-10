@@ -10,6 +10,6 @@ public class StreamDemo2 {
     IntStream intStream = Arrays.stream(arr);
 
     List<Integer> ilist = Arrays.asList();
-    
+
   }
 }
