@@ -15,5 +15,8 @@ public class N9 {
     int totalScore = 0; // 점수 합계를 저장하는 변수
 
     // 여기에 코드를 작성하세요.
+    for (int i = 0; i < ; i++) {
+      
+    }
   }
 }
