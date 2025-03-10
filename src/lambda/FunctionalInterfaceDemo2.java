@@ -15,7 +15,6 @@ public class FunctionalInterfaceDemo2 {
     };
 
     cal2.calculate(1, 2);
-
   }
 
   @FunctionalInterface
