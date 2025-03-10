@@ -24,6 +24,7 @@ public class N9 {
       for (Integer value : map.values()) {
         if (maxScore < value) {
           maxScore = value;
+          name = string;
         }
       }
     }
