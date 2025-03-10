@@ -44,4 +44,6 @@ abstract class AbstractClass {
 class Test0Class {
   void test0Method1() {
   }
+  void test0Method2() {
+  }
 }
