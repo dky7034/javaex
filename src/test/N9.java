@@ -11,6 +11,7 @@ public class N9 {
     map.put("white", 92);
 
     String name = null; // 최고 점수를 받은 아이디를 저장하는 변수
+    int max = Integer.MIN_VALUE;
     int maxScore = 0; // 최고 점수를 저장하는 변수
     int totalScore = 0; // 점수 합계를 저장하는 변수
 
