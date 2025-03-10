@@ -1,5 +1,6 @@
 package stream;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -28,6 +29,10 @@ public class StreamDemo {
 
     // 위 코드를 스트림으로 변경
     // 스트림: 연속된 데이터 + 함수형 처리연산
-    list.stream().filter(integer -> );
+    list.stream().filter(integer -> {
+      if (integer > 10) {
+        
+      }
+    });
   }
 }
