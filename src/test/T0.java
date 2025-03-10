@@ -21,6 +21,6 @@ interface T0interface {
 class T0class implements T0interface {
   @Override
   public boolean isLongEnough(String str) {
-    return false;
+    return str.length() >= 5;
   }
 }
