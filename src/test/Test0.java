@@ -1,9 +1,9 @@
 package test;
 
-public class T0 {
+public class Test0 {
   public static void main(String[] args) {
-    T0class t0class = new T0class();
-    boolean b = t0class.isLongEnough("String");
+    Test0class Test0class = new Test0class();
+    boolean b = Test0class.isLongEnough("String");
     System.out.println("b = " + b);
 
     AbstractClass abstractClass = new AbstractClass() {
@@ -24,11 +24,11 @@ public class T0 {
 }
 
 @FunctionalInterface
-interface T0interface {
+interface Test0interface {
   boolean isLongEnough(String str);
 }
 
-class T0class implements T0interface {
+class Test0class implements Test0interface {
   @Override
   public boolean isLongEnough(String str) {
     return str.length() >= 5;
