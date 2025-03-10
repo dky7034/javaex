@@ -16,6 +16,7 @@ public class Test0 {
     System.out.println("b1 = " + b1); // b1 = false
 
     Test0interface test0interface1 = (s) -> s.length() >= 5;
+    
 
     AbstractClass abstractClass = new AbstractClass() {
       @Override
