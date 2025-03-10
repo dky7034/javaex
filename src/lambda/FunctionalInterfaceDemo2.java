@@ -9,6 +9,9 @@ public class FunctionalInterfaceDemo2 {
         System.out.println(x + y);
       }
     };
+
+    Calculable cal2 = (x, y) -> x + y;
+
   }
 
   @FunctionalInterface
