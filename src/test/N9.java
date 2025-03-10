@@ -19,7 +19,9 @@ public class N9 {
     System.out.println(entries);
 
     // 여기에 코드를 작성하세요.
-    for (Entry<String, Integer> entry : entries) {
+    for (Map.Entry<String, Integer> entry : entries) {
+      if (maxScore < entry.getValue()) {
+      }
     }
 
     System.out.println("maxScore = " + maxScore);
