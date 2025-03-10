@@ -21,9 +21,11 @@ public class N9 {
     Set<String> strings = map.keySet();
     Collection<Integer> values = map.values();
     for (String string : strings) {
-      if (map.get(string) < map.) {
+      for (Integer value : map.values()) {
+        if (maxScore < value) {
+          maxScore = value;
+        }
       }
-      name = string;
     }
     for (Integer i : map.values()) {
       totalScore += i;
