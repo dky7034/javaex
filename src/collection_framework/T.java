@@ -17,7 +17,7 @@ public class T {
     String name = in.nextLine();
     System.out.print("이름을 입력하세요 : ");
 
-    
+    Integer score = map.get(name);
 
   }
 }
