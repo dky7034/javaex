@@ -6,7 +6,7 @@ public class CollectionsDemo2 {
   public static void main(String[] args) {
     List<String> list1 = List.of("포도", "키위", "수박", "사과", "망고", "포도", "키위", "수박", "사과", "망고");
     for (String str : list1) {
-
+      System.out.println(str);
     }
   }
 }
