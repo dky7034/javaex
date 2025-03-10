@@ -2,10 +2,13 @@ package test;
 
 public class Test0 {
   public static void main(String[] args) {
+    // 일반적인 메서드 사용법
+    // 해당 메서드를 가진 클래스의 객체를 생성하고, 객체명으로 메서드를 호출함
     Test0Class test0Class = new Test0Class();
     boolean b = test0Class.isLongEnough("String");
     System.out.println("b = " + b); // b = true
 
+    // 함수형 인터페이스에서 익명 클래스 사용
     Test0interface test0interface = new Test0interface() {
       @Override
       public boolean isLongEnough(String str) {
