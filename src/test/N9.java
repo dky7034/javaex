@@ -16,6 +16,7 @@ public class N9 {
     int totalScore = 0; // 점수 합계를 저장하는 변수
 
     // 여기에 코드를 작성하세요.
+    // map의 모든 키를 담은 set 생성
     Set<String> strings = map.keySet();
     for (Integer i : map.values()) {
       totalScore += i;
