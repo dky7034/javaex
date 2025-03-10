@@ -23,6 +23,8 @@ class Fruit {
 
   @Override
   public String toString() {
-    return
+    return "Fruit{" +
+        "name='" + name + '\'' +
+        '}';
   }
 }
