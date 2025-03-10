@@ -16,6 +16,7 @@ public class N9 {
 
     // 여기에 코드를 작성하세요.
     for (Integer i : map.values()) {
+      totalScore += i;
       if (maxScore < i) {
         maxScore = i;
       }
