@@ -9,7 +9,5 @@ public class T2 {
       map.replaceAll((s1, s2) -> s2.toUpperCase() );
       System.out.println(value);
     }
-//    Collections.replaceAll();
-
   }
 }
