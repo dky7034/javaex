@@ -22,5 +22,7 @@ public class N9 {
       }
     }
 
+    System.out.println("maxScore = " + maxScore);
+    System.out.println("totalScore = " + totalScore);
   }
 }
