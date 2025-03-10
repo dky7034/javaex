@@ -15,20 +15,6 @@ public class N9 {
     int totalScore = 0; // 점수 합계를 저장하는 변수
 
     // 여기에 코드를 작성하세요.
-    for (String string : map.keySet()) {
-      for (Integer value : map.values()) {
-        totalScore += value;
-        if (maxScore < value) {
-          maxScore = value;
-          name = string;
-        }
-      }
-    }
-    System.out.println("maxScore = " + maxScore);
-    System.out.println("totalScore = " + totalScore);
-    System.out.println("name = " + name);
-
-
     for (Integer i : map.values()) {
       totalScore += i;
       if (maxScore < i) {
