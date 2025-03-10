@@ -16,6 +16,9 @@ public class T {
     Scanner in = new Scanner(System.in);
     System.out.print("이름을 입력하세요 : ");
     in.nextLine();
-    
+
+    for (String s : map.keySet()) {
+      
+    }
   }
 }
