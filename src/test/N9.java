@@ -21,6 +21,7 @@ public class N9 {
     // 여기에 코드를 작성하세요.
     for (Map.Entry<String, Integer> entry : entries) {
       if (maxScore < entry.getValue()) {
+        maxScore = entry.getValue();
       }
     }
 
