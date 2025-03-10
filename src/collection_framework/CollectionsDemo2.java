@@ -11,5 +11,6 @@ public class CollectionsDemo2 {
     Set<String> set = new HashSet<>(list1);
     System.out.println(set);
     list1.set(0, "키위");
+    
   }
 }
