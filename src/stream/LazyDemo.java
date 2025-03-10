@@ -14,6 +14,7 @@ public class LazyDemo {
         .map(x -> x * x)
         .forEach(System.out::println);
 
-    IntStream.generate(() -> new Random().nextInt(0, 11));
+    IntStream.generate(() -> new Random().nextInt(0, 11))
+        .filter(i -> i % 2 == 1);
   }
 }
