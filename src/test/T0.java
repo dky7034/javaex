@@ -5,6 +5,18 @@ public class T0 {
     T0class t0class = new T0class();
     boolean b = t0class.isLongEnough("String");
     System.out.println("b = " + b);
+
+    AbstractClass abstractClass = new AbstractClass() {
+      @Override
+      void abstractMethod1() {
+        
+      }
+
+      @Override
+      void abstractMethod2() {
+
+      }
+    }
   }
 }
 
