@@ -18,7 +18,7 @@ public class StreamDemo {
 
     List<Integer> gt10 = new ArrayList<>();
     for (Integer i : list) {
-      if () {
+      if (i > 10) {
         gt10.add(i);
       }
     }
