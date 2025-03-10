@@ -24,11 +24,8 @@ public class Test0 {
         System.out.println("test0Method1Override");
       }
     };
-    test0Class.test0Method1();
+    test0Class.test0Method1(); //
     test0Class.test0Method2();
-
-    abstractClass.abstractMethod1();
-    abstractClass.abstractMethod2();
   }
 }
 
