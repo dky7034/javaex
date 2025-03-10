@@ -18,7 +18,13 @@ public class Test0 {
       }
     };
 
-    Test0Class test0Class = new Test0Class();
+    Test0Class test0Class = new Test0Class() {
+      @Override
+      void test0Method1() {
+        super.test0Method1();
+      }
+    };
+
 
     abstractClass.abstractMethod1();
     abstractClass.abstractMethod2();
