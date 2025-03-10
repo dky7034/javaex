@@ -2,7 +2,7 @@ package test;
 
 public class Test0 {
   public static void main(String[] args) {
-    Test0Class test0class = new Test0Class();
+    NormalClass test0class = new NormalClass();
     boolean b = test0class.isLongEnough("String");
     System.out.println("b = " + b); // b = true
 
@@ -20,7 +20,7 @@ public class Test0 {
     abstractClass.abstractMethod2(); // abstractMethod2
     abstractClass.method1(); // ""
 
-    Test0Class test0Class = new Test0Class() {
+    NormalClass test0Class = new NormalClass() {
       @Override
       void test0Method1() {
         System.out.println("test0Method1Override");
@@ -49,7 +49,7 @@ abstract class AbstractClass {
   void method1() {}
 }
 
-class Test0Class {
+class NormalClass {
   static void staticTest0Method() {}
   void test0Method1() {}
   void test0Method2() {}
