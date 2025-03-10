@@ -25,6 +25,7 @@ public class N9 {
         }
       }
     }
+    
     for (Integer i : map.values()) {
       totalScore += i;
       if (maxScore < i) {
