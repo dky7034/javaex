@@ -10,7 +10,7 @@ public class HashMapDemo {
     fruits.put(new Fruit("사과"), 5);
     fruits.put(new Fruit("바나나"), 3);
 
-    System.out.println();
+    System.out.println(fruits);
   }
 }
 
