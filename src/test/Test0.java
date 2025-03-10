@@ -21,7 +21,7 @@ public class Test0 {
     // 람다식 사용 (람다식은 익명 클래스와 달리 함수형 인터페이스에서만 사용 가능)
     Test0interface test0interface1 = (s) -> s.length() >= 5;
 
-
+    // 추상 클래스에서도 익명 클래스를 사용할 수 있음
     AbstractClass abstractClass = new AbstractClass() {
       @Override
       void abstractMethod1() {
@@ -36,6 +36,7 @@ public class Test0 {
     abstractClass.abstractMethod2(); // abstractMethod2
     abstractClass.method1(); // "==="
 
+    // 일반 클래스에서도 익명 클래스를 사용할 수 있음
     NormalClass normalClass = new NormalClass() {
       @Override
       void test0Method1() {
