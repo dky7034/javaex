@@ -19,4 +19,9 @@ class Fruit {
   public Fruit(String name) {
     this.name = name;
   }
+
+  @Override
+  public String toString() {
+    
+  }
 }
