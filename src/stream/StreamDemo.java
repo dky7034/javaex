@@ -15,5 +15,7 @@ public class StreamDemo {
       list.add(number);
     }
     System.out.println(list);
+
+    List<Integer> gt10 = new ArrayList<>();
   }
 }
