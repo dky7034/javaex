@@ -2,6 +2,7 @@ package test;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class N9 {
   public static void main(String[] args) {
@@ -19,7 +20,7 @@ public class N9 {
       totalScore += i;
       if (maxScore < i) {
         maxScore = i;
-        name = map.keySet();
+        Set<String> strings = map.keySet();
       }
     }
     System.out.println("maxScore = " + maxScore);
