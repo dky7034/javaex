@@ -17,3 +17,7 @@ public class T0 {
 interface T0interface {
   boolean isLongEnough(String str);
 }
+
+class T0class implements T0interface {
+  
+}
