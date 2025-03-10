@@ -6,6 +6,13 @@ public class Test0 {
     boolean b = test0Class.isLongEnough("String");
     System.out.println("b = " + b); // b = true
 
+    Test0interface test0interface = new Test0interface() {
+      @Override
+      public boolean isLongEnough(String str) {
+        return false;
+      }
+    };
+
     AbstractClass abstractClass = new AbstractClass() {
       @Override
       void abstractMethod1() {
