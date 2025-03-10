@@ -15,7 +15,7 @@ public class Test0 {
     boolean b1 = test0interface.isLongEnough("two");
     System.out.println("b1 = " + b1); // b1 = false
 
-    Test0interface test0interface1 = (String::contains ("t"););
+    Test0interface test0interface1 = ((String::contains("t"));
 
     AbstractClass abstractClass = new AbstractClass() {
       @Override
