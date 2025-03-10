@@ -18,7 +18,7 @@ public class Test0 {
     };
     abstractClass.abstractMethod1(); // abstractMethod1
     abstractClass.abstractMethod2(); // abstractMethod2
-    abstractClass.method1(); // ""
+    abstractClass.method1(); // "==="
 
     NormalClass normalClass = new NormalClass() {
       @Override
@@ -27,7 +27,7 @@ public class Test0 {
       }
     };
     normalClass.test0Method1(); // test0Method1Override
-    normalClass.test0Method2(); // ""
+    normalClass.test0Method2(); // "---"
   }
 }
 
@@ -55,6 +55,6 @@ class NormalClass {
   static void staticTest0Method() {}
   void test0Method1() {}
   void test0Method2() {
-    System.out.println("===");
+    System.out.println("---");
   }
 }
