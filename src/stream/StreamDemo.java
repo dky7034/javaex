@@ -9,7 +9,7 @@ public class StreamDemo {
     List<Integer> list = new ArrayList<>();
     Random r = new Random();
 
-    r.nextInt(30); // 0 - 29
+    System.out.println(r.nextInt(3)); // 0 - 29
     System.out.println(r);
   }
 }
