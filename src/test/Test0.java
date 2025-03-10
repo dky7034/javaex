@@ -3,7 +3,7 @@ package test;
 public class Test0 {
   public static void main(String[] args) {
     Test0class test0class = new Test0class();
-    boolean b = Test0class.isLongEnough("String");
+    boolean b = test0class.isLongEnough("String");
     System.out.println("b = " + b); // b = true
 
     AbstractClass abstractClass = new AbstractClass() {
