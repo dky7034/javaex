@@ -15,6 +15,6 @@ public class StreamDemo3 {
 
     IntStream range = IntStream.range(1, 10);
     range.forEach(System.out::println);
-    
+
   } // end of main method
 } // end of class
