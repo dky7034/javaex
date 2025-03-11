@@ -34,7 +34,7 @@ public class SortedDemo {
         .forEach(Util::printWithParenthesis);
 
     System.out.println();
-    
+
     list3.stream()
         .sorted()
         .forEach(Util::printWithParenthesis);
