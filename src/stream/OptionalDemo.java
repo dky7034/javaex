@@ -8,9 +8,8 @@ public class OptionalDemo {
   }
 
   public static OptionalDouble divide(double x, double y) {
-    OptionalDouble od =
+    return Optional<Double>
 
-    return
   }
 
 }
