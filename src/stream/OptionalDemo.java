@@ -22,21 +22,26 @@ public class OptionalDemo {
         () -> System.out.println("0으로 나눌 수 없습니다.")
     );
 
+    Optional<String> result = check("HELLO");
+    if (result.isEmpty()) {
+      System.out.println("null 문자열입니다.");
+    }
+    if (result.isPresent()) {
+      System.out.println(result.get());
+    }
 
   }
+  
+  public static OptionalDouble divide(double x, double y) {
+    return y == 0 ? OptionalDouble.empty() : OptionalDouble.of(x / y);
+  }
 
-}
+  public static OptionalInt divide(int x, int y) {
+    return y == 0 ? OptionalInt.empty() : OptionalInt.of(x / y);
+  }
 
-public static OptionalDouble divide(double x, double y) {
-  return y == 0 ? OptionalDouble.empty() : OptionalDouble.of(x / y);
-}
-
-public static OptionalInt divide(int x, int y) {
-  return y == 0 ? OptionalInt.empty() : OptionalInt.of(x / y);
-}
-
-public static Optional<String> check(String s) {
-  return Optional.ofNullable(s);
-}
+  public static Optional<String> check(String s) {
+    return Optional.ofNullable(s);
+  }
 
 }
