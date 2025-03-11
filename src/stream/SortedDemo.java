@@ -30,7 +30,8 @@ public class SortedDemo {
     System.out.println();
 
     list3.stream()
-        .sorted()
+        .sorted(Comparator.comparing(nation -> nation.getPopulation()))
         .forEach(Util::printWithParenthesis);
+    
   }
 }
