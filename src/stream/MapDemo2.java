@@ -21,7 +21,7 @@ public class MapDemo2 {
 
     // 문제 2.
     // 국가정보 리스트를 스트림으로 변환하기
-    // GDP 순위만을 number 스트림으로 map 시키기
+    // GDP 순위만을 number 스트림(IntStream)으로 map 시키기
     // 전 국가의 GDP 순위를 출력하기
     nations.stream()
         .mapToInt(n -> n.getGdpRank())
