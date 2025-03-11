@@ -7,6 +7,6 @@ public class StreamObjectDemo {
   public static void main(String[] args) {
     List<Nation> nations = Nation.nations;
     Stream<Nation> stream = nations.stream();
-    stream.filter()
+    stream.filter(n -> n.getPopulation() > )
   }
 }
