@@ -17,7 +17,7 @@ public class OptionalDemo {
 
     System.out.println("--- ifPresentOrElse 실행 ---");
     divide.ifPresentOrElse(
-        n -> System.out.println(divide), // 값이 매개변수(n)로 넘어옵니다.
+        n -> System.out.println(divide), // 값이 매개변수(n)로 넘어옵니다. 넘어온 값을 가지고 뭔가를 처리할 수 있습니다.
         () -> System.out.println("0으로 나눌 수 없습니다.")
     );
 
