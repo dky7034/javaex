@@ -12,7 +12,7 @@ public class LazyDemo2 {
     }).map(x -> {
       System.out.println("map: " + x);
       return x * x;
-    }).forEach(System.out::println);
+    }).forEach(j -> System.out.println("forEach: " + j));
 
   }
 }
