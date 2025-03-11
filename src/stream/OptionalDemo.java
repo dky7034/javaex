@@ -15,6 +15,7 @@ public class OptionalDemo {
       System.out.println(divide);
     }
 
+    System.out.println("ifPresentOrElse 실행");
     divide.ifPresentOrElse(
         n -> System.out.println(divide),
         () -> System.out.println("0으로 나눌 수 없습니다.")
