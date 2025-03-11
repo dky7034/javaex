@@ -11,7 +11,8 @@ public class OptionalDemo {
     OptionalInt divide = divide(3, 0);
     if (divide.isEmpty()) {
       System.out.println("0으로 나눌 수 없습니다.");
-    } else if (divide.isPresent())
+    } else if (divide.isPresent()) {
+    }
   }
 
   public static OptionalDouble divide(double x, double y) {
