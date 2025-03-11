@@ -15,7 +15,7 @@ public class Test4 {
     list.add("런던");
     System.out.println("list = " + list);
     Stream<String> listStream = list.stream();
-    listStream.sorted().findFirst().ifPresentOrElse(s -> System.out.println(s), () -> {});
+    listStream.sorted().findFirst().ifPresentOrElse(s -> System.out.println(s), () -> System.out.println("찾는 값이 없습니다."));
 
   }
 }
