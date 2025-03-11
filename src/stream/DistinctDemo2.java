@@ -28,7 +28,7 @@ class Circle {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
     Circle circle = (Circle) o;
-    return o.equals(circle.r);
+    return this.r == circle.r;
   }
 
   @Override
