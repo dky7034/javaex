@@ -7,7 +7,7 @@ public class Test2 {
     Stream.of("a1", "a2", "a3")
         .map(s -> s.substring(1)) // 모든 요소를 인덱스 1번부터 출력 - 1, 2, 3
         .mapToInt(Integer::parseInt) // Integer 로 형변환
-        .max() // 최댓값 거르기
+        .max() // 최댓값 거르기 - 최댓값을 Optional 로 변환
         .ifPresent(System.out::println); // 3
   }
 }
