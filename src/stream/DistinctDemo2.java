@@ -27,7 +27,7 @@ class Circle {
   }
 
   public int getR() {
-    
+    return this.r;
   }
 
   @Override
