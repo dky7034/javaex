@@ -1,5 +1,6 @@
 package stream;
 
+import java.util.Optional;
 import java.util.stream.Stream;
 
 public class MatchDemo {
@@ -14,6 +15,6 @@ public class MatchDemo {
     Stream<Nation> nations = Nation.nations.stream();
     System.out.println(nations.allMatch(nation -> nation.getPopulation() > 100)); // false
 
-    nations.map(n -> n.getPopulation()).findFirst();
+    Optional<Double> optional = nations.map(n -> n.getPopulation()).findFirst();
   }
 }
