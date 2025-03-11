@@ -18,7 +18,8 @@ public class MapDemo3 {
     System.out.println("s2.length() = " + s2.length());
     
     List<String> list1 = List.of("안녕, 자바!", "잘 가", "C++!");
-    Stream<String> list2 = list
+    Stream<String> list2 = list1.stream();
+    list2.map(s -> s.split(""))
 
   }
 }
