@@ -26,7 +26,6 @@ public class Ex9_v2 {
 
     // 여기에 코드를 작성하세요.
     // entrySet() 사용
-    //
     for (Map.Entry<String, Integer> entry : map.entrySet()) {
       totalScore += entry.getValue();
       if (maxScore < entry.getValue()) {
