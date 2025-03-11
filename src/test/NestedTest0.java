@@ -4,6 +4,7 @@ public class NestedTest0 {
   public static void main(String[] args) {
     NestedClass.StaticNestedClass nestedClass = new NestedClass.StaticNestedClass();
     nestedClass.show();
+    NestedClass nestedClass1 = new NestedClass();
   }
 }
 
