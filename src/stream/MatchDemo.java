@@ -12,6 +12,6 @@ public class MatchDemo {
     System.out.println(Stream.of(2, 4, 6, 8, 10).noneMatch(i -> i % 2 == 0)); // false
 
     Stream<Nation> nations = Nation.nations.stream();
-    System.out.println(nations.allMatch(nation -> nation.getPopulation() > 1000)); // false
+    System.out.println(nations.allMatch(nation -> nation.getPopulation() > 100)); // false
   }
 }
