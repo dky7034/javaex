@@ -7,5 +7,7 @@ public class NestedTest0 {
 }
 
 class NestedClass {
-  
+  class NestedInnerClass {
+    
+  }
 }
