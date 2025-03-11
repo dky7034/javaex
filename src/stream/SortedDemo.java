@@ -32,6 +32,6 @@ public class SortedDemo {
     list3.stream()
         .sorted(Comparator.comparing(nation -> nation.getPopulation()))
         .forEach(Util::printWithParenthesis);
-    
+
   }
 }
