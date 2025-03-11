@@ -2,6 +2,7 @@ package stream;
 
 import java.util.Comparator;
 import java.util.Optional;
+import java.util.OptionalDouble;
 import java.util.OptionalInt;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -19,7 +20,7 @@ public class LoopDemo {
     System.out.println(min.getAsInt());
 
     int sum = IntStream.of(5, 1, 2, 3).sum();
-    double avg = IntStream.of(5, 1, 2, 3).average();
+    OptionalDouble avg = IntStream.of(5, 1, 2, 3).average();
 
   }
 }
