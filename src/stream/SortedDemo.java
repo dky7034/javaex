@@ -1,5 +1,6 @@
 package stream;
 
+import java.util.Comparator;
 import java.util.List;
 
 public class SortedDemo {
@@ -17,7 +18,7 @@ public class SortedDemo {
     System.out.println();
 
     List<Integer> list3 = List.of(7, 10, 5, 3, 1, 2);
-    list3.stream().sorted()
+    list3.stream().sorted(Comparator.comparing(, ))
         .forEach(Util::printWithParenthesis);
 
   }
