@@ -1,7 +1,7 @@
 package stream;
 
-import java.util.Optional;
 import java.util.OptionalDouble;
+import java.util.OptionalInt;
 
 public class OptionalDemo {
   public static void main(String[] args) {
@@ -13,8 +13,8 @@ public class OptionalDemo {
     return y == 0 ? OptionalDouble.empty() : OptionalDouble.of(x / y);
   }
 
-  public static Optional<Integer> divide(int x, int y) {
-    return x / y;
+  public static OptionalInt divide(int x, int y) {
+    return OptionalInt.of(x / y);
   }
 
 }
