@@ -14,7 +14,7 @@ public class Test4 {
     list.add("마드리드");
     list.add("런던");
     System.out.println("list = " + list);
-    Stream<List> listStream = list.stream();
+    Stream<String> listStream = list.stream();
 //    Stream.of("서울", "워싱턴", "베이징", "파리", "마드리드", "런던")
 
   }
