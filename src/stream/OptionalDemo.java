@@ -16,6 +16,7 @@ public class OptionalDemo {
     }
 
     divide.ifPresentOrElse(divide, "0으로 나눌 수 없습니다.");
+    
   }
 
   public static OptionalDouble divide(double x, double y) {
