@@ -5,6 +5,8 @@ public class NestedTest0 {
     NestedClass.StaticNestedClass nestedClass = new NestedClass.StaticNestedClass();
     nestedClass.show();
     NestedClass nestedClass1 = new NestedClass();
+    nestedClass1.show();
+    
   }
 }
 
