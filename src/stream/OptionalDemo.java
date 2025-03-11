@@ -15,7 +15,9 @@ public class OptionalDemo {
       System.out.println(divide);
     }
 
-    divide.ifPresentOrElse(divide, "0으로 나눌 수 없습니다.");
+    divide.ifPresentOrElse(() -> {
+      System.out.println()
+    }divide, "0으로 나눌 수 없습니다.");
 
   }
 
