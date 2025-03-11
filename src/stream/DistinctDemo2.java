@@ -1,7 +1,5 @@
 package stream;
 
-import inherit.chapter6.Circle;
-
 import java.util.stream.Stream;
 
 public class DistinctDemo2 {
