@@ -7,6 +7,8 @@ public class NestedTest0 {
     NestedClass nestedClass1 = new NestedClass();
     nestedClass1.show();
 
+    NestedClass1.Inner inner = new NestedClass1();
+
   }
 }
 
@@ -27,5 +29,9 @@ class NestedClass1 {
     void show() {
       System.out.println("내부 클래스");
     }
+  }
+
+  void show() {
+    System.out.println("일반 중첩 클래스의 외부 클래스");
   }
 }
