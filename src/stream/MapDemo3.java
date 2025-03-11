@@ -5,5 +5,6 @@ public class MapDemo3 {
     String s = "hello java";
     String s2 = "hi, my name is";
     String[] split = s.split("");
+    s2.split();
   }
 }
