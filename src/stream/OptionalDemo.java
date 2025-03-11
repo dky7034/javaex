@@ -8,8 +8,7 @@ public class OptionalDemo {
   }
 
   public static OptionalDouble divide(double x, double y) {
-    return Optional<Double>
-
+    return y == 0 ? OptionalDouble.empty() : OptionalDouble.of(x / y);
   }
 
 }
