@@ -18,7 +18,7 @@ public class LoopDemo {
     OptionalInt min = IntStream.of(5, 1, 2, 3).min();
     System.out.println(min.getAsInt());
 
-    int sum = IntStream.of(5, 1, 2, 3);
+    int sum = IntStream.of(5, 1, 2, 3).sum();
 
   }
 }
