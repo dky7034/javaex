@@ -9,5 +9,6 @@ public class MapDemo3 {
     System.out.println(s1.length);
     System.out.println(s3.length);
     
+
   }
 }
