@@ -2,7 +2,7 @@ package stream;
 
 import java.util.stream.IntStream;
 
-public class LazyDemo1 {
+public class LazyDemo2 {
   public static void main(String[] args) {
     IntStream intStream = IntStream.rangeClosed(1, 5);
 
@@ -12,7 +12,7 @@ public class LazyDemo1 {
     }).map(x -> {
       System.out.println("map: " + x);
       return x * x;
-    });
-
+    }).forEach();
+    
   }
 }
