@@ -19,7 +19,8 @@ public class MapDemo3 {
     
     List<String> list1 = List.of("안녕, 자바!", "잘 가", "C++!");
     Stream<String> list2 = list1.stream();
-    list2.flatMap(str -> Arrays.stream(s.split("")));
+    list2.flatMap(str -> Arrays.stream(s.split("")).forEach(Util::printWithParenthesis));
+
 
 
   }
