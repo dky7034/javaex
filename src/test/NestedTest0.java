@@ -8,7 +8,9 @@ public class NestedTest0 {
 
 class NestedClass {
   static class StaticNestedClass {
-
+    void show() {
+      System.out.println("정적 중첩 클래스");
+    }
   }
 
 }
