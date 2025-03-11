@@ -8,7 +8,7 @@ public class LoopDemo {
     Stream<Nation> peek = Nation.nations.stream()
         .peek(Util::printWithParenthesis);
 
-    peek.max(Comparator.comparing(nation -> nation.getPopulation()))
+    peek.max(Comparator.comparing(nation -> nation.getPopulation()));
 
   }
 }
