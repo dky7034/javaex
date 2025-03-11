@@ -14,7 +14,7 @@ public class OptionalDemo {
   }
 
   public static Optional<Integer> divide(int x, int y) {
-    
+    return x / y;
   }
 
 }
