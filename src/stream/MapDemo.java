@@ -14,7 +14,7 @@ public class MapDemo {
 
     // 중간을 잘라내서 문자열로 변환 (앞자리 하나만 substring 을 이용해서 잘라내기)
     Stream<String> s3 = Stream.of("abc", "b", "cd", "d", "e");
-    s3.map(s -> s.substring(1)).forEach(System.out::println);
+    s3.map(s -> s.substring(1)).forEach(Util::printWithParenthesis);
 
   }
 }
