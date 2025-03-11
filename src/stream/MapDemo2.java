@@ -15,6 +15,10 @@ public class MapDemo2 {
     s1.map(n -> n.getName())
         .limit(4)
         .forEach(Util::printWithParenthesis);
+
+    // 줄바꿈
+    System.out.println();
+
     // 문제 2.
     // 국가정보를 리스트로 얻어오기
     // 리스트를 스트림으로 변환하기
