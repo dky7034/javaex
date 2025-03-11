@@ -9,7 +9,8 @@ public class LazyDemo1 {
     intStream.filter(i -> {
       System.out.println("filter: " + i);
       return i % 2 == 0;
-    }).map().forEach();
+    }).map(x -> {
+    }).forEach();
 
   }
 }
