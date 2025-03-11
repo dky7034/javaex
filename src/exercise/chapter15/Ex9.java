@@ -2,6 +2,7 @@ package exercise.chapter15;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class Ex9 {
   public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class Ex9 {
     // entrySet() 은 Set 타입 컬렉션을 반환하는데, 이를 Map.Entry<> 타입으로 변환하는
     // 타입 캐스팅이 불가능하기 때문에 에러가 발생합니다.
     System.out.println("--- 출력 Test ---");
-    map.entrySet();
+    Set<Map.Entry<String, Integer>> entries = map.entrySet();
     String key = entries.getKey();
     Integer value = entries.getValue();
     System.out.println("key = " + key);
