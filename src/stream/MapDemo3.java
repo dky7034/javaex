@@ -12,7 +12,6 @@ public class MapDemo3 {
     String[] s3 = s2.split("");
     System.out.println(s1.length);
     System.out.println(s3.length);
-
     System.out.println("s1.length = " + s1.length);
     System.out.println("s2.length() = " + s2.length());
     
