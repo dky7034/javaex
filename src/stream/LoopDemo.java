@@ -10,7 +10,7 @@ public class LoopDemo {
         .peek(Util::printWithParenthesis);
 
     Optional<Nation> max = peek.max(Comparator.comparing(nation -> nation.getPopulation()));
-    System.out.println("max = " + max);
+    System.out.println("max = " + max.get());
 
   }
 }
