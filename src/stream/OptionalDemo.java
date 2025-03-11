@@ -5,6 +5,7 @@ import java.util.OptionalDouble;
 public class OptionalDemo {
   public static void main(String[] args) {
     System.out.println(divide(3.0, 1.0));
+    System.out.println(divide(3.0, 1.0).getAsDouble());
   }
 
   public static OptionalDouble divide(double x, double y) {
