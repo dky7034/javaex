@@ -10,6 +10,7 @@ public class LazyDemo1 {
       System.out.println("filter: " + i);
       return i % 2 == 0;
     }).map(x -> {
+      System.out.println("map: " + x);
     }).forEach();
 
   }
