@@ -32,6 +32,9 @@ public class SortedDemo {
     list3.stream()
         .sorted(Comparator.comparing(nation -> nation.getPopulation()))
         .forEach(Util::printWithParenthesis);
+
+    System.out.println();
+    
     list3.stream()
         .sorted()
         .forEach(Util::printWithParenthesis);
