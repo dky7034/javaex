@@ -34,7 +34,7 @@ public class SortedDemo {
         .forEach(Util::printWithParenthesis);
 
     System.out.println();
-
+    System.out.println("인구수 정렬: 내림차순");
     list3.stream()
         .sorted(Comparator.comparing(Nation::getPopulation).reversed())
         .forEach(Util::printWithParenthesis);
