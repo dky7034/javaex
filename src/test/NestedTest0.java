@@ -16,9 +16,12 @@ class NestedClass {
       System.out.println("정적 중첩 클래스");
     }
   }
-
   int a = 0;
   void show() {
     System.out.println("정적 중첩 클래스의 외부 클래스");
   }
+}
+
+class NestedClass1 {
+  
 }
