@@ -8,6 +8,6 @@ public class SortedDemo {
     list1.stream().sorted()
         .forEach(Util::printWithParenthesis);
 
-    List<Integer>
+    List<Integer> list2 = List.of(7, 10, 5, 3, 1, 2);
   }
 }
