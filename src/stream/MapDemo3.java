@@ -21,7 +21,7 @@ public class MapDemo3 {
     Stream<String> list2 = list1.stream();
     list2
         .flatMap(str -> Arrays.stream((str.split(" "))))
-        .forEach(Util.printWithParenthesis(list2));
+        .forEach(Util.printWithParenthesis());
 
   }
 }
