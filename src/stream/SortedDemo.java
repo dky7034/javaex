@@ -14,6 +14,7 @@ public class SortedDemo {
     list2.stream().sorted()
         .forEach(Util::printWithParenthesis);
 
-    
+    List<Integer> list3 = List.of(7, 10, 5, 3, 1, 2);
+
   }
 }
