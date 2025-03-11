@@ -18,7 +18,6 @@ public class OptionalDemo {
     divide.ifPresentOrElse(() -> {
       System.out.println(divide),
           () -> System.out.println("0으로 나눌 수 없습니다.");
-
     }
 
     public static OptionalDouble divide ( double x, double y){
