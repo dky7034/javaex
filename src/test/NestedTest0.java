@@ -23,5 +23,9 @@ class NestedClass {
 }
 
 class NestedClass1 {
-  
+  class Inner {
+    void show() {
+      System.out.println("내부 클래스");
+    }
+  }
 }
