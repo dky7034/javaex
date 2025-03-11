@@ -23,7 +23,7 @@ public class LoopDemo {
     OptionalDouble avg = IntStream.of(5, 1, 2, 3).average();
     System.out.println(avg.getAsDouble());
 
-    int count = IntStream.of(5, 1, 2, 3).count();
+    long count = IntStream.of(5, 1, 2, 3).count();
 
   }
 }
