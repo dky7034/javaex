@@ -1,5 +1,6 @@
 package stream;
 
+import java.util.Objects;
 import java.util.stream.Stream;
 
 public class DistinctDemo2 {
@@ -20,5 +21,17 @@ class Circle {
     return "Circle{" +
         "r=" + r +
         '}';
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (o == null || getClass() != o.getClass()) return false;
+    Circle circle = (Circle) o;
+    return r == circle.r;
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hashCode(r);
   }
 }
