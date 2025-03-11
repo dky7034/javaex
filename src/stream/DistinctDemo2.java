@@ -26,6 +26,10 @@ class Circle {
     this.r = r;
   }
 
+  public int getR() {
+    
+  }
+
   @Override
   public String toString() {
     return "Circle{" +
