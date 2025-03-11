@@ -33,7 +33,7 @@ public class OptionalDemo {
   }
 
   public static Optional<String> check(String s) {
-    return Optional.ofNullable();
+    return Optional.ofNullable(s);
   }
 
 }
