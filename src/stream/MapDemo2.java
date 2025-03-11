@@ -25,6 +25,6 @@ public class MapDemo2 {
     // 전 국가의 GDP 순위를 출력하기
     nations.stream()
         .mapToInt(Nation::getGdpRank)
-        .forEach(nations::get);
+        .forEach(Util::printWithParenthesis);
   }
 }
