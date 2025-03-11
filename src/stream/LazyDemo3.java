@@ -1,10 +1,11 @@
 package stream;
 
+import java.util.Random;
 import java.util.stream.IntStream;
 
 public class LazyDemo3 {
   public static void main(String[] args) {
-    IntStream intStream = IntStream.generate(() -> 1);
+    IntStream intStream = IntStream.generate(() -> new Random().nextInt());
 
     intStream.filter(i -> {
       System.out.println("filter: " + i);
