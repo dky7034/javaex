@@ -15,8 +15,7 @@ public class LoopDemo {
     System.out.println("max = " + max.get());
 
     OptionalInt min = IntStream.of(5, 1, 2, 3).min();
-    System.out.println(min
-    );
+    System.out.println(min);
 
   }
 }
