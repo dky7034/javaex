@@ -2,6 +2,8 @@ package stream;
 
 import java.util.Comparator;
 import java.util.Optional;
+import java.util.OptionalInt;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class LoopDemo {
@@ -11,6 +13,8 @@ public class LoopDemo {
 
     Optional<Nation> max = peek.max(Comparator.comparing(nation -> nation.getPopulation()));
     System.out.println("max = " + max.get());
+
+    OptionalInt min = IntStream.of(5, 1, 2, 3).min();
 
   }
 }
