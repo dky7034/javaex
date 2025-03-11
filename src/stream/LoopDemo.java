@@ -9,6 +9,8 @@ public class LoopDemo {
     Stream<Nation> peek = Nation.nations.stream()
         .peek(Util::printWithParenthesis);
 
+    System.out.println();
+
     Optional<Nation> max = peek.max(Comparator.comparing(nation -> nation.getPopulation()));
     System.out.println("max = " + max);
 
