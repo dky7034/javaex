@@ -12,4 +12,5 @@ class NestedClass {
       System.out.println("정적 중첩 클래스");
     }
   }
+  int a
 }
