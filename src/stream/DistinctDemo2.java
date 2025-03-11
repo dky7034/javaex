@@ -25,7 +25,7 @@ class Circle {
 
   @Override
   public boolean equals(Object o) {
-    if () return true;
+    if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
     Circle circle = (Circle) o;
     return r == circle.r;
