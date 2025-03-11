@@ -14,7 +14,7 @@ public class DistinctDemo2 {
     );
     // 스트림 연산 시작
 //    cs.distinct().forEach(circle -> System.out.println(circle));
-    cs.filter(c -> c.r % 2 == 0) // 반지름이 짝수인 것만 걸러내기
+    cs.filter(c -> c.getR() % 2 == 0) // 반지름이 짝수인 것만 걸러내기
         .distinct()
         .forEach(System.out::println);
   }
