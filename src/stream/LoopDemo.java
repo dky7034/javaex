@@ -24,6 +24,7 @@ public class LoopDemo {
     System.out.println(avg.getAsDouble());
 
     long count = IntStream.of(5, 1, 2, 3).count();
+    System.out.println(count);
 
   }
 }
