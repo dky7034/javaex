@@ -7,7 +7,8 @@ public class NestedTest0 {
 }
 
 class NestedClass {
-  class NestedInnerClass {
-    
+  static class StaticNestedClass {
+
   }
+
 }
