@@ -14,4 +14,11 @@ class Circle {
   public Circle(int r) {
     this.r = r;
   }
+
+  @Override
+  public String toString() {
+    return "Circle{" +
+        "r=" + r +
+        '}';
+  }
 }
