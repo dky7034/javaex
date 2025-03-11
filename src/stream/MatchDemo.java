@@ -9,7 +9,7 @@ public class MatchDemo {
 
     System.out.println(Stream.of(2, 4, 6, 8, 10).allMatch(i -> i % 2 == 0)); // true
 
-    System.out.println(Stream.of(2, 4, 6, 8, 10).noneMatch(i -> i % 2 == 0)); //
+    System.out.println(Stream.of(2, 4, 6, 8, 10).noneMatch(i -> i % 2 == 0)); // false
 
   }
 }
