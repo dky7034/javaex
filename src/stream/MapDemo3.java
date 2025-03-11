@@ -7,6 +7,7 @@ public class MapDemo3 {
     String[] s1 = s.split("");
     String[] s3 = s2.split("");
     System.out.println(s1.length);
-
+    System.out.println(s3.length);
+    
   }
 }
