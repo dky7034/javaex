@@ -21,7 +21,7 @@ public class MatchDemo {
         () -> System.out.println("해당하는 국가를 찾을 수 없습니다."));
 
     Optional<Nation> any = Nation.nations.stream()
-        .filter(nation -> nation.getGdpRank() < 1).findAny();
+        .filter(nation -> nation.getGdpRank() < 10).findAny();
     any.ifPresentOrElse(nation -> System.out.println("조건을 만족하는 국가는 " + nation.getName()),
         () -> System.out.println("조건을 만족하는 국가를 찾을 수 없습니다."));
 
