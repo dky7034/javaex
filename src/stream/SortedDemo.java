@@ -39,5 +39,8 @@ public class SortedDemo {
         .sorted(Comparator.comparing(Nation::getPopulation).reversed())
         .forEach(Util::printWithParenthesis);
 
+    list3.stream()
+        .sorted(Comparator.comparing(Nation::getPopulation).reversed()).forEach(Util::printWithParenthesis);
+
   }
 }
