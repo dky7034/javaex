@@ -12,7 +12,7 @@ public class DistinctDemo2 {
         new Circle(4),
         new Circle(8)
     );
-    
+    // 스트림 연산 시작
     cs.distinct().forEach(circle -> System.out.println(circle));
   }
 }
