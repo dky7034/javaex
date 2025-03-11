@@ -7,5 +7,7 @@ public class SortedDemo {
     List<String> list1 = List.of("a1", "c2", "b3", "b2", "a4");
     list1.stream().sorted()
         .forEach(Util::printWithParenthesis);
+
+    List<Integer>
   }
 }
