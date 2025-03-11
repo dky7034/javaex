@@ -20,7 +20,7 @@ public class MatchDemo {
     first.ifPresentOrElse(nation -> System.out.println(nation.getName()),
         () -> System.out.println("해당하는 국가를 찾을 수 없습니다."));
 
-    Nation.nations.stream()
+    Optional<Nation> any = Nation.nations.stream()
         .filter(nation -> nation.getGdpRank() < 10).findAny();
 
   }
