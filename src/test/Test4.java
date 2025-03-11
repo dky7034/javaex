@@ -1,7 +1,5 @@
 package test;
 
-import stream.Util;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
@@ -17,7 +15,7 @@ public class Test4 {
     list.add("런던");
     System.out.println("list = " + list);
     Stream<String> listStream = list.stream();
-    listStream.sorted().findFirst().ifPresentOrElse(s -> Util::printWithParenthesis, () -> {});
+    listStream.sorted().findFirst().ifPresentOrElse(s -> System.out.println(s), () -> {});
 
   }
 }
