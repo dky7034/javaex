@@ -15,9 +15,7 @@ public class MatchDemo {
     Stream<Nation> nations = Nation.nations.stream();
     System.out.println(nations.allMatch(nation -> nation.getPopulation() > 100)); // false
 
-    Stream<Nation> nations1 = Nation.nations.stream()
-        .filter(nation -> nation.getGdpRank() == 10).findFirst();
-
+    Stream<Nation> nations1 = Nation.nations.stream();
     Optional<Nation> first = nations1.findFirst();
     first.ifPresentOrElse(nation -> System.out.println(nation.getName()),
         () -> System.out.println("해당하는 국가를 찾을 수 없습니다."));
