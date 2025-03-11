@@ -11,6 +11,7 @@ public class LazyDemo1 {
       return i % 2 == 0;
     }).map(x -> {
       System.out.println("map: " + x);
+      return x * x;
     }).forEach();
 
   }
