@@ -27,5 +27,10 @@ public class SortedDemo {
         .sorted(Comparator.comparing(nation -> nation.getGdpRank()))
         .forEach(Util::printWithParenthesis);
 
+    System.out.println();
+
+    list3.stream()
+        .sorted()
+        .forEach(Util::printWithParenthesis);
   }
 }
