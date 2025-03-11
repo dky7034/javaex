@@ -13,6 +13,8 @@ public class MapDemo2 {
     // 국가의 이름만을 스트림으로 map 시키기
     // 4개의 국가의 이름만 출력하기
     s1.map(n -> n.getName())
+        .limit(4)
+        .forEach(Util::printWithParenthesis);
 
 
     // 문제 2.
