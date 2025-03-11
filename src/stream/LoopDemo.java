@@ -21,6 +21,7 @@ public class LoopDemo {
 
     int sum = IntStream.of(5, 1, 2, 3).sum();
     OptionalDouble avg = IntStream.of(5, 1, 2, 3).average();
+    System.out.println(avg.getAsDouble());
 
   }
 }
