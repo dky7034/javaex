@@ -21,6 +21,8 @@ public class SortedDemo {
     list3.stream().sorted(Comparator.comparing(nation -> nation.getName()))
         .forEach(Util::printWithParenthesis);
 
+    System.out.println();
+
     list3.stream()
         .sorted(Comparator.comparing(nation -> nation.getGdpRank()))
         .forEach(Util::printWithParenthesis);
