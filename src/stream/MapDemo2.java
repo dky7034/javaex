@@ -14,7 +14,7 @@ public class MapDemo2 {
     // 4개의 국가의 이름만 출력하기
     s1.map(n -> n.getName())
         .limit(4)
-        .forEach(Util::printWithParenthesis);
+        .forEach(nationName ->Util.printWithParenthesis(nationName));
 
     // 줄바꿈
     System.out.println();
