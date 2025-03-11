@@ -14,6 +14,8 @@ public class OptionalDemo {
     } else if (divide.isPresent()) {
       System.out.println(divide);
     }
+
+    divide.ifPresentOrElse();
   }
 
   public static OptionalDouble divide(double x, double y) {
