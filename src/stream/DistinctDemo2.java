@@ -10,7 +10,9 @@ public class DistinctDemo2 {
         new Circle(5),
         new Circle(3),
         new Circle(4),
-        new Circle(8));
+        new Circle(8)
+    );
+    
     cs.distinct().forEach(circle -> System.out.println(circle));
   }
 }
