@@ -36,7 +36,7 @@ public class SortedDemo {
     System.out.println();
     System.out.println("인구수 정렬: 내림차순");
     list3.stream()
-        .sorted(Comparator.comparing(n -> n.getPopulation).reversed())
+        .sorted(Comparator.comparing(n -> n.getPopulation))
         .forEach(Util::printWithParenthesis);
 
     list3.stream()
