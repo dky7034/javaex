@@ -12,7 +12,7 @@ public class LoopDemo {
         .peek(Util::printWithParenthesis);
 
     Optional<Nation> max = peek.max(Comparator.comparing(nation -> nation.getPopulation()));
-    System.out.println("인구수가 가장 큰 나라 출력: ");
+    System.out.println();
     System.out.println("max = " + max.get());
 
     OptionalInt min = IntStream.of(5, 1, 2, 3).min();
