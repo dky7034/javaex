@@ -21,6 +21,5 @@ public class MapDemo3 {
     list2
         .flatMap(str -> Arrays.stream((str.split(" "))))
         .forEach(Util::printWithParenthesis);
-
   }
 }
