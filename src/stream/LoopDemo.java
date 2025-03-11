@@ -19,7 +19,7 @@ public class LoopDemo {
     System.out.println(min.getAsInt());
 
     int sum = IntStream.of(5, 1, 2, 3).sum();
-    IntStream.of(5, 1, 2, 3).average();
+    double avg = IntStream.of(5, 1, 2, 3).average();
 
   }
 }
