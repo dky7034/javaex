@@ -17,6 +17,6 @@ public class MatchDemo {
 
     Optional<Nation> first = nations.findFirst();
     first.ifPresentOrElse(nation -> System.out.println(nation.getName()),
-        () -> System.out.println("해당하는 국가를 찾을 수 없습니다/"));
+        () -> System.out.println("해당하는 국가를 찾을 수 없습니다."));
   }
 }
