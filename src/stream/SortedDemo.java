@@ -36,7 +36,7 @@ public class SortedDemo {
     System.out.println();
 
     list3.stream()
-        .sorted()
+        .sorted(Comparator.comparing(n -> n.getPopulation()).reversed()))
         .forEach(Util::printWithParenthesis);
 
   }
