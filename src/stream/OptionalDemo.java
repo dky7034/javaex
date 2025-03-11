@@ -21,7 +21,7 @@ public class OptionalDemo {
   }
 
   public static OptionalInt divide(int x, int y) {
-    return y == 0 ? OptionalInt.of(x / y);
+    return y == 0 ? OptionalInt.empty() : OptionalInt.of(x / y);
   }
 
 }
