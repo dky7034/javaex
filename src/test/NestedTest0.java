@@ -7,8 +7,8 @@ public class NestedTest0 {
     NestedClass nestedClass1 = new NestedClass();
     nestedClass1.show();
 
-    NestedClass1.Inner inner = new NestedClass1();
-
+    NestedClass1 nestedClass2 = new NestedClass1();
+    NestedClass1.Inner inner = nestedClass2.new Inner();
   }
 }
 
