@@ -16,6 +16,7 @@ public class MatchDemo {
     System.out.println(nations.allMatch(nation -> nation.getPopulation() > 100)); // false
 
     Optional<Nation> first = nations.findFirst();
-    first.ifPresentOrElse(nation -> System.out.println(nation.getName()), () -> {});
+    first.ifPresentOrElse(nation -> System.out.println(nation.getName()), () -> {
+    });
   }
 }
