@@ -14,6 +14,7 @@ public class DistinctDemo2 {
     );
     // 스트림 연산 시작
 //    cs.distinct().forEach(circle -> System.out.println(circle));
+    cs.filter(c -> c.r % 2 == 0)
   }
 }
 
