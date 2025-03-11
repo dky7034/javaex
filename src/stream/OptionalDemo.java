@@ -22,6 +22,13 @@ public class OptionalDemo {
         () -> System.out.println("0으로 나눌 수 없습니다.")
     );
 
+    Optional<String> result = check("HELLO");
+    if (result.isEmpty()) {
+      System.out.println("null 문자열입니다.");
+      if () {
+      }
+    }
+
   }
 
   public static OptionalDouble divide(double x, double y) {
