@@ -13,7 +13,6 @@ public class MapDemo3 {
     System.out.println(s1.length);
     System.out.println(s3.length);
 
-    Arrays.stream(s1);
     System.out.println("s1.length = " + s1.length);
     System.out.println("s2.length() = " + s2.length());
     
