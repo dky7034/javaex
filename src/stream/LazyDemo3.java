@@ -14,7 +14,7 @@ public class LazyDemo3 {
         .map(x -> { // UnaryOperator:
           System.out.println("map: " + x);
           return x * x;
-        }).forEach(j -> System.out.println("forEach: " + j)); // Consumer: 
+        }).forEach(j -> System.out.println("forEach: " + j));
 
   }
 }
