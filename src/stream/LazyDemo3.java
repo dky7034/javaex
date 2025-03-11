@@ -7,14 +7,14 @@ public class LazyDemo3 {
   public static void main(String[] args) {
     IntStream intStream = IntStream.generate(() -> new Random().nextInt(10)); // Supplier: 받는 것 없이(매개변수 없이) 주기만 함(리턴만 함) - 제공자
 
-    intStream.filter(i -> {
+    intStream.filter(i -> { // Predicate:
           System.out.println("filter: " + i);
           return i % 2 == 0;
         }).limit(3)
-        .map(x -> {
+        .map(x -> { // UnaryOperator:
           System.out.println("map: " + x);
           return x * x;
-        });
+        }).forEach(j -> System.out.println("forEach: " + j));
 
   }
 }
