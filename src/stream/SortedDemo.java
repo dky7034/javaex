@@ -28,7 +28,7 @@ public class SortedDemo {
         .forEach(Util::printWithParenthesis);
 
     System.out.println();
-
+    System.out.println("인구수 정렬: 오름차순");
     list3.stream()
         .sorted(Comparator.comparing(nation -> nation.getPopulation()))
         .forEach(Util::printWithParenthesis);
