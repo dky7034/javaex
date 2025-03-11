@@ -1,6 +1,6 @@
 package stream;
 
-import java.util.List;
+import java.util.stream.Stream;
 
 public class MapDemo4 {
   public static void main(String[] args) {
