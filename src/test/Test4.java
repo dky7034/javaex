@@ -11,7 +11,7 @@ public class Test4 {
 
     stream.sorted().findFirst().get();
 
-    stream.sorted().findFirst().ifPresentOrElse(s -> System.out.println(s), () -> System.out.println("찾는 값이 없습니다."));
+//    stream.sorted().findFirst().ifPresentOrElse(s -> System.out.println(s), () -> System.out.println("찾는 값이 없습니다."));
 
   }
 }
