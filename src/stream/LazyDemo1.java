@@ -6,7 +6,7 @@ public class LazyDemo1 {
   public static void main(String[] args) {
     IntStream intStream = IntStream.rangeClosed(1, 5);
 
-    intStream.filter().map().forEach();
-    
+    intStream.filter(i -> i % 2 == 0).map().forEach();
+
   }
 }
