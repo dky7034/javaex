@@ -7,6 +7,8 @@ public class OptionalDemo {
   public static void main(String[] args) {
     System.out.println(divide(3.0, 1.0));
     System.out.println(divide(3.0, 1.0).getAsDouble());
+
+    System.out.println(divide(1, 3));
   }
 
   public static OptionalDouble divide(double x, double y) {
