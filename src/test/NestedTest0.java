@@ -6,7 +6,7 @@ public class NestedTest0 {
     nestedClass.show();
     NestedClass nestedClass1 = new NestedClass();
     nestedClass1.show();
-    
+
   }
 }
 
