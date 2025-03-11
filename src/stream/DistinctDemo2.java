@@ -21,7 +21,7 @@ public class DistinctDemo2 {
 }
 
 class Circle {
-  int r;
+  private int r;
   public Circle(int r) {
     this.r = r;
   }
