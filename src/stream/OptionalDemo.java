@@ -7,6 +7,8 @@ public class OptionalDemo {
 
   }
 
-  public static OptionalDouble
+  public static OptionalDouble divide(double x, double y) {
+    
+  }
 
 }
