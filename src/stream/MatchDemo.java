@@ -16,5 +16,6 @@ public class MatchDemo {
     System.out.println(nations.allMatch(nation -> nation.getPopulation() > 100)); // false
 
     Optional<Double> optional = nations.map(n -> n.getPopulation()).findFirst();
+    System.out.println("optional = " + optional);
   }
 }
