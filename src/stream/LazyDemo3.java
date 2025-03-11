@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 
 public class LazyDemo3 {
   public static void main(String[] args) {
-    IntStream intStream = IntStream.generate(() -> new Random().nextInt()); // Supplier: 받는 것 없이(매개변수 없이) 주기만 함(리턴만 함)
+    IntStream intStream = IntStream.generate(() -> new Random().nextInt()); // Supplier: 받는 것 없이(매개변수 없이) 주기만 함(리턴만 함) - 제공자
 
     intStream.filter(i -> {
       System.out.println("filter: " + i);
