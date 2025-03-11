@@ -23,7 +23,6 @@ public class Ex9 {
     Integer value = entries.getValue();
     System.out.println("key = " + key);
     System.out.println("value = " + value);
-    
 
     // 여기에 코드를 작성하세요.
     // entrySet() 사용
