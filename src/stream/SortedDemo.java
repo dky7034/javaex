@@ -9,5 +9,7 @@ public class SortedDemo {
         .forEach(Util::printWithParenthesis);
 
     List<Integer> list2 = List.of(7, 10, 5, 3, 1, 2);
+    list2.stream().sorted()
+        .forEach(Util::printWithParenthesis);
   }
 }
