@@ -8,6 +8,8 @@ public class StreamObjectDemo {
     List<Nation> nations = Nation.nations;
     Stream<Nation> stream = nations.stream();
     stream.filter(n -> n.getPopulation() > 100)
+        .limit(2)
         .forEach(Util::printWithParenthesis);
+
   }
 }
