@@ -2,7 +2,6 @@ package test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
 
 public class Test4 {
   public static void main(String[] args) {
@@ -13,8 +12,8 @@ public class Test4 {
     list.add("파리");
     list.add("마드리드");
     list.add("런던");
-    
-    Stream.of("서울", "워싱턴", "베이징", "파리", "마드리드", "런던")
+    System.out.println("list = " + list);
+//    Stream.of("서울", "워싱턴", "베이징", "파리", "마드리드", "런던")
 
   }
 }
