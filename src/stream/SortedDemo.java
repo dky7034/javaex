@@ -17,7 +17,7 @@ public class SortedDemo {
 
     System.out.println();
 
-    List<String> list3 = Nation.nations;
+    List<Nation> list3 = Nation.nations;
     list3.stream().sorted(Comparator.comparing()
         .forEach(Util::printWithParenthesis);
 
