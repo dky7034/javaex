@@ -31,7 +31,7 @@ public class OptionalDemo {
     }
 
   }
-  
+
   public static OptionalDouble divide(double x, double y) {
     return y == 0 ? OptionalDouble.empty() : OptionalDouble.of(x / y);
   }
@@ -44,4 +44,4 @@ public class OptionalDemo {
     return Optional.ofNullable(s);
   }
 
-}
+} // end of class
