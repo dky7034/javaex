@@ -40,4 +40,3 @@ public static Optional<String> check(String s) {
 }
 
 }
-
