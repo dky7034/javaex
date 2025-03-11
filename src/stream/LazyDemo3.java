@@ -2,9 +2,9 @@ package stream;
 
 import java.util.stream.IntStream;
 
-public class LazyDemo2 {
+public class LazyDemo3 {
   public static void main(String[] args) {
-    IntStream intStream = IntStream.rangeClosed(1, 5);
+    IntStream intStream = IntStream.generate(() -> 1);
 
     intStream.filter(i -> {
       System.out.println("filter: " + i);
