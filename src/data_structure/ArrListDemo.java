@@ -13,6 +13,6 @@ public class ArrListDemo {
     System.out.println(numbers);
 
     numbers.add(1, 50);
-    
+    numbers.remove(2);
   }
 }
