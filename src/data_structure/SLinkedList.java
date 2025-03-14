@@ -87,7 +87,7 @@ public class SLinkedList<E> {
     // 헤드 노드의 아이템(값)을 출력합니다.
     System.out.println(find.item);
     // for 반복문을 통해,
-    // 
+    //
     for (int i = 0; i < index; i++) {
       System.out.println(find.item);
       find = find.next;
