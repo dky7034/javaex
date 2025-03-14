@@ -51,7 +51,7 @@ public class ArrList<E> {
       size--;
     }
     if (size > 0 && size == a.length / 4) {
-
+      
 
 
       if (a.length / 2 > size) {
