@@ -43,7 +43,7 @@ public class SLinkedList<E> {
     // 리스트에 데이터가 있을 경우에는 head 만 새로 추가된 노드로 변경해준다.
     // < === 2) 여기를 구현한다.
     if (size == 0) { // head == tail && head == null
-      head = newNode;
+      tail = newNode;
     } else {
 
     }
