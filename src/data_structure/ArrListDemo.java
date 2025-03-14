@@ -24,6 +24,7 @@ public class ArrListDemo {
     ArrList<Integer> arr = new ArrList<>();
 //    arr.peek(0);
     arr.add(10);
+    System.out.println("list의 크기: " + arr.size() + ", " + "내부 배열의 크기: " + arr.length());
     arr.add(20);
     arr.add(20);
     arr.add(20);
