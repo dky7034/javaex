@@ -59,29 +59,24 @@ public class ArrList<E> {
       resize(a.length / 2);
     }
     return removed;
-  } else
-
-  {
-    return null;
   }
-}
 
-public boolean isEmpty() {
-  return size == 0;
-}
-
-public E peek(int k) {
-  // underflow 방지하도록 코드 변경해야 하나
-  // 이번 실습에서는 아주 간단히 구현해보기
-  if (size == 0) {
-    throw new IndexOutOfBoundsException();
+  public boolean isEmpty() {
+    return size == 0;
   }
-  return a[k];
-}
 
-@Override
-public String toString() {
-  return "ArrList : " +
-      Arrays.toString(a);
-}
+  public E peek(int k) {
+    // underflow 방지하도록 코드 변경해야 하나
+    // 이번 실습에서는 아주 간단히 구현해보기
+    if (size == 0) {
+      throw new IndexOutOfBoundsException();
+    }
+    return a[k];
+  }
+
+  @Override
+  public String toString() {
+    return "ArrList : " +
+        Arrays.toString(a);
+  }
 }
