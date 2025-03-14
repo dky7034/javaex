@@ -10,7 +10,7 @@ public class ArrList<E> {
     a = (E[]) (new Object[1]);// 최초로 크기가 1인 배열 생성
     size = 0;
   }
-
+  
   // 삽입, 탐색, 삭제 연산 메서드 구현
   public int size() {
     return size;
