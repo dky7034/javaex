@@ -38,7 +38,7 @@ public class SLinkedList<E> {
     // < === 1) 여기를 구현한다.
     Node<E> newNode = new Node();
     newNode.e = e;
-    
+    newNode.next = head;
 
     // 2단계 : 현재 데이터가 없는 경우, 즉 빈 리스트인 경우
     // head 와 tail 모두 newNode 가 되도록 처리한다.
