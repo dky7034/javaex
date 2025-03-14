@@ -147,14 +147,11 @@ public class SLinkedList<E> {
 
   @Override
   public String toString() {
-    String list = "";
+    String list = "[";
     for (Node<E> n = head; n.next != null; n = n.next) {
       list += n.item + ",";
     }
-    return "SLinkedList{" +
-        "head=" + head +
-        ", tail=" + tail +
-        ", size=" + size +
-        '}';
+    return "SLinkedList" +
+        list + "]";
   }
 } // end of class
