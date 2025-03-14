@@ -100,8 +100,8 @@ public class SLinkedList<E> {
     E e;
     Node<E> next;
 
-    public Node() {
-      
+    public Node(E newItem) {
+
     }
   }
 }
