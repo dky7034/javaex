@@ -64,7 +64,7 @@ public class ArrList<E> {
   }
 
   public boolean isEmpty() {
-    if () {
+    if (size < 0) {
     }
   }
 
