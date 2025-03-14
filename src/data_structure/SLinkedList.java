@@ -23,6 +23,7 @@ public class SLinkedList<E> {
     return size;
   }
 
+  // 리스트가 비어있는지를 참, 거짓으로 리턴하는 메서드
   public boolean isEmpty() {
     return size == 0;
   }
