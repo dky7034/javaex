@@ -24,6 +24,8 @@ public class ArrListDemo {
 //    arr.peek(0);
     arr.add(10);
     arr.add(20);
+    arr.add(20);
+    arr.add(20);
     System.out.println(arr);
   }
 
