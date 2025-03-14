@@ -13,10 +13,10 @@ public class DBDemo3 {
 
     ResultSet rs = ps.executeQuery();
 
-    
+
   }
   private static Connection makeConnection() {
     String url = "jdbc:mysql://localhost:3306/contacts?serverTimezone=Asia/Seoul";
-    Connection con = null;
+    Connection conn = null;
   }
 }
