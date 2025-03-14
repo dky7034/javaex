@@ -36,9 +36,7 @@ public class SLinkedList<E> {
     // 1단계 : 새로운 노드를 생성한 후 node의 값을 설정한다음
     // 새로 생성된 노드가 맨 앞으로 가도록 한다.
     // < === 1) 여기를 구현한다.
-    Node<E> newNode = new Node();
-    newNode.e = e;
-    newNode.next = head;
+    Node<E> newNode = new Node<>(e, );
 
 
     // 2단계 : 현재 데이터가 없는 경우, 즉 빈 리스트인 경우
