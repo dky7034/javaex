@@ -97,7 +97,7 @@ public class SLinkedList<E> {
   }
 
   private class Node<E> {
-    E e;
+    E item;
     Node<E> next;
 
     public Node(E newItem, Node<E> node) {
