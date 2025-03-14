@@ -1,4 +1,3 @@
-
 package network;
 
 import java.io.IOException;
@@ -13,10 +12,10 @@ public class SimpleServer {
     // try ( ) {
     // } catch () {
     // }
-    try(ServerSocket server = new ServerSocket(5000);
-        Socket socket = server.accept();
-        InputStream is = socket.getInputStream();
-        ObjectInputStream ois = new ObjectInputStream(is)) {
+    try (ServerSocket server = new ServerSocket(5000);
+         Socket socket = server.accept();
+         InputStream is = socket.getInputStream();
+         ObjectInputStream ois = new ObjectInputStream(is)) {
       String msg = (String) ois.readObject();
       System.out.println("받은 문자열은 = " + msg);
     } catch (IOException | ClassNotFoundException e) {
