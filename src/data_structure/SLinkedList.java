@@ -6,6 +6,7 @@ public class SLinkedList<E> {
   private Node<E> head;
   // 테일 노드 (마지막 노드)
   private Node<E> tail;
+  // 원소의 개수 (size)
   private int size;
 
   public SLinkedList() {
