@@ -19,6 +19,8 @@ public class ArrListDemo {
     System.out.println(numbers);
     System.out.println("get(인덱스)");
     System.out.println(numbers.get(2));
-    
+
+    ArrList<Integer> arr = new ArrList<>();
+    arr.peek(0);
   }
 }
