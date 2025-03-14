@@ -24,7 +24,7 @@ public class Echo2Server extends Thread {
     try {
       in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
       String msg = "";
-      while((msg=in.readLine()) != null) {
+      while ((msg = in.readLine()) != null) {
         System.out.println("읽은 메시지 메아리 : " + msg);
       }
       in.close();
@@ -40,7 +40,7 @@ public class Echo2Server extends Thread {
     server = new ServerSocket(5000);
     System.out.println("서버 소켓 생성 완료");
 
-    while(cont) {
+    while (cont) {
       System.out.println("연결 대기 중...");
       new Echo2Server(server.accept());
     }
