@@ -62,10 +62,10 @@ public class ArrList<E> {
 
   public E peek(int k) {
     // underflow 방지하도록 코드 변경해야 하나
-    // 이번 실습에서는 아주 간단히 구현해보기
     if (size == 0) {
       throw new IndexOutOfBoundsException();
     }
+    // 이번 실습에서는 아주 간단히 구현해보기
     return null;
   }
 
