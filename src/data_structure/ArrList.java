@@ -76,7 +76,7 @@ public class ArrList<E> {
   public String toString() {
     String str = "";
     for (E e : a) {
-
+      
     }
     return null;
   }
