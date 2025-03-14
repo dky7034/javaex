@@ -112,4 +112,4 @@ public class SLinkedList<E> {
     }
   }
 
-}
+} // end of class
