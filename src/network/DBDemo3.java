@@ -32,7 +32,9 @@ public class DBDemo3 {
     } catch (ClassNotFoundException e) {
       System.out.println("JDBC 드라이버를 찾지 못했습니다.");
       System.out.println(e.getMessage());
-    } catch (SQLException)
+    } catch (SQLException) {
+      System.out.println("데이터베이스 연결 실패");
+    }
 
 
   }
