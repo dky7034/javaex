@@ -63,7 +63,8 @@ public class ArrList<E> {
   public E peek(int k) {
     // underflow 방지하도록 코드 변경해야 하나
     // 이번 실습에서는 아주 간단히 구현해보기
-    // <=== 여기 . (3. null 대신 해당하는 element 를 반환하도록 구현하기)
+    if (size == 0) {
+    }
     return null;
   }
 
