@@ -4,25 +4,23 @@ import java.util.LinkedList;
 
 public class SLinkedListDemo {
   public static void main(String[] args) {
-    LinkedList<Integer> linkedList = new LinkedList<>();
-    System.out.println(linkedList.size());
+    LinkedList<Integer> ll = new LinkedList<>();
+    ll.addFirst(10);
+    ll.addFirst(20);
+    System.out.println(ll);
+    ll.removeFirst();
+    System.out.println(ll);
 
-    SLinkedList<Integer> sLinkedList = new SLinkedList<>();
-    System.out.println(sLinkedList.size());
-    sLinkedList.addFirst(1);
-    sLinkedList.addFirst(2);
-    sLinkedList.addFirst(3);
-    sLinkedList.addFirst(4);
-    sLinkedList.addFirst(5);
+    SLinkedList<Integer> sl = new SLinkedList<>();
+    sl.addFirst(10);
+    System.out.println(sl);
 
-    System.out.println(sLinkedList);
-    System.out.println("getNode: " + sLinkedList.getNode(0));
-    System.out.println("getNode: " + sLinkedList.getNode(1));
-    System.out.println("getNode: " + sLinkedList.getNode(2));
-    System.out.println("getNode: " + sLinkedList.getNode(3));
-    System.out.println("getNode: " + sLinkedList.getNode(4));
-    System.out.println("getNode: " + sLinkedList.getNode(5));
-    System.out.println("getNode: " + sLinkedList.getNode(6));
-
+    sl.addFirst(20);
+    System.out.println(sl);
+    sl.addLast(30);
+    System.out.println(sl);
+    //sl.removeFirst();
+    sl.removeLast();
+    System.out.println(sl);
   }
 }
