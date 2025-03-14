@@ -56,6 +56,7 @@ public class ArrList<E> {
       // 기존배열을 없애고 새로만든 배열을 a가 참조한다.
       // 배열의 사이즈를 2배 증가시킨다. <==== (2. 여기 구현해보기)
       resize(a.length / 2);
+    }
       return removed;
     } else {
       return null;
