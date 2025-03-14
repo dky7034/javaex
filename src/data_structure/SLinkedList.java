@@ -70,7 +70,7 @@ public class SLinkedList<E> {
   }
 
   E removeLast() {
-    // 1단계 : 맨 마지막 노드를 지우기 전 백업받아놓는다. removedNode
+    // 1단계 : 맨 마지막 노드를 지우기 전 백업한다. removedNode
     Node<E> removedNode = tail;
     // 2-1단계 : 데이터가 2개 이상인 경우 (즉, 마지막 노드를 지워도 리스트가 비어있지 않은 경우)
     if (size > 1) {
