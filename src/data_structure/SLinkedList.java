@@ -4,7 +4,7 @@ public class SLinkedList<E> {
   // 필드
   // 헤드 노드
   private Node<E> head;
-  // 테일 노드
+  // 테일 노드 (꼬리)
   private Node<E> tail;
   private int size;
 
