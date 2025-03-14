@@ -108,5 +108,5 @@ public class SLinkedList<E> {
       this.next = node;
     }
   }
-  
+
 }
