@@ -9,6 +9,5 @@ public class ArrListDemo {
     numbers.add(20);
     numbers.add(30);
     numbers.add(40);
-
   }
 }
