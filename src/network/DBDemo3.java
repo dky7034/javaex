@@ -20,5 +20,6 @@ public class DBDemo3 {
     Connection conn = null;
 
     Class.forName("com.mysql.cj.jdbc.Driver");
+    System.out.println("데이터베이스 연결 중 ...");
   }
 }
