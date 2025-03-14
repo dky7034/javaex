@@ -45,11 +45,12 @@ public class ArrList<E> {
   public E remove() {
     if (isEmpty()) {
       throw new IndexOutOfBoundsException();
-    } else {
-      E removed = a[size - 1];
-      a[size - 1] = null;
-      size--;
     }
+
+    E removed = a[size - 1];
+    a[size - 1] = null;
+    size--;
+
     if (size > 0 && size == a.length / 4) {
       // 배열의 크기를 반으로 줄인다.
       // 기존배열의 값을 새로 만든 배열로 옮긴다.
@@ -57,28 +58,30 @@ public class ArrList<E> {
       // 배열의 사이즈를 2배 증가시킨다. <==== (2. 여기 구현해보기)
       resize(a.length / 2);
     }
-      return removed;
-    } else {
-      return null;
-    }
-  }
+    return removed;
+  } else
 
-  public boolean isEmpty() {
-    return size == 0;
+  {
+    return null;
   }
+}
 
-  public E peek(int k) {
-    // underflow 방지하도록 코드 변경해야 하나
-    // 이번 실습에서는 아주 간단히 구현해보기
-    if (size == 0) {
-      throw new IndexOutOfBoundsException();
-    }
-    return a[k];
-  }
+public boolean isEmpty() {
+  return size == 0;
+}
 
-  @Override
-  public String toString() {
-    return "ArrList : " +
-        Arrays.toString(a);
+public E peek(int k) {
+  // underflow 방지하도록 코드 변경해야 하나
+  // 이번 실습에서는 아주 간단히 구현해보기
+  if (size == 0) {
+    throw new IndexOutOfBoundsException();
   }
+  return a[k];
+}
+
+@Override
+public String toString() {
+  return "ArrList : " +
+      Arrays.toString(a);
+}
 }
