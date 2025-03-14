@@ -2,6 +2,7 @@ package network;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 public class DBDemo3 {
   public static void main(String[] args) {
@@ -10,7 +11,9 @@ public class DBDemo3 {
 
     PreparedStatement ps = conn.prepareStatement(url);
 
-    ps.executeQuery();
+    ResultSet rs = ps.executeQuery();
+
+    
   }
   private static Connection makeConnection() {
     String url = "jdbc:mysql://localhost:3306/contacts?serverTimezone=Asia/Seoul";
