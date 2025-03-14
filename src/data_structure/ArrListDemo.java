@@ -14,5 +14,7 @@ public class ArrListDemo {
 
     numbers.add(1, 50);
     numbers.remove(2);
+    System.out.println("get(인덱스)");
+    
   }
 }
