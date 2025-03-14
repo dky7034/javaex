@@ -46,7 +46,6 @@ public class ArrList<E> {
     if (isEmpty()) {
       throw new IndexOutOfBoundsException();
     } else {
-      
     }
     if (size > 0) {
 
