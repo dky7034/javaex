@@ -33,7 +33,7 @@ public class SLinkedList<E> {
   }
 
   void addFirst(E item) {
-    // 1단계 : 새로운 노드를 생성한 후 node의 값을 설정한다음
+    // 1단계 : 새로운 노드를 생성한 후 node의 값을 설정한 다음
     // 새로 생성된 노드가 맨 앞으로 가도록 한다.
     // < === 1) 여기를 구현한다.
     Node<E> newNode = new Node<>(item, head);
