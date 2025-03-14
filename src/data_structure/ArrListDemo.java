@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class ArrListDemo {
   public static void main(String[] args) {
     ArrayList<Integer> numbers = new ArrayList<>();
-//    numbers.get(0);
-    numbers.remove(0);
+//    numbers.get(0); // IndexOutOfBoundsException
+//    numbers.remove(0); // IndexOutOfBoundsException
     numbers.add(10);
     numbers.add(20);
     numbers.add(30);
