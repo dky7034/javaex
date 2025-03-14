@@ -29,6 +29,7 @@ public class SLinkedList<E> {
     return size == 0;
   }
 
+  // 리스트의 마지막에 아이템을 추가하는 메서드
   void addLast(E item) {
     Node<E> newNode = new Node<>(item, tail);
 //    newNode.item = item;
