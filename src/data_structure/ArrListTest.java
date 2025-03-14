@@ -11,7 +11,7 @@ public class ArrListTest {
     arrList.add(3);
     arrList.add(4);
     arrList.add(5);
-
+    arrList.remove(3);
   }
 
 
