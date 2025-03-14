@@ -101,7 +101,8 @@ public class SLinkedList<E> {
     Node<E> next;
 
     public Node(E newItem, Node<E> node) {
-
+      this.item = newItem;
+      this.next = node;
     }
   }
 }
