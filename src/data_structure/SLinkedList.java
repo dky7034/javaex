@@ -72,6 +72,7 @@ public class SLinkedList<E> {
 
   // 특정 노드 인덱스의 아이템(값)을 리턴하는 메서드입니다.
   E getValue(int index) {
+    // find 참조변수에 헤드 노드(첫 번째 노드)를 저장합니다.
     Node<E> find = head;
     for (int i = 0; i < index; i++) {
       find = find.next;
