@@ -17,7 +17,7 @@ public class DBDemo3 {
     System.out.println(rs);
 
     while (rs.next) {
-      
+      System.out.println(rs.);
     }
 
   }
