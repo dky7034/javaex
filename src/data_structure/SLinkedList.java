@@ -70,7 +70,7 @@ public class SLinkedList<E> {
     size++;
   }
 
-  // 특정 노드 인덱스의 아이템(값)을 리턴하는 메서드입니다,
+  // 특정 노드 인덱스의 아이템(값)을 리턴하는 메서드입니다.
   E getValue(int index) {
     Node<E> find = head;
     for (int i = 0; i < index; i++) {
