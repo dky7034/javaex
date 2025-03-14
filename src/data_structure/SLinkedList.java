@@ -89,7 +89,7 @@ public class SLinkedList<E> {
     // 노드의 헤드를 찾습니다.
     // find 참조변수에 헤드 노드(시작을 가리키는 포인터)를 저장합니다.
     Node<E> find = head; // 첫 번째 노드의 주소값을 참조시킵니다.
-    // 헤드 노드의 아이템(값)을 출력합니다.
+    // 첫 번째 노드의 아이템(값)을 출력합니다.
     System.out.println(find.item);
     // for 반복문:
     // i = 0 부터 시작하여, i < index 조건이 참인 동안 실행됩니다.
