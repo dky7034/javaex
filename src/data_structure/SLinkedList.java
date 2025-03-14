@@ -78,7 +78,7 @@ public class SLinkedList<E> {
       prevNode.next = null;         // 마지막 노드를 삭제처리한다.
       tail = prevNode;
     } else if (size == 1) { // 2-2단계 : 데이터가 1개만 있는 경우 (즉, 삭제하면 빈 리스트가 되는 경우)
-      head = tail = null;// 노드가 하나밖에 없는 경우, 빈 리스트로 만들기, head 와 tail 모두 null 로 만들어준다.
+      head = tail = null; // 노드가 하나밖에 없는 경우, 빈 리스트로 만들기, head 와 tail 모두 null 로 만들어준다.
     }
     // 3단계 :  노드가 하나 삭제되었기 때문에 사이즈를 하나 줄여준다.
     size--;
