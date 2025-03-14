@@ -96,7 +96,7 @@ public class SLinkedList<E> {
       head = tail = null;
     }
     size--;
-    return removedNode.e;
+    return removedNode.item;
   }
 
   private class Node<E> {
