@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ArrListTest {
-  List<String> list = new ArrayList<>();
+  List<String> arrList = new ArrayList<>();
   
 
 }
