@@ -37,7 +37,7 @@ public class SLinkedList<E> {
 //    newNode.item = item;
 //    newNode.next = tail;
     // 리스트의 사이즈를 확인합니다.
-    // 만약 리스
+    // 만약 리스트
     if (size == 0) { // head == tail && head == null
       head = newNode;
     } else {
