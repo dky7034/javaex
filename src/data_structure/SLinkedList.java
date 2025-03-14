@@ -102,7 +102,9 @@ public class SLinkedList<E> {
   // 노드는 다음 노드의 주소값, 자기의 값(아이템)을 필드로 가집니다.
   private class Node<E> {
     // 필드
+    // 이 필드는 아이템 데이터 타입의 필드입니다.
     E item;
+    // 이 필드는 노드(객체)를 타입으로 하는 필드입니다.
     Node<E> next;
 
     // 생성자
