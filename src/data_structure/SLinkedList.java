@@ -145,4 +145,14 @@ public class SLinkedList<E> {
     }
   }
 
+  @Override
+  public String toString() {
+    for () {
+    }
+    return "SLinkedList{" +
+        "head=" + head +
+        ", tail=" + tail +
+        ", size=" + size +
+        '}';
+  }
 } // end of class
