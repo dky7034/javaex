@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ArrListTest {
   public static void main(String[] args) {
-    int[] arr = new int[];
+    int[] arr = new int[5];
 
     List<Integer> arrList = new ArrayList<>();
     arrList.add(1);
