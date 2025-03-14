@@ -154,4 +154,5 @@ public class SLinkedList<E> {
     return "SLinkedList" +
         list + "]";
   }
+
 } // end of class
