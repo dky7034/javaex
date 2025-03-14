@@ -43,6 +43,9 @@ public class ArrList<E> {
   }
 
   public E remove() {
+    if (isEmpty()) {
+      
+    }
     if (size > 0) {
 
       E removed = a[size - 1];
