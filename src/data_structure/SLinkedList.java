@@ -34,7 +34,7 @@ public class SLinkedList<E> {
   void addLast(E item) {
     // 새로운 노드를 생성합니다.
     // 매개변수로 아이템과, 테일 노드를 받습니다.
-    Node<E> newNode = new Node<>(item, tail);
+    Node<E> newNode = new Node<>(E item, tail);
 //    newNode.item = item;
 //    newNode.next = tail;
     // 리스트의 사이즈를 확인합니다.
@@ -74,6 +74,7 @@ public class SLinkedList<E> {
   E getValue(int index) {
     // find 참조변수에 헤드 노드(첫 번째 노드)를 저장합니다.
     Node<E> find = head;
+    //
     for (int i = 0; i < index; i++) {
       find = find.next;
     }
