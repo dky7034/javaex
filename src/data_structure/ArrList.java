@@ -64,7 +64,8 @@ public class ArrList<E> {
   }
 
   public boolean isEmpty() {
-    
+    if () {
+    }
   }
 
   public E peek(int k) {
