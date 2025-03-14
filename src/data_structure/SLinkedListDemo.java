@@ -14,6 +14,8 @@ public class SLinkedListDemo {
     sLinkedList.addFirst(3);
     sLinkedList.addFirst(4);
     sLinkedList.addFirst(5);
+    sLinkedList.addLast(1);
+
     System.out.println(sLinkedList);
   }
 }
