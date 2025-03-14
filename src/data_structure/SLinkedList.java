@@ -147,7 +147,7 @@ public class SLinkedList<E> {
 
   @Override
   public String toString() {
-    for (Node<E> n = head; n.next != null) {
+    for (Node<E> n = head; n.next != null;) {
     }
     return "SLinkedList{" +
         "head=" + head +
