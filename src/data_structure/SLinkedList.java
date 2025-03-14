@@ -34,7 +34,7 @@ public class SLinkedList<E> {
   void addLast(E item) {
     // 새로운 노드를 생성합니다.
     // 매개변수로 아이템과, 테일 노드(마지막 노드)를 받습니다.
-    Node<E> newNode = new Node<>(item, tail);
+    Node<E> newNode = new Node<>(item, null);
 //    newNode.item = item;
 //    newNode.next = tail;
     // 리스트의 사이즈를 확인합니다.
