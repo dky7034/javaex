@@ -6,7 +6,7 @@ import java.util.List;
 public class ArrListTest {
   public static void main(String[] args) {
     int[] arr = new int[]{1, 2, 3, 4, 5};
-    
+    System.out.println(arr);
 
 
     List<Integer> arrList = new ArrayList<>();
