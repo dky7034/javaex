@@ -1,10 +1,12 @@
 package data_structure;
 
 public class SLinkedList<E> {
+  // 필드
   private Node<E> head;
   private Node<E> tail;
   private int size;
 
+  // 생성자
   public SLinkedList() {
     head = tail = null;
     size = 0;
