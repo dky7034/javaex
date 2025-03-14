@@ -11,6 +11,7 @@ public class SLinkedList<E> {
 
   // 생성자
   public SLinkedList() {
+    // 헤드 노드와, 테일 노드의 주소값을 null 로 초기화합니다.
     head = tail = null;
     size = 0;
   }
