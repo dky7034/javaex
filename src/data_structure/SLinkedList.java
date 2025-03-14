@@ -46,6 +46,7 @@ public class SLinkedList<E> {
       // 노드의 인덱스도 0부터 시작하므로
       getNode(size - 1).next = newNode;
     }
+    //
     tail = newNode;
     size++;
   }
