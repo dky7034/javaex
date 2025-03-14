@@ -74,8 +74,9 @@ public class ArrList<E> {
 
   @Override
   public String toString() {
+    String str = "";
     for (E e : a) {
-      
+
     }
     return null;
   }
