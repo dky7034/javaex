@@ -81,6 +81,7 @@ public class SLinkedList<E> {
   // 특정 노드를 찾는 메서드입니다.
   // 매개변수로 인덱스 번호를 받습니다.
   Node<E> getNode(int index) {
+    // 노드의 헤드를 찾습니다.
     Node<E> find = head;
     System.out.println(find.item);
     for (int i = 0; i < index; i++) {
