@@ -102,8 +102,8 @@ public class SLinkedList<E> {
     Node<E> next;
 
     public Node(E newItem, Node<E> node) {
-      this.item = newItem;
-      next = node; // 다음 노드의 참조값을 저장하는 변수
+      this.item = newItem; // 자기 자신 노드의 값 저장
+      next = node; // 다음 노드의 참조값을 저장하는 참조 변수
     }
   }
 
