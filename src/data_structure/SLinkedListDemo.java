@@ -22,6 +22,7 @@ public class SLinkedListDemo {
     System.out.println("getNode: " + sLinkedList.getNode(3));
     System.out.println("getNode: " + sLinkedList.getNode(4));
     System.out.println("getNode: " + sLinkedList.getNode(5));
+    System.out.println("getNode: " + sLinkedList.getNode(5));
 
   }
 }
