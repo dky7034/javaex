@@ -1,9 +1,6 @@
 package network;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
 
 public class DBDemo3 {
   public static void main(String[] args) {
@@ -35,7 +32,7 @@ public class DBDemo3 {
     } catch (ClassNotFoundException e) {
       System.out.println("JDBC 드라이버를 찾지 못했습니다.");
       System.out.println(e.getMessage());
-    }
+    } catch (SQLException)
 
 
   }
