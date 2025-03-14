@@ -9,6 +9,8 @@ public class DBDemo3 {
     String url = "SELECT * FROM person";
 
     PreparedStatement ps = conn.prepareStatement(url);
+
+    ps.executeQuery();
   }
   private static Connection makeConnection() {
     String url = "jdbc:mysql://localhost:3306/contacts?serverTimezone=Asia/Seoul";
