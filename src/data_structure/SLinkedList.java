@@ -64,6 +64,7 @@ public class SLinkedList<E> {
     if (size == 0) {
       tail = newNode;
     }
+    // 
     head = newNode;
     // 3단계
     // 데이터가 하나 추가되었기 때문에 리스트의 사이즈를 하나 증가시킨다.
