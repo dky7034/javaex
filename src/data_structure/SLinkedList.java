@@ -43,7 +43,7 @@ public class SLinkedList<E> {
       head = newNode;
     } else {
       // 리스트가 비어있지 않다면, 마지막 노드에 새로운 노드를 저장합니다.
-      // 노드의 인덱스도 0부터 시작하므로 
+      // 노드의 인덱스도 0부터 시작하므로
       getNode(size - 1).next = newNode;
     }
     tail = newNode;
@@ -78,6 +78,7 @@ public class SLinkedList<E> {
     return find.item;
   }
 
+  // 특정 노드를 찾는 메서드입니다.
   Node<E> getNode(int index) {
     Node<E> find = head;
     System.out.println(find.item);
