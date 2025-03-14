@@ -149,6 +149,8 @@ public class SLinkedList<E> {
   public String toString() {
     String list = "[";
     for (Node<E> n = head; n.next != null; n = n.next) {
+      if (n == null) {
+      }
       list += n.item + ",";
     }
     return "SLinkedList" +
