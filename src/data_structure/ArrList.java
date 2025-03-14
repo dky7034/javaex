@@ -66,8 +66,7 @@ public class ArrList<E> {
     if (size == 0) {
       throw new IndexOutOfBoundsException();
     }
-    
-    return null;
+    return a[k];
   }
 
   @Override
