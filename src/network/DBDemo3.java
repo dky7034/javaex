@@ -15,7 +15,11 @@ public class DBDemo3 {
     ResultSet rs = ps.executeQuery();
 
     System.out.println(rs);
-    
+
+    while (rs.next()) {
+      
+    } {
+    }
 
   }
   private static Connection makeConnection() {
