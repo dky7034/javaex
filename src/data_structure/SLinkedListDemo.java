@@ -15,8 +15,5 @@ public class SLinkedListDemo {
     sLinkedList.addFirst(4);
     sLinkedList.addFirst(5);
     System.out.println(sLinkedList);
-    for (Integer i : linkedList) {
-      System.out.println("i = " + i);
-    }
   }
 }
