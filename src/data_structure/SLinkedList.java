@@ -40,6 +40,7 @@ public class SLinkedList<E> {
     newNode.e = e;
     newNode.next = head;
 
+
     // 2단계 : 현재 데이터가 없는 경우, 즉 빈 리스트인 경우
     // head 와 tail 모두 newNode 가 되도록 처리한다.
     // 리스트에 데이터가 있을 경우에는 head 만 새로 추가된 노드로 변경해준다.
@@ -98,5 +99,9 @@ public class SLinkedList<E> {
   private class Node<E> {
     E e;
     Node<E> next;
+
+    public Node() {
+      
+    }
   }
 }
