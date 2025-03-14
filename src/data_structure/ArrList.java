@@ -5,9 +5,10 @@ public class ArrList<E> {
   private int size;
 
   public ArrList() {
-    a = (E[])(new Object[1]);// 최초로 크기가 1인 배열 생성
+    a = (E[]) (new Object[1]);// 최초로 크기가 1인 배열 생성
     size = 0;
   }
+
   // 삽입, 탐색, 삭제 연산 메서드 구현
   public int size() {
     return size;
@@ -20,8 +21,9 @@ public class ArrList<E> {
   public boolean isEmpty() {
     return size == 0;
   }
-  public boolean add(E e){ // 맨 마지막에 추가한다.
-    if(a.length == size) {
+
+  public boolean add(E e) { // 맨 마지막에 추가한다.
+    if (a.length == size) {
       // 배열의 사이즈를 2배 증가시킨다. <==== (1. 여기 구현해보기)
       resize(a.length * 2);
     }
@@ -43,14 +45,14 @@ public class ArrList<E> {
   }
 
   public E remove() {
-    if(isEmpty()) {
+    if (isEmpty()) {
       throw new IndexOutOfBoundsException();
     }
     E removed = a[size - 1];
     a[size - 1] = null;
     size--;
 
-    if(size > 0 && size <= a.length / 4 ){
+    if (size > 0 && size <= a.length / 4) {
       // 배열의 크기를 반으로 줄인다.
       // 기존배열의 값을 새로 만든 배열로 옮긴다.
       // 기존배열을 없애고 새로만든 배열을 a기 참조한다.
@@ -63,7 +65,7 @@ public class ArrList<E> {
   public E peek(int k) {
     // underflow 방지하도록 코드 변경해야 하나 ,
     // 이번 실습에서는 아주 간단히 구현해보기
-    if(size ==0) {
+    if (size == 0) {
       throw new IndexOutOfBoundsException();
     }
     // <=== 여기 . (3. null 대신 해당하는 element 를 반환하도록 구현하기)
@@ -73,8 +75,8 @@ public class ArrList<E> {
   @Override
   public String toString() {
     String list = "";
-    for (int i = 0; i < size ; i++) {
-      if(i == size -1) {
+    for (int i = 0; i < size; i++) {
+      if (i == size - 1) {
         list += a[i];
       } else {
         list += a[i] + ",";
