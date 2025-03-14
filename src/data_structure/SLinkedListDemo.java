@@ -17,6 +17,7 @@ public class SLinkedListDemo {
 
     System.out.println(sLinkedList);
     System.out.println("getNode: " + sLinkedList.getNode(0));
+    System.out.println("getNode: " + sLinkedList.getNode(1));
 
   }
 }
