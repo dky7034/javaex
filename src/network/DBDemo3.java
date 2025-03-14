@@ -8,7 +8,7 @@ public class DBDemo3 {
     Connection conn = makeConnection();
     String url = "SELECT * FROM person";
 
-    PreparedStatement ps = conn.prepareStatement();
+    PreparedStatement ps = conn.prepareStatement(url);
   }
   private static Connection makeConnection() {
     Strubg
