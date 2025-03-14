@@ -22,6 +22,7 @@ public class DBDemo3 {
 
     Class.forName("com.mysql.cj.jdbc.Driver");
     System.out.println("데이터베이스 연결 중 ...");
-    conn = DriverManager.getConnection("root", "1111");
+    conn = DriverManager.getConnection(url,"root", "1111");
+
   }
 }
