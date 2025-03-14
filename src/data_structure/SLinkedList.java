@@ -84,6 +84,7 @@ public class SLinkedList<E> {
     // 노드의 헤드를 찾습니다.
     // find 참조변수에 헤드 노드를 저장합니다.
     Node<E> find = head;
+    // 헤드 노드의 아이템(값)을 출력합니다.
     System.out.println(find.item);
     for (int i = 0; i < index; i++) {
       System.out.println(find.item);
