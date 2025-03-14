@@ -14,6 +14,8 @@ public class DBDemo3 {
 
     ResultSet rs = ps.executeQuery();
 
+    System.out.println(rs);
+    
 
   }
   private static Connection makeConnection() {
