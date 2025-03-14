@@ -7,9 +7,10 @@ public class ArrList<E> {
   private int size;
 
   public ArrList() {
-    a = (E[])(new Object[1]);// 최초로 크기가 1인 배열 생성
+    a = (E[]) (new Object[1]);// 최초로 크기가 1인 배열 생성
     size = 0;
   }
+
   // 삽입, 탐색, 삭제 연산 메서드 구현
   public int size() {
     return size;
@@ -19,8 +20,8 @@ public class ArrList<E> {
     return a.length;
   }
 
-  public boolean add(E e){ // 맨 마지막에 추가한다.
-    if(a.length == size) {
+  public boolean add(E e) { // 맨 마지막에 추가한다.
+    if (a.length == size) {
       // 배열의 사이즈를 2배 증가시킨다. <==== (1. 여기 구현해보기)
     }
     a[size] = e;
@@ -41,13 +42,13 @@ public class ArrList<E> {
   }
 
   public E remove() {
-    if(size > 0) {
+    if (size > 0) {
 
       E removed = a[size - 1];
       a[size - 1] = null;
       size--;
 
-      if(a.length / 2 > size){
+      if (a.length / 2 > size) {
         // 배열의 크기를 반으로 줄인다.
         // 기존배열의 값을 새로 만든 배열로 옮긴다.
         // 기존배열을 없애고 새로만든 배열을 a기 참조한다.
@@ -69,6 +70,6 @@ public class ArrList<E> {
   @Override
   public String toString() {
     return "ArrList : " +
-        Arrays.toString(a) ;
+        Arrays.toString(a);
   }
 }
