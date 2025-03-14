@@ -19,9 +19,9 @@ public class SLinkedList<E> {
     return size == 0;
   }
 
-  void addLast(E e) {
+  void addLast(E item) {
     Node<E> newNode = new Node<>();
-    newNode.item = e;
+    newNode.item = item;
     newNode.next = tail;
     if (size == 0) { // head == tail && head == null
       head = newNode;
