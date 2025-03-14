@@ -93,6 +93,7 @@ public class SLinkedList<E> {
     System.out.println(find.item);
     // for 반복문:
     // i = 0 부터 시작하여, i < index 조건이 참인 동안 실행됩니다.
+    // 현재 노드의 
     for (int i = 0; i < index; i++) {
       System.out.println(find.item);
       find = find.next;
