@@ -50,7 +50,7 @@ public class ArrList<E> {
       a[size - 1] = null;
       size--;
     }
-    if (size > 0) {
+    if (size > 0 && size == a.length / 4) {
 
 
 
