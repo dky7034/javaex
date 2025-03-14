@@ -108,4 +108,13 @@ public class SLinkedList<E> {
       this.next = node;
     }
   }
+
+  @Override
+  public String toString() {
+    return "SLinkedList{" +
+        "head=" + head +
+        ", tail=" + tail +
+        ", size=" + size +
+        '}';
+  }
 }
