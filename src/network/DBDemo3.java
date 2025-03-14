@@ -25,10 +25,13 @@ public class DBDemo3 {
     String url = "jdbc:mysql://localhost:3306/contacts?serverTimezone=Asia/Seoul";
     Connection conn = null;
 
-    Class.forName("com.mysql.cj.jdbc.Driver");
-    System.out.println("데이터베이스 연결 중 ...");
-    conn = DriverManager.getConnection(url,"root", "1111");
-    System.out.println("데이터베이스 연결 성공");
-    
+    try {
+      Class.forName("com.mysql.cj.jdbc.Driver");
+      System.out.println("데이터베이스 연결 중 ...");
+      conn = DriverManager.getConnection(url,"root", "1111");
+      System.out.println("데이터베이스 연결 성공");
+    }
+
+
   }
 }
