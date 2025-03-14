@@ -101,6 +101,7 @@ public class SLinkedList<E> {
   // 노드 클래스
   // 노드는 다음 노드의 주소값, 자기의 값(아이템)을 필드로 가집니다.
   private class Node<E> {
+    // 필드
     E item;
     Node<E> next;
 
