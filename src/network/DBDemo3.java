@@ -1,6 +1,7 @@
 package network;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
@@ -21,5 +22,6 @@ public class DBDemo3 {
 
     Class.forName("com.mysql.cj.jdbc.Driver");
     System.out.println("데이터베이스 연결 중 ...");
+    conn = DriverManager.getConnection("root", "1111");
   }
 }
