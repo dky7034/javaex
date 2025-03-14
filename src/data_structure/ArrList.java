@@ -46,12 +46,13 @@ public class ArrList<E> {
     if (isEmpty()) {
       throw new IndexOutOfBoundsException();
     } else {
-    }
-    if (size > 0) {
-
       E removed = a[size - 1];
       a[size - 1] = null;
       size--;
+    }
+    if (size > 0) {
+
+
 
       if (a.length / 2 > size) {
         // 배열의 크기를 반으로 줄인다.
