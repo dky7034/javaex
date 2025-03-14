@@ -8,7 +8,8 @@ public class SLinkedList<E> {
   private Node<E> tail;
   // 원소의 개수 - size
   private int size;
-  
+
+  // 생성자
   public SLinkedList() {
     head = tail = null;
     size = 0;
