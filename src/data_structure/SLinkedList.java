@@ -109,10 +109,10 @@ public class SLinkedList<E> {
 
   @Override
   public String toString() {
-    String list = "[";
+    String list = " [";
     for (Node<E> n = head; n != null; n = n.next) {
       if (n.next != null) {
-        list += n.item + ",";
+        list += n.item + ", ";
       } else {
         list += n.item;
       }
