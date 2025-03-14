@@ -13,6 +13,7 @@ public class SLinkedList<E> {
   public SLinkedList() {
     // 헤드 노드와, 테일 노드의 주소값을 null 로 초기화합니다.
     head = tail = null;
+    // 생성된 리스트의 사이즈를 0으로 초기화합니다.
     size = 0;
   }
 
