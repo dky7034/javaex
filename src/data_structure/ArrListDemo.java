@@ -10,5 +10,6 @@ public class ArrListDemo {
     numbers.add(30);
     numbers.add(40);
     System.out.println("add(값)");
+    System.out.println(numbers);
   }
 }
