@@ -5,10 +5,9 @@ import java.util.List;
 
 public class ArrListTest {
   public static void main(String[] args) {
-    int[] arr = new int[5];
-    for (int i = 0; i < arr.length; i++) {
-      
-    }
+    int[] arr = new int[] {1,2,3,4,5};
+
+
 
     List<Integer> arrList = new ArrayList<>();
     arrList.add(1);
