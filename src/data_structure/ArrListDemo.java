@@ -12,6 +12,7 @@ public class ArrListDemo {
     numbers.add(40);
     System.out.println("add(값)");
     System.out.println(numbers);
+    System.out.println(numbers.size());
 
     numbers.add(1, 50);
     System.out.println(numbers);
