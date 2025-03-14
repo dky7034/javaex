@@ -17,9 +17,9 @@ public class DBDemo3 {
     System.out.println(rs);
 
     while (rs.next) {
-      System.out.println(rs.getString(1));
-      System.out.println(rs.getString("phone"));
-      System.out.println(rs.getString(3));
+      System.out.println("name: " + rs.getString(1));
+      System.out.println("phone: " + rs.getString("phone"));
+      System.out.println("email: " + rs.getString(3));
     }
 
   }
