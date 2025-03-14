@@ -104,7 +104,7 @@ public class SLinkedList<E> {
     // 필드
     E item;
     Node<E> next;
-
+    
     // 생성자
     public Node(E newItem, Node<E> node) {
       this.item = newItem;
