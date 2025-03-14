@@ -64,7 +64,7 @@ public class SLinkedList<E> {
     if (size == 0) {
       tail = newNode;
     }
-    // 리
+    // 리스트의 사이즈가 0이 아닐 경우에는 head 만 새로 추가된 노드로 변경하면 됩니다.
     head = newNode;
     // 3단계
     // 데이터가 하나 추가되었기 때문에 리스트의 사이즈를 하나 증가시킨다.
