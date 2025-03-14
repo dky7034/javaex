@@ -3,6 +3,6 @@ package data_structure;
 import java.util.List;
 
 public class ArrListTest {
-  List<String> list = new ArrList;
-  
+  List<String> list = new ArrList<>();
+
 }
