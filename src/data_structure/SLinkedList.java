@@ -25,6 +25,7 @@ public class SLinkedList<E> {
 
   // 리스트가 비어있는지를 참, 거짓으로 리턴하는 메서드
   // 비어있으면 참, 비어있지 않으면 거짓 리턴
+  // head == tail == null 이면 참을 리턴합니다.
   public boolean isEmpty() {
     return size == 0;
   }
@@ -37,7 +38,7 @@ public class SLinkedList<E> {
 //    newNode.item = item;
 //    newNode.next = tail;
     // 리스트의 사이즈를 확인합니다.
-    // 만약 리스트
+    // 만약 리스트가
     if (size == 0) { // head == tail && head == null
       head = newNode;
     } else {
