@@ -21,8 +21,8 @@ public class SLinkedList<E> {
 
   void addLast(E item) {
     Node<E> newNode = new Node<>(item, tail);
-    newNode.item = item;
-    newNode.next = tail;
+//    newNode.item = item;
+//    newNode.next = tail;
     if (size == 0) { // head == tail && head == null
       head = newNode;
     } else {
