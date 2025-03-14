@@ -45,7 +45,7 @@ public class SLinkedList<E> {
     if (size == 0) { // head == tail && head == null
       head = newNode;
     } else {
-      
+
     }
     // 3단계
     // 데이터가 하나 추가되었기 때문에 리스트의 사이즈를 하나 증가시킨다.
@@ -58,14 +58,14 @@ public class SLinkedList<E> {
     for (int i = 0; i < index; i++) {
       find = find.next;
     }
-    return find.e;
+    return find.item;
   }
 
   Node<E> getNode(int index) {
     Node<E> find = head;
-    System.out.println(find.e);
+    System.out.println(find.item);
     for (int i = 0; i < index; i++) {
-      System.out.println(find.e);
+      System.out.println(find.item);
       find = find.next;
     }
     return find;
