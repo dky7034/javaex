@@ -13,6 +13,7 @@ public class ArrListDemo {
     System.out.println(numbers);
 
     numbers.add(1, 50);
+    System.out.println(numbers);
     numbers.remove(2);
     System.out.println(numbers);
     System.out.println("get(인덱스)");
