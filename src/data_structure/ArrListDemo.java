@@ -10,7 +10,6 @@ public class ArrListDemo {
     numbers.add(20);
     numbers.add(30);
     numbers.add(40);
-    numbers.get(0);
     System.out.println("add(값)");
     System.out.println(numbers);
 
