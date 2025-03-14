@@ -9,5 +9,10 @@ public class SLinkedListDemo {
 
     SLinkedList<Integer> sLinkedList = new SLinkedList<>();
     System.out.println(sLinkedList.size());
+    sLinkedList.addFirst(1);
+    sLinkedList.addFirst(2);
+    sLinkedList.addFirst(3);
+    sLinkedList.addFirst(4);
+    sLinkedList.addFirst(5);
   }
 }
