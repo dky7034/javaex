@@ -23,6 +23,7 @@ public class ArrListDemo {
     ArrList<Integer> arr = new ArrList<>();
 //    arr.peek(0);
     arr.add(10);
+    System.out.println(arr);
   }
 
 }
