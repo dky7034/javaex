@@ -103,7 +103,7 @@ public class SLinkedList<E> {
 
     public Node(E newItem, Node<E> node) {
       this.item = newItem;
-      next = node;
+      next = node; // 다음 노드의 참조값을 저장하는 변수
     }
   }
 
