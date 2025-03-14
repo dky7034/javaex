@@ -1,7 +1,5 @@
 package data_structure;
 
-import java.util.Arrays;
-
 public class ArrList<E> {
   private E[] a; // E a[];
   private int size;
@@ -77,6 +75,6 @@ public class ArrList<E> {
   @Override
   public String toString() {
     return "ArrList : " +
-        Arrays.toString(a);
+        a;
   }
 }
