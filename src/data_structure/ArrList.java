@@ -23,7 +23,7 @@ public class ArrList<E> {
   public boolean add(E e) { // 맨 마지막에 추가한다.
     if (a.length == size) {
       // 배열의 사이즈를 2배 증가시킨다. <==== (1. 여기 구현해보기)
-      a.length * 2;
+      resize(a.length * 2);
     }
     a[size] = e;
     size++;
