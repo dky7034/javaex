@@ -149,7 +149,7 @@ public class SLinkedList<E> {
   public String toString() {
     String list = "";
     for (Node<E> n = head; n.next != null; n = n.next) {
-      System.out.println(n.item.toString());
+      list += n.item + ",";
     }
     return "SLinkedList{" +
         "head=" + head +
