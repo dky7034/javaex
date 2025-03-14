@@ -44,7 +44,7 @@ public class ArrList<E> {
 
   public E remove() {
     if (isEmpty()) {
-      
+      throw new IndexOutOfBoundsException();
     }
     if (size > 0) {
 
