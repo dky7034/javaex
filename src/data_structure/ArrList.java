@@ -75,6 +75,6 @@ public class ArrList<E> {
   @Override
   public String toString() {
     return "ArrList : " +
-        a;
+        
   }
 }
