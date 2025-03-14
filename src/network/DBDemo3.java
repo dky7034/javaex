@@ -11,6 +11,6 @@ public class DBDemo3 {
     PreparedStatement ps = conn.prepareStatement(url);
   }
   private static Connection makeConnection() {
-    Strubg
+    String url = "jdbc:mysql://localhost:3306/contacts?serverTimezone=Asia/Seoul";
   }
 }
