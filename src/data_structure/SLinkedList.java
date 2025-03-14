@@ -15,6 +15,10 @@ public class SLinkedList<E> {
     return size;
   }
 
+  public boolean isEmpty() {
+    return size == 0;
+  }
+
   void addLast(E e) {
     Node<E> newNode = new Node<>();
     newNode.e = e;
