@@ -44,9 +44,8 @@ public class SLinkedList<E> {
     // < === 2) 여기를 구현한다.
     if (size == 0) { // head == tail && head == null
       tail = newNode;
-    } else {
-
     }
+    
     // 3단계
     // 데이터가 하나 추가되었기 때문에 리스트의 사이즈를 하나 증가시킨다.
     // < === 3) 여기를 구현한다.
