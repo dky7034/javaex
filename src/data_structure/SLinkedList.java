@@ -24,6 +24,7 @@ public class SLinkedList<E> {
   }
 
   // 리스트가 비어있는지를 참, 거짓으로 리턴하는 메서드
+  // 비어있으면 참, 비어있지 않으면 거짓 리턴
   public boolean isEmpty() {
     return size == 0;
   }
