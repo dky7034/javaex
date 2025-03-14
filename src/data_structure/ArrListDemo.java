@@ -30,6 +30,7 @@ public class ArrListDemo {
     arr.add(20);
     System.out.println("list의 크기: " + arr.size() + ", " + "내부 배열의 크기: " + arr.length());
     arr.add(20);
+    arr.add(20);
     System.out.println("list의 크기: " + arr.size() + ", " + "내부 배열의 크기: " + arr.length());
     System.out.println(arr);
   }
