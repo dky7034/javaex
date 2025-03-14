@@ -19,6 +19,7 @@ public class DBDemo3 {
     while (rs.next) {
       System.out.println(rs.getString(1));
       System.out.println(rs.getString("phone"));
+      System.out.println(rs.getString(3));
     }
 
   }
