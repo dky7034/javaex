@@ -35,7 +35,7 @@ public class ArrList<E> {
     // 기존배열의 값을 새로 만든 배열로 옮긴다.
     // 기존배열을 없애고 새로만든 배열을 a기 참조한다.
     E[] t = (E[]) new Object[length];
-    //자바의 ArrayList 는 Arrays.copyOf, arraycopy 등과 같은 방법으로 최적화되어 있다.
+    // 자바의 ArrayList 는 Arrays.copyOf, arraycopy 등과 같은 방법으로 최적화되어 있다.
     for (int i = 0; i < size; i++) {
       t[i] = a[i];
     }
