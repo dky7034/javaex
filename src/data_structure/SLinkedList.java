@@ -67,7 +67,7 @@ public class SLinkedList<E> {
     Node<E> newNode = new Node<>(item, getNode(index - 1).next);
 
     // 리스트 사이즈가 0 이면,
-    if () {
+    if (size == 0) {
     }
   }
 
