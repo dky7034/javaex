@@ -20,7 +20,7 @@ public class SLinkedListDemo {
     sl.addLast(30);
     System.out.println(sl);
     //sl.removeFirst();
-    sl.removeLast();
+//    sl.removeLast();
     System.out.println(sl);
   }
 }
