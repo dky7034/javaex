@@ -70,7 +70,7 @@ public class SLinkedList<E> {
     if (index == 0) {
       newNode.next = head; // 새로운 노드에 다음 노드를 참조시킴
       head = newNode; // 헤드가 새로운 노드를 참조하도록 함
-    // 인덱스가 0이 아닌 경우
+    // 인덱스가 0이 아닌 경우 (새로운 노드를 중간에 삽입하려는 경우)
     } else {
 
     }
