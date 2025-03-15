@@ -64,7 +64,7 @@ public class SLinkedList<E> {
     if (index < 0 || index > size) throw new IndexOutOfBoundsException();
 
     // 새로운 노드 생성
-    Node<E> newNode = new Node<>(item, getNode(index - 1));
+    Node<E> newNode = new Node<>(item, getNode(index - 1).next);
   }
 
   E getValue(int index) {
