@@ -23,6 +23,7 @@ public class SLinkedListDemo {
 
     sl.add(1, 40);
     sl.add(2, 50);
+    sl.add(4, 60);
     System.out.println(sl);
   }
 }
