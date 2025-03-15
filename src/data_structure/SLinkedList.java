@@ -65,6 +65,10 @@ public class SLinkedList<E> {
 
     // 새로운 노드 생성
     Node<E> newNode = new Node<>(item, getNode(index - 1).next);
+
+    // 리스트 사이즈가 0 이면,
+    if () {
+    }
   }
 
   E getValue(int index) {
