@@ -57,6 +57,10 @@ public class SLinkedList<E> {
     size++;
   }
 
+  void add(int index, E item) {
+    
+  }
+
   E getValue(int index) {
     Node<E> find = head;
     for (int i = 0; i < index; i++) {
