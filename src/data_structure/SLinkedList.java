@@ -49,7 +49,7 @@ public class SLinkedList<E> {
       tail = newNode;
     }
     // 빈 리스트가 아닐 경우에는 head 만 이 노드를 가리키면 된다.
-    // addFirst 메서드에서 head 는 항상 새로 추가된 노드를 가리킴
+    // addFirst 메서드에서 head 는 항상 새로 추가된 노드를 가리킨다.
     head = newNode;
     // 3단계
     // 데이터가 하나 추가되었기 때문에 리스트의 사이즈를 하나 증가시킨다.
