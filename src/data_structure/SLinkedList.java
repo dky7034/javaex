@@ -73,8 +73,9 @@ public class SLinkedList<E> {
     // 인덱스가 0이 아닌 경우 (새로운 노드를 중간에 삽입하려는 경우)
     } else {
       Node<E> prevNode = getNode(index - 1);
-      // 겹치는 코드 아닌가?
+      // 겹치는 코드 아닌가? 생성 시에 이미 다음 노드를 참조하잖아?
       newNode.next = prevNode;
+
 
     }
 
