@@ -21,7 +21,9 @@ public class SLinkedListDemo {
     System.out.println(sl);
     System.out.println(sl.getValue(2));
 
+    sl.add(1, 40);
     
+
     System.out.println(sl);
   }
 }
