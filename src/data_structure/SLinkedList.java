@@ -77,7 +77,6 @@ public class SLinkedList<E> {
       newNode.next = prevNode;
       // 바로 앞 노드가 새로운 다음 노드를 참조하도록 함
       prevNode.next = newNode;
-
     }
 
   }
