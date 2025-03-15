@@ -45,9 +45,9 @@ public class SLinkedList<E> {
     // 리스트에 데이터가 있을 경우에는 head 만 새로 추가된 노드로 변경해준다.
     // < === 2) 여기를 구현한다.
     if (size == 0) { // 빈 리스트인 경우
-      tail = newNode; // 새로 추가되는 노드가 유일한 노드이므로 head, tail 모두 이 노드를 가리켜야 한다.
+      tail = newNode;
+      head = newNode;// 새로 추가되는 노드가 유일한 노드이므로 head, tail 모두 이 노드를 가리켜야 한다.
     }
-    head = newNode;
     // 3단계
     // 데이터가 하나 추가되었기 때문에 리스트의 사이즈를 하나 증가시킨다.
     // < === 3) 여기를 구현한다.
