@@ -57,6 +57,7 @@ public class SLinkedList<E> {
     size++;
   }
 
+  // 특정 인덱스 위치에 새로운 노드 생성하기
   void add(int index, E item) {
     // 인덱스 값이 0 보다 작거나 리스트 사이즈보다 큰 경우
     // IndexOutOfBoundsException 예외 던지기
