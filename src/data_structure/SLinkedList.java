@@ -58,10 +58,11 @@ public class SLinkedList<E> {
   }
 
   void add(int index, E item) {
+    // 인덱스 값이 0 보다 작거나 리스트 사이즈보다 큰 경우
     // 예외 던지기
     if (index < 0 || index > size) throw new IndexOutOfBoundsException();
 
-    // 
+    //
   }
 
   E getValue(int index) {
