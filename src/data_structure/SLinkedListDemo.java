@@ -25,7 +25,7 @@ public class SLinkedListDemo {
     sl.add(2, 50);
     sl.add(4, 60);
     sl.add(6, 70);
-    
+
     System.out.println(sl);
   }
 }
