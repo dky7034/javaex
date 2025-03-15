@@ -19,6 +19,7 @@ public class SLinkedListDemo {
     System.out.println(sl);
     sl.addLast(30);
     System.out.println(sl);
+    sl.getValue(3);
     //sl.removeFirst();
 //    sl.removeLast();
     System.out.println(sl);
