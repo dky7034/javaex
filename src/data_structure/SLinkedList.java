@@ -62,7 +62,7 @@ public class SLinkedList<E> {
     // IndexOutOfBoundsException 예외 던지기
     if (index < 0 || index > size) throw new IndexOutOfBoundsException();
 
-    new Node<>();
+    Node<E> objectNode = new Node<>();
   }
 
   E getValue(int index) {
