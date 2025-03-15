@@ -80,7 +80,6 @@ public class SLinkedList<E> {
     }
     // 노드가 하나 추가되었으니, 사이즈를 1 증가시킴
     size++;
-
   }
 
   E getValue(int index) {
