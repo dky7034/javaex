@@ -15,7 +15,7 @@ public class SLinkedList<E> {
   // 메서드
   // 탐색, 삽입, 삭제, size, isEmpty 를 구하는 메서드 구현
   public int size() {
-    return size;
+    return size; // 기본 사이즈 0
   }
 
   public boolean isEmpty() {
