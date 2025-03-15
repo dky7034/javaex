@@ -19,7 +19,7 @@ public class SLinkedList<E> {
   }
 
   public boolean isEmpty() {
-    return size == 0;
+    return size == 0; // 사이즈가 0이면 true 리턴
   }
 
   void addLast(E item) {
