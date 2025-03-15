@@ -65,7 +65,7 @@ public class SLinkedList<E> {
 
     // 새로운 노드 생성
     Node<E> newNode = new Node<>(item, getNode(index - 1).next);
-
+    
     if (index == 0) {
       newNode.next = head; // 새로운 노드에 다음 노드를 참조시킴
       head = newNode; // 헤드가 새로운 노드를 참조하도록 함
