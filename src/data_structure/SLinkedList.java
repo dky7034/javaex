@@ -74,7 +74,7 @@ public class SLinkedList<E> {
     } else {
       Node<E> prevNode = getNode(index - 1);
       // 겹치는 코드 아닌가? 생성 시에 이미 다음 노드를 참조하잖아?
-      newNode.next = prevNode;
+//      newNode.next = prevNode;
       // 바로 앞 노드가 새로운 다음 노드를 참조하도록 함
       prevNode.next = newNode;
     }
