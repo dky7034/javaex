@@ -68,6 +68,7 @@ public class SLinkedList<E> {
 
     // 리스트 사이즈가 0 이면,
     if (size == 0) {
+
     }
   }
 
