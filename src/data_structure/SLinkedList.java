@@ -63,6 +63,7 @@ public class SLinkedList<E> {
     // IndexOutOfBoundsException 예외 던지기
     if (index < 0 || index > size) throw new IndexOutOfBoundsException();
 
+    // 새로운 노드 생성
     Node<E> newNode = new Node<>();
   }
 
