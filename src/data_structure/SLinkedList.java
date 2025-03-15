@@ -58,7 +58,7 @@ public class SLinkedList<E> {
   }
 
   void add(int index, E item) {
-    
+    if (index < 0 || index > size) throw IndexOutOfBoundsException;
   }
 
   E getValue(int index) {
