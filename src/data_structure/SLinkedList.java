@@ -58,7 +58,8 @@ public class SLinkedList<E> {
   }
 
   void add(int index, E item) {
-    if (index < 0 || index > size) throw IndexOutOfBoundsException();
+    // 예외 던지기
+    if (index < 0 || index > size) throw new IndexOutOfBoundsException();
     
   }
 
