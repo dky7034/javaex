@@ -78,6 +78,7 @@ public class SLinkedList<E> {
       // 바로 앞 노드가 새로운 다음 노드를 참조하도록 함
       prevNode.next = newNode;
     }
+    // 노드가 하나 추가되었으니, 사이즈를 1 증가시킴
     size++;
 
   }
