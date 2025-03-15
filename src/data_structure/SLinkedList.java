@@ -67,9 +67,9 @@ public class SLinkedList<E> {
     Node<E> newNode = new Node<>(item, getNode(index - 1).next);
 
     if (index == 0) {
+      
     }
 
-    }
   }
 
   E getValue(int index) {
