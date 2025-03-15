@@ -68,6 +68,7 @@ public class SLinkedList<E> {
 
     if (index == 0) {
       
+      head = newNode;
     }
 
   }
