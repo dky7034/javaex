@@ -1,4 +1,4 @@
-package network;
+package madang_database;
 
 import java.sql.*;
 
@@ -22,13 +22,13 @@ public class DBDemo3 {
   }
 
   private static Connection makeConnection() {
-    String url = "jdbc:mysql://localhost:3306/contacts?serverTimezone=Asia/Seoul";
+    String url = "jdbc:mysql://localhost:3306/madang?serverTimezone=Asia/Seoul";
     Connection conn = null;
 
     try {
       Class.forName("com.mysql.cj.jdbc.Driver");
       System.out.println("데이터베이스 연결 중 ...");
-      conn = DriverManager.getConnection(url, "root", "1111");
+      conn = DriverManager.getConnection(url, "root", "rootpass");
       System.out.println("데이터베이스 연결 성공");
     } catch (ClassNotFoundException e) {
       System.out.println("JDBC 드라이버를 찾지 못했습니다.");
